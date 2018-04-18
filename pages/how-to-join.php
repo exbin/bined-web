@@ -21,6 +21,7 @@ or you can see some recordings <a href="https://www.livecoding.tv/hajdam/videos/
 
 <p>Call for help: <a href="https://sourceforge.net/p/forge/helpwanted/programmers/thread/69ce352c/">Sourceforge Programmers Wanted</a></p>
 
+<a name="development-plan"><h2>Development Plan</h2></a>
 <p>Plan for version 0.2.0 is to do complete bottom-up rework:</p>
 <ul>
   <li>Rewrite command handling to command design pattern to allow macro operations</li>
@@ -29,12 +30,6 @@ or you can see some recordings <a href="https://www.livecoding.tv/hajdam/videos/
   <li>Allow filesystem swapping for memory handling</li>
   <li>Possible migration to NetBeans platform</li>
 </ul>
-
-<a name="contact"><h2>Contact</h2></a>
-
-<ul><li>IRC: <a href="irc://irc.freenode.net/exbin">#exbin</a> on <a href="http://www.freenode.net">freenode.net</a> (or alternative <a href="http://webchat.freenode.net/?channels=exbin">webchat</a>)</li>
-<li>Sourceforge: <a href="https://sourceforge.net/p/deltahex/discussion/">forum</a></li>
-<li>Admin: hajdam@<span style="display:none">(at)</span>users.sf.net</li></ul>
 
 </div>
 </body>

@@ -1,4 +1,5 @@
 <div id="content">
+<p style="color: red"><strong>!! THIS WEBSITE IS UNDER DEVELOPMENT !!</strong></p>
 <p>Free and open source hexadecimal viewer/editor and component written in Java.</p>
 <p>This is part of the <a href="http://exbin.org">ExBin Project</a>.</p>
 <p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>

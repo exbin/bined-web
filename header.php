@@ -46,10 +46,10 @@ if (!empty($prefix)) {
 
 <h4>&nbsp;&nbsp;&nbsp;Development</h4>
 <ul>
-  <li><a href="?how-to-join">How to Join</a></li>
-  <li><a href="?source-codes">Source Codes</a></li>
-  <li><a href="?report-bug">Report Bug</a></li>
-  <li><a href="?request-feature">Request Feature</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?how-to-join">How to Join</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?source-codes">Source Codes</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?report-bug">Report Bug</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?request-feature">Request Feature</a></li>
 </ul>
 
 <h4>&nbsp;&nbsp;&nbsp;Social</h4>
