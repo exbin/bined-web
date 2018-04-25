@@ -24,10 +24,10 @@
 
 <a name="license"><h2>License</h2></a>
 <p>
-<ul><li>Basic library: Apache License 2.0</li>
-<li>Editor modules: GNU Lesser General Public License v3.0</li>
-<li>NetBeans plugin is dual-licensed with: Apache License 2.0 and Common Development and Distribution License (CDDL-1.0)</li>
-<li>IntelliJ Idea plugin is: Apache License 2.0</li></ul></p>
+<ul><li>Basic library &amp; stand-alone editor: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li>
+<li>Editor modules: <a href="https://www.gnu.org/licenses/lgpl-3.0.en.html">GNU Lesser General Public License v3.0</a></li>
+<li>NetBeans plugin is dual-licensed with: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a> and <a href="https://opensource.org/licenses/CDDL-1.0">Common Development and Distribution License (CDDL-1.0)</a></li>
+<li>IntelliJ Idea plugin is: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li></ul></p>
 
 </div>
 </body>
