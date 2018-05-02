@@ -15,11 +15,11 @@
     <a href="download.php?deltahex-editor-0.1.3-SNAPSHOT.zip" title="Download ZIP"><img src="images/zip.png" alt="[ZIP]"/> 0.1.3</a> [2017-10-12]<br/>
     -<br/>
     -</td>
-  <td><a href="https://github.com/exbin/deltahex-editor-java" title="GitHub repository"><img src="images/social-github.png" alt="[GitHub]"/> exbin/deltahex-editor-java</a></td></tr>
+  <td><a href="https://github.com/exbin/deltahex-editor-java" title="GitHub repository"><img src="images/social-github.png" alt="[GitHub]"/> exbin/bined-editor-java</a></td></tr>
 <tr><td>Library/Example</td>
   <td><a href="download.php?deltahex-java-0.1.3.zip" title="Download"><img src="images/zip.png" alt="[ZIP]"/> 0.1.3</a> [2017-10-22]</td>
-  <td><a href="download.php?deltahex-java-0.2.0-SNAPSHOT.zip" title="Download"><img src="images/zip.png" alt="[ZIP]"/> 0.2.0</a> [2018-03-21]</td>
-  <td><a href="https://github.com/exbin/deltahex-java" title="GitHub repository"><img src="images/social-github.png" alt="[GitHub]"/> exbin/deltahex-java</a></td></tr>
+  <td><a href="download.php?bined-java-0.2.0-SNAPSHOT.zip" title="Download"><img src="images/zip.png" alt="[ZIP]"/> 0.2.0</a> [2018-05-01]</td>
+  <td><a href="https://github.com/exbin/bined-java" title="GitHub repository"><img src="images/social-github.png" alt="[GitHub]"/> exbin/bined-java</a></td></tr>
 </table>
 <a name="integration"><h3>IDE and Applications Integration</h3></a>
 <table class="downloads">

@@ -36,7 +36,8 @@ if (!empty($prefix)) {
 
 <h4>&nbsp;&nbsp;&nbsp;Versions</h4>
 <ul>
-  <li><a href="<?php echo $parentPrefix; ?>editor">Editor</a><?php echo $submenu_editor; ?></li>
+  <li><a href="<?php echo $parentPrefix; ?>editor">Editor - Java</a><?php echo $submenu_editor; ?></li>
+  <li><a href="<?php echo $parentPrefix; ?>android">Editor - Android</a><?php echo $submenu_android; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>library">Component Libraries</a><?php echo $submenu_library; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>basic-editor">Basic Editor</a><?php echo $submenu_basiceditor; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>netbeans-plugin">NetBeans Plugin</a><?php echo $submenu_netbeansplugin; ?></li>

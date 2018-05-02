@@ -15,7 +15,7 @@ $component = ':' . $query;
 //     $component = "-example";
 // }
 
-file_put_contents("/var/www/html/deltahex/download/referer.html", date("Y-m-d H:i:s").$component.": ".$_SERVER['REMOTE_ADDR']." ".$referer."<br/>\n", FILE_APPEND);
+file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").$component.": ".$_SERVER['REMOTE_ADDR']." ".$referer."<br/>\n", FILE_APPEND);
 
 header('Location: download/' . $query);
 exit();
