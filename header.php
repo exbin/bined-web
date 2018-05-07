@@ -30,7 +30,7 @@ if (!empty($prefix)) {
   <li><a href="<?php echo $rootPrefix; ?>?features">Features</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?downloads">Downloads</a></li>
-  <li><a href="<?php echo $rootPrefix; ?>?manual">Manual</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?donate">Donate</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?contact">Contact</a></li>
 </ul>
 
