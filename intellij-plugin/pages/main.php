@@ -1,7 +1,8 @@
 <div id="content">
-<p>Free and open source basic hexadecimal editor written in Java.</p>
+<p>Hexadecimal editor plugin for IntelliJ Idea IDE (and other JetBrains IDEs) written in Java.</p>
+<p><img src="images/intellij-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
-<p>Single jar java application for basic editing of binary files.</p>
+<p>TODO</p>
 </div>
 </body>
 </html>
