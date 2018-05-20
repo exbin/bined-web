@@ -1,21 +1,24 @@
 <div id="content">
 <a name="about"><h2>About</h2></a>
-<p>Goal is to create open source hexadecimal viewer/editor as:</p>
+<p>BinEd is hobby project to create viewer/editor for binary data (hexadecimal editor).</p>
+<p>Goals are:</p>
 <p><ul>
-<li>Java component, free for commercial use</li>
+<li>Written in Java</li>
+<li>Free and open source (commerce friendly license)</li>
+<li>Available as component / library for other apps</li>
 <li>Stand-alone editor application</li>
-<li>Plugins for Java-based IDEs</li>
+<li>Plugins/extension for some applications (Java-based IDEs and other)</li>
 </ul></p>
 <a name="features"><h2>Features</h2></a>
 <p><ul>
-<li>Data as hexadecimal codes and text preview</li>
+<li>Visualize data as numerical (hexadecimal) codes and text representation</li>
+<li>Codes can be also binary, octal or decimal</li>
 <li>Insert and overwrite edit modes</span></li>
 <li>Support for selection and clipboard actions</li>
 <li>Scrollbars fixed or optional, character/line or pixel precision</li>
 <li>Support for showing unprintable/whitespace characters</li>
 <li>Support for undo/redo</li>
 <li>Support for encoding selection</li>
-<li>Codes can be also binary, octal or decimal</li>
 <li>Searching for text / hexadecimal code with matching highlighting</li>
 <li>Support for data sources up to exabytes</li>
 <li>Delta mode - Only changes are stored in memory</li>

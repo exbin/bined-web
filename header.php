@@ -34,7 +34,7 @@ if (!empty($prefix)) {
   <li><a href="<?php echo $rootPrefix; ?>?contact">Contact</a></li>
 </ul>
 
-<h4>&nbsp;&nbsp;&nbsp;Versions</h4>
+<h4>&nbsp;&nbsp;&nbsp;Variants</h4>
 <ul>
   <li><a href="<?php echo $parentPrefix; ?>editor">Editor - Java</a><?php echo $submenu_editor; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>android">Editor - Android</a><?php echo $submenu_android; ?></li>
