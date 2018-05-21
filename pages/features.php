@@ -5,133 +5,103 @@
 </p>
 <h2>Features List</h2>
 <p>
-<ul><li>Basic library
-  <ul><li><span style="background-color: #8fff8f;">Paged binary document</span></li>
-  <li><span style="background-color: #8fff8f;">Overwrite editation mode</span></li>
-  <li><span style="background-color: #8fff8f;">Insert editation mode</span></li>
-  <li><span style="background-color: #8fff8f;">Code and preview sections</span></li>
-  <li><span style="background-color: #8fff8f;">Cursor position / visibility</span></li>
-  <li><span style="background-color: #8fff8f;">Clipboard selection</span></li>
-  <li><span style="background-color: #8fff8f;">Binary/octal/decimal code modes</span></li>
-  <li><span style="background-color: #8fff8f;">Lower/upper case</span></li>
-  <li><span style="background-color: #8fff8f;">Scrolling position and handling</span></li>
-  <li><span style="background-color: #8fff8f;">Preview text encoding selection</span></li>
-  <li><span style="background-color: #8fff8f;">Line offset position support</span></li>
-  <li><span style="background-color: #ffbf8f;">Inplace editation mode</span></li>
-  <li>Support for network protocols like FTP or SMB</li>
-  </ul>
-</li>
-<li>Operation library
-  <ul><li><span style="background-color: #8fff8f;">Undo/redo</span>
-  <li><span style="background-color: #ffbf8f;">Delta undo/redo</span></li>
-  <li>Undo/redo loading / saving</li>
-  <li>Limit for undo/redo memory size</li>
-  </li>
-  <li><span style="background-color: #ffbf8f;">Support for huge files (>4G)</span></li>
-  <li>Macro editing support</li>
-  <li>Macro loading / saving</li>
-  </ul>
-</li>
-<li>Delta library
-  <ul><li><span style="background-color: #8fff8f;">Document segmentation</span></li>
-  <li><span style="background-color: #8fff8f;">Delta document saving</span></li>
-  <li><span style="background-color: #8fff8f;">Delta undo/redo</span></li>
-  <li><span style="background-color: #ffbf8f;">Shared data sources management</span></li>
-  <li>Checking for changes on non-exclusive locked files</li>
-  </ul>
-</li>
-<li>Highlighting library
-  <ul><li><span style="background-color: #8fff8f;">Support for codes/preview highlighting</span></li>
-  <li>Delta highlighting</li>
-  </ul>
-</li>
-<li>Swing implementation
-  <ul><li><span style="background-color: #8fff8f;">Scrollbars fixed or optional, character/line or pixel precision</span></li>
-  <li><span style="background-color: #8fff8f;">Switchable characters antialiasing</span></li>
-  <li><span style="background-color: #8fff8f;">Optional line numbers</span></li>
-  <li><span style="background-color: #8fff8f;">Optional header with offset positions</span></li>
-  <li><span style="background-color: #8fff8f;">Selectable cursor shapes</span></li>
-  <li><span style="background-color: #8fff8f;">Optional cursor blinking</span></li>
-  <li><span style="background-color: #8fff8f;">Byte groups and space groups</span></li>
-  <li><span style="background-color: #8fff8f;">Changeable font</span></li>
-  <li><span style="background-color: #8fff8f;">Optionally show nonprintable characters</span></li>
-  <li><span style="background-color: #8fff8f;">Clipboard support</span>
-    <ul><li><span style="background-color: #8fff8f;">Cut/copy/paste actions</span></li>
-    <li><span style="background-color: #ffbf8f;">Support for delta clipboard</span></li>
-    <li>Support for octet-stream clipboard flavor</li>
-    <li>Support for drag&amp;drop</li>
-    </ul>
-  </li>
-  <li><span style="background-color: #8fff8f;">Decoration lines</span></li>
-  <li><span style="background-color: #8fff8f;">Line wrapping mode</span></li>
-  <li>Multicared support
-    <ul><li>Support for multiple selection/clipboards</li>
-    </ul>
-  </li>
-  <li>Support for comparison of two files</li>
-  <li>Support for half-size space grouping</span></li>
-  </ul>
-</li>
-<li>JavaFX implementation
-  <ul><li><span style="background-color: #ffbf8f;">Inner components version</span></li>
-  <li>Canvas version</li>
-  </ul>
-</li>
-<li>SWT implementation
-</li>
-<li>Lantern implementation
-</li>
-<li>LibGDX implementation
-</li>
-<li>Android implementation
-</li>
-<li>Editor application
-  <ul><li><span style="background-color: #8fff8f;">Checking for updates</span></li>
-  <li><span style="background-color: #ffbf8f;">Support for multiple tabs</span></li>
-  <li>Insert empty space action</li>
-  <li><span style="background-color: #8fff8f;">Copy from/to hexadecimal string</span></li>
-  <li><span style="background-color: #ffbf8f;">Search/replace</span></li>
-  <li><span style="background-color: #8fff8f;">Panel with integer, float, string values at cursor position</span></li>
-  <li>Loading/saving progress bar</li>
-  <li>Exception issue dialog</li>
-  <li>Side changes overview ruler</li>
-  <li>Decompiler support</li>
-  <li>Document tree structure</li>
-  <li>Printing &amp; print preview</li>
-  <li><span style="background-color: #ffbf8f;">Color settings and color profiles</span></li>
-  </ul>
-</li>
-<li>Plugins for IDEs / integration into applications
-  <ul><li>NetBeans plugin
-    <ul><li><span style="background-color: #8fff8f;">Integration into menus</span></li>
-    <li><span style="background-color: #8fff8f;">Copy from/to hexadecimal string</span></li>
-    <li><span style="background-color: #8fff8f;">Configuration panel</span></li>
-    <li><span style="background-color: #ffbf8f;">Search/replace</span></li>
-    <li><span style="background-color: #8fff8f;">Delta mode</span></li>
-    </ul>
-  </li>
-  <li>Eclipse plugin</li>
-  <li>Idea plugin
-    <ul><li><span style="background-color: #ffbf8f;">Integration into menus</span></li>
-    <li><span style="background-color: #8fff8f;">Configuration panel</span></li>
-    <li><span style="background-color: #ffbf8f;">Search/replace</span></li>
-    <li><span style="background-color: #8fff8f;">Delta mode</span></li>
-    <li><span style="background-color: #8fff8f;">Show values in debugger</span></li>
-    </ul>
-  </li>
-  <li>JDeveloper plugin
-    <ul><li><span style="background-color: #ffbf8f;">Integration into menus</span></li>
-    <li>Configuration panel</li>
-    <li>Search/replace</li>
-    <li>Delta mode</li>
-    </ul>
-  </li>
-  <li>JEdit plugin</li>
-  <li>MuCommander plugin</li>
-  </ul>
-</li>
-<li>Help pages and documentation</li>
-</ul>
+<table class="features">
+<tr><th>Basic library</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Paged binary document</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Overwrite editation mode</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Insert editation mode</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Code and preview sections</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Cursor position / visibility</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Clipboard selection</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Binary/octal/decimal code modes</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Lower/upper case</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrolling position and handling</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Preview text encoding selection</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Line offset position support</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inplace editation mode</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for network protocols like FTP or SMB</td><td></td></tr>
+<tr><th>Operation library</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Undo/redo</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Delta undo/redo</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Undo/redo loading / saving</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Limit for undo/redo memory size</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for huge files (>4G)</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Macro editing support</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Macro loading / saving</td><td></td></tr>
+<tr><th>Delta library</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Document segmentation</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Delta document saving</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Delta undo/redo</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Shared data sources management</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Checking for changes on non-exclusive locked files</td><td></td></tr>
+<tr><th>Highlighting library</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for codes/preview highlighting</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Delta highlighting</td><td></td></tr>
+<tr><th>Swing implementation</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/line or pixel precision</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Switchable characters antialiasing</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optional line numbers</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optional header with offset positions</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Selectable cursor shapes</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optional cursor blinking</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Byte groups and space groups</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Changeable font</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optionally show nonprintable characters</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Clipboard support</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Cut/copy/paste actions</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for delta clipboard</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for octet-stream clipboard flavor</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for drag&amp;drop</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Decoration lines</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Line wrapping mode</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Multicared support</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for multiple selection/clipboards</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for comparison of two files</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for half-size space grouping</td><td></td></tr>
+<tr><th>JavaFX implementation</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inner components version</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Canvas version</td><td></td></tr>
+<tr><th>SWT implementation</th><th></th></tr>
+<tr><th>Lantern implementation</th><th></th></tr>
+<tr><th>LibGDX implementation</th><th></th></tr>
+<tr><th>Android implementation</th><th></th></tr>
+<tr><th>Editor application</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Checking for updates</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for multiple tabs</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Insert empty space action</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Copy from/to hexadecimal string</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Panel with integer, float, string values at cursor position</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Loading/saving progress bar</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Exception issue dialog</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Side changes overview ruler</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Decompiler support</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Document tree structure</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Printing &amp; print preview</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Color settings and color profiles</td><td class="features-todo">TODO</td></tr>
+<tr><th>Plugins for IDEs / integration into applications</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;NetBeans plugin</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Copy from/to hexadecimal string</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Delta mode</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Eclipse plugin</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Idea plugin</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Delta mode</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Show values in debugger</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;JDeveloper plugin</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">TODO</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Delta mode</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;JEdit plugin</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;MuCommander plugin</td><td></td></tr>
+<tr><th>Help pages and documentation</th><th></th></tr>
+</table>
 </p>
 </div>
 </body>
