@@ -13,7 +13,7 @@ if (!empty($prefix)) {
 </head>
 
 <body>
-<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/deltahex-40x40.png" alt="[Icon]" title="Icon" width="40" height="40" style="vertical-align: text-top; margin-top: -7px;"/>&nbsp;BinEd - Binary Editor</a></h1></div>
+<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-logo.png" alt="[BinEd]" title="Icon" width="100" height="50" style="vertical-align: text-top; margin-top: -7px;"/>&nbsp;- Editor for Binary Data</a></h1></div>
 <div id="navbar">
   <a id="FeaturesIcon" href="<?php echo $rootPrefix; ?>?features">Features</a>
   <a id="ScreenshotsIcon" href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a>
