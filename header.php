@@ -13,7 +13,7 @@ if (!empty($prefix)) {
 </head>
 
 <body>
-<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-logo.png" alt="[BinEd]" title="Icon" width="100" height="50" style="vertical-align: text-top; margin-top: -7px;"/>&nbsp;- Editor for Binary Data</a></h1></div>
+<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-logo.png" alt="[BinEd]" title="Icon" width="120" height="50" style="vertical-align: text-top; margin-top: -7px;"/>&nbsp;- Editor for Binary Data</a></h1></div>
 <div id="navbar">
   <a id="FeaturesIcon" href="<?php echo $rootPrefix; ?>?features">Features</a>
   <a id="ScreenshotsIcon" href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a>
@@ -30,8 +30,6 @@ if (!empty($prefix)) {
   <li><a href="<?php echo $rootPrefix; ?>?features">Features</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?downloads">Downloads</a></li>
-  <li><a href="<?php echo $rootPrefix; ?>?donate">Donate</a></li>
-  <li><a href="<?php echo $rootPrefix; ?>?contact">Contact</a></li>
 </ul>
 
 <h4>&nbsp;&nbsp;&nbsp;Variants</h4>
@@ -48,9 +46,8 @@ if (!empty($prefix)) {
 <h4>&nbsp;&nbsp;&nbsp;Development</h4>
 <ul>
   <li><a href="<?php echo $rootPrefix; ?>?how-to-join">How to Join</a></li>
-  <li><a href="<?php echo $rootPrefix; ?>?source-codes">Source Codes</a></li>
-  <li><a href="<?php echo $rootPrefix; ?>?report-bug">Report Bug</a></li>
-  <li><a href="<?php echo $rootPrefix; ?>?request-feature">Request Feature</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?donate">Donate</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?contact">Contact</a></li>
 </ul>
 
 <h4>&nbsp;&nbsp;&nbsp;Social</h4>
