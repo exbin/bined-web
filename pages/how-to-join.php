@@ -14,16 +14,10 @@
   <li>Possible migration to NetBeans platform</li>
 </ul>
 
-<p>Issue tracking:</p>
-<p><a href="http://it.exbin.org/deltahex">http://it.exbin.org/deltahex</a></p>
-<p>Or on GitHub:</p>
-<p><a href="https://github.com/exbin/deltahex-editor-java/issues">deltahex-editor</a><br/>
-<a href="https://github.com/exbin/deltahex-netbeans-plugin/issues">deltahex-netbeans-plugin</a><br/>
-<a href="https://github.com/exbin/deltahex-intellij-plugin/issues">deltahex-intellij-plugin</a></p>
+<p>See <a href="?source-codes">list of source code repositories</a>.</p>
 
 <p>Videos from development</p>
-<p>There might be active livestream <a href="https://www.livecoding.tv/hajdam/">https://www.livecoding.tv/hajdam/</a><br/>
-or you can see some recordings <a href="https://www.livecoding.tv/hajdam/videos/">https://www.livecoding.tv/hajdam/videos/</a></p>
+<p>There are some recordings here, if you are interested <a href="https://www.livecoding.tv/hajdam/videos/">https://www.livecoding.tv/hajdam/videos/</a></p>
 
 </div>
 </body>

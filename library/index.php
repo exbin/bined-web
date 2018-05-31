@@ -1,6 +1,7 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
-$submenu_library = '<ul><li><a href="?help">Help</a></li></ul>';
+$submenu_library = '<ul><li><a href="?help">Help</a></li>
+<li><a href="?javadoc">JavaDoc</a></li></ul>';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

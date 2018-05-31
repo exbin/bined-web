@@ -18,7 +18,7 @@ if (!empty($prefix)) {
   <a id="FeaturesIcon" href="<?php echo $rootPrefix; ?>?features">Features</a>
   <a id="ScreenshotsIcon" href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a>
   <a id="DownloadIcon" href="<?php echo $rootPrefix; ?>?downloads">Download</a>
-  <a id="DocumentationIcon" href="<?php echo $rootPrefix; ?>?manual">Manual</a>
+  <a id="DocumentationIcon" href="<?php echo $rootPrefix; ?>editor/?manual">Manual</a>
 </div>
 <div id="divider"></div>
 

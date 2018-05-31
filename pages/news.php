@@ -1,11 +1,10 @@
 <div id="content">
-<p style="color: red"><strong>!! THIS WEBSITE IS UNDER DEVELOPMENT !!</strong></p>
 <p>Free and open source hexadecimal viewer/editor and component written in Java.</p>
 <p>This is part of the <a href="http://exbin.org">ExBin Project</a>.</p>
 <p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <a name="news"><h2>News</h2></a>
-<ul><li><strong>2018:</strong> New website is under construction<p></p></li>
+<ul><li><strong>2018-05-31:</strong> New website on domain bined.exbin.org<p></p></li>
 
 <li><strong>2018-03-05:</strong> DeltaHex IntelliJ Plugin Hot Fix 0.1.6.1 Released<p>
 <ul><li>Fixed issue with byte array / NPE</li>
