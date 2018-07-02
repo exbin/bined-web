@@ -18,7 +18,7 @@ function echoDownload($arr) {
     -</td></tr>
 <tr><td>Single JAR Basic Editor</td>
   <td><?php echoDownload($downloads['basic-editor']['stb']); ?></td>
-  <td><?php echoDownload($downloads['basic-editor']['dev']); ?>-</td></tr>
+  <td><?php echoDownload($downloads['basic-editor']['dev']); ?></td></tr>
 <tr><td>Android App</td>
   <td><?php echoDownload($downloads['android']['stb']); ?>-</td>
   <td><?php echoDownload($downloads['android']['dev']); ?></td></tr>

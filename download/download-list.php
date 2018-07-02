@@ -47,14 +47,20 @@
       $variants = array();
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
-      $dev_ver = '';
-      $dev_date = '';
+      $dev_ver = '0.2.0';
+      $dev_date = '2018-06-28';
 
       $variants['stb'][0]['name'] = 'Basic Editor';
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'jar';
       $variants['stb'][0]['file'] = 'deltahex-editor-basic-'.$stb_ver.'.jar';
+
+      $variants['dev'][0]['name'] = 'Basic Editor';
+      $variants['dev'][0]['ver'] = $dev_ver;
+      $variants['dev'][0]['date'] = $dev_date;
+      $variants['dev'][0]['icon'] = 'jar';
+      $variants['dev'][0]['file'] = 'bined-editor-basic-'.$dev_ver.'-SNAPSHOT.jar';
 
       $result['basic-editor'] = $variants;
     }
@@ -80,7 +86,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-06-03';
+      $dev_date = '2018-06-28';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -123,16 +129,16 @@
       $variants = array();
       $stb_ver = '0.1.6.1';
       $stb_date = '2018-03-07';
-      $dev_ver = '0.1.6';
-      $dev_date = '2018-03-04';
+      $dev_ver = '0.1.7';
+      $dev_date = '2018-06-15';
 
-      $variants['stb'][0]['name'] = 'Library';
+      $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'jar';
       $variants['stb'][0]['file'] = 'deltahex-intellij-plugin-'.$stb_ver.'.jar';
 
-      $variants['dev'][0]['name'] = 'Library';
+      $variants['dev'][0]['name'] = 'Plugin';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'jar';
