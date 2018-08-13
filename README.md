@@ -1,5 +1,5 @@
 BinEd Website Pages
 ===================
 
-Homepage: http://bined.exbin.org  
+Homepage: https://bined.exbin.org  
 

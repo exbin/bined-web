@@ -8,15 +8,14 @@ function startsWith($text, $match) {
 }
 
 $query = str_replace('..','',$_SERVER['QUERY_STRING']);
+$query = str_replace('/','',$query);
 $component = ':' . $query;
-// if (startsWith($query,'org-exbin-deltahex-netbeans')) {
-//     $component = "-netbeans";
-// } else if (startsWith($query,'deltahex-java')) {
-//     $component = "-example";
-// }
 
-file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").$component.": ".$_SERVER['REMOTE_ADDR']." ".$referer."<br/>\n", FILE_APPEND);
-
+if (empty($query)) {
+  $query = '../?downloads';
+} else {
+  file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").$component.": ".$_SERVER['REMOTE_ADDR']." ".$referer."<br/>\n", FILE_APPEND);
+}
 header('Location: ' . $query);
 exit();
 ?>
