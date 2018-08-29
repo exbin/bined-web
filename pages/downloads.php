@@ -2,7 +2,7 @@
 function echoDownload($arr) {
   foreach ($arr as $key => $value) {
     if ($key > 0) echo "<br/>\n";
-    echo '<a href="download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']"/> '.$value['ver'].'</a> ['.$value['date'].']';
+    echo '<a href="download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
 <a name="downloads"><h2>Downloads</h2></a>
@@ -13,9 +13,7 @@ function echoDownload($arr) {
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th></tr>
 <tr><td>Editor</td>
   <td><?php echoDownload($downloads['editor']['stb']); ?></td>
-  <td><?php echoDownload($downloads['editor']['dev']); ?><br/>
-    -<br/>
-    -</td></tr>
+  <td><?php echoDownload($downloads['editor']['dev']); ?></td></tr>
 <tr><td>Single JAR Basic Editor</td>
   <td><?php echoDownload($downloads['basic-editor']['stb']); ?></td>
   <td><?php echoDownload($downloads['basic-editor']['dev']); ?></td></tr>
@@ -46,7 +44,7 @@ function echoDownload($arr) {
 <p>Following plugins works only for standard version.</p>
 <table class="plugins">
 <tr><th>Plugin&nbsp;</th><th>Download&nbsp;</th><th>Repository&nbsp;</th></tr>
-<tr><td>Czech Language</td><td><a href="download/?exbin-framework-language-cs_CZ-0.2.0-SNAPSHOT.jar" title="Download"><img src="images/jar.png" alt="[JAR]"/> 0.1.2</a> [2017-01-08]</td><td>-</td></tr>
+<tr><td>Czech Language</td><td><a href="download/?exbin-framework-language-cs_CZ-0.2.0-SNAPSHOT.jar" title="Download"><img src="images/jar.png" alt="[JAR]" width="16" height="16"/> 0.1.2</a> [2017-01-08]</td><td>-</td></tr>
 </table>
 
 <a name="known_issues"><h2>Known Issues</h2></a>

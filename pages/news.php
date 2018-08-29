@@ -4,7 +4,13 @@
 <p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <a name="news"><h2>News</h2></a>
-<ul><li><strong>2018-05-31:</strong> Project renamed to BinEd + website updated<p></p></li>
+<ul><li><strong>2018-08-24:</strong> DeltaHex IntelliJ Plugin 0.1.7 Released<p>
+<ul><li>Fixed issue with debugging in CLion (issue #4)</li>
+<li>Fixed issue with goto does not scrolling window (issue #5)</li>
+<li>Added basic support for debug view of bytearray and bytes for Python</li>
+</ul></p></li>
+
+<li><strong>2018-05-31:</strong> Project renamed to BinEd + website updated<p></p></li>
 
 <li><strong>2018-03-05:</strong> DeltaHex IntelliJ Plugin Hot Fix 0.1.6.1 Released<p>
 <ul><li>Fixed issue with byte array / NPE</li>
@@ -22,14 +28,6 @@ New version of Delta Hexadecimal Editor released.
 <li>Code colorization by byte value</li>
 <li>Added values panel</li>
 <li>Various minor fixes</li>
-</ul></p></li>
-
-<li><strong>2017-10-10:</strong> DeltaHex IntelliJ Plugin 0.1.5 Released<p>
-<ul><li>Values panel made editable</li>
-<li>Byte order support for floating point numbers in values panel (issue #2)</li>
-<li>Added thread for values panel updating</li>
-<li>Fixed files closing on window closing</li>
-<li>Fixed clipboard charset translation</li>
 </ul></p></li>
 </ul>
 

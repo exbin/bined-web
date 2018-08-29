@@ -6,7 +6,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-08-12';
+      $dev_date = '2018-08-16';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -33,12 +33,22 @@
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'exe';
-      $variants['dev'][0]['file'] = 'bined-editor-'.$dev_ver.'-SNAPSHOT-win32.exe';
+      $variants['dev'][0]['file'] = 'bined-'.$dev_ver.'-SNAPSHOT-win32.exe';
       $variants['dev'][1]['name'] = 'ZIP';
       $variants['dev'][1]['ver'] = $dev_ver;
       $variants['dev'][1]['date'] = $dev_date;
       $variants['dev'][1]['icon'] = 'zip';
-      $variants['dev'][1]['file'] = 'bined-editor-'.$dev_ver.'-SNAPSHOT.zip';
+      $variants['dev'][1]['file'] = 'bined-'.$dev_ver.'-SNAPSHOT.zip';
+      $variants['dev'][2]['name'] = 'Debian Package';
+      $variants['dev'][2]['ver'] = $dev_ver;
+      $variants['dev'][2]['date'] = $dev_date;
+      $variants['dev'][2]['icon'] = 'debian';
+      $variants['dev'][2]['file'] = 'bined_'.$dev_ver.'-0_all.deb';
+      $variants['dev'][3]['name'] = 'Linux RPM Package';
+      $variants['dev'][3]['ver'] = $dev_ver;
+      $variants['dev'][3]['date'] = $dev_date;
+      $variants['dev'][3]['icon'] = 'rpm';
+      $variants['dev'][3]['file'] = 'bined-'.$dev_ver.'-0.noarch.rpm';
 
       $result['editor'] = $variants;
     }
@@ -86,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-08-12';
+      $dev_date = '2018-08-16';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -127,10 +137,10 @@
 
     if ($group = 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.1.6.1';
-      $stb_date = '2018-03-07';
+      $stb_ver = '0.1.7';
+      $stb_date = '2018-08-24';
       $dev_ver = '0.1.7';
-      $dev_date = '2018-06-15';
+      $dev_date = '2018-08-23';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

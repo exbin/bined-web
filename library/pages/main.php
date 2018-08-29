@@ -1,6 +1,20 @@
-<div id="content">
+<?php include '../download/download-list.php'; $downloads = getDownloadList('library');
+function echoDownload($arr) {
+  foreach ($arr as $key => $value) {
+    if ($key > 0) echo "<br/>\n";
+    echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
+  }
+} ?><div id="content">
 <p>Free and open source library for hexadecimal component written in Java.</p>
 <p><img src="../images/example_screenshot.png" alt="Example usage screenshot" title="Example usage screenshot"/></p>
+
+<a name="downloads"><h2>Downloads</h2></a>
+<table class="downloads">
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><td>Library</td>
+  <td><?php echoDownload($downloads['library']['stb']); ?></td>
+  <td><?php echoDownload($downloads['library']['dev']); ?></td></tr>
+</table>
 
 <h2>Features</h2>
 <p><ul>

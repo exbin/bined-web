@@ -1,5 +1,13 @@
 <div id="content">
 <a name="news"><h2>Older News</h2></a>
+<li><strong>2017-10-10:</strong> DeltaHex IntelliJ Plugin 0.1.5 Released<p>
+<ul><li>Values panel made editable</li>
+<li>Byte order support for floating point numbers in values panel (issue #2)</li>
+<li>Added thread for values panel updating</li>
+<li>Fixed files closing on window closing</li>
+<li>Fixed clipboard charset translation</li>
+</ul></p></li>
+
 <li><strong>2017-10-10:</strong> DeltaHex NetBeans Plugin 0.1.7 Released<p>
 <ul><li>Values panel made editable</li>
 <li>Byte order support for floating point numbers in values panel</li>

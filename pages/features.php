@@ -19,6 +19,8 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Preview text encoding selection</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Line offset position support</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inplace editation mode</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Stacked and interleaving mode</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Multiline mode</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for network protocols like FTP or SMB</td><td></td></tr>
 <tr><th>Operation library</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Undo/redo</td><td class="features-done">DONE</td></tr>
@@ -38,6 +40,7 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for codes/preview highlighting</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Delta highlighting</td><td></td></tr>
 <tr><th>Swing implementation</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom painter component</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/line or pixel precision</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Switchable characters antialiasing</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optional line numbers</td><td class="features-done">DONE</td></tr>
@@ -58,13 +61,16 @@
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for multiple selection/clipboards</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for comparison of two files</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for half-size space grouping</td><td></td></tr>
-<tr><th>JavaFX implementation</th><th></th></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inner components version</td><td class="features-todo">PART</td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Canvas version</td><td></td></tr>
 <tr><th>SWT implementation</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom painter component</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/line or pixel precision</td><td class="features-todo">PART</td></tr>
+<tr><th>JavaFX implementation</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Canvas version</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inner components version</td><td></td></tr>
 <tr><th>Lantern implementation</th><th></th></tr>
 <tr><th>LibGDX implementation</th><th></th></tr>
 <tr><th>Android implementation</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom painter component</td><td class="features-todo">PART</td></tr>
 <tr><th>Editor application</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Checking for updates</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for multiple tabs</td><td class="features-todo">PART</td></tr>
@@ -79,6 +85,8 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Document tree structure</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Printing &amp; print preview</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Color settings and color profiles</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Bookmarks support</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Makro support</td><td></td></tr>
 <tr><th>Plugins for IDEs / integration into applications</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;NetBeans plugin</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-done">DONE</td></tr>

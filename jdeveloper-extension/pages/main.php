@@ -1,6 +1,20 @@
-<div id="content">
+<?php include '../download/download-list.php'; $downloads = getDownloadList('jdeveloper-extension');
+function echoDownload($arr) {
+  foreach ($arr as $key => $value) {
+    if ($key > 0) echo "<br/>\n";
+    echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
+  }
+} ?><div id="content">
 <p>Hexadecimal editor plugin for Oracle JDeveloper and SQLDeveloper written in Java.</p>
 <p><img src="images/jdeveloper-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
+
+<a name="downloads"><h2>Downloads</h2></a>
+<table class="downloads">
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><td>JDeveloper Extension</td>
+  <td><?php echoDownload($downloads['jdeveloper-extension']['stb']); ?></td>
+  <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td></tr>
+</table>
 
 <p>TODO</p>
 </div>
