@@ -39,6 +39,7 @@ if (!empty($prefix)) {
   <li><a href="<?php echo $parentPrefix; ?>basic-editor">Basic Editor</a><?php echo $submenu_basiceditor; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>netbeans-plugin">NetBeans Plugin</a><?php echo $submenu_netbeansplugin; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>intellij-plugin">IntelliJ Plugin</a><?php echo $submenu_intellijplugin; ?></li>
+  <li><a href="<?php echo $parentPrefix; ?>eclipse-plugin">Eclipse Plugin</a><?php echo $submenu_eclipseplugin; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>jdeveloper-extension">JDeveloper Extension</a><?php echo $submenu_jdeveloperextension; ?></li>
 </ul>
 

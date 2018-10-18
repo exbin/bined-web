@@ -96,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-08-16';
+      $dev_date = '2018-09-04';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -117,8 +117,8 @@
       $variants = array();
       $stb_ver = '0.1.7';
       $stb_date = '2017-10-10';
-      $dev_ver = '0.1.8';
-      $dev_date = '2017-10-11';
+      $dev_ver = '0.2.0';
+      $dev_date = '2018-10-17';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -130,7 +130,7 @@
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'netbeans';
-      $variants['dev'][0]['file'] = 'org-exbin-deltahex-netbeans.nbm';
+      $variants['dev'][0]['file'] = 'org-exbin-bined-netbeans.nbm';
 
       $result['netbeans-plugin'] = $variants;
     }
@@ -139,8 +139,8 @@
       $variants = array();
       $stb_ver = '0.1.7';
       $stb_date = '2018-08-24';
-      $dev_ver = '0.1.7';
-      $dev_date = '2018-08-23';
+      $dev_ver = '0.2.0';
+      $dev_date = '2018-09-01';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -152,7 +152,7 @@
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'jar';
-      $variants['dev'][0]['file'] = 'deltahex-intellij-plugin.jar';
+      $variants['dev'][0]['file'] = 'bined-intellij-plugin.jar';
 
       $result['intellij-plugin'] = $variants;
     }
@@ -161,14 +161,14 @@
       $variants = array();
       $stb_ver = '';
       $stb_date = '';
-      $dev_ver = '0.1.0';
-      $dev_date = '2018-03-11';
+      $dev_ver = '0.2.0';
+      $dev_date = '2018-09-11';
 
       $variants['dev'][0]['name'] = 'Extension';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'jar';
-      $variants['dev'][0]['file'] = 'org.exbin.deltahex.jdeveloper.jar';
+      $variants['dev'][0]['file'] = 'org.exbin.bined.jdeveloper.jar';
 
       $result['jdeveloper-extension'] = $variants;
     }
