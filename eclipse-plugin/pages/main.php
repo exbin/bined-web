@@ -7,6 +7,12 @@ function echoDownload($arr) {
 } ?><div id="content">
 <p>Hexadecimal editor plugin for Eclipse written in Java.</p>
 
+<a name="downloads"><h2>Source Codes</h2></a>
+<table class="downloads">
+<tr><th>GitHub Repository&nbsp;</th></tr>
+<tr><td><a href="https://github.com/exbin/bined-eclipse-plugin" title="GitHub repository"><img src="../images/social-github.png" alt="[GitHub]"/> exbin/bined-eclipse-plugin</a></td></tr>
+</table>
+
 <p>TODO</p>
 </div>
 </body>

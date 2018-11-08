@@ -16,6 +16,12 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['editor']['dev']); ?></td></tr>
 </table>
 
+<a name="downloads"><h2>Source Codes</h2></a>
+<table class="downloads">
+<tr><th>GitHub Repository&nbsp;</th></tr>
+<tr><td><a href="https://github.com/exbin/bined" title="GitHub repository"><img src="../images/social-github.png" alt="[GitHub]"/> exbin/bined</a></td></tr>
+</table>
+
 <a name="news"><h2>News</h2></a>
 <p>TODO</p>
 

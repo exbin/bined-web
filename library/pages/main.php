@@ -55,6 +55,12 @@ function echoDownload($arr) {
 </pre></div>
 </div>
 
+<a name="downloads"><h2>Source Codes</h2></a>
+<table class="downloads">
+<tr><th>GitHub Repository&nbsp;</th></tr>
+<tr><td><a href="https://github.com/exbin/bined-lib-java" title="GitHub repository"><img src="../images/social-github.png" alt="[GitHub]"/> exbin/bined-lib-java</a></td></tr>
+</table>
+
 </div>
 </body>
 </html>

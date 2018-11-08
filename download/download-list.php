@@ -96,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-09-04';
+      $dev_date = '2018-10-24';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -151,8 +151,8 @@
       $variants['dev'][0]['name'] = 'Plugin';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
-      $variants['dev'][0]['icon'] = 'jar';
-      $variants['dev'][0]['file'] = 'bined-intellij-plugin.jar';
+      $variants['dev'][0]['icon'] = 'zip';
+      $variants['dev'][0]['file'] = 'bined-intellij-plugin.zip';
 
       $result['intellij-plugin'] = $variants;
     }
@@ -162,7 +162,7 @@
       $stb_ver = '';
       $stb_date = '';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-09-11';
+      $dev_date = '2018-11-07';
 
       $variants['dev'][0]['name'] = 'Extension';
       $variants['dev'][0]['ver'] = $dev_ver;

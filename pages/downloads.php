@@ -27,11 +27,11 @@ function echoDownload($arr) {
 <a name="integration"><h3>IDE and Applications Integration</h3></a>
 <table class="downloads">
 <tr><th>Application&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th><th>Module Website&nbsp;</th></th></tr>
-<tr><td>NetBeans IDE Plugin</td>
+<tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['stb']); ?></td>
   <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td>
   <td><a href="http://plugins.netbeans.org/plugin/67898/deltahexeditor">NetBeans Plugins Portal</a></td></tr>
-<tr><td>IntelliJ Idea Plugin</td>
+<tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['stb']); ?></td>
   <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
   <td><a href="https://plugins.jetbrains.com/plugin/9339">IntelliJ IDEA Plugins</a></td></tr>
@@ -44,7 +44,7 @@ function echoDownload($arr) {
 <p>Following plugins works only for standard version.</p>
 <table class="plugins">
 <tr><th>Plugin&nbsp;</th><th>Download&nbsp;</th><th>Repository&nbsp;</th></tr>
-<tr><td>Czech Language</td><td><a href="download/?exbin-framework-language-cs_CZ-0.2.0-SNAPSHOT.jar" title="Download"><img src="images/jar.png" alt="[JAR]" width="16" height="16"/> 0.1.2</a> [2017-01-08]</td><td>-</td></tr>
+<tr><td>Czech Language</td><td><a href="download/?exbin-framework-language-cs_CZ-0.2.0-SNAPSHOT.jar" title="Download"><img src="images/jar.png" alt="[JAR]" width="16" height="16"/> 0.2.0</a> [2017-01-08]</td><td>-</td></tr>
 </table>
 
 <a name="known_issues"><h2>Known Issues</h2></a>

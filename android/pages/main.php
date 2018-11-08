@@ -17,6 +17,14 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['android']['stb']); ?></td>
   <td><?php echoDownload($downloads['android']['dev']); ?></td></tr>
 </table>
+
+<a name="downloads"><h2>Source Codes</h2></a>
+<table class="downloads">
+<tr><th>GitHub Repository&nbsp;</th></tr>
+<tr><td><a href="https://github.com/exbin/bined-android" title="GitHub repository"><img src="../images/social-github.png" alt="[GitHub]"/> exbin/bined-android</a></td></tr>
+</table>
+
+TODO
 </div>
 </body>
 </html>
