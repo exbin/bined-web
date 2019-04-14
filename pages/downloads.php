@@ -41,7 +41,7 @@ function echoDownload($arr) {
   <td>-</td></tr>
 </table>
 <a name="plugins"><h3>Plugins</h3></a>
-<p>Following plugins works only for standard version.</p>
+<p>Following plugins work only for standard version.</p>
 <table class="plugins">
 <tr><th>Plugin&nbsp;</th><th>Download&nbsp;</th><th>Repository&nbsp;</th></tr>
 <tr><td>Czech Language</td><td><a href="download/?exbin-framework-language-cs_CZ-0.2.0-SNAPSHOT.jar" title="Download"><img src="images/jar.png" alt="[JAR]" width="16" height="16"/> 0.2.0</a> [2017-01-08]</td><td>-</td></tr>

@@ -6,7 +6,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-08-16';
+      $dev_date = '2019-03-24';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -31,7 +31,7 @@
 
       $variants['dev'][0]['name'] = 'Windows Installer';
       $variants['dev'][0]['ver'] = $dev_ver;
-      $variants['dev'][0]['date'] = $dev_date;
+      $variants['dev'][0]['date'] = '2019-03-01';
       $variants['dev'][0]['icon'] = 'exe';
       $variants['dev'][0]['file'] = 'bined-'.$dev_ver.'-SNAPSHOT-win32.exe';
       $variants['dev'][1]['name'] = 'ZIP';
@@ -58,7 +58,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-06-28';
+      $dev_date = '2018-12-05';
 
       $variants['stb'][0]['name'] = 'Basic Editor';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -96,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-10-24';
+      $dev_date = '2019-03-30';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -115,16 +115,16 @@
 
     if ($group = 'netbeans-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.1.7';
-      $stb_date = '2017-10-10';
+      $stb_ver = '0.2.0';
+      $stb_date = '2019-04-13';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-10-17';
+      $dev_date = '2019-04-12';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'netbeans';
-      $variants['stb'][0]['file'] = 'org-exbin-deltahex-netbeans-'.$stb_ver.'.nbm';
+      $variants['stb'][0]['file'] = 'org-exbin-bined-netbeans-'.$stb_ver.'.nbm';
 
       $variants['dev'][0]['name'] = 'Plugin';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -137,16 +137,16 @@
 
     if ($group = 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.1.7';
-      $stb_date = '2018-08-24';
+      $stb_ver = '0.2.0';
+      $stb_date = '2019-04-13';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-09-01';
+      $dev_date = '2019-04-12';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
-      $variants['stb'][0]['icon'] = 'jar';
-      $variants['stb'][0]['file'] = 'deltahex-intellij-plugin-'.$stb_ver.'.jar';
+      $variants['stb'][0]['icon'] = 'zip';
+      $variants['stb'][0]['file'] = 'bined-intellij-plugin-'.$stb_ver.'.zip';
 
       $variants['dev'][0]['name'] = 'Plugin';
       $variants['dev'][0]['ver'] = $dev_ver;
