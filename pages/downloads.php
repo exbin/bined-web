@@ -10,34 +10,30 @@ function echoDownload($arr) {
 <a href="download/?<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green">Download Installer (Windows)</a>&nbsp;
 <a href="download/?<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green">Download ZIP (Other platforms)</a></p>
 <table class="downloads">
-<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Editor</td>
   <td><?php echoDownload($downloads['editor']['stb']); ?></td>
-  <td><?php echoDownload($downloads['editor']['dev']); ?></td></tr>
 <tr><td>Single JAR Basic Editor</td>
   <td><?php echoDownload($downloads['basic-editor']['stb']); ?></td>
-  <td><?php echoDownload($downloads['basic-editor']['dev']); ?></td></tr>
 <tr><td>Android App</td>
   <td><?php echoDownload($downloads['android']['stb']); ?>-</td>
-  <td><?php echoDownload($downloads['android']['dev']); ?></td></tr>
 <tr><td>Library/Example</td>
   <td><?php echoDownload($downloads['library']['stb']); ?></td>
-  <td><?php echoDownload($downloads['library']['dev']); ?></td></tr>
 </table>
 <a name="integration"><h3>IDE and Applications Integration</h3></a>
 <table class="downloads">
-<tr><th>Application&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th><th>Module Website&nbsp;</th></th></tr>
+<tr><th>Application&nbsp;</th><th>Stable&nbsp;</th><th>Module Website&nbsp;</th></th></tr>
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['stb']); ?></td>
-  <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td>
   <td><a href="http://plugins.netbeans.org/plugin/67898/deltahexeditor">NetBeans Plugins Portal</a></td></tr>
 <tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['stb']); ?></td>
-  <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
   <td><a href="https://plugins.jetbrains.com/plugin/9339">IntelliJ IDEA Plugins</a></td></tr>
 <tr><td>JDeveloper Extension</td>
   <td><?php echoDownload($downloads['jdeveloper-extension']['stb']); ?>-</td>
-  <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td>
+  <td>-</td></tr>
+<tr><td>BlueJ Extension</td>
+  <td><?php echoDownload($downloads['bluej-extension']['stb']); ?>-</td>
   <td>-</td></tr>
 </table>
 <a name="plugins"><h3>Plugins</h3></a>
@@ -52,6 +48,36 @@ function echoDownload($arr) {
 <li>In delta mode files can be corrupted, if they are changed with other applications at the same time</li>
 <li>Memory leaks</li>
 </ul>
+
+<a name="development"><h3>Development Versions Download</h3></a>
+<p>Following files are partially modified untested builds!</p>
+<table class="downloads">
+<tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><td>Editor</td>
+  <td><?php echoDownload($downloads['editor']['dev']); ?></td></tr>
+<tr><td>Single JAR Basic Editor</td>
+  <td><?php echoDownload($downloads['basic-editor']['dev']); ?></td></tr>
+<tr><td>Android App</td>
+  <td><?php echoDownload($downloads['android']['dev']); ?></td></tr>
+<tr><td>Library/Example</td>
+  <td><?php echoDownload($downloads['library']['dev']); ?></td></tr>
+</table>
+<a name="integration"><h3>IDE and Applications Integration</h3></a>
+<table class="downloads">
+<tr><th>Application&nbsp;</th><th>Development&nbsp;</th><th>Module Website&nbsp;</th></th></tr>
+<tr><td>NetBeans Platform Plugin</td>
+  <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td>
+  <td><a href="http://plugins.netbeans.org/plugin/67898/deltahexeditor">NetBeans Plugins Portal</a></td></tr>
+<tr><td>IntelliJ Platform Plugin</td>
+  <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
+  <td><a href="https://plugins.jetbrains.com/plugin/9339">IntelliJ IDEA Plugins</a></td></tr>
+<tr><td>JDeveloper Extension</td>
+  <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td>
+  <td>-</td></tr>
+<tr><td>BlueJ Extension</td>
+  <td><?php echoDownload($downloads['bluej-extension']['dev']); ?></td>
+  <td>-</td></tr>
+</table>
 
 </div>
 </body>

@@ -41,6 +41,7 @@ if (!empty($prefix)) {
   <li><a href="<?php echo $parentPrefix; ?>intellij-plugin">IntelliJ Plugin</a><?php echo $submenu_intellijplugin; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>eclipse-plugin">Eclipse Plugin</a><?php echo $submenu_eclipseplugin; ?></li>
   <li><a href="<?php echo $parentPrefix; ?>jdeveloper-extension">JDeveloper Extension</a><?php echo $submenu_jdeveloperextension; ?></li>
+  <li><a href="<?php echo $parentPrefix; ?>bluej-extension">BlueJ Extension</a><?php echo $submenu_bluejextension; ?></li>
 </ul>
 
 <h4>&nbsp;&nbsp;&nbsp;Development</h4>

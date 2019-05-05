@@ -96,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2019-03-30';
+      $dev_date = '2019-04-20';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -117,8 +117,8 @@
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2019-04-13';
-      $dev_ver = '0.2.0';
-      $dev_date = '2019-04-12';
+      $dev_ver = '0.2.1';
+      $dev_date = '2019-04-15';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -139,8 +139,8 @@
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2019-04-13';
-      $dev_ver = '0.2.0';
-      $dev_date = '2019-04-12';
+      $dev_ver = '0.2.1';
+      $dev_date = '2019-04-16';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -171,6 +171,22 @@
       $variants['dev'][0]['file'] = 'org.exbin.bined.jdeveloper.jar';
 
       $result['jdeveloper-extension'] = $variants;
+    }
+
+    if ($group = 'bluej-extension' || is_null($group)) {
+      $variants = array();
+      $stb_ver = '';
+      $stb_date = '';
+      $dev_ver = '0.2.0';
+      $dev_date = '2018-11-07';
+
+      $variants['dev'][0]['name'] = 'Extension';
+      $variants['dev'][0]['ver'] = $dev_ver;
+      $variants['dev'][0]['date'] = $dev_date;
+      $variants['dev'][0]['icon'] = 'jar';
+      $variants['dev'][0]['file'] = 'org.exbin.bined.bluej.jar';
+
+      $result['bluej-extension'] = $variants;
     }
 
     return $result;
