@@ -140,7 +140,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2019-04-13';
       $dev_ver = '0.2.1';
-      $dev_date = '2019-04-16';
+      $dev_date = '2019-05-06';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -178,13 +178,13 @@
       $stb_ver = '';
       $stb_date = '';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-11-07';
+      $dev_date = '2019-05-12';
 
       $variants['dev'][0]['name'] = 'Extension';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'jar';
-      $variants['dev'][0]['file'] = 'org.exbin.bined.bluej.jar';
+      $variants['dev'][0]['file'] = 'bined-bluej-extension-0.2.0-SNAPSHOT.jar';
 
       $result['bluej-extension'] = $variants;
     }
