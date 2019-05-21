@@ -6,7 +6,7 @@ function echoDownload($arr) {
   }
 } ?><div id="content">
 <p>Hexadecimal editor plugin for BlueJ written in Java.</p>
-<p><img src="images/bluej-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
+<p><img src="images/bluej-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 
 <a name="downloads"><h2>Downloads</h2></a>
 <table class="downloads">

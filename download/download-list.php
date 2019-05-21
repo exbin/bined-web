@@ -157,6 +157,22 @@
       $result['intellij-plugin'] = $variants;
     }
 
+    if ($group = 'eclipse-plugin' || is_null($group)) {
+      $variants = array();
+      $stb_ver = '';
+      $stb_date = '';
+      $dev_ver = '0.2.0';
+      $dev_date = '2019-05-20';
+
+      $variants['dev'][0]['name'] = 'Plugin';
+      $variants['dev'][0]['ver'] = $dev_ver;
+      $variants['dev'][0]['date'] = $dev_date;
+      $variants['dev'][0]['icon'] = 'jar';
+      $variants['dev'][0]['file'] = 'org.exbin.bined.eclipse_'.$dev_ver.'.snapshot.jar';
+
+      $result['eclipse-plugin'] = $variants;
+    }
+
     if ($group = 'jdeveloper-extension' || is_null($group)) {
       $variants = array();
       $stb_ver = '';

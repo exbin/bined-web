@@ -6,6 +6,15 @@ function echoDownload($arr) {
   }
 } ?><div id="content">
 <p>Hexadecimal editor plugin for Eclipse written in Java.</p>
+<p><img src="images/eclipse-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
+
+<a name="downloads"><h2>Downloads</h2></a>
+<table class="downloads">
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><td>Eclipse Platform Plugin</td>
+  <td><?php echoDownload($downloads['eclipse-plugin']['stb']); ?></td>
+  <td><?php echoDownload($downloads['eclipse-plugin']['dev']); ?></td></tr>
+</table>
 
 <a name="downloads"><h2>Source Codes</h2></a>
 <table class="downloads">
@@ -13,6 +22,7 @@ function echoDownload($arr) {
 <tr><td><a href="https://github.com/exbin/bined-eclipse-plugin" title="GitHub repository"><img src="../images/social-github.png" alt="[GitHub]"/> exbin/bined-eclipse-plugin</a></td></tr>
 </table>
 
+<p>Copy to eclipse/dropins and use Open with/Other - BinEd Editor.</p>
 <p>TODO</p>
 </div>
 </body>

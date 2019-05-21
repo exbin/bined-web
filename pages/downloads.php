@@ -29,6 +29,9 @@ function echoDownload($arr) {
 <tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['stb']); ?></td>
   <td><a href="https://plugins.jetbrains.com/plugin/9339">IntelliJ IDEA Plugins</a></td></tr>
+<tr><td>Eclipse Platform</td>
+  <td><?php echoDownload($downloads['eclipse-plugin']['stb']); ?>-</td>
+  <td>-</td></tr>
 <tr><td>JDeveloper Extension</td>
   <td><?php echoDownload($downloads['jdeveloper-extension']['stb']); ?>-</td>
   <td>-</td></tr>
@@ -71,6 +74,9 @@ function echoDownload($arr) {
 <tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
   <td><a href="https://plugins.jetbrains.com/plugin/9339">IntelliJ IDEA Plugins</a></td></tr>
+<tr><td>Eclipse Platform</td>
+  <td><?php echoDownload($downloads['eclipse-plugin']['dev']); ?>-</td>
+  <td>-</td></tr>
 <tr><td>JDeveloper Extension</td>
   <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td>
   <td>-</td></tr>
