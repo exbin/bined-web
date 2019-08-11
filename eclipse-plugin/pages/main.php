@@ -8,6 +8,13 @@ function echoDownload($arr) {
 <p>Hexadecimal editor plugin for Eclipse written in Java.</p>
 <p><img src="images/eclipse-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 
+<p>To install use update site or copy to eclipse/dropins and use Open with/Other - BinEd Editor.</p>
+
+<p>Note: This plugin is very experimental. Please use other similar eclipse plugin for production use.</p>
+<ul><li>Very limited / poor integration</li>
+<li>Using wrapping Swing GUI in SWT dialogs - works only partial and depends on platform / java version</li>
+</ul>
+
 <a name="downloads"><h2>Downloads</h2></a>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th></tr>
@@ -22,7 +29,7 @@ function echoDownload($arr) {
 <tr><td><a href="https://github.com/exbin/bined-eclipse-plugin" title="GitHub repository"><img src="../images/social-github.png" alt="[GitHub]"/> exbin/bined-eclipse-plugin</a></td></tr>
 </table>
 
-<p>Copy to eclipse/dropins and use Open with/Other - BinEd Editor.</p>
+<p>Experimental plugin update site for Eclipse: <a href="update/">https://bined.exbin.org/eclipse-plugin/update</a></p>
 <p>TODO</p>
 </div>
 </body>

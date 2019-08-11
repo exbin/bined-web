@@ -6,7 +6,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2019-03-24';
+      $dev_date = '2019-08-04';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -31,7 +31,7 @@
 
       $variants['dev'][0]['name'] = 'Windows Installer';
       $variants['dev'][0]['ver'] = $dev_ver;
-      $variants['dev'][0]['date'] = '2019-03-01';
+      $variants['dev'][0]['date'] = '2019-07-14';
       $variants['dev'][0]['icon'] = 'exe';
       $variants['dev'][0]['file'] = 'bined-'.$dev_ver.'-SNAPSHOT-win32.exe';
       $variants['dev'][1]['name'] = 'ZIP';
@@ -96,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2019-04-20';
+      $dev_date = '2019-08-04';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -118,7 +118,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2019-04-13';
       $dev_ver = '0.2.1';
-      $dev_date = '2019-04-15';
+      $dev_date = '2019-08-04';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -140,7 +140,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2019-04-13';
       $dev_ver = '0.2.1';
-      $dev_date = '2019-05-06';
+      $dev_date = '2019-08-04';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -159,10 +159,16 @@
 
     if ($group = 'eclipse-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '';
-      $stb_date = '';
+      $stb_ver = '0.2.0';
+      $stb_date = '2019-08-11';
       $dev_ver = '0.2.0';
-      $dev_date = '2019-05-20';
+      $dev_date = '2019-05-25';
+
+      $variants['stb'][0]['name'] = 'Plugin';
+      $variants['stb'][0]['ver'] = $stb_ver;
+      $variants['stb'][0]['date'] = $stb_date;
+      $variants['stb'][0]['icon'] = 'jar';
+      $variants['stb'][0]['file'] = 'org.exbin.bined.eclipse_'.$stb_ver.'.jar';
 
       $variants['dev'][0]['name'] = 'Plugin';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -178,7 +184,7 @@
       $stb_ver = '';
       $stb_date = '';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-11-07';
+      $dev_date = '2019-08-08';
 
       $variants['dev'][0]['name'] = 'Extension';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -191,16 +197,22 @@
 
     if ($group = 'bluej-extension' || is_null($group)) {
       $variants = array();
-      $stb_ver = '';
-      $stb_date = '';
+      $stb_ver = '0.2.0';
+      $stb_date = '2019-08-09';
       $dev_ver = '0.2.0';
-      $dev_date = '2019-05-12';
+      $dev_date = '2019-08-08';
+
+      $variants['stb'][0]['name'] = 'Extension';
+      $variants['stb'][0]['ver'] = $stb_ver;
+      $variants['stb'][0]['date'] = $stb_date;
+      $variants['stb'][0]['icon'] = 'jar';
+      $variants['stb'][0]['file'] = 'bined-bluej-extension-'.$stb_ver.'.jar';
 
       $variants['dev'][0]['name'] = 'Extension';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'jar';
-      $variants['dev'][0]['file'] = 'bined-bluej-extension-0.2.0-SNAPSHOT.jar';
+      $variants['dev'][0]['file'] = 'bined-bluej-extension-'.$dev_ver.'-SNAPSHOT.jar';
 
       $result['bluej-extension'] = $variants;
     }

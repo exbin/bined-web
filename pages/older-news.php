@@ -1,6 +1,16 @@
 <div id="content">
 <a name="news"><h2>Older News</h2></a>
 <ul>
+<li><strong>2018-03-05:</strong> DeltaHex IntelliJ Plugin Hot Fix 0.1.6.1 Released<p>
+<ul><li>Fixed issue with byte array / NPE</li>
+</ul></p></li>
+
+<li><strong>2018-03-05:</strong> DeltaHex IntelliJ Plugin 0.1.6 Released<p>
+<ul><li>Added "Show as hex" action for debugger (native types and native arrays only)</li>
+<li>Show "Document changed" dialog on window close</li>
+<li>Fixed Unknown property name: 'modified' (issue #3)</li>
+</ul></p></li>
+
 <li><strong>2017-10-22:</strong> DeltaHex Editor 0.1.3 Released<p>
 New version of Delta Hexadecimal Editor released.
 <ul><li>Fixed behavior for high precision wheel scrolling</li>

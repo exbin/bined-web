@@ -10,6 +10,14 @@
 
 <a name="news"><h2>News</h2></a>
 <ul>
+<li><strong>2019-08-11:</strong> BinEd Eclipse Plugin 0.2.0 Released<p>
+<ul><li>Initial release</li>
+</ul></p></li>
+
+<li><strong>2019-08-09:</strong> BinEd BlueJ Extension 0.2.0 Released<p>
+<ul><li>Initial release</li>
+</ul></p></li>
+
 <li><strong>2019-04-13:</strong> BinEd NetBeans &amp; IntelliJ Plugin 0.2.0 Released<p>
 <ul><li>Renamed to BinEd</li>
 <li>Updated to newer version of library</li>
@@ -27,16 +35,6 @@
 </ul></p></li>
 
 <li><strong>2018-05-31:</strong> Project renamed to BinEd + website updated<p></p></li>
-
-<li><strong>2018-03-05:</strong> DeltaHex IntelliJ Plugin Hot Fix 0.1.6.1 Released<p>
-<ul><li>Fixed issue with byte array / NPE</li>
-</ul></p></li>
-
-<li><strong>2018-03-05:</strong> DeltaHex IntelliJ Plugin 0.1.6 Released<p>
-<ul><li>Added "Show as hex" action for debugger (native types and native arrays only)</li>
-<li>Show "Document changed" dialog on window close</li>
-<li>Fixed Unknown property name: 'modified' (issue #3)</li>
-</ul></p></li>
 </ul>
 
 <p>See list of <a href="?older-news">older news</a>.</p>
