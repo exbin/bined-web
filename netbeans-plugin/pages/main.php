@@ -10,7 +10,7 @@ function echoDownload($arr) {
 
 <a name="downloads"><h2>Downloads</h2></a>
 <table class="downloads">
-<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['stb']); ?></td>
   <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td></tr>

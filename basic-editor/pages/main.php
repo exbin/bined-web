@@ -11,7 +11,7 @@ function echoDownload($arr) {
 <p>Basic minimalist version provided as single jar.</p>
 <a name="downloads"><h2>Downloads</h2></a>
 <table class="downloads">
-<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
 <tr><td>Basic Editor</td>
   <td><?php echoDownload($downloads['basic-editor']['stb']); ?></td>
   <td><?php echoDownload($downloads['basic-editor']['dev']); ?></td></tr>

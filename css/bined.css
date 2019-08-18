@@ -145,6 +145,26 @@ div#content {
     color: white;
 }
 
+.downloads-dev {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.downloads-dev td, .downloads-dev th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 6px;
+}
+
+.downloads-dev tr:nth-child(even){background-color: #f2f2f2}
+
+.downloads-dev th, .downloads th.dev {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #CF706C;
+    color: white;
+}
+
 .plugins {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -202,7 +222,7 @@ div#content {
   vertical-align: top;
   height: 36px;
   line-height: 35px;
-  padding: 0 20px;
+  padding: 0 10px;
   font-size: 13px;
   color: white;
   text-align: center;

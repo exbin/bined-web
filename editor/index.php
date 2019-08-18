@@ -1,9 +1,10 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
 $submenu_editor =
-'<ul><li><a href="?help">Help</a></li>
-<li><a href="?report-bug">Report Bug</a></li>
-<li><a href="?request-feature">Request Feature</a></li></ul>';
+'<ul><li><a href="?download">Download</a></li>
+<li><a href="?help"><strike>Help</strike></a></li>
+<li><a href="?report-bug"><strike>Report Bug</strike></a></li>
+<li><a href="?request-feature"><strike>Request Feature</strike></a></li></ul>';
 
 include('../header.php');
 $query = getenv('QUERY_STRING');

@@ -3,31 +3,31 @@
     $result = array();
     if ($group = 'editor' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.1.3';
-      $stb_date = '2017-10-22';
+      $stb_ver = '0.2.0';
+      $stb_date = '2019-08-18';
       $dev_ver = '0.2.0';
-      $dev_date = '2019-08-04';
+      $dev_date = '2019-08-16';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'exe';
-      $variants['stb'][0]['file'] = 'deltahex-editor-'.$stb_ver.'-win32.exe';
+      $variants['stb'][0]['file'] = 'bined-'.$stb_ver.'-win32.exe';
       $variants['stb'][1]['name'] = 'ZIP';
       $variants['stb'][1]['ver'] = $stb_ver;
       $variants['stb'][1]['date'] = $stb_date;
       $variants['stb'][1]['icon'] = 'zip';
-      $variants['stb'][1]['file'] = 'deltahex-editor-'.$stb_ver.'.zip';
+      $variants['stb'][1]['file'] = 'bined-'.$stb_ver.'.zip';
       $variants['stb'][2]['name'] = 'Debian Package';
       $variants['stb'][2]['ver'] = $stb_ver;
       $variants['stb'][2]['date'] = $stb_date;
       $variants['stb'][2]['icon'] = 'debian';
-      $variants['stb'][2]['file'] = 'deltahex-editor_'.$stb_ver.'_all.deb';
+      $variants['stb'][2]['file'] = 'bined_'.$stb_ver.'-1_all.deb';
       $variants['stb'][3]['name'] = 'Linux RPM Package';
       $variants['stb'][3]['ver'] = $stb_ver;
       $variants['stb'][3]['date'] = $stb_date;
       $variants['stb'][3]['icon'] = 'rpm';
-      $variants['stb'][3]['file'] = 'deltahex-editor-'.$stb_ver.'.noarch.rpm';
+      $variants['stb'][3]['file'] = 'bined-'.$stb_ver.'-1.noarch.rpm';
 
       $variants['dev'][0]['name'] = 'Windows Installer';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -118,7 +118,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2019-04-13';
       $dev_ver = '0.2.1';
-      $dev_date = '2019-08-04';
+      $dev_date = '2019-08-11';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -140,7 +140,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2019-04-13';
       $dev_ver = '0.2.1';
-      $dev_date = '2019-08-04';
+      $dev_date = '2019-08-11';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -181,12 +181,27 @@
 
     if ($group = 'jdeveloper-extension' || is_null($group)) {
       $variants = array();
-      $stb_ver = '';
-      $stb_date = '';
+      $stb_ver = '0.2.0.1';
+      $stb_date = '2019-08-15';
       $dev_ver = '0.2.0';
       $dev_date = '2019-08-08';
 
+      $variants['stb'][0]['name'] = 'Extension';
+      $variants['stb'][0]['prefix'] = '12c ';
+      $variants['stb'][0]['ver'] = $stb_ver;
+      $variants['stb'][0]['date'] = $stb_date;
+      $variants['stb'][0]['icon'] = 'jar';
+      $variants['stb'][0]['file'] = 'org.exbin.bined.jdeveloper-'.$stb_ver.'.jar';
+
+      $variants['stb'][1]['name'] = 'Extension';
+      $variants['stb'][1]['prefix'] = '11g ';
+      $variants['stb'][1]['ver'] = $stb_ver;
+      $variants['stb'][1]['date'] = $stb_date;
+      $variants['stb'][1]['icon'] = 'jar';
+      $variants['stb'][1]['file'] = 'org.exbin.bined.jdeveloper-11g-'.$stb_ver.'.jar';
+
       $variants['dev'][0]['name'] = 'Extension';
+      $variants['dev'][0]['prefix'] = '12c ';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'jar';

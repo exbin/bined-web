@@ -2,13 +2,13 @@
 function echoDownload($arr) {
   foreach ($arr as $key => $value) {
     if ($key > 0) echo "<br/>\n";
-    echo '<a href="download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
+    echo $value['prefix'].'<a href="download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
 <a name="downloads"><h2>Downloads</h2></a>
 <p>
-<a href="download/?<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green">Download Installer (Windows)</a>&nbsp;
-<a href="download/?<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green">Download ZIP (Other platforms)</a></p>
+<a href="download/?<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green"><img src="images/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download Installer (Windows)</a>&nbsp;
+<a href="download/?<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green"><img src="images/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download ZIP (Other platforms)</a></p>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Editor</td>
@@ -25,18 +25,18 @@ function echoDownload($arr) {
 <tr><th>Application&nbsp;</th><th>Stable&nbsp;</th><th>Module Website&nbsp;</th></th></tr>
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['stb']); ?></td>
-  <td><a href="http://plugins.netbeans.org/plugin/67898/deltahexeditor">NetBeans Plugins Portal</a></td></tr>
+  <td><a href="http://plugins.netbeans.org/plugin/67898">NetBeans Plugins Portal</a></td></tr>
 <tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['stb']); ?></td>
   <td><a href="https://plugins.jetbrains.com/plugin/9339">IntelliJ IDEA Plugins</a></td></tr>
 <tr><td>Eclipse Platform</td>
-  <td><?php echoDownload($downloads['eclipse-plugin']['stb']); ?>-</td>
-  <td>-</td></tr>
+  <td><?php echoDownload($downloads['eclipse-plugin']['stb']); ?></td>
+  <td><a href="https://marketplace.eclipse.org/content/bined-binaryhexadecimal-editor">Eclipse Marketplace</a></td></tr>
 <tr><td>JDeveloper Extension</td>
-  <td><?php echoDownload($downloads['jdeveloper-extension']['stb']); ?>-</td>
+  <td><?php echoDownload($downloads['jdeveloper-extension']['stb']); ?></td>
   <td>-</td></tr>
 <tr><td>BlueJ Extension</td>
-  <td><?php echoDownload($downloads['bluej-extension']['stb']); ?>-</td>
+  <td><?php echoDownload($downloads['bluej-extension']['stb']); ?></td>
   <td>-</td></tr>
 </table>
 <a name="plugins"><h3>Plugins</h3></a>
@@ -53,8 +53,8 @@ function echoDownload($arr) {
 </ul>
 
 <a name="development"><h3>Development Versions Download</h3></a>
-<p>Following files are partially modified untested builds!</p>
-<table class="downloads">
+<p>Development versions are likely untested/broken and at your own risk!</p>
+<table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
 <tr><td>Editor</td>
   <td><?php echoDownload($downloads['editor']['dev']); ?></td></tr>
@@ -66,17 +66,17 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['library']['dev']); ?></td></tr>
 </table>
 <a name="integration"><h3>IDE and Applications Integration</h3></a>
-<table class="downloads">
+<table class="downloads-dev">
 <tr><th>Application&nbsp;</th><th>Development&nbsp;</th><th>Module Website&nbsp;</th></th></tr>
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td>
-  <td><a href="http://plugins.netbeans.org/plugin/67898/deltahexeditor">NetBeans Plugins Portal</a></td></tr>
+  <td><a href="http://plugins.netbeans.org/plugin/67898">NetBeans Plugins Portal</a></td></tr>
 <tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
   <td><a href="https://plugins.jetbrains.com/plugin/9339">IntelliJ IDEA Plugins</a></td></tr>
 <tr><td>Eclipse Platform</td>
   <td><?php echoDownload($downloads['eclipse-plugin']['dev']); ?>-</td>
-  <td>-</td></tr>
+  <td><a href="https://marketplace.eclipse.org/content/bined-binaryhexadecimal-editor">Eclipse Marketplace</a></td></tr>
 <tr><td>JDeveloper Extension</td>
   <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td>
   <td>-</td></tr>

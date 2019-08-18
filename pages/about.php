@@ -1,6 +1,6 @@
 <div id="content">
 <a name="about"><h2>About</h2></a>
-<p>BinEd is hobby project to create viewer/editor for binary data (hexadecimal editor) in Java.</p>
+<p>BinEd is a hobby project to create viewer/editor for binary data (hexadecimal editor) in Java.</p>
 <p>Goals are:</p>
 <p><ul>
 <li>Free and open source (commercially friendly license)</li>
@@ -24,8 +24,7 @@
 <p>
 <ul><li>Basic library &amp; stand-alone editor: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li>
 <li>Editor modules: <a href="https://www.gnu.org/licenses/lgpl-3.0.en.html">GNU Lesser General Public License v3.0</a></li>
-<li>NetBeans plugin is dual-licensed with: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a> and <a href="https://opensource.org/licenses/CDDL-1.0">Common Development and Distribution License (CDDL-1.0)</a></li>
-<li>IntelliJ Idea plugin is: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li></ul></p>
+<li>Plugins and extensions: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li></ul></p>
 
 </div>
 </body>

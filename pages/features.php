@@ -21,6 +21,7 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inplace editation mode</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Stacked and interleaving mode</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Multiline mode</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Diff/comparision</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for network protocols like FTP or SMB</td><td></td></tr>
 <tr><th>Operation library</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Undo/redo</td><td class="features-done">DONE</td></tr>
@@ -39,6 +40,7 @@
 <tr><th>Highlighting library</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for codes/preview highlighting</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Delta highlighting</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Byte-for-byte diff/comparision</td><td></td></tr>
 <tr><th>Swing implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom painter component</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/line or pixel precision</td><td class="features-done">DONE</td></tr>
@@ -74,7 +76,7 @@
 <tr><th>Editor application</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Checking for updates</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for multiple tabs</td><td class="features-todo">PART</td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Insert empty space action</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Insert space action</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Copy from/to hexadecimal string</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Panel with integer, float, string values at cursor position</td><td class="features-done">DONE</td></tr>
@@ -84,31 +86,44 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Decompiler support</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Document tree structure</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Printing &amp; print preview</td><td></td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Color settings and color profiles</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Color settings and color profiles</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Bookmarks support</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Makro support</td><td></td></tr>
 <tr><th>Plugins for IDEs / integration into applications</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;NetBeans plugin</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-done">DONE</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Copy from/to hexadecimal string</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">PART</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Delta mode</td><td class="features-done">DONE</td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Eclipse plugin</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Debugger support</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Database connection support</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Idea plugin</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">PART</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Delta mode</td><td class="features-done">DONE</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Show values in debugger</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Debugger support</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Database connection support</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Eclipse plugin</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Debugger support</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Database connection support</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;BlueJ plugin</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Debugger support</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Database connection support</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;JDeveloper plugin</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">PART</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Delta mode</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Debugger support</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Database connection support</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;JEdit plugin</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;MuCommander plugin</td><td></td></tr>
 <tr><th>Help pages and documentation</th><th></th></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Main manual page</td><td class="features-todo">PART</td></tr>
 </table>
 </p>
 </div>
