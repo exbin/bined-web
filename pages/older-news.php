@@ -1,6 +1,10 @@
 <div id="content">
 <a name="news"><h2>Older News</h2></a>
 <ul>
+<li><strong>2019-08-09:</strong> BinEd BlueJ Extension 0.2.0 Released<p>
+<ul><li>Initial release</li>
+</ul></p></li>
+
 <li><strong>2019-04-13:</strong> BinEd NetBeans &amp; IntelliJ Plugin 0.2.0 Released<p>
 <ul><li>Renamed to BinEd</li>
 <li>Updated to newer version of library</li>
@@ -9,6 +13,12 @@
 <li>Added support for different numerical bases in status bar</li>
 <li>Configurable address margin</li>
 <li>Fixed issue with copy as code for debug view</li>
+</ul></p></li>
+
+<li><strong>2018-08-24:</strong> DeltaHex IntelliJ Plugin 0.1.7 Released<p>
+<ul><li>Fixed issue with debugging in CLion (issue #4)</li>
+<li>Fixed issue with goto does not scrolling window (issue #5)</li>
+<li>Added basic support for debug view of bytearray and bytes for Python</li>
 </ul></p></li>
 
 <li><strong>2018-05-31:</strong> Project renamed to BinEd + website updated<p></p></li>
@@ -106,12 +116,6 @@ New version of Delta Hexadecimal Editor released.
 <li>Adding charset now support basic filtering</li>
 <li>Enabled delta mode, switchable to memory mode</li>
 <li>Options panels now have Save button</li>
-</ul></p></li>
-
-<li><strong>2018-08-24:</strong> DeltaHex IntelliJ Plugin 0.1.7 Released<p>
-<ul><li>Fixed issue with debugging in CLion (issue #4)</li>
-<li>Fixed issue with goto does not scrolling window (issue #5)</li>
-<li>Added basic support for debug view of bytearray and bytes for Python</li>
 </ul></p></li>
 
 <li><strong>2016-12-13:</strong> DeltaHex IntelliJ Plugin 0.1.0 Released<p></p></li>

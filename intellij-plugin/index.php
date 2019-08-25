@@ -1,6 +1,8 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
-$submenu_intellijplugin = '<ul><li><a href="?help"><strike>Help</strike></a></li></ul>';
+$submenu_intellijplugin = '
+<ul><li><a href="?download">Download</a></li>
+<li><a href="?help"><strike>Help</strike></a></li></ul>';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

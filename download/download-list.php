@@ -1,7 +1,7 @@
 <?php
   function getDownloadList($group) {
     $result = array();
-    if ($group = 'editor' || is_null($group)) {
+    if ($group == 'editor' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2019-08-18';
@@ -53,7 +53,7 @@
       $result['editor'] = $variants;
     }
 
-    if ($group = 'basic-editor' || is_null($group)) {
+    if ($group == 'basic-editor' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
@@ -75,7 +75,7 @@
       $result['basic-editor'] = $variants;
     }
 
-    if ($group = 'android' || is_null($group)) {
+    if ($group == 'android' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2018-06-12';
@@ -91,7 +91,7 @@
       $result['android'] = $variants;
     }
 
-    if ($group = 'library' || is_null($group)) {
+    if ($group == 'library' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
@@ -113,7 +113,7 @@
       $result['library'] = $variants;
     }
 
-    if ($group = 'netbeans-plugin' || is_null($group)) {
+    if ($group == 'netbeans-plugin' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2019-04-13';
@@ -135,12 +135,12 @@
       $result['netbeans-plugin'] = $variants;
     }
 
-    if ($group = 'intellij-plugin' || is_null($group)) {
+    if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2019-04-13';
-      $dev_ver = '0.2.1';
-      $dev_date = '2019-08-11';
+      $stb_ver = '0.2.1';
+      $stb_date = '2019-08-22';
+      $dev_ver = '0.2.2';
+      $dev_date = '2019-08-24';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -157,7 +157,7 @@
       $result['intellij-plugin'] = $variants;
     }
 
-    if ($group = 'eclipse-plugin' || is_null($group)) {
+    if ($group == 'eclipse-plugin' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2019-08-11';
@@ -179,7 +179,7 @@
       $result['eclipse-plugin'] = $variants;
     }
 
-    if ($group = 'jdeveloper-extension' || is_null($group)) {
+    if ($group == 'jdeveloper-extension' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.2.0.1';
       $stb_date = '2019-08-15';
@@ -210,7 +210,7 @@
       $result['jdeveloper-extension'] = $variants;
     }
 
-    if ($group = 'bluej-extension' || is_null($group)) {
+    if ($group == 'bluej-extension' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2019-08-09';

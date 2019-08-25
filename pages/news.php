@@ -8,6 +8,16 @@
 
 <a name="news"><h2>News</h2></a>
 <ul>
+<li><strong>2019-08-22:</strong> BinEd IntelliJ Plugin 0.2.1 Released<p>
+<ul><li>Minor GUI improvements</li>
+<li>Context aware popup menu</li>
+<li>Go-to dialog position to support position from end</li>
+<li>Go-to dialog position to support different numerical bases</li>
+<li>Support for ENTER key in preview section</li>
+<li>Minor fix to view of native Java debug values</li>
+<li>Minor fix to integration</li>
+</ul></p></li>
+
 <li><strong>2019-08-18:</strong> BinEd 0.2.0 Released<p>
 <ul><li>Renamed to BinEd</li>
 <li>Updated to newer version of library</li>
@@ -31,10 +41,6 @@
 </ul></p></li>
 
 <li><strong>2019-08-11:</strong> BinEd Eclipse Plugin 0.2.0 Released<p>
-<ul><li>Initial release</li>
-</ul></p></li>
-
-<li><strong>2019-08-09:</strong> BinEd BlueJ Extension 0.2.0 Released<p>
 <ul><li>Initial release</li>
 </ul></p></li>
 </ul>

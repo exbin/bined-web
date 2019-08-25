@@ -114,19 +114,19 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
 <tr>
-  <td>DeltaHex 0.1.3</td>
+  <td>DeltaHex <?php echo $old_releases[3][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[3]); ?></td>
 </tr>
 <tr>
-  <td>DeltaHex 0.1.2</td>
+  <td>DeltaHex <?php echo $old_releases[2][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[2]); ?></td>
 </tr>
 <tr>
-  <td>DeltaHex 0.1.1</td>
+  <td>DeltaHex <?php echo $old_releases[1][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[1]); ?></td>
 </tr>
 <tr>
-  <td>DeltaHex 0.1.0</td>
+  <td>DeltaHex <?php echo $old_releases[0][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[0]); ?></td>
 </tr>
 </table>
