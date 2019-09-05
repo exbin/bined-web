@@ -5,6 +5,7 @@ function echoDownload($arr) {
     echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
+<a name="variant"><h2>Variant: Stand-Alone Editor</h2></a>
 <p>Free and open source hexadecimal viewer/editor and component written in Java.</p>
 <p><img src="../images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 

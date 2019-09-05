@@ -1,9 +1,9 @@
 <div id="content">
+<a name="features"><h2>List of Features</h2></a>
 <p>List of finished or considered features.</p>
 <p><span style="background-color: #8fff8f;">GREEN</span> - Feature implemented / working to some degree in current development version<br/>
 <span style="background-color: #ffbf8f;">ORANGE</span> - Work on feature started / partial or testing implementation underway<br/>
 </p>
-<h2>Features List</h2>
 <p>
 <table class="features">
 <tr><th>Basic library</th><th></th></tr>
@@ -94,7 +94,7 @@
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Configuration panel</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">PART</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Debugger support</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Debugger support</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Database connection support</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Idea plugin</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">PART</td></tr>

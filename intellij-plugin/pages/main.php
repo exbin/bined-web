@@ -5,6 +5,8 @@ function echoDownload($arr) {
     echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
+<a name="variant"><h2>Variant: IntelliJ Plugin</h2></a>
+
 <p>Binary/hexadecimal editor plugin for IntelliJ Platform (IntelliJ Idea IDE and other IDEs from JetBrains) written in Java.</p>
 <p><img src="images/intellij-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 

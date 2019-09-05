@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.0';
+$ver = '0.2.1';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.0';
+$date = '2019-04-13';
+
+$old_releases[8][0]['name'] = 'Plugin';
+$old_releases[8][0]['ver'] = $ver;
+$old_releases[8][0]['date'] = $date;
+$old_releases[8][0]['icon'] = 'netbeans';
+$old_releases[8][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.nbm';
+
+$old_sources[8][0]['name'] = 'Sources';
+$old_sources[8][0]['ver'] = $ver;
+$old_sources[8][0]['icon'] = 'zip';
+$old_sources[8][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 
 $ver = '0.1.7';
 $date = '2017-10-10';
@@ -149,14 +163,13 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 
 <a name="download"><h2>Latest Changes</h2></a>
 <p>
-<ul><li>Renamed to BinEd</li>
-<li>Updated to newer version of library</li>
-<li>Support for half-size space</li>
-<li>Support for layout, theme and colors profiles</li>
-<li>Added support for different numerical bases in status bar</li>
-<li>Configurable address margin</li>
-<li>Fixed issue with copy as code for debug view</li>
-</ul></p>
+<ul><li>Action to show debug variables as binary data</li>
+<li>Minor GUI improvements</li>
+<li>Context aware popup menu</li>
+<li>Go-to dialog position to support position from end</li>
+<li>Go-to dialog position to support different numerical bases</li>
+<li>Support for ENTER key in preview section</li></ul>
+</p>
 
 <a name="development"><h2>Development Version</h2></a>
 <p>Development versions are likely untested/broken and at your own risk.</p>
@@ -169,6 +182,11 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 <a name="older_releases"><h2>Older Releases</h2></a>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>NetBeans Platform Plugin <?php echo $old_releases[8][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[8]); ?></td>
+  <td><?php echoDownload($old_sources[8]); ?></td>
+</tr>
 <tr>
   <td>NetBeans Platform Plugin <?php echo $old_releases[7][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[7]); ?></td>

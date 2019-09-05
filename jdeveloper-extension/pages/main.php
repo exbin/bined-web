@@ -5,6 +5,8 @@ function echoDownload($arr) {
     echo $value['prefix'].'<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
+<a name="variant"><h2>Variant: JDeveloper Extension</h2></a>
+
 <p>Hexadecimal editor plugin for Oracle JDeveloper and SQLDeveloper written in Java.</p>
 <p>Use <strong>"Open as Binary"</strong> from File menu or in context menu.</p>
 

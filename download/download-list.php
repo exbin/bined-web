@@ -115,10 +115,10 @@
 
     if ($group == 'netbeans-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2019-04-13';
+      $stb_ver = '0.2.1';
+      $stb_date = '2019-09-04';
       $dev_ver = '0.2.1';
-      $dev_date = '2019-08-11';
+      $dev_date = '2019-09-03';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
