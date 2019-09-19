@@ -22,9 +22,8 @@
 
 <a name="license"><h2>License</h2></a>
 <p>
-<ul><li>Basic library &amp; stand-alone editor: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li>
-<li>Editor modules: <a href="https://www.gnu.org/licenses/lgpl-3.0.en.html">GNU Lesser General Public License v3.0</a></li>
-<li>Plugins and extensions: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li></ul></p>
+<ul><li>Library, plugins and extensions: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li>
+<li>Editor framework: <a href="https://www.gnu.org/licenses/lgpl-3.0.en.html">GNU Lesser General Public License v3.0</a></li></ul></p>
 
 </div>
 </body>

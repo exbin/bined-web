@@ -14,7 +14,8 @@
 <li>Context aware popup menu</li>
 <li>Go-to dialog position to support position from end</li>
 <li>Go-to dialog position to support different numerical bases</li>
-<li>Support for ENTER key in preview section</li></ul>
+<li>Support for ENTER key in preview section</li>
+</ul></p></li>
 
 <li><strong>2019-08-22:</strong> BinEd IntelliJ Plugin 0.2.1 Released<p>
 <ul><li>Minor GUI improvements</li>

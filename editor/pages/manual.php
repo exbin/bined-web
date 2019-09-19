@@ -1,4 +1,6 @@
 <div id="content">
+<a name="manual"><h2>Editor Manual</h2></a>
+
 <p>TODO: BinEd is editor for binary files or other general data.</p>
 
 <p>In basic mode, data are shown as matrix of numeric codes and also as regular text at the same time.</p>

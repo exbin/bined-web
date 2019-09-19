@@ -2,7 +2,7 @@
 $prefix = '..';
 $submenu_intellijplugin = '
 <ul><li><a href="?download">Download</a></li>
-<li><a href="?help"><strike>Help</strike></a></li></ul>';
+<li><a href="?manual"><strike>Manual</strike></a></li></ul>';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

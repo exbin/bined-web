@@ -2,9 +2,9 @@
 $prefix = '..';
 $submenu_editor =
 '<ul><li><a href="?download">Download</a></li>
-<li><a href="?help"><strike>Help</strike></a></li>
-<li><a href="?report-bug"><strike>Report Bug</strike></a></li>
-<li><a href="?request-feature"><strike>Request Feature</strike></a></li></ul>';
+<li><a href="?manual">Manual</a></li>
+<li><a href="https://github.com/exbin/bined/issues/new?labels=bug">Report Bug</a></li>
+<li><a href="https://github.com/exbin/bined/issues/new?labels=enhancement">Request Feature</a></li></ul>';
 
 include('../header.php');
 $query = getenv('QUERY_STRING');

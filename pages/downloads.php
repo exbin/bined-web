@@ -75,7 +75,7 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
   <td><a href="https://plugins.jetbrains.com/plugin/9339">IntelliJ IDEA Plugins</a></td></tr>
 <tr><td>Eclipse Platform</td>
-  <td><?php echoDownload($downloads['eclipse-plugin']['dev']); ?>-</td>
+  <td><?php echoDownload($downloads['eclipse-plugin']['dev']); ?></td>
   <td><a href="https://marketplace.eclipse.org/content/bined-binaryhexadecimal-editor">Eclipse Marketplace</a></td></tr>
 <tr><td>JDeveloper Extension</td>
   <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td>

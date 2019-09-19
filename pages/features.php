@@ -17,7 +17,7 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Lower/upper case</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrolling position and handling</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Preview text encoding selection</td><td class="features-done">DONE</td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Line offset position support</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Row offset position support</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inplace editation mode</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Stacked and interleaving mode</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Multiline mode</td><td></td></tr>
@@ -43,9 +43,9 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Byte-for-byte diff/comparision</td><td></td></tr>
 <tr><th>Swing implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom painter component</td><td class="features-done">DONE</td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/line or pixel precision</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/row or pixel precision</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Switchable characters antialiasing</td><td class="features-done">DONE</td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optional line numbers</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optional row numbers</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optional header with offset positions</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Selectable cursor shapes</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Optional cursor blinking</td><td class="features-done">DONE</td></tr>
@@ -58,14 +58,14 @@
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for octet-stream clipboard flavor</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for drag&amp;drop</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Decoration lines</td><td class="features-done">DONE</td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Line wrapping mode</td><td class="features-done">DONE</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Row wrapping mode</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Multicared support</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for multiple selection/clipboards</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for comparison of two files</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for half-size space grouping</td><td></td></tr>
 <tr><th>SWT implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom painter component</td><td class="features-todo">PART</td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/line or pixel precision</td><td class="features-todo">PART</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/row or pixel precision</td><td class="features-todo">PART</td></tr>
 <tr><th>JavaFX implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Canvas version</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inner components version</td><td></td></tr>

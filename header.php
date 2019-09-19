@@ -48,13 +48,14 @@ if (!empty($prefix)) {
 <ul>
   <li><a href="<?php echo $rootPrefix; ?>?participate">Participate</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?features">Features</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?concepts">Concepts</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?source-codes">Source Codes</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?donate">Donate</a></li>
-  <li><a href="<?php echo $rootPrefix; ?>?contact">Contact</a></li>
 </ul>
 
 <h4>&nbsp;&nbsp;&nbsp;Social</h4>
 <ul>
   <li><a href="https://sourceforge.net/projects/bined/">SourceForge Page</a></li>
+  <li><a href="<?php echo $rootPrefix; ?>?similar-projects">Similar Projects</a></li>
 </ul>
 </div>
