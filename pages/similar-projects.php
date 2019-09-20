@@ -6,7 +6,7 @@
 
 <a name="concepts"><h3>Java Hexadecimal Components/Editors</h3></a>
 
-<table class="downloads">
+<table class="table">
 <tr><th>Project Name</th><th>Description</th><th>License</th><th>GUI</th><th>Author</th></tr>
 <tr><td><a href="http://hexedit-lib.sourceforge.net/">HexLib</a></td><td>Component and Hexadecimal Editor</td><td>OSS-FreeBSD</td><td>Swing</td><td>Leo Forge</td></tr>
 <tr><td><a href="http://javahexeditor.sourceforge.net/">Java Hex Editor</a></td><td>Hexadecimal editor</td><td>OSS-GPLv2</td><td>SWT</td><td>pestatije + others</td></tr>
