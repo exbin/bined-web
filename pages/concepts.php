@@ -2,7 +2,7 @@
 <a name="concepts"><h2>Concepts</h2></a>
 
 <p>This project was started to create component/editor supporting various features which was not available in other libraries or was not available under similar license.</p>
-<p>While some of the concepts are partially implemented, majority of them is <strong>planned for far future</strong>.</p>
+<p>While some of the concepts are partially implemented, majority of them is <strong>planned for future development</strong>.</p>
 
 <a name="highly-configurable-component"><h3>Highly Configurable Component</h3></a>
 <p>Component should be very flexible to support wide range of use-cases. This should include:</p>
@@ -51,13 +51,11 @@
 <p align="center"><img src="images/concept/visual-mode-stacked.png" /></p>
 </li>
 
-<p>TODO</p>
-
 <li>Codes and preview can be interleaved
 <p align="center"><img src="images/concept/visual-mode-interleaved.png" /></p>
 </li>
 
-<li>Or maybe more useful could be to have different fonts
+<li>More readable could be to use different fonts
 <p align="center"><img src="images/concept/visual-mode-2fonts.png" /></p>
 </li>
 
@@ -65,7 +63,12 @@
 
 <a name="multiline-mode"><h3>Multiline Mode</h3></a>
 <p>Support for text files / EOL (end of line) characters.</p>
+
+<p align="center"><img src="images/concept/multiline-mode.png" /></p>
+
 <p>This should also allow to support comparision with separated lines for inserted and deleted sections.</p>
+
+<p align="center"><img src="images/concept/multiline-diff.png" /></p>
 
 <a name="content-analysis"><h3>Content Analysis</h3></a>
 <p>To perform analysis of the content of the file, basic values conversion as well as traditional decompilers should be available.</p>
