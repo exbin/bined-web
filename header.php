@@ -55,7 +55,7 @@ if (!empty($prefix)) {
 
 <h4>&nbsp;&nbsp;&nbsp;Social</h4>
 <ul>
-  <li><a href="https://sourceforge.net/projects/bined/">SourceForge Page</a></li>
+  <li><a class="urlextern" href="https://sourceforge.net/projects/bined/">SourceForge Page</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?similar-projects">Similar Projects</a></li>
 </ul>
 </div>

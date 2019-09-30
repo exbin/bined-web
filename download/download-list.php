@@ -58,7 +58,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2018-12-05';
+      $dev_date = '2019-09-26';
 
       $variants['stb'][0]['name'] = 'Basic Editor';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -96,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2019-09-18';
+      $dev_date = '2019-09-26';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;

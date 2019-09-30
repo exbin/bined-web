@@ -125,6 +125,15 @@ div#content {
     border-width: 1px 0px 0px 1px;
 }
 
+.urlextern {
+    background-image: url("/images/external-link.png");
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+    background-position-x: 0px;
+    background-position-y: 50%;
+    padding-left: 18px;
+}
+
 .table {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
