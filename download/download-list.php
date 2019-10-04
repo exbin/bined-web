@@ -5,8 +5,8 @@
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2019-08-18';
-      $dev_ver = '0.2.0';
-      $dev_date = '2019-08-16';
+      $dev_ver = '0.2.1';
+      $dev_date = '2019-10-01';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -31,7 +31,7 @@
 
       $variants['dev'][0]['name'] = 'Windows Installer';
       $variants['dev'][0]['ver'] = $dev_ver;
-      $variants['dev'][0]['date'] = '2019-07-14';
+      $variants['dev'][0]['date'] = '2019-10-01';
       $variants['dev'][0]['icon'] = 'exe';
       $variants['dev'][0]['file'] = 'bined-'.$dev_ver.'-SNAPSHOT-win32.exe';
       $variants['dev'][1]['name'] = 'ZIP';
@@ -96,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2019-09-26';
+      $dev_date = '2019-10-01';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -118,7 +118,7 @@
       $stb_ver = '0.2.1';
       $stb_date = '2019-09-04';
       $dev_ver = '0.2.2';
-      $dev_date = '2019-09-17';
+      $dev_date = '2019-10-02';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
