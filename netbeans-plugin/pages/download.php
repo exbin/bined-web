@@ -2,7 +2,7 @@
 function echoDownload($arr) {
   foreach ($arr as $key => $value) {
     if ($key > 0) echo "<br/>\n";
-    echo $value['prefix'].'<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> '.(isset($value['date']) ? '['.$value['date'].']' : '');
+    echo $value['prefix'].'<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> '.(isset($value['date']) ? '['.$value['date'].']' : '');
   }
 }
 
@@ -154,14 +154,15 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 ?><div id="content">
 <a name="download"><h2>Download</h2></a>
 <table class="downloads">
-<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Sources&nbsp;</th><th>Module Website&nbsp;</th></tr>
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['stb']); ?></td>
   <td><?php echoDownload($sources); ?></td>
+  <td><a href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td></tr>
 </tr>
 </table>
 
-<a name="download"><h2>Latest Changes</h2></a>
+<a name="latest_chages"><h2>Latest Changes</h2></a>
 <p>
 <ul><li>Action to show debug variables as binary data</li>
 <li>Minor GUI improvements</li>

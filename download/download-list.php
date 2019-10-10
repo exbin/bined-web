@@ -132,6 +132,9 @@
       $variants['dev'][0]['icon'] = 'netbeans';
       $variants['dev'][0]['file'] = 'org-exbin-bined-netbeans.nbm';
 
+      $variants['repository_title'] = 'NetBeans Plugins Portal';
+      $variants['repository_url'] = 'http://plugins.netbeans.org/plugin/67898';
+
       $result['netbeans-plugin'] = $variants;
     }
 
@@ -140,7 +143,7 @@
       $stb_ver = '0.2.1';
       $stb_date = '2019-08-22';
       $dev_ver = '0.2.2';
-      $dev_date = '2019-08-24';
+      $dev_date = '2019-10-09';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -153,6 +156,9 @@
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'zip';
       $variants['dev'][0]['file'] = 'bined-intellij-plugin.zip';
+
+      $variants['repository_title'] = 'IntelliJ IDEA Plugins';
+      $variants['repository_url'] = 'https://plugins.jetbrains.com/plugin/9339';
 
       $result['intellij-plugin'] = $variants;
     }
@@ -175,6 +181,9 @@
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'jar';
       $variants['dev'][0]['file'] = 'org.exbin.bined.eclipse_'.$dev_ver.'.snapshot.jar';
+
+      $variants['repository_title'] = 'Eclipse Marketplace';
+      $variants['repository_url'] = 'https://marketplace.eclipse.org/content/bined-binaryhexadecimal-editor';
 
       $result['eclipse-plugin'] = $variants;
     }

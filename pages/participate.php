@@ -3,15 +3,15 @@
 <p>There are various ways how you can contribute to this project:</p>
 
 <p>Programmers: Primary programming language is Java. There are many tasks to work on. See for example <a href="?features">features list</a>.</p>
-<p>Help wanted post: <a href="https://sourceforge.net/p/forge/helpwanted/programmers/thread/69ce352c/">Sourceforge Programmers Wanted</a></p>
+<p>Help wanted post: <a href="https://sourceforge.net/p/forge/helpwanted/programmers/thread/3067e2c4a0/">Sourceforge Programmers Wanted</a></p>
 <p>Documenters: Help write manual / documentation</p>
 <p>Testers: Test project and report issue on <a href="https://bined.exbin.org/?source-codes">GitHub pages</a>.</p>
 
 <a name="contact"><h2>Contact</h2></a>
 
-<ul><li>IRC: <a href="irc://irc.freenode.net/exbin">#exbin</a> on <a href="http://www.freenode.net">freenode.net</a> (or alternative <a href="http://webchat.freenode.net/?channels=exbin">webchat</a>)</li>
-<li>Sourceforge: <a href="https://sourceforge.net/p/deltahex/discussion/">forum</a></li>
-<li>Admin: hajdam@<span style="display:none">(at)</span>users.sf.net</li></ul>
+<ul><li>Chat room: <a href="https://matrix.to/#/!MkfeTdJOiHgZDJnrQy:matrix.org?via=matrix.org">BinEd room</a> on <a href="https://riot.im">Riot.im</a></li>
+<li>Forum: <a href="https://sourceforge.net/p/bined/discussion/">Sourceforge.net discussion</a></li>
+<li>Contact: hajdamcz@<span style="display:none">(at)</span>gmail.com</li></ul>
 
 <a name="development-plan"><h2>Current Development Plan</h2></a>
 <p>Plan for version 0.2.1 is to implement some of the following improvements:</p>

@@ -8,7 +8,7 @@ if (!empty($prefix)) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="<?php echo $parentPrefix; ?>css/bined.css" rel="stylesheet">
+<link href="<?php echo $parentPrefix; ?>css/site.css" rel="stylesheet">
 <title>BinEd - Binary Editor</title>
 </head>
 
@@ -55,7 +55,8 @@ if (!empty($prefix)) {
 
 <h4>&nbsp;&nbsp;&nbsp;Social</h4>
 <ul>
-  <li><a class="urlextern" href="https://sourceforge.net/projects/bined/">SourceForge Page</a></li>
+  <li><a class="urlextern" href="https://sourceforge.net/projects/bined/">SourceForge</a></li>
+  <li><a class="urlextern" href="https://www.openhub.net/p/bined/">OpenHub</a></li>
   <li><a href="<?php echo $rootPrefix; ?>?similar-projects">Similar Projects</a></li>
 </ul>
 </div>

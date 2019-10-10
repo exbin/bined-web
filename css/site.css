@@ -13,7 +13,7 @@ html, body {
 div#name {
     margin-left: 0em;
     margin-top: 1em;
-    margin-bottom: 1.2em;
+    margin-bottom: 0.8em;
   }
 
 div#name h1 {
@@ -30,7 +30,7 @@ div#name a, div#name a.active, div#name a.hover {
 div#navbar {
     float: right;
     margin-right: 0em;
-    margin-top: -4em;
+    margin-top: -3.8em;
 }
 
 div#navbar a {
