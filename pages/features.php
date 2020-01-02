@@ -141,7 +141,7 @@
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Binary diff support</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;MuCommander plugin</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Binary diff support</td><td></td></tr>
 <tr><th>Help pages and documentation</th><th></th></tr>

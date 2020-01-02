@@ -147,7 +147,7 @@ New version of Delta Hexadecimal Editor released.
 <ul><li>Added copy as code and paste from code</li>
 <li>Fixed opening of .shadow files</li>
 <li>Fixed clipboard related IllegalStateException issue</li>
-<li>Improved plugin description2016-07-23
+<li>Improved plugin description</li>
 </ul></p></li>
 
 <li><strong>2016-07-20:</strong> DeltaHex Editor 0.1.0 Released<p></p></li>
