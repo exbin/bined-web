@@ -8,6 +8,7 @@ if (!empty($prefix)) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="SHORTCUT ICON" href="bined.ico" />
 <link href="<?php echo $parentPrefix; ?>css/site.css" rel="stylesheet">
 <title>BinEd - Binary Editor</title>
 </head>

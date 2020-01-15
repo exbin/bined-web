@@ -8,6 +8,8 @@
 <li>Stand-alone editor application</li>
 <li>Plugins/extension for some applications (Java-based IDEs and other)</li>
 </ul></p>
+<p>See additional info about <a href="?concepts">concepts</a>.</p>
+
 <a name="features"><h2>Features</h2></a>
 <p><ul>
 <li>Visualize data as numerical (hexadecimal) codes and text representation</li>

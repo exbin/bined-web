@@ -46,13 +46,13 @@ function echoDownload($arr) {
 <tr><td>Czech Language</td><td><a href="download/?exbin-framework-language-cs_CZ-0.2.0-SNAPSHOT.jar" title="Download"><img src="images/filetypes/jar.png" alt="[JAR]" width="16" height="16"/> 0.2.0</a> [2017-01-08]</td><td>-</td></tr>
 </table>
 
-<a name="known_issues"><h2>Known Issues</h2></a>
+<a name="known_issues"><h3>Known Issues</h3></a>
 <ul><li>Editor can freeze with OutOfMemoryError: Java heap space if there is too many big modifications</li>
 <li>In delta mode files can be corrupted, if they are changed with other applications at the same time</li>
 <li>Memory leaks</li>
 </ul>
 
-<a name="development"><h3>Development Versions Download</h3></a>
+<a name="development"><h2>Development Versions Download</h2></a>
 <p>Development versions are likely untested/broken and at your own risk!</p>
 <table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
