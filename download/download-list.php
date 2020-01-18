@@ -118,7 +118,7 @@
       $stb_ver = '0.2.1';
       $stb_date = '2019-09-04';
       $dev_ver = '0.2.2';
-      $dev_date = '2019-10-16';
+      $dev_date = '2020-01-16';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -143,7 +143,7 @@
       $stb_ver = '0.2.1';
       $stb_date = '2019-08-22';
       $dev_ver = '0.2.2';
-      $dev_date = '2019-12-19';
+      $dev_date = '2020-01-17';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

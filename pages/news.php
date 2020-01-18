@@ -6,6 +6,41 @@
 <p>This is part of the <a href="http://exbin.org">ExBin Project</a>.</p>
 <p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
+<a name="latest_comment"><h2>Latest User Comment</h2></a>
+<?php
+function getline($fl) {
+  $fp = @fgets($fl, 65536);
+  $fp = substr($fp, 0, strlen($fp) - 1);
+  return $fp;
+}
+
+$perpage = 10;
+$count_file = fopen('pages/comments/count.txt', 'r');
+$count = (int) getline($count_file);
+fclose($count_file);
+
+if ($count == 0) {
+  echo '<p>There are no comments yet.</p>';
+} else {
+  $file = fopen('pages/comments/'.$count.'.txt', 'r');
+  $time = getline($file);
+  $author = getline($file);
+  $comment = '';
+  while (!feof($file)) {
+  	  if ($comment != '') {
+  	  	  $comment .= "<br/>";
+  	  }
+   	  $comment .= getline($file);
+  }
+  fclose($file);
+      
+  echo '<ul><li>';
+  echo '<p>Comment from: <strong>'.$author.'</strong> on '.date('l jS \of F Y h:i:s A', $time).'</p>';
+  echo '<p>'.$comment.'</p>';
+  echo "</li></ul>\n";
+}
+?>
+
 <a name="news"><h2>News</h2></a>
 <ul>
 <li><strong>2019-09-04:</strong> BinEd NetBeans Plugin 0.2.1 Released<p>

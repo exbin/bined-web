@@ -37,10 +37,12 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Delta undo/redo</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Shared data sources management</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Checking for changes on non-exclusive locked files</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for swapping to temp file</td><td></td></tr>
 <tr><th>Highlighting library</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for codes/preview highlighting</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Delta highlighting</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Byte-for-byte diff/comparision</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom decoder highlighting</td><td></td></tr>
 <tr><th>Swing implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom painter component</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/row or pixel precision</td><td class="features-done">DONE</td></tr>
@@ -62,7 +64,7 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Multi-caret support</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Support for multiple selection/clipboards</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for comparison of two files</td><td></td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for half-size space grouping</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for half-size space grouping</td><td class="features-done">DONE</td></tr>
 <tr><th>SWT implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Custom painter component</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Scrollbars fixed or optional, character/row or pixel precision</td><td class="features-todo">PART</td></tr>
