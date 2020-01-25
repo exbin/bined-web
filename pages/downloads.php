@@ -9,6 +9,7 @@ function echoDownload($arr) {
 <p>
 <a href="download/?<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green"><img src="images/filetypes/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download Installer (Windows)</a>&nbsp;
 <a href="download/?<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green"><img src="images/filetypes/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;Download ZIP (Other platforms)</a></p>
+<a name="other_downloads"><h3>Other stable downloads</h3></a>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Editor</td>

@@ -24,7 +24,7 @@ if ($pos * $perpage > $count) $pos = intdiv($count, $perpage);
 
 if (isset($_POST['comment']) && $_POST['comment'] != '') {
   $antispam = isset($_POST['antispam']) ? $_POST['antispam'] : '';
-  $author = isset($_POST['author']) ? $_POST['author'] : '(anonymous)';
+  $author = isset($_POST['author']) && $_POST['author'] != '' ? $_POST['author'] : '(anonymous)';
   $comment = $_POST['comment'];
   $pos = 0;
   if ($antispam == 'COMMENT') {

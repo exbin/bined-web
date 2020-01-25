@@ -1,6 +1,10 @@
 <div id="content">
 <a name="news"><h2>Older News</h2></a>
 <ul>
+<li><strong>2019-08-13:</strong> BinEd JDeveloper Extension 0.2.0 Released<p>
+<ul><li>Initial release</li>
+</ul></p></li>
+
 <li><strong>2019-08-11:</strong> BinEd Eclipse Plugin 0.2.0 Released<p>
 <ul><li>Initial release</li>
 </ul></p></li>

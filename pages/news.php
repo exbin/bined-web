@@ -40,9 +40,21 @@ if ($count == 0) {
   echo "</li></ul>\n";
 }
 ?>
+<p>See <a href="?comments">more comments</a>. Add <a href="?add-comment">new comment</a>.</p>
 
 <a name="news"><h2>News</h2></a>
 <ul>
+<li><strong>2020-01-25:</strong> BinEd IntelliJ Plugin 0.2.2 Released<p>
+<ul><li>Minor GUI improvements</li>
+<li>Support for multiple decoders in debugging view</li>
+<li>Display the number of bytes selected</li>
+<li>Fixed opening via dialog crashes IntelliJ (mac)</li>
+<li>Fixed "HIDE_DEFAULT_EDITOR is supported only for DumbAware providers" error message</li>
+<li>Fixed NullPointerException when trying to hex-view bytearray in Debug mode</li>
+<li>Fixed Editor stops responding when I use Find</li>
+<li>Fixed Cursor position is lost if you switch tabs</li>
+</ul></p></li>
+
 <li><strong>2019-09-04:</strong> BinEd NetBeans Plugin 0.2.1 Released<p>
 <ul><li>Action to show debug variables as binary data</li>
 <li>Minor GUI improvements</li>
@@ -78,10 +90,6 @@ if ($count == 0) {
 <li><strong>2019-08-15:</strong> BinEd JDeveloper Extension 0.2.0.1 Released<p>
 <ul><li>Fixed issue with limitation to single editor only</li>
 <li>Added legacy version for 11g</li>
-</ul></p></li>
-
-<li><strong>2019-08-13:</strong> BinEd JDeveloper Extension 0.2.0 Released<p>
-<ul><li>Initial release</li>
 </ul></p></li>
 </ul>
 
