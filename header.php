@@ -34,15 +34,20 @@ if (!empty($prefix)) {
   </li>
   <li><div>Variants</div>
     <ul class="submenu">
-      <li><a href="<?php echo $parentPrefix; ?>editor">Editor - Java</a><?php echo $submenu_editor; ?></li>
+      <li><a href="<?php echo $parentPrefix; ?>editor">Editor - Swing</a><?php echo $submenu_editor; ?></li>
       <li><a href="<?php echo $parentPrefix; ?>android">Editor - Android</a><?php echo $submenu_android; ?></li>
+      <li><a href="<?php echo $parentPrefix; ?>basic-editor">Editor - Basic</a><?php echo $submenu_basiceditor; ?></li>
       <li><a href="<?php echo $parentPrefix; ?>library">Component Libraries</a><?php echo $submenu_library; ?></li>
-      <li><a href="<?php echo $parentPrefix; ?>basic-editor">Basic Editor</a><?php echo $submenu_basiceditor; ?></li>
+    </ul>
+  </li>
+  <li><div>Extensions</div>
+    <ul class="submenu">
       <li><a href="<?php echo $parentPrefix; ?>netbeans-plugin">NetBeans Plugin</a><?php echo $submenu_netbeansplugin; ?></li>
       <li><a href="<?php echo $parentPrefix; ?>intellij-plugin">IntelliJ Plugin</a><?php echo $submenu_intellijplugin; ?></li>
       <li><a href="<?php echo $parentPrefix; ?>eclipse-plugin">Eclipse Plugin</a><?php echo $submenu_eclipseplugin; ?></li>
       <li><a href="<?php echo $parentPrefix; ?>jdeveloper-extension">JDeveloper Extension</a><?php echo $submenu_jdeveloperextension; ?></li>
       <li><a href="<?php echo $parentPrefix; ?>bluej-extension">BlueJ Extension</a><?php echo $submenu_bluejextension; ?></li>
+      <li><a href="<?php echo $parentPrefix; ?>mucommander-extension">MuCommander Ext.</a><?php echo $submenu_mucommanderextension; ?></li>
     </ul>
   </li>
   <li><div>Development</div>
@@ -56,6 +61,7 @@ if (!empty($prefix)) {
   </li>
   <li><div>Social</div>
     <ul class="submenu">
+      <li><a href="<?php echo $rootPrefix; ?>?comments">User Comments</a></li>
       <li><a class="urlextern" href="https://sourceforge.net/projects/bined/">SourceForge</a></li>
       <li><a class="urlextern" href="https://www.openhub.net/p/bined/">OpenHub</a></li>
       <li><a href="<?php echo $rootPrefix; ?>?similar-projects">Similar Projects</a></li>

@@ -13,7 +13,7 @@ function echoDownload($arr) {
 
 <p>Note: This plugin is very experimental. Please use other similar eclipse plugin for production use.</p>
 <ul><li>Very limited / poor integration</li>
-<li>Using wrapping Swing GUI in SWT dialogs - works only partial and depends on platform / java version</li>
+<li>Using wrapping of Swing GUI into SWT dialogs - works only partially depending on the platform / java version</li>
 </ul>
 
 <a name="downloads"><h2>Downloads</h2></a>

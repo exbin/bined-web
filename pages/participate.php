@@ -11,7 +11,7 @@
 
 <ul><li>Chat room: <a href="https://matrix.to/#/!MkfeTdJOiHgZDJnrQy:matrix.org?via=matrix.org">BinEd room</a> on <a href="https://riot.im">Riot.im</a></li>
 <li>Forum: <a href="https://sourceforge.net/p/bined/discussion/">Sourceforge.net discussion</a></li>
-<li>Contact: hajdamcz@<span style="display:none">(at)</span>gmail.com</li></ul>
+<li>Contact: exbinproject@<span style="display:none">(at)</span>gmail.com</li></ul>
 
 <a name="development-plan"><h2>Current Development Plan</h2></a>
 <p>Plan for version 0.2.1 is to implement some of the following improvements:</p>
