@@ -36,7 +36,7 @@ $old_releases[0][0]['icon'] = 'zip';
 $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 
 ?><div id="content">
-<a name="download"><h2>Download</h2></a>
+<h2 id="download">Download</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Library</td>
@@ -44,7 +44,7 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 </tr>
 </table>
 
-<a name="download"><h2>Latest Changes</h2></a>
+<h2 id="latest_changes">Latest Changes</h2>
 <p>
 <ul><li>Fixed behavior for high precision wheel scrolling</li>
 <li>Code colorization by byte value</li>
@@ -52,7 +52,7 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 <li>Various minor fixes</li>
 </ul></p>
 
-<a name="development"><h2>Development Version</h2></a>
+<h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>
 <table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
@@ -60,7 +60,7 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
   <td><?php echoDownload($downloads['library']['dev']); ?></td></tr>
 </table>
 
-<a name="older_releases"><h2>Older Releases</h2></a>
+<h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
 <tr>

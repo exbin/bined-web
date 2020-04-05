@@ -1,10 +1,10 @@
 <div id="content">
-<a name="features"><h2>List of Features</h2></a>
+<h2 id="features">List of Features</h2>
 <p>List of finished or considered features.</p>
 <p><span style="background-color: #8fff8f;">GREEN</span> - Feature implemented / working to some degree in current development version<br/>
 <span style="background-color: #ffbf8f;">ORANGE</span> - Work on feature started / partial or testing implementation underway<br/>
 </p>
-<p>
+
 <table class="features">
 <tr><th>Basic library</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Paged binary document</td><td class="features-done">DONE</td></tr>
@@ -71,7 +71,7 @@
 <tr><th>JavaFX implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Canvas version</td><td class="features-todo">PART</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Inner components version</td><td></td></tr>
-<tr><th>Lantern implementation</th><th></th></tr>
+<tr><th>Lanterna implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;TODO</td><td></td></tr>
 <tr><th>LibGDX implementation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;TODO</td><td></td></tr>
@@ -149,7 +149,7 @@
 <tr><th>Help pages and documentation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Main manual page</td><td class="features-todo">PART</td></tr>
 </table>
-</p>
+
 </div>
 </body>
 </html>

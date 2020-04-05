@@ -80,7 +80,7 @@ $old_releases[0][0]['icon'] = 'zip';
 $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 
 ?><div id="content">
-<a name="download"><h2>Download</h2></a>
+<h2 id="download">Download</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Editor</td>
@@ -88,7 +88,7 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 </tr>
 </table>
 
-<a name="download"><h2>Latest Changes</h2></a>
+<h2 id="latest_changes">Latest Changes</h2>
 <p>
 <ul><li>Renamed to BinEd</li>
 <li>Updated to newer version of library</li>
@@ -102,7 +102,7 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 <li>Support for ENTER key in preview section</li>
 </ul></p>
 
-<a name="development"><h2>Development Version</h2></a>
+<h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>
 <table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
@@ -110,7 +110,7 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
   <td><?php echoDownload($downloads['editor']['dev']); ?></td></tr>
 </table>
 
-<a name="older_releases"><h2>Older Releases</h2></a>
+<h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
 <tr>

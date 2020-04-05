@@ -152,27 +152,25 @@ $old_sources[0][0]['icon'] = 'zip';
 $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 
 ?><div id="content">
-<a name="download"><h2>Download</h2></a>
+<h2 id="download">Download</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Sources&nbsp;</th><th>Module Website&nbsp;</th></tr>
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['stb']); ?></td>
   <td><?php echoDownload($sources); ?></td>
-  <td><a href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td></tr>
+  <td><a href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td>
 </tr>
 </table>
 
-<a name="latest_chages"><h2>Latest Changes</h2></a>
-<p>
+<h2 id="latest_chages">Latest Changes</h2>
 <ul><li>Action to show debug variables as binary data</li>
 <li>Minor GUI improvements</li>
 <li>Context aware popup menu</li>
 <li>Go-to dialog position to support position from end</li>
 <li>Go-to dialog position to support different numerical bases</li>
 <li>Support for ENTER key in preview section</li></ul>
-</p>
 
-<a name="development"><h2>Development Version</h2></a>
+<h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>
 <table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
@@ -180,7 +178,7 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
   <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td></tr>
 </table>
 
-<a name="older_releases"><h2>Older Releases</h2></a>
+<h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
 <tr>

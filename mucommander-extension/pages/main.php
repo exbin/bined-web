@@ -5,7 +5,7 @@ function echoDownload($arr) {
     echo $value['prefix'].'<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
-<a name="variant"><h2>Variant: MuCommander Extension</h2></a>
+<h2 id="extension">Extension: MuCommander Extension</h2>
 
 <p>Binary/hexadecimal editor extension for <a href="https://www.mucommander.com">muCommander</a> written in Java.</p>
 <p>Use view on binary files.</p>

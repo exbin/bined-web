@@ -1,5 +1,5 @@
 <div id="content">
-<a name="contact"><h2>Donate</h2></a>
+<h2>Donate</h2>
 <p>You can support project by donating some money to be used for project development.</p>
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

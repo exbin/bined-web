@@ -2,7 +2,7 @@
 $prefix = '..';
 $submenu_library = '
 <ul><li><a href="?download">Download</a></li>
-<li><a href="?manual"><strike>Manual</strike></a></li>
+<li><a href="?manual"><del>Manual</del></a></li>
 <li><a href="?javadoc">JavaDoc</a></li></ul>';
 include('../header.php');
 $query = getenv('QUERY_STRING');

@@ -1,6 +1,6 @@
 <?php global $prefix, $submenu_android;
 $prefix = '..';
-$submenu_android = '<ul><li><a href="?manual"><strike>Manual</strike></a></li></ul>';
+$submenu_android = '<ul><li><a href="?manual"><del>Manual</del></a></li></ul>';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

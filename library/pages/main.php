@@ -5,12 +5,12 @@ function echoDownload($arr) {
     echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
-<a name="variant"><h2>Variant: Library</h2></a>
+<h2 id="variant">Variant: Library</h2>
 
 <p>Free and open source library for hexadecimal component written in Java.</p>
 <p><img src="../images/example_screenshot.png" alt="Example usage screenshot" title="Example usage screenshot"/></p>
 
-<a name="downloads"><h2>Downloads</h2></a>
+<h2 id="downloads">Downloads</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
 <tr><td>Library</td>
@@ -19,10 +19,10 @@ function echoDownload($arr) {
 </table>
 
 <h2>Features</h2>
-<p><ul>
+<ul>
 <li>Visualize data as numerical (hexadecimal) codes and text representation</li>
 <li>Codes can be also binary, octal or decimal</li>
-<li>Insert and overwrite edit modes</span></li>
+<li>Insert and overwrite edit modes</li>
 <li>Support for selection and clipboard actions</li>
 <li>Scrollbars fixed or optional, character/line or pixel precision</li>
 <li>Support for showing unprintable/whitespace characters</li>
@@ -31,16 +31,19 @@ function echoDownload($arr) {
 <li>Searching for text / hexadecimal code with matching highlighting</li>
 <li>Support for data sources up to exabytes</li>
 <li>Delta mode - Only changes are stored in memory</li>
-</ul></p>
+</ul>
 
-<a name="usage"><h2>Usage</h2></a>
+<h2 id="usage">Usage</h2>
 <p>Example component usage screenshot:</p>
 <p><img src="images/example_screenshot.png" alt="Example screenshot" title="Example screenshot"/></p>
 
 <p>You can use this component for your own project using one of the following methods:</p>
+
 <ul><li>Download library and include it with your project</li>
 <li>Download sources and modify it for your needs</li>
-<li>Import library using Maven: <strong>org.exbin.deltahex:deltahex-swing:0.1.2</strong></li></ul></p>
+<li>Import library using Maven: <strong>org.exbin.deltahex:deltahex-swing:0.1.2</strong>
+</li></ul>
+
 <p>To use the component, create new instance and fill it with some data.</p>
 <div class="code_example">
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">public</span> <span style="color: #008800; font-weight: bold">class</span> <span style="color: #BB0066; font-weight: bold">DeltaHexExample</span> <span style="color: #333333">{</span>
@@ -57,7 +60,7 @@ function echoDownload($arr) {
 </pre></div>
 </div>
 
-<a name="source_codes"><h2>Source Codes</h2></a>
+<h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
 <tr><th>GitHub Repository&nbsp;</th></tr>
 <tr><td><a href="https://github.com/exbin/bined-lib-java" title="GitHub repository"><img src="../images/social/github.png" alt="[GitHub]"/> exbin/bined-lib-java</a></td></tr>

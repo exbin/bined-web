@@ -6,7 +6,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2019-08-18';
       $dev_ver = '0.2.1';
-      $dev_date = '2020-01-26';
+      $dev_date = '2020-03-25';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -96,7 +96,7 @@
       $stb_ver = '0.1.3';
       $stb_date = '2017-10-22';
       $dev_ver = '0.2.0';
-      $dev_date = '2020-01-26';
+      $dev_date = '2020-03-25';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -143,7 +143,7 @@
       $stb_ver = '0.2.2';
       $stb_date = '2020-01-25';
       $dev_ver = '0.2.3';
-      $dev_date = '2020-03-09';
+      $dev_date = '2020-03-21';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

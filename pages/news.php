@@ -6,7 +6,7 @@
 <p>This is part of the <a href="http://exbin.org">ExBin Project</a>.</p>
 <p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
-<a name="latest_comment"><h2>Latest User Comment</h2></a>
+<h2 id="latest_comment">Latest User Comment</h2>
 <?php
 function getline($fl) {
   $fp = @fgets($fl, 65536);
@@ -42,9 +42,9 @@ if ($count == 0) {
 ?>
 <p>See <a href="?comments">more comments</a>. Add <a href="?add-comment">new comment</a>.</p>
 
-<a name="news"><h2>News</h2></a>
+<h2 id="news">News</h2>
 <ul>
-<li><strong>2020-01-25:</strong> BinEd IntelliJ Plugin 0.2.2 Released<p>
+<li><p><strong>2020-01-25:</strong> BinEd IntelliJ Plugin 0.2.2 Released</p>
 <ul><li>Minor GUI improvements</li>
 <li>Support for multiple decoders in debugging view</li>
 <li>Display the number of bytes selected</li>
@@ -53,18 +53,18 @@ if ($count == 0) {
 <li>Fixed NullPointerException when trying to hex-view bytearray in Debug mode</li>
 <li>Fixed Editor stops responding when I use Find</li>
 <li>Fixed Cursor position is lost if you switch tabs</li>
-</ul></p></li>
+</ul></li>
 
-<li><strong>2019-09-04:</strong> BinEd NetBeans Plugin 0.2.1 Released<p>
+<li><p><strong>2019-09-04:</strong> BinEd NetBeans Plugin 0.2.1 Released</p>
 <ul><li>Action to show debug variables as binary data</li>
 <li>Minor GUI improvements</li>
 <li>Context aware popup menu</li>
 <li>Go-to dialog position to support position from end</li>
 <li>Go-to dialog position to support different numerical bases</li>
 <li>Support for ENTER key in preview section</li>
-</ul></p></li>
+</ul></li>
 
-<li><strong>2019-08-22:</strong> BinEd IntelliJ Plugin 0.2.1 Released<p>
+<li><p><strong>2019-08-22:</strong> BinEd IntelliJ Plugin 0.2.1 Released</p>
 <ul><li>Minor GUI improvements</li>
 <li>Context aware popup menu</li>
 <li>Go-to dialog position to support position from end</li>
@@ -72,9 +72,9 @@ if ($count == 0) {
 <li>Support for ENTER key in preview section</li>
 <li>Minor fix to view of native Java debug values</li>
 <li>Minor fix to integration</li>
-</ul></p></li>
+</ul></li>
 
-<li><strong>2019-08-18:</strong> BinEd 0.2.0 Released<p>
+<li><p><strong>2019-08-18:</strong> BinEd 0.2.0 Released</p>
 <ul><li>Renamed to BinEd</li>
 <li>Updated to newer version of library</li>
 <li>Support for half-size space</li>
@@ -85,12 +85,12 @@ if ($count == 0) {
 <li>Go-to dialog position to support position from end</li>
 <li>Go-to dialog position to support different numerical bases</li>
 <li>Support for ENTER key in preview section</li>
-</ul></p></li>
+</ul></li>
 
-<li><strong>2019-08-15:</strong> BinEd JDeveloper Extension 0.2.0.1 Released<p>
+<li><p><strong>2019-08-15:</strong> BinEd JDeveloper Extension 0.2.0.1 Released</p>
 <ul><li>Fixed issue with limitation to single editor only</li>
 <li>Added legacy version for 11g</li>
-</ul></p></li>
+</ul></li>
 </ul>
 
 <p>See list of <a href="?older-news">older news</a>.</p>

@@ -1,6 +1,6 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
-$submenu_bluejextension = '<ul><li><a href="?manual"><strike>Manual</strike></a></li></ul>';
+$submenu_bluejextension = '<ul><li><a href="?manual"><del>Manual</del></a></li></ul>';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

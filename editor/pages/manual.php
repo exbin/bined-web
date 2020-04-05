@@ -1,12 +1,12 @@
 <div id="content">
-<a name="manual"><h2>Editor Manual</h2></a>
+<h2 id="manual">Editor Manual</h2>
 
 <p>BinEd is editor for binary files or other general data.</p>
 <p style="color: red; font-weight: bold;">Manual is under construction!</p>
 
 <p>In basic mode, data are shown as matrix of numeric codes and also as regular text at the same time.</p>
 
-<center><img alt="[overview]" src="images/0.2.0/overview.png"/></center>
+<p><img alt="[overview]" src="images/0.2.0/overview.png" class="center" /></p>
 
 <p>Application consists of (from top to bottom):</p>
 
@@ -46,11 +46,11 @@
 
 <p>User can set list of encodings available for quick switching in encodings manager dialog.</p>
 
-<center><img alt="[manage_encodings_dialog]" src="images/0.2.0/manage_encodings_dialog.png"/></center>
+<p><img alt="[manage_encodings_dialog]" src="images/0.2.0/manage_encodings_dialog.png" class="center" /></p>
 
 <p>It's possible to move/reorder encodings in the list and add another encoding.<br/>
 
-<center><img alt="[add_encoding_dialog]" src="images/0.2.0/add_encoding_dialog.png"/></center>
+<p><img alt="[add_encoding_dialog]" src="images/0.2.0/add_encoding_dialog.png" class="center" /></p>
 
 <p>Encodings can be filtered by name and/or country code.</p>
 
@@ -65,7 +65,6 @@
 <h4>Colors</h4>
 <p>It is possible to specify colors of text, background, decorations and make it specific for areas like selection or found matches.</p>
 
-</p>
 </div>
 </body>
 </html>

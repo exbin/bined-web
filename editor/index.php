@@ -3,7 +3,7 @@ $prefix = '..';
 $submenu_editor =
 '<ul><li><a href="?download">Download</a></li>
 <li><a href="?manual">Manual</a></li>
-<li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=bug">Report Bug</a</li>
+<li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=bug">Report Bug</a></li>
 <li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=enhancement">Request Feature</a></li></ul>';
 
 include('../header.php');
