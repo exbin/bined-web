@@ -9,6 +9,11 @@ if (!empty($prefix)) {
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="ExBin Project, http://exbin.org"/>
+<meta name="copyright" content="ExBin Project, http://exbin.org"/>
+<meta name="description" content="BinEd Binary Editor project webpage"/>
+<meta name="keywords" content="binary, hexadecimal, hexedit, viewer, editor, java"/>
+<meta name="robots" content="index,follow"/>
 <link rel="SHORTCUT ICON" href="bined.ico" />
 <link href="<?php echo $parentPrefix; ?>css/site.css" rel="stylesheet">
 <title>BinEd - Binary Editor</title>

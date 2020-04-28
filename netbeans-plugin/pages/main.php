@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h2 id="extension">Extension: NetBeans Plugin</h2>
 
-<p>Binary/hexadecimal editor plugin for <a href="http://netbeans.apache.org/">NetBeans IDE and NetBeans Platform</a> written in Java.</p>
+<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="http://netbeans.apache.org/">NetBeans IDE and NetBeans Platform</a> written in Java.</p>
 <p><img src="images/netbeans-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <h2 id="downloads">Downloads</h2>

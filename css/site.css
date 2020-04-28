@@ -1,9 +1,11 @@
-html, body {
+html {
     background-color: #fff;
     color: #333;
     font-size: 17px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
 
+body {
     float: center;
     margin: 0 auto;
     padding: 0 15px;

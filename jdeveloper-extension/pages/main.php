@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h2 id="extension">Extension: JDeveloper Extension</h2>
 
-<p>Binary/hexadecimal editor plugin for <a href="https://www.oracle.com/technologies/developer-tools/jdeveloper/jdeveloper.html">Oracle JDeveloper</a> and <a href="https://www.oracle.com/database/technologies/appdev/sql-developer.html">SQLDeveloper</a> written in Java.</p>
+<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="https://www.oracle.com/technologies/developer-tools/jdeveloper/jdeveloper.html">Oracle JDeveloper</a> and <a class="urlextern" href="https://www.oracle.com/database/technologies/appdev/sql-developer.html">SQLDeveloper</a> written in Java.</p>
 <p>Use <strong>"Open as Binary"</strong> from File menu or in context menu.</p>
 
 <p><img src="images/jdeveloper-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>

@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h2 id="extension">Extension: MuCommander Extension</h2>
 
-<p>Binary/hexadecimal editor extension for <a href="https://www.mucommander.com">muCommander</a> written in Java.</p>
+<p>Binary/hexadecimal editor extension for <a class="urlextern" href="https://www.mucommander.com">muCommander</a> written in Java.</p>
 <p>Use view on binary files.</p>
 
 <p><img src="images/mucommander-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>

@@ -6,7 +6,7 @@ function echoDownload($arr) {
   }
 } ?><div id="content">
 <h2 id="extension">Extension: Eclipse Plugin</h2>
-<p>Binary/hexadecimal editor plugin for <a href="https://www.eclipse.org/">Eclipse IDE</a> written in Java.</p>
+<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="https://www.eclipse.org/">Eclipse IDE</a> written in Java.</p>
 <p><img src="images/eclipse-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 
 <p>To install use update site or copy to eclipse/dropins and use Open with/Other - BinEd Editor.</p>

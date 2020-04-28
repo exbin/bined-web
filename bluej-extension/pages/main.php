@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h2 id="extension">Extension: BlueJ Extension</h2>
 <p>Hexadecimal editor extension for BlueJ written in Java.</p>
-<p>See <a href="https://bluej.org/extensions/extensions.html">BlueJ Extensions</a> page for installation instruction.</p>
+<p>See <a class="urlextern" href="https://bluej.org/extensions/extensions.html">BlueJ Extensions</a> page for installation instruction.</p>
 <p><img src="images/bluej-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 
 <h2 id="downloads">Downloads</h2>
