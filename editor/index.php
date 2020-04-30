@@ -6,6 +6,7 @@ $submenu_editor =
 <li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=bug">Report Bug</a></li>
 <li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=enhancement">Request Feature</a></li></ul>';
 
+$childIndex = 'editor';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

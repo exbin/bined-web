@@ -3,6 +3,7 @@ $prefix = '..';
 $submenu_intellijplugin = '
 <ul><li><a href="?download">Download</a></li>
 <li><a href="?manual"><del>Manual</del></a></li></ul>';
+$childIndex = 'intellij-plugin';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

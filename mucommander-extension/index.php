@@ -1,6 +1,7 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
 $submenu_mucommanderextension = '<ul><li><a href="?manual"><del>Manual</del></a></li></ul>';
+$childIndex = 'mucommander-extension';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

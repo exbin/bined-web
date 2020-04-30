@@ -4,6 +4,7 @@ $submenu_library = '
 <ul><li><a href="?download">Download</a></li>
 <li><a href="?manual"><del>Manual</del></a></li>
 <li><a href="?javadoc">JavaDoc</a></li></ul>';
+$childIndex = 'library';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

@@ -1,6 +1,7 @@
 <?php global $prefix, $submenu_android;
 $prefix = '..';
 $submenu_android = '<ul><li><a href="?manual"><del>Manual</del></a></li></ul>';
+$childIndex = 'android';
 include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {
