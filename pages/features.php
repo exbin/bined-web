@@ -1,5 +1,5 @@
 <div id="content">
-<h2 id="features">List of Features</h2>
+<h1 id="features">List of Features</h1>
 <p>List of finished or considered features.</p>
 <p><span style="background-color: #8fff8f;">GREEN</span> - Feature implemented / working to some degree in current development version<br/>
 <span style="background-color: #ffbf8f;">ORANGE</span> - Work on feature started / partial or testing implementation underway<br/>

@@ -1,5 +1,5 @@
 <div id="content">
-<h2 id="about">About</h2>
+<h1 id="about">About</h1>
 <p>BinEd is a hobby project to create viewer/editor for binary data (hexadecimal editor) in Java.</p>
 <p>Goals are:</p>
 <ul>

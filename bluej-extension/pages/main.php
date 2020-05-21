@@ -5,8 +5,8 @@ function echoDownload($arr) {
     echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
-<h2 id="extension">Extension: BlueJ Extension</h2>
-<p>Hexadecimal editor extension for BlueJ written in Java.</p>
+<h1 id="extension">Extension: BlueJ Extension</h1>
+<p>Binary/hexadecimal editor extension for BlueJ written in Java.</p>
 <p>See <a class="urlextern" href="https://bluej.org/extensions/extensions.html">BlueJ Extensions</a> page for installation instruction.</p>
 <p><img src="images/bluej-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 

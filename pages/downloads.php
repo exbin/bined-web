@@ -5,11 +5,12 @@ function echoDownload($arr) {
     echo $value['prefix'].'<a href="download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
-<h2 id="downloads">Downloads</h2>
+<h1 id="downloads">Downloads</h1>
+<p>Primary editor downloads:</p>
 <p>
 <a href="download/?<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green"><img src="images/filetypes/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download Installer (Windows)</a>&nbsp;
 <a href="download/?<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green"><img src="images/filetypes/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;Download ZIP (Other platforms)</a></p>
-<h3 id="other_downloads">Other stable downloads</h3>
+<h2 id="stable_downloads">Stable downloads</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Editor</td>

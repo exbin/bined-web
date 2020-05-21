@@ -152,7 +152,7 @@ $old_sources[0][0]['icon'] = 'zip';
 $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 
 ?><div id="content">
-<h2 id="download">Download</h2>
+<h1 id="download">Download</h1>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th>Sources&nbsp;</th><th>Module Website&nbsp;</th></tr>
 <tr><td>NetBeans Platform Plugin</td>

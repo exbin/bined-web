@@ -5,7 +5,7 @@ function echoDownload($arr) {
     echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
-<h2 id="variant">Variant: Android App</h2>
+<h1 id="variant">Variant: Android App</h1>
 <p>Free and open source basic hexadecimal editor for Android written in Java.</p>
 <p><img src="images/android_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 

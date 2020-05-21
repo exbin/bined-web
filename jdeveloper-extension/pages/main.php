@@ -5,7 +5,7 @@ function echoDownload($arr) {
     echo $value['prefix'].'<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
-<h2 id="extension">Extension: JDeveloper Extension</h2>
+<h1 id="extension">Extension: JDeveloper Extension</h1>
 
 <p>Binary/hexadecimal editor plugin for <a class="urlextern" href="https://www.oracle.com/technologies/developer-tools/jdeveloper/jdeveloper.html">Oracle JDeveloper</a> and <a class="urlextern" href="https://www.oracle.com/database/technologies/appdev/sql-developer.html">SQLDeveloper</a> written in Java.</p>
 <p>Use <strong>"Open as Binary"</strong> from File menu or in context menu.</p>

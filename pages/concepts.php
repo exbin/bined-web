@@ -1,5 +1,5 @@
 <div id="content">
-<h2 id="concepts">Concepts</h2>
+<h1 id="concepts">Concepts</h1>
 
 <p>This project was started to create component/editor supporting various features which was not available in other libraries or was not available under similar license.</p>
 <p>While some of the concepts are partially implemented, majority of them is <strong>planned for future development</strong>.</p>

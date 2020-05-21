@@ -1,5 +1,6 @@
 <div id="content">
-<h2 id="source-codes">Sources Codes</h2>
+<h1 id="source-codes">Sources Codes</h1>
+
 <table class="downloads">
 <tr><th>Variant&nbsp;</th><th>Repository&nbsp;</th></tr>
 <tr><td>Editor (Java)</td><td><a href="https://github.com/exbin/bined" title="GitHub repository"><img src="images/social/github.png" alt="[GitHub]"/> exbin/bined</a></td></tr>
@@ -13,6 +14,7 @@
 <tr><th>Others&nbsp;</th><th>Repository&nbsp;</th></tr>
 <tr><td>Web Site</td><td><a href="https://github.com/exbin/bined-web" title="GitHub repository"><img src="images/social/github.png" alt="[GitHub]"/> exbin/bined-web</a></td></tr>
 </table>
+
 </div>
 </body>
 </html>

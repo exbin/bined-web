@@ -36,7 +36,7 @@ $old_releases[0][0]['icon'] = 'zip';
 $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 
 ?><div id="content">
-<h2 id="download">Download</h2>
+<h1 id="download">Download</h1>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Library</td>

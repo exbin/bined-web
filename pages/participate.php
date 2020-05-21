@@ -1,5 +1,5 @@
 <div id="content">
-<h2 id="participate">Participate</h2>
+<h1 id="participate">Participate</h1>
 <p>There are various ways how you can contribute to this project:</p>
 
 <p>Programmers: Primary programming language is Java. There are many tasks to work on. See for example <a href="?features">features list</a>.</p>

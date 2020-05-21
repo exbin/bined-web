@@ -1,10 +1,10 @@
 <div id="content">
-<h2>Other Similar Projects</h2>
+<h1>Other Similar Projects</h1>
 
 <p>If you are searching for hexadecimal editor/component in Java, but you don't like BinEd, there is list of some alternatives below.</p>
 <p>Note: Projects were considered to build upon before BinEd library was created, some were found after project was started</p>
 
-<h3>Java Hexadecimal Components/Editors</h3>
+<h2>Java Hexadecimal Components/Editors</h2>
 
 <table class="table">
 <tr><th>Project Name</th><th>Description</th><th>License</th><th>GUI</th><th>Author</th></tr>

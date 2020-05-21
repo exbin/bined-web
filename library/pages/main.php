@@ -5,7 +5,7 @@ function echoDownload($arr) {
     echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
-<h2 id="variant">Variant: Library</h2>
+<h1 id="variant">Variant: Library</h1>
 
 <p>Free and open source library for hexadecimal component written in Java.</p>
 <p><img src="../images/example_screenshot.png" alt="Example usage screenshot" title="Example usage screenshot"/></p>

@@ -1,5 +1,5 @@
 <div id="content">
-<h2 id="javadoc">JavaDoc</h2>
+<h1 id="javadoc">JavaDoc</h1>
 <p>Documentation of library generated from source codes.</p>
 
 <p>Version 0.1.3</p>
