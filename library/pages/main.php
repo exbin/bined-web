@@ -63,7 +63,7 @@ function echoDownload($arr) {
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
 <tr><th>GitHub Repository&nbsp;</th></tr>
-<tr><td><a href="https://github.com/exbin/bined-lib-java" title="GitHub repository"><img src="../images/social/github.png" alt="[GitHub]"/> exbin/bined-lib-java</a></td></tr>
+<tr><td><a href="https://github.com/exbin/bined-lib-java" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/bined-lib-java</a></td></tr>
 </table>
 
 </div>

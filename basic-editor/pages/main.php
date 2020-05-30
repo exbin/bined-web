@@ -10,6 +10,8 @@ function echoDownload($arr) {
 <p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <p>Basic minimalist version provided as single jar.</p>
+<p>Java version 8 or later must be installed. To run use "java -jar filename.jar" or in some operation systems jar files can be executed directly.</p>
+
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
