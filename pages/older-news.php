@@ -1,6 +1,11 @@
 <div id="content">
 <h1 id="older_news">Older News</h1>
 <ul>
+<li><p><strong>2019-08-15:</strong> BinEd JDeveloper Extension 0.2.0.1 Released</p>
+<ul><li>Fixed issue with limitation to single editor only</li>
+<li>Added legacy version for 11g</li>
+</ul></li>
+
 <li><p><strong>2019-08-13:</strong> BinEd JDeveloper Extension 0.2.0 Released</p>
 <ul><li>Initial release</li>
 </ul></li>

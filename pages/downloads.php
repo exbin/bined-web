@@ -40,6 +40,9 @@ function echoDownload($arr) {
 <tr><td>BlueJ Extension</td>
   <td><?php echoDownload($downloads['bluej-extension']['stb']); ?></td>
   <td>-</td></tr>
+<tr><td>jEdit Plugin</td>
+  <td>-</td>
+  <td>-</td></tr>
 </table>
 <h3 id="plugins">Plugins</h3>
 <p>Following plugins work only for standard version.</p>
@@ -84,6 +87,9 @@ function echoDownload($arr) {
   <td>-</td></tr>
 <tr><td>BlueJ Extension</td>
   <td><?php echoDownload($downloads['bluej-extension']['dev']); ?></td>
+  <td>-</td></tr>
+<tr><td>jEdit Plugin</td>
+  <td><?php echoDownload($downloads['jedit-plugin']['dev']); ?></td>
   <td>-</td></tr>
 </table>
 

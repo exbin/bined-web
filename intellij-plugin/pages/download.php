@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.2';
+$ver = '0.2.3';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.2';
+$date = '2020-01-25';
+
+$old_releases[11][0]['name'] = 'Plugin';
+$old_releases[11][0]['ver'] = $ver;
+$old_releases[11][0]['date'] = $date;
+$old_releases[11][0]['icon'] = 'zip';
+$old_releases[11][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[11][0]['name'] = 'Sources';
+$old_sources[11][0]['ver'] = $ver;
+$old_sources[11][0]['icon'] = 'zip';
+$old_sources[11][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $ver = '0.2.1';
 $date = '2019-08-22';
@@ -206,6 +220,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[11][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[11]); ?></td>
+  <td><?php echoDownload($old_sources[11]); ?></td>
+</tr>
 <tr>
   <td>IntelliJ Platform Plugin <?php echo $old_releases[10][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[10]); ?></td>

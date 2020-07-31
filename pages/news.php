@@ -44,6 +44,11 @@ if ($count == 0) {
 
 <h2 id="news">News</h2>
 <ul>
+<li><p><strong>2020-07-30:</strong> BinEd IntelliJ Plugin 0.2.3 Released</p>
+<ul><li>Fixed debugger array support for PHP</li>
+<li>Added binary file type</li>
+</ul></li>
+
 <li><p><strong>2020-01-25:</strong> BinEd IntelliJ Plugin 0.2.2 Released</p>
 <ul><li>Minor GUI improvements</li>
 <li>Support for multiple decoders in debugging view</li>
@@ -85,11 +90,6 @@ if ($count == 0) {
 <li>Go-to dialog position to support position from end</li>
 <li>Go-to dialog position to support different numerical bases</li>
 <li>Support for ENTER key in preview section</li>
-</ul></li>
-
-<li><p><strong>2019-08-15:</strong> BinEd JDeveloper Extension 0.2.0.1 Released</p>
-<ul><li>Fixed issue with limitation to single editor only</li>
-<li>Added legacy version for 11g</li>
 </ul></li>
 </ul>
 

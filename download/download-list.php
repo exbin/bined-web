@@ -140,10 +140,10 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.2';
-      $stb_date = '2020-01-25';
+      $stb_ver = '0.2.3';
+      $stb_date = '2020-07-30';
       $dev_ver = '0.2.3';
-      $dev_date = '2020-05-02';
+      $dev_date = '2020-07-30';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -168,7 +168,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2019-08-11';
       $dev_ver = '0.2.1';
-      $dev_date = '2020-02-01';
+      $dev_date = '2020-06-18';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -239,6 +239,28 @@
       $variants['dev'][0]['file'] = 'bined-bluej-extension-'.$dev_ver.'-SNAPSHOT.jar';
 
       $result['bluej-extension'] = $variants;
+    }
+
+    if ($group == 'jedit-plugin' || is_null($group)) {
+      $variants = array();
+      $stb_ver = '0.2.0';
+      $stb_date = '2020-05-31';
+      $dev_ver = '0.2.0';
+      $dev_date = '2020-06-06';
+
+      $variants['stb'][0]['name'] = 'Plugin';
+      $variants['stb'][0]['ver'] = $stb_ver;
+      $variants['stb'][0]['date'] = $stb_date;
+      $variants['stb'][0]['icon'] = 'zip';
+      $variants['stb'][0]['file'] = 'bined-jedit-plugin-'.$stb_ver.'.zip';
+
+      $variants['dev'][0]['name'] = 'Plugin';
+      $variants['dev'][0]['ver'] = $dev_ver;
+      $variants['dev'][0]['date'] = $dev_date;
+      $variants['dev'][0]['icon'] = 'zip';
+      $variants['dev'][0]['file'] = 'bined-jedit-plugin-'.$dev_ver.'-SNAPSHOT.zip';
+
+      $result['jedit-plugin'] = $variants;
     }
 
     return $result;

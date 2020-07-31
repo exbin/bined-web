@@ -63,6 +63,7 @@ if (!empty($prefix)) {
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/features.png');" href="<?php echo $rootPrefix; ?>?features">Features</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/lightning.png');" href="<?php echo $rootPrefix; ?>?concepts">Concepts</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/source-code.png');" href="<?php echo $rootPrefix; ?>?source-codes">Source Codes</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/user_red.png');" href="<?php echo $rootPrefix; ?>?authors">Authors</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/money.png');" href="<?php echo $rootPrefix; ?>?donate">Donate</a></li>
     </ul>
   </li>

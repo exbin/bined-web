@@ -9,7 +9,7 @@
 
 <h2 id="contact">Contact</h2>
 
-<ul><li>Chat room: <a class="urlextern" href="https://matrix.to/#/!MkfeTdJOiHgZDJnrQy:matrix.org?via=matrix.org">BinEd room</a> on <a class="urlextern" href="https://riot.im">Riot.im</a></li>
+<ul><li>Chat room: <a class="urlextern" href="https://matrix.to/#/!MkfeTdJOiHgZDJnrQy:matrix.org?via=matrix.org">BinEd room</a> on <a class="urlextern" href="https://element.io">Element.io</a></li>
 <li>Forum: <a class="urlextern" href="https://sourceforge.net/p/bined/discussion/">Sourceforge.net discussion</a></li>
 <li>Contact: exbinproject@<span style="display:none">(at)</span>gmail.com</li></ul>
 
