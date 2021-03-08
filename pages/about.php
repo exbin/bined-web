@@ -23,10 +23,7 @@
 <p>Detailed <a href="?features">list of features</a>.</p>
 
 <h2 id="license">License</h2>
-<ul>
-  <li>Library, plugins and extensions: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li>
-  <li>Editor framework: <a href="https://www.gnu.org/licenses/lgpl-3.0.en.html">GNU Lesser General Public License v3.0</a></li>
-</ul>
+<p><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
 
 </div>
 </body>

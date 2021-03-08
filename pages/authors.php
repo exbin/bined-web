@@ -8,10 +8,15 @@ Website: <a href="https://hajdam.zdechov.net">https://hajdam.zdechov.net</a></p>
 
 <h2 id="logo">Logo</h2>
 <p>BinEd logo is modified ExBin logo created by:</p>
-<p>Author: Nikash SINGH<br/>
+<p>Logo: <a href="images/logo/bined-logo.png">[PNG]</a> <a href="images/logo/bined-logo.svg">[SVG]</a><br/>
+Author: Nikash SINGH<br/>
 Location: Sydney, Australia<br/>
 Website: <a href="http://nikashsingh.org">http://nikashsingh.org</a><br/>
 License: Creative Commons BY-NC 4.0</p>
+
+<h2 id="icon">Icon</h2>
+<p>Icon for android and desktop app was asked for at <a href="https://opensourcedesign.net/jobs/jobs/2021-02-19-android-and-desktop-icon-for-hexadecimal-editor">Open Source Design</a>.</p>
+<p><a href="?icon-proposals">List of proposals</a> so far.</p>
 
 </div>
 </body>
