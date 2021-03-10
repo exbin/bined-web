@@ -15,8 +15,13 @@ Website: <a href="http://nikashsingh.org">http://nikashsingh.org</a><br/>
 License: Creative Commons BY-NC 4.0</p>
 
 <h2 id="icon">Icon</h2>
-<p>Icon for android and desktop app was asked for at <a href="https://opensourcedesign.net/jobs/jobs/2021-02-19-android-and-desktop-icon-for-hexadecimal-editor">Open Source Design</a>.</p>
-<p><a href="?icon-proposals">List of proposals</a> so far.</p>
+<p>BinEd icon was created by:</p>
+<p>Icon: <a href="images/icon/bined-icon.png">[PNG]</a> <a href="images/icon/bined-icon.png">[SVG]</a><br/>
+Author: Reza Almanda<br/>
+Website: <a href="http://saintifia.com">http://saintifia.com</a><br/>
+License: Apache License v2</p>
+
+<p><a href="?icon-proposals">List of other icon proposals</a>.</p>
 
 </div>
 </body>
