@@ -22,7 +22,7 @@
 <img src="images/icon/tuxgoo/preview2.png" width="64" height="64"/>
 </p>
 
-<p><strong>Reza Almanda</strong> (<a href="http://saintifia.com">saintifia.com</a>)<br/><br/>
+<p><strong>Reza Almanda</strong> (<a href="https://rezaalmanda.github.io/">GitHub</a>)<br/><br/>
 <img src="images/icon/saintifia/alternatif_1.png" width="64" height="64"/>
 <img src="images/icon/saintifia/alternatif_2.png" width="64" height="64"/>
 <img src="images/icon/saintifia/alternatif_3.png" width="64" height="64"/>
