@@ -2,7 +2,7 @@
 <h1 id="authors">Authors</h1>
 <p>List of people involved with development of this project:</p>
 
-<h2 id="software">Software Development</h2>
+<h2 id="code">Code</h2>
 <p>Miroslav Hajda<br/>
 Website: <a href="https://hajdam.zdechov.net">https://hajdam.zdechov.net</a></p>
 

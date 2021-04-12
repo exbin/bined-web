@@ -1,4 +1,4 @@
-<?php global $prefix, $submenu_editor;
+<?php global $prefix;
 $prefix = '..';
 $submenu_jdeveloperextension = '<ul><li><a href="?manual"><del>Manual</del></a></li></ul>';
 $childIndex = 'jdeveloper-extension';

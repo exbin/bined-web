@@ -19,6 +19,8 @@ function echoDownload($arr) {
 </tr>
 </table>
 
+<p><iframe style="border: none;" frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/9339" target="_blank"></iframe></p>
+
 <h2 id="published">Published</h2>
 <table class="table">
 <tr><th>Module Website&nbsp;</th></tr>

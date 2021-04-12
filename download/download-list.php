@@ -6,7 +6,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2019-08-18';
       $dev_ver = '0.2.1';
-      $dev_date = '2021-01-18';
+      $dev_date = '2021-03-15';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -77,16 +77,16 @@
 
     if ($group == 'android' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2018-06-12';
-      $dev_ver = '';
-      $dev_date = '';
+      $stb_ver = '';
+      $stb_date = '';
+      $dev_ver = '0.2.0';
+      $dev_date = '2021-03-16';
 
       $variants['dev'][0]['name'] = 'Android App';
-      $variants['dev'][0]['ver'] = $stb_ver;
-      $variants['dev'][0]['date'] = $stb_date;
+      $variants['dev'][0]['ver'] = $dev_ver;
+      $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'android';
-      $variants['dev'][0]['file'] = 'bined-android-'.$stb_ver.'-SNAPSHOT.apk';
+      $variants['dev'][0]['file'] = 'bined-android-'.$dev_ver.'-SNAPSHOT.apk';
 
       $result['android'] = $variants;
     }
@@ -140,10 +140,10 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.3';
-      $stb_date = '2020-07-30';
+      $stb_ver = '0.2.4';
+      $stb_date = '2021-04-11';
       $dev_ver = '0.2.4';
-      $dev_date = '2020-12-06';
+      $dev_date = '2021-04-10';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

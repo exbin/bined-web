@@ -44,6 +44,11 @@ if ($count == 0) {
 
 <h2 id="news">News</h2>
 <ul>
+<li><p><strong>2021-04-11:</strong> BinEd IntelliJ Plugin 0.2.4 Released</p>
+<ul><li>Added string field in values panel</li>
+<li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>
+</ul></li>
+
 <li><p><strong>2020-07-30:</strong> BinEd IntelliJ Plugin 0.2.3 Released</p>
 <ul><li>Fixed debugger array support for PHP</li>
 <li>Added binary file type</li>
@@ -79,18 +84,6 @@ if ($count == 0) {
 <li>Minor fix to integration</li>
 </ul></li>
 
-<li><p><strong>2019-08-18:</strong> BinEd 0.2.0 Released</p>
-<ul><li>Renamed to BinEd</li>
-<li>Updated to newer version of library</li>
-<li>Support for half-size space</li>
-<li>Support for layout, theme and colors profiles</li>
-<li>Added support for different numerical bases in status bar</li>
-<li>Configurable address margin</li>
-<li>Context aware popup menu</li>
-<li>Go-to dialog position to support position from end</li>
-<li>Go-to dialog position to support different numerical bases</li>
-<li>Support for ENTER key in preview section</li>
-</ul></li>
 </ul>
 
 <p>See list of <a href="?older-news">older news</a>.</p>

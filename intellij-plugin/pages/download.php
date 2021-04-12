@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.3';
+$ver = '0.2.4';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.3';
+$date = '2020-07-30';
+
+$old_releases[12][0]['name'] = 'Plugin';
+$old_releases[12][0]['ver'] = $ver;
+$old_releases[12][0]['date'] = $date;
+$old_releases[12][0]['icon'] = 'zip';
+$old_releases[12][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[12][0]['name'] = 'Sources';
+$old_sources[12][0]['ver'] = $ver;
+$old_sources[12][0]['icon'] = 'zip';
+$old_sources[12][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $ver = '0.2.2';
 $date = '2020-01-25';
@@ -198,14 +212,8 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Minor GUI improvements</li>
-<li>Support for multiple decoders in debugging view</li>
-<li>Display the number of bytes selected</li>
-<li>Fixed opening via dialog crashes IntelliJ (mac)</li>
-<li>Fixed "HIDE_DEFAULT_EDITOR is supported only for DumbAware providers" error message</li>
-<li>Fixed NullPointerException when trying to hex-view bytearray in Debug mode</li>
-<li>Fixed Editor stops responding when I use Find</li>
-<li>Fixed Cursor position is lost if you switch tabs</li>
+<ul><li>Added string field in values panel</li>
+<li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>
 </ul>
 
 <h2 id="development">Development Version</h2>

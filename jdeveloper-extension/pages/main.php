@@ -20,6 +20,8 @@ function echoDownload($arr) {
   <li>No integration with save/undo operations</li>
 </ul>
 
+<p>JDeveloper <a href="https://community.oracle.com/thread/4285760">community thread</a> about this extension.</p>
+
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>

@@ -1,6 +1,19 @@
 <div id="content">
 <h1 id="older_news">Older News</h1>
 <ul>
+<li><p><strong>2019-08-18:</strong> BinEd 0.2.0 Released</p>
+<ul><li>Renamed to BinEd</li>
+<li>Updated to newer version of library</li>
+<li>Support for half-size space</li>
+<li>Support for layout, theme and colors profiles</li>
+<li>Added support for different numerical bases in status bar</li>
+<li>Configurable address margin</li>
+<li>Context aware popup menu</li>
+<li>Go-to dialog position to support position from end</li>
+<li>Go-to dialog position to support different numerical bases</li>
+<li>Support for ENTER key in preview section</li>
+</ul></li>
+
 <li><p><strong>2019-08-15:</strong> BinEd JDeveloper Extension 0.2.0.1 Released</p>
 <ul><li>Fixed issue with limitation to single editor only</li>
 <li>Added legacy version for 11g</li>
