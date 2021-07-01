@@ -16,7 +16,7 @@ License: Creative Commons BY-NC 4.0</p>
 
 <h2 id="icon">Icon</h2>
 <p>BinEd icon was created by:</p>
-<p>Icon: <a href="images/icon/bined-icon.png">[PNG]</a> <a href="images/icon/bined-icon.png">[SVG]</a><br/>
+<p>Icon: <a href="images/icon/bined-icon.png">[PNG]</a> <a href="images/icon/bined-icon.svg">[SVG]</a><br/>
 Author: Reza Almanda<br/>
 Website: <a href="https://rezaalmanda.github.io/">https://rezaalmanda.github.io/</a><br/>
 License: Apache License v2</p>
