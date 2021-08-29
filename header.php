@@ -43,7 +43,7 @@ if (!empty($prefix)) {
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/java.png');" href="<?php echo $parentPrefix; ?>editor">Editor - Swing</a><?php echo @$submenu_editor; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/android.png');" href="<?php echo $parentPrefix; ?>android">Editor - Android</a><?php echo @$submenu_android; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/jar.png');" href="<?php echo $parentPrefix; ?>basic-editor">Editor - Basic</a><?php echo @$submenu_basiceditor; ?></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/package.png');" href="<?php echo $parentPrefix; ?>library">Java Libraries</a><?php echo @$submenu_library; ?></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/package.png');" href="<?php echo $parentPrefix; ?>library">Library</a><?php echo @$submenu_library; ?></li>
     </ul>
   </li>
   <li><div>Extensions</div>

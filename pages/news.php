@@ -44,6 +44,23 @@ if ($count == 0) {
 
 <h2 id="news">News</h2>
 <ul>
+<li><p><strong>2021-08-29:</strong> Bined NetBeans Plugin 0.2.2 Released</p>
+<ul><li>Minor GUI improvements</li>
+<li>Switched to Gradle building</li>
+<li>Action to show debug variables as binary data in ToolTip view</li>
+<li>Support for multiple decoders in debugging view</li>
+<li>Display the number of bytes selected</li>
+<li>Added string field in values panel</li></ul></li>
+
+<li><p><strong>2021-08-29:</strong> BinEd Library 0.2.0 Released</p>
+<ul><li>Renamed to BinEd</li>
+<li>Support for half-size space</li>
+<li>Support for layout, theme and colors profiles</li>
+<li>Context aware popup menu</li>
+<li>Support for ENTER key in preview section</li>
+</ul></li>
+
+
 <li><p><strong>2021-04-11:</strong> BinEd IntelliJ Plugin 0.2.4 Released</p>
 <ul><li>Added string field in values panel</li>
 <li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>
@@ -63,25 +80,6 @@ if ($count == 0) {
 <li>Fixed NullPointerException when trying to hex-view bytearray in Debug mode</li>
 <li>Fixed Editor stops responding when I use Find</li>
 <li>Fixed Cursor position is lost if you switch tabs</li>
-</ul></li>
-
-<li><p><strong>2019-09-04:</strong> BinEd NetBeans Plugin 0.2.1 Released</p>
-<ul><li>Action to show debug variables as binary data</li>
-<li>Minor GUI improvements</li>
-<li>Context aware popup menu</li>
-<li>Go-to dialog position to support position from end</li>
-<li>Go-to dialog position to support different numerical bases</li>
-<li>Support for ENTER key in preview section</li>
-</ul></li>
-
-<li><p><strong>2019-08-22:</strong> BinEd IntelliJ Plugin 0.2.1 Released</p>
-<ul><li>Minor GUI improvements</li>
-<li>Context aware popup menu</li>
-<li>Go-to dialog position to support position from end</li>
-<li>Go-to dialog position to support different numerical bases</li>
-<li>Support for ENTER key in preview section</li>
-<li>Minor fix to view of native Java debug values</li>
-<li>Minor fix to integration</li>
 </ul></li>
 
 </ul>

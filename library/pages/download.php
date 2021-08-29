@@ -8,6 +8,15 @@ function echoDownload($arr) {
 
 $old_releases = array();
 
+$ver = '0.1.3';
+$date = '2017-10-22';
+
+$old_releases[3][0]['name'] = 'Library';
+$old_releases[3][0]['ver'] = $ver;
+$old_releases[3][0]['date'] = $date;
+$old_releases[3][0]['icon'] = 'zip';
+$old_releases[3][0]['file'] = 'deltahex-java-'.$ver.'.zip';
+
 $ver = '0.1.2';
 $date = '2017-01-07';
 
@@ -46,10 +55,11 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 
 <h2 id="latest_changes">Latest Changes</h2>
 <p>
-<ul><li>Fixed behavior for high precision wheel scrolling</li>
-<li>Code colorization by byte value</li>
-<li>Added values panel</li>
-<li>Various minor fixes</li>
+<ul><li>Renamed to BinEd</li>
+<li>Support for half-size space</li>
+<li>Support for layout, theme and colors profiles</li>
+<li>Context aware popup menu</li>
+<li>Support for ENTER key in preview section</li>
 </ul></p>
 
 <h2 id="development">Development Version</h2>
@@ -63,6 +73,10 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>Library <?php echo $old_releases[3][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[3]); ?></td>
+</tr>
 <tr>
   <td>Library <?php echo $old_releases[2][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[2]); ?></td>

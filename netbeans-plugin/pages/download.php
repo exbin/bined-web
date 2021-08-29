@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.1';
+$ver = '0.2.2';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.1';
+$date = '2019-09-04';
+
+$old_releases[9][0]['name'] = 'Plugin';
+$old_releases[9][0]['ver'] = $ver;
+$old_releases[9][0]['date'] = $date;
+$old_releases[9][0]['icon'] = 'netbeans';
+$old_releases[9][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.nbm';
+
+$old_sources[9][0]['name'] = 'Sources';
+$old_sources[9][0]['ver'] = $ver;
+$old_sources[9][0]['icon'] = 'zip';
+$old_sources[9][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 
 $ver = '0.2.0';
 $date = '2019-04-13';
@@ -163,12 +177,12 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Action to show debug variables as binary data</li>
-<li>Minor GUI improvements</li>
-<li>Context aware popup menu</li>
-<li>Go-to dialog position to support position from end</li>
-<li>Go-to dialog position to support different numerical bases</li>
-<li>Support for ENTER key in preview section</li></ul>
+<ul><li>Minor GUI improvements</li>
+<li>Switched to Gradle building</li>
+<li>Action to show debug variables as binary data in ToolTip view</li>
+<li>Support for multiple decoders in debugging view</li>
+<li>Display the number of bytes selected</li>
+<li>Added string field in values panel</li></ul>
 
 <h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>
@@ -181,6 +195,11 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>NetBeans Platform Plugin <?php echo $old_releases[9][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[9]); ?></td>
+  <td><?php echoDownload($old_sources[9]); ?></td>
+</tr>
 <tr>
   <td>NetBeans Platform Plugin <?php echo $old_releases[8][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[8]); ?></td>

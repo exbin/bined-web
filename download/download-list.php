@@ -4,7 +4,7 @@
     if ($group == 'editor' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.2.0';
-      $stb_date = '2019-08-18';
+      $stb_date = '2019-08-26';
       $dev_ver = '0.2.1';
       $dev_date = '2021-03-15';
 
@@ -55,8 +55,8 @@
 
     if ($group == 'basic-editor' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.1.3';
-      $stb_date = '2017-10-22';
+      $stb_ver = '0.2.0';
+      $stb_date = '2021-08-29';
       $dev_ver = '0.2.0';
       $dev_date = '2019-09-26';
 
@@ -64,7 +64,7 @@
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'jar';
-      $variants['stb'][0]['file'] = 'deltahex-editor-basic-'.$stb_ver.'.jar';
+      $variants['stb'][0]['file'] = 'bined-editor-basic-'.$stb_ver.'.jar';
 
       $variants['dev'][0]['name'] = 'Basic Editor';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -93,16 +93,16 @@
 
     if ($group == 'library' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.1.3';
-      $stb_date = '2017-10-22';
+      $stb_ver = '0.2.0';
+      $stb_date = '2021-08-29';
       $dev_ver = '0.2.0';
-      $dev_date = '2020-04-12';
+      $dev_date = '2021-08-01';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'zip';
-      $variants['stb'][0]['file'] = 'deltahex-java-'.$stb_ver.'.zip';
+      $variants['stb'][0]['file'] = 'bined-lib-java-'.$stb_ver.'.zip';
 
       $variants['dev'][0]['name'] = 'Library';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -115,10 +115,10 @@
 
     if ($group == 'netbeans-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.1';
-      $stb_date = '2019-09-04';
+      $stb_ver = '0.2.2';
+      $stb_date = '2021-08-29';
       $dev_ver = '0.2.2';
-      $dev_date = '2021-04-30';
+      $dev_date = '2021-08-28';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -143,7 +143,7 @@
       $stb_ver = '0.2.4';
       $stb_date = '2021-04-11';
       $dev_ver = '0.2.5';
-      $dev_date = '2021-04-30';
+      $dev_date = '2021-08-17';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

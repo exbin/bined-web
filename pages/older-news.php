@@ -1,6 +1,25 @@
 <div id="content">
 <h1 id="older_news">Older News</h1>
 <ul>
+<li><p><strong>2019-09-04:</strong> BinEd NetBeans Plugin 0.2.1 Released</p>
+<ul><li>Action to show debug variables as binary data</li>
+<li>Minor GUI improvements</li>
+<li>Context aware popup menu</li>
+<li>Go-to dialog position to support position from end</li>
+<li>Go-to dialog position to support different numerical bases</li>
+<li>Support for ENTER key in preview section</li>
+</ul></li>
+
+<li><p><strong>2019-08-22:</strong> BinEd IntelliJ Plugin 0.2.1 Released</p>
+<ul><li>Minor GUI improvements</li>
+<li>Context aware popup menu</li>
+<li>Go-to dialog position to support position from end</li>
+<li>Go-to dialog position to support different numerical bases</li>
+<li>Support for ENTER key in preview section</li>
+<li>Minor fix to view of native Java debug values</li>
+<li>Minor fix to integration</li>
+</ul></li>
+
 <li><p><strong>2019-08-18:</strong> BinEd 0.2.0 Released</p>
 <ul><li>Renamed to BinEd</li>
 <li>Updated to newer version of library</li>
