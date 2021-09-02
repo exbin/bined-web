@@ -53,7 +53,6 @@ if (!empty($prefix)) {
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/eclipse-ide.png');" href="<?php echo $parentPrefix; ?>eclipse-plugin">Eclipse Plugin</a><?php echo @$submenu_eclipseplugin; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/jdeveloper.png');" href="<?php echo $parentPrefix; ?>jdeveloper-extension">JDeveloper Ext.</a><?php echo @$submenu_jdeveloperextension; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/bluej.png');" href="<?php echo $parentPrefix; ?>bluej-extension">BlueJ Extension</a><?php echo @$submenu_bluejextension; ?></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/mucommander.png');" href="<?php echo $parentPrefix; ?>mucommander-extension">MuCommanderExt.</a><?php echo @$submenu_mucommanderextension; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/jedit.png');" href="<?php echo $parentPrefix; ?>jedit-plugin">jEdit Plugin</a><?php echo @$submenu_jeditplugin; ?></li>
     </ul>
   </li>
@@ -70,6 +69,7 @@ if (!empty($prefix)) {
   <li><div>Social</div>
     <ul class="submenu">
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/comment.png');" href="<?php echo $rootPrefix; ?>?comments">User Comments</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/plugin.png');" href="<?php echo $rootPrefix; ?>?known-uses">Known Uses</a></li>
       <li><a class="urlextern" href="https://sourceforge.net/projects/bined/">SourceForge</a></li>
       <li><a class="urlextern" href="https://www.openhub.net/p/bined/">OpenHub</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/world_go.png');" href="<?php echo $rootPrefix; ?>?similar-projects">Similar Projects</a></li>

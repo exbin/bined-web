@@ -4,7 +4,7 @@
 } ?>
 <p>Free and open source binary/hexadecimal viewer/editor and component written in Java.</p>
 <p>This is part of the <a href="http://exbin.org">ExBin Project</a>.</p>
-<p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
+<p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot" class="center"/></p>
 
 <h2 id="latest_comment">Latest User Comment</h2>
 <?php
