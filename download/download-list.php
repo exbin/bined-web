@@ -133,7 +133,7 @@
       $variants['dev'][0]['file'] = 'org-exbin-bined-netbeans.nbm';
 
       $variants['repository_title'] = 'NetBeans Plugins Portal';
-      $variants['repository_url'] = 'http://plugins.netbeans.org/plugin/67898';
+      $variants['repository_url'] = 'https://plugins.netbeans.apache.org/catalogue/?id=59';
 
       $result['netbeans-plugin'] = $variants;
     }
@@ -143,7 +143,7 @@
       $stb_ver = '0.2.4';
       $stb_date = '2021-04-11';
       $dev_ver = '0.2.5';
-      $dev_date = '2021-08-17';
+      $dev_date = '2021-09-02';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -246,7 +246,7 @@
       $stb_ver = '0.2.0';
       $stb_date = '2020-05-31';
       $dev_ver = '0.2.0';
-      $dev_date = '2020-06-06';
+      $dev_date = '2021-09-05';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

@@ -207,7 +207,7 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['stb']); ?></td>
   <td><?php echoDownload($sources); ?></td>
-  <td><a href="<?php echo $downloads['intellij-plugin']['repository_url']; ?>"><?php echo $downloads['intellij-plugin']['repository_title']; ?></a></td>
+  <td><a class="urlextern" href="<?php echo $downloads['intellij-plugin']['repository_url']; ?>"><?php echo $downloads['intellij-plugin']['repository_title']; ?></a></td>
 </tr>
 </table>
 

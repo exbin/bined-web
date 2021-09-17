@@ -28,7 +28,7 @@ function echoDownload($arr) {
 <table class="table">
 <tr><th>Module Website&nbsp;</th></tr>
 <tr>
-  <td><a href="<?php echo $downloads['eclipse-plugin']['repository_url']; ?>"><?php echo $downloads['eclipse-plugin']['repository_title']; ?></a></td></tr>
+  <td><a class="urlextern" href="<?php echo $downloads['eclipse-plugin']['repository_url']; ?>"><?php echo $downloads['eclipse-plugin']['repository_title']; ?></a></td></tr>
 </tr></table>
 
 <h2 id="source_codes">Source Codes</h2>

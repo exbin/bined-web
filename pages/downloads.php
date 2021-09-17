@@ -27,13 +27,13 @@ function echoDownload($arr) {
 <tr><th>Application&nbsp;</th><th>Stable&nbsp;</th><th>Module Website&nbsp;</th></tr>
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['stb']); ?></td>
-  <td><a href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td></tr>
+  <td><a class="urlextern" href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td></tr>
 <tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['stb']); ?></td>
-  <td><a href="<?php echo $downloads['intellij-plugin']['repository_url']; ?>"><?php echo $downloads['intellij-plugin']['repository_title']; ?></a></td></tr>
+  <td><a class="urlextern" href="<?php echo $downloads['intellij-plugin']['repository_url']; ?>"><?php echo $downloads['intellij-plugin']['repository_title']; ?></a></td></tr>
 <tr><td>Eclipse Platform</td>
   <td><?php echoDownload($downloads['eclipse-plugin']['stb']); ?></td>
-  <td><a href="<?php echo $downloads['eclipse-plugin']['repository_url']; ?>"><?php echo $downloads['eclipse-plugin']['repository_title']; ?></a></td></tr>
+  <td><a class="urlextern" href="<?php echo $downloads['eclipse-plugin']['repository_url']; ?>"><?php echo $downloads['eclipse-plugin']['repository_title']; ?></a></td></tr>
 <tr><td>JDeveloper Extension</td>
   <td><?php echoDownload($downloads['jdeveloper-extension']['stb']); ?></td>
   <td>-</td></tr>

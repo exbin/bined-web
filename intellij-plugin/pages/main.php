@@ -25,7 +25,7 @@ function echoDownload($arr) {
 <table class="table">
 <tr><th>Module Website&nbsp;</th></tr>
 <tr>
-  <td><a href="<?php echo $downloads['intellij-plugin']['repository_url']; ?>"><?php echo $downloads['intellij-plugin']['repository_title']; ?></a></td>
+  <td><a class="urlextern" href="<?php echo $downloads['intellij-plugin']['repository_url']; ?>"><?php echo $downloads['intellij-plugin']['repository_title']; ?></a></td>
 </tr></table>
 <p><img src="images/jetbrains-ref.png" alt="JetBrains" title="JetBrains"/>&nbsp;&nbsp; <a class="urlextern" href="https://jetbrains.com">JetBrains</a> kindly provided license for their products via their <a class="urlextern" href="https://jb.gg/OpenSource">Free License Programs</a>.</p>
 

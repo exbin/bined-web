@@ -23,7 +23,10 @@ function echoDownload($arr) {
 <table class="table">
 <tr><th>Module Website&nbsp;</th></tr>
 <tr>
-  <td><a href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td>
+  <td><a class="urlextern" href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td>
+</tr>
+<tr>
+  <td><a class="urlextern" href="http://plugins.netbeans.org/plugin/67898" style="text-decoration: line-through;">Old Plugins Portal</a></td>
 </tr></table>
 
 <h2>Features</h2>

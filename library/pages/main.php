@@ -40,7 +40,7 @@ function echoDownload($arr) {
 
 <h2 id="usage">Usage</h2>
 <p>Example component usage screenshot:</p>
-<p><img src="images/example_screenshot.png" alt="Example screenshot" title="Example screenshot"/></p>
+<p><img src="images/usage_screenshot.png" alt="Usage screenshot" title="Usage screenshot"/></p>
 
 <p>You can use this component for your own project using one of the following methods:</p>
 

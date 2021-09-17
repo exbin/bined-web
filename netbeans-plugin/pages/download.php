@@ -172,7 +172,7 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['stb']); ?></td>
   <td><?php echoDownload($sources); ?></td>
-  <td><a href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td>
+  <td><a class="urlextern" href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td>
 </tr>
 </table>
 
