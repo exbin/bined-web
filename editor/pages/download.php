@@ -8,6 +8,30 @@ function echoDownload($arr) {
 
 $old_releases = array();
 
+$ver = '0.2.0';
+$date = '2019-08-26';
+
+$old_releases[4][0]['name'] = 'Windows Installer';
+$old_releases[4][0]['ver'] = $ver;
+$old_releases[4][0]['date'] = $date;
+$old_releases[4][0]['icon'] = 'exe';
+$old_releases[4][0]['file'] = 'bined-'.$ver.'-win32.exe';
+$old_releases[4][1]['name'] = 'ZIP';
+$old_releases[4][1]['ver'] = $ver;
+$old_releases[4][1]['date'] = $date;
+$old_releases[4][1]['icon'] = 'zip';
+$old_releases[4][1]['file'] = 'bined-'.$ver.'.zip';
+$old_releases[4][2]['name'] = 'Debian Package';
+$old_releases[4][2]['ver'] = $ver;
+$old_releases[4][2]['date'] = $date;
+$old_releases[4][2]['icon'] = 'debian';
+$old_releases[4][2]['file'] = 'bined_'.$ver.'-1_all.deb';
+$old_releases[4][3]['name'] = 'Linux RPM Package';
+$old_releases[4][3]['ver'] = $ver;
+$old_releases[4][3]['date'] = $date;
+$old_releases[4][3]['icon'] = 'rpm';
+$old_releases[4][3]['file'] = 'bined-'.$ver.'-1.noarch.rpm';
+
 $ver = '0.1.3';
 $date = '2017-10-22';
 
@@ -90,16 +114,14 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 
 <h2 id="latest_changes">Latest Changes</h2>
 <p>
-<ul><li>Renamed to BinEd</li>
-<li>Updated to newer version of library</li>
-<li>Support for half-size space</li>
-<li>Support for layout, theme and colors profiles</li>
-<li>Added support for different numerical bases in status bar</li>
-<li>Configurable address margin</li>
-<li>Context aware popup menu</li>
-<li>Go-to dialog position to support position from end</li>
-<li>Go-to dialog position to support different numerical bases</li>
-<li>Support for ENTER key in preview section</li>
+<ul><li>New app icon</li>
+<li>Support for multiple files / tabs</li>
+<li>Added string field in values panel (issue #8)</li>
+<li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Display the number of bytes selected</li>
+<li>Fixed issue with creating new file</li>
 </ul></p>
 
 <h2 id="development">Development Version</h2>
@@ -113,6 +135,10 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>BinEd <?php echo $old_releases[4][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[4]); ?></td>
+</tr>
 <tr>
   <td>DeltaHex <?php echo $old_releases[3][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[3]); ?></td>

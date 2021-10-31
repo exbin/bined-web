@@ -4,7 +4,7 @@
 } ?>
 <p>Free and open source binary/hexadecimal viewer/editor and component written in Java.</p>
 <p>This is part of the <a href="http://exbin.org">ExBin Project</a>.</p>
-<p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot" class="center"/></p>
+<p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot" class="center" width="550"/></p>
 
 <h2 id="latest_comment">Latest User Comment</h2>
 <?php
@@ -44,6 +44,17 @@ if ($count == 0) {
 
 <h2 id="news">News</h2>
 <ul>
+<li><p><strong>2021-10-31:</strong> BinEd 0.2.1 Released</p>
+<ul><li>New app icon</li>
+<li>Support for multiple files / tabs</li>
+<li>Added string field in values panel (issue #8)</li>
+<li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Display the number of bytes selected</li>
+<li>Fixed issue with creating new file</li>
+</ul></li>
+
 <li><p><strong>2021-08-29:</strong> Bined NetBeans Plugin 0.2.2 Released</p>
 <ul><li>Minor GUI improvements</li>
 <li>Switched to Gradle building</li>
@@ -69,17 +80,6 @@ if ($count == 0) {
 <li><p><strong>2020-07-30:</strong> BinEd IntelliJ Plugin 0.2.3 Released</p>
 <ul><li>Fixed debugger array support for PHP</li>
 <li>Added binary file type</li>
-</ul></li>
-
-<li><p><strong>2020-01-25:</strong> BinEd IntelliJ Plugin 0.2.2 Released</p>
-<ul><li>Minor GUI improvements</li>
-<li>Support for multiple decoders in debugging view</li>
-<li>Display the number of bytes selected</li>
-<li>Fixed opening via dialog crashes IntelliJ (mac)</li>
-<li>Fixed "HIDE_DEFAULT_EDITOR is supported only for DumbAware providers" error message</li>
-<li>Fixed NullPointerException when trying to hex-view bytearray in Debug mode</li>
-<li>Fixed Editor stops responding when I use Find</li>
-<li>Fixed Cursor position is lost if you switch tabs</li>
 </ul></li>
 
 </ul>

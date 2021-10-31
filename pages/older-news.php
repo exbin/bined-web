@@ -1,6 +1,17 @@
 <div id="content">
 <h1 id="older_news">Older News</h1>
 <ul>
+<li><p><strong>2020-01-25:</strong> BinEd IntelliJ Plugin 0.2.2 Released</p>
+<ul><li>Minor GUI improvements</li>
+<li>Support for multiple decoders in debugging view</li>
+<li>Display the number of bytes selected</li>
+<li>Fixed opening via dialog crashes IntelliJ (mac)</li>
+<li>Fixed "HIDE_DEFAULT_EDITOR is supported only for DumbAware providers" error message</li>
+<li>Fixed NullPointerException when trying to hex-view bytearray in Debug mode</li>
+<li>Fixed Editor stops responding when I use Find</li>
+<li>Fixed Cursor position is lost if you switch tabs</li>
+</ul></li>
+
 <li><p><strong>2019-09-04:</strong> BinEd NetBeans Plugin 0.2.1 Released</p>
 <ul><li>Action to show debug variables as binary data</li>
 <li>Minor GUI improvements</li>

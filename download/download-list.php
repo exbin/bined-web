@@ -3,10 +3,10 @@
     $result = array();
     if ($group == 'editor' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2019-08-26';
+      $stb_ver = '0.2.1';
+      $stb_date = '2021-10-31';
       $dev_ver = '0.2.1';
-      $dev_date = '2021-03-15';
+      $dev_date = '2021-10-21';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -117,8 +117,8 @@
       $variants = array();
       $stb_ver = '0.2.2';
       $stb_date = '2021-08-29';
-      $dev_ver = '0.2.2';
-      $dev_date = '2021-08-28';
+      $dev_ver = '0.2.3';
+      $dev_date = '2021-10-19';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
