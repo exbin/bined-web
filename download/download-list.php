@@ -140,10 +140,10 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.4';
-      $stb_date = '2021-04-11';
+      $stb_ver = '0.2.5';
+      $stb_date = '2021-11-06';
       $dev_ver = '0.2.5';
-      $dev_date = '2021-09-02';
+      $dev_date = '2021-11-02';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

@@ -1,6 +1,11 @@
 <div id="content">
 <h1 id="older_news">Older News</h1>
 <ul>
+<li><p><strong>2020-07-30:</strong> BinEd IntelliJ Plugin 0.2.3 Released</p>
+<ul><li>Fixed debugger array support for PHP</li>
+<li>Added binary file type</li>
+</ul></li>
+
 <li><p><strong>2020-01-25:</strong> BinEd IntelliJ Plugin 0.2.2 Released</p>
 <ul><li>Minor GUI improvements</li>
 <li>Support for multiple decoders in debugging view</li>

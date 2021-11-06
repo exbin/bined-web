@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.4';
+$ver = '0.2.5';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.4';
+$date = '2020-04-11';
+
+$old_releases[13][0]['name'] = 'Plugin';
+$old_releases[13][0]['ver'] = $ver;
+$old_releases[13][0]['date'] = $date;
+$old_releases[13][0]['icon'] = 'zip';
+$old_releases[13][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[13][0]['name'] = 'Sources';
+$old_sources[13][0]['ver'] = $ver;
+$old_sources[13][0]['icon'] = 'zip';
+$old_sources[13][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $ver = '0.2.3';
 $date = '2020-07-30';
@@ -212,8 +226,13 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added string field in values panel</li>
-<li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>
+<ul><li>New app icon</li>
+<li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Fixed issues with binary file type (issue #36)</li>
+<li>Fixed issue with transparency (issue #38)</li>
+<li>Fixed issue with opening zip files</li>
 </ul>
 
 <h2 id="development">Development Version</h2>
@@ -228,6 +247,16 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[13][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[13]); ?></td>
+  <td><?php echoDownload($old_sources[13]); ?></td>
+</tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[12][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[12]); ?></td>
+  <td><?php echoDownload($old_sources[12]); ?></td>
+</tr>
 <tr>
   <td>IntelliJ Platform Plugin <?php echo $old_releases[11][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[11]); ?></td>
