@@ -15,13 +15,15 @@ function echoDownload($arr) {
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
 <tr><td>jEdit Plugin</td>
-  <td><?php /* echoDownload($downloads['jedit-plugin']['stb']); */ ?></td>
+  <td><?php echoDownload($downloads['jedit-plugin']['stb']); ?></td>
   <td><?php echoDownload($downloads['jedit-plugin']['dev']); ?></td>
 </tr>
 </table>
 
 <h2 id="installation">Installation</h2>
 <p>Unzip jar file from downloaded zip file into jars directory of your jEdit installation.</p>
+
+<p>Use Plugins/Bined/Edit File.</p>
 
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">

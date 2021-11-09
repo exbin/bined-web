@@ -1,6 +1,6 @@
 <div id="content">
 <h1 id="about">About</h1>
-<p>BinEd is a hobby project to create viewer/editor for binary data (hexadecimal editor) in Java.</p>
+<p>BinEd is a hobby project to create viewer / editor for binary data (hexadecimal editor) in Java.</p>
 <p>Goals are:</p>
 <ul>
   <li>Free and open source (commercially friendly license)</li>

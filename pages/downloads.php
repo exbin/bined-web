@@ -41,7 +41,7 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['bluej-extension']['stb']); ?></td>
   <td>-</td></tr>
 <tr><td>jEdit Plugin</td>
-  <td>-</td>
+  <td><?php echoDownload($downloads['jedit-plugin']['stb']); ?></td>
   <td>-</td></tr>
 </table>
 <h3 id="plugins">Plugins</h3>

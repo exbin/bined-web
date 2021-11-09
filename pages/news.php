@@ -44,6 +44,10 @@ if ($count == 0) {
 
 <h2 id="news">News</h2>
 <ul>
+<li><p><strong>2021-11-09:</strong> BinEd jEdit Plugin 0.2.0 Released</p>
+<ul><li>Initial release</li>
+</ul></li>
+
 <li><p><strong>2021-11-06:</strong> BinEd IntelliJ Plugin 0.2.5 Released</p>
 <ul><li>New app icon</li>
 <li>Added templates for profiles</li>
@@ -79,12 +83,6 @@ if ($count == 0) {
 <li>Support for layout, theme and colors profiles</li>
 <li>Context aware popup menu</li>
 <li>Support for ENTER key in preview section</li>
-</ul></li>
-
-
-<li><p><strong>2021-04-11:</strong> BinEd IntelliJ Plugin 0.2.4 Released</p>
-<ul><li>Added string field in values panel</li>
-<li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>
 </ul></li>
 
 </ul>
