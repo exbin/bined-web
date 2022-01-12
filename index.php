@@ -1,5 +1,10 @@
 <?php
 $query = getenv('QUERY_STRING');
+if ($query == "download") {
+	header("Location: editor/?download");
+	die();
+}
+
 include('header.php');
 if (empty($query)) {
   $include = 'pages/news.php';

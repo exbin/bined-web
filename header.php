@@ -1,4 +1,5 @@
 <?php global $prefix;
+
 if (!empty($prefix)) {
     $parentPrefix = $prefix.'/';
     $rootPrefix = $parentPrefix;
@@ -12,15 +13,15 @@ if (!empty($prefix)) {
 <meta name="author" content="ExBin Project, http://exbin.org"/>
 <meta name="copyright" content="ExBin Project, http://exbin.org"/>
 <meta name="description" content="BinEd Binary Editor project webpage"/>
-<meta name="keywords" content="binary, hexadecimal, hexedit, viewer, editor, java"/>
+<meta name="keywords" content="binary, hexadecimal, hexedit, hexeditor, viewer, editor, java"/>
 <meta name="robots" content="index,follow"/>
 <link rel="SHORTCUT ICON" href="bined.ico" />
 <link href="<?php echo $parentPrefix; ?>css/site.css" rel="stylesheet">
-<title>BinEd - Binary Editor</title>
+<title>BinEd - Binary / Hexadecimal Editor</title>
 </head>
 
 <body>
-<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-logo.png" alt="[BinEd]" title="Icon" width="129" height="50" style="vertical-align: text-top; margin-top: -7px;"/>&nbsp;- Editor for Binary Data</a></h1></div>
+<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-logo.png" alt="[BinEd]" title="Icon" width="129" height="50" style="vertical-align: text-top; margin-top: -7px;"/>&nbsp;- Binary / Hexadecimal Editor</a></h1></div>
 <div id="navbar">
   <a id="FeaturesIcon" href="<?php echo $rootPrefix; ?>?features">Features</a>
   <a id="ScreenshotsIcon" href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a>

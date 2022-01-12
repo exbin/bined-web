@@ -50,7 +50,7 @@ Use "View as Binary" action in context menu in variables/debug window.</p>
 <h2 id="known_issues">Known Issues</h2>
 <ul>
 <li>Editor can freeze with OutOfMemoryError: Java heap space if there is too many big modifications</li>
-<li>In delta mode files can be corrupted, if they are changed with other applications at the same time</li>
+<li>In delta mode files can be corrupted, if they are changed by other applications at the same time</li>
 <li>Memory leaks</li></ul>
 
 <h2 id="source_codes">Source Codes</h2>

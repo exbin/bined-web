@@ -23,7 +23,7 @@
 <p>Detailed <a href="?features">list of features</a>.</p>
 
 <h2 id="license">License</h2>
-<p><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
+<p><a class="urlextern" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
 
 </div>
 </body>

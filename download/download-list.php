@@ -80,7 +80,7 @@
       $stb_ver = '';
       $stb_date = '';
       $dev_ver = '0.2.0';
-      $dev_date = '2021-03-16';
+      $dev_date = '2021-12-01';
 
       $variants['dev'][0]['name'] = 'Android App';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -118,7 +118,7 @@
       $stb_ver = '0.2.2';
       $stb_date = '2021-08-29';
       $dev_ver = '0.2.3';
-      $dev_date = '2021-10-19';
+      $dev_date = '2021-12-31';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -142,8 +142,8 @@
       $variants = array();
       $stb_ver = '0.2.5';
       $stb_date = '2021-11-06';
-      $dev_ver = '0.2.5';
-      $dev_date = '2021-11-02';
+      $dev_ver = '0.2.6';
+      $dev_date = '2021-12-30';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
