@@ -4,7 +4,7 @@
 
 <p>Programmers: Primary programming language is Java. There are many tasks to work on. See for example <a href="?features">features list</a>.</p>
 <p>Help wanted post: <a class="urlextern" href="https://sourceforge.net/p/forge/helpwanted/programmers/thread/3067e2c4a0/">Sourceforge Programmers Wanted</a></p>
-<p>Documenters: Help write manual / documentation</p>
+<p>Documenters: Help write <a class="urlextern" href="https://github.com/exbin/bined/wiki">manual / documentation</a></p>
 <p>Testers: Test project and report issue on <a href="?source-codes">GitHub pages</a>.</p>
 
 <h2 id="contact">Contact</h2>
