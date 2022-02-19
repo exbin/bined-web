@@ -19,7 +19,7 @@ function echoDownload($arr) {
 
 <h2 id="published">Published</h2>
 <table class="table">
-<tr><th>Module Website&nbsp;</th></tr>
+<tr><th>Website&nbsp;</th></tr>
 <tr>
   <td><a href="https://sourceforge.net/projects/bined/">SourceForge page</a></td>
 </tr></table>

@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h1 id="extension">Extension: NetBeans Plugin</h1>
 
-<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="http://netbeans.apache.org/">NetBeans IDE and NetBeans Platform</a> written in Java.</p>
+<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="https://netbeans.apache.org/">NetBeans IDE and NetBeans Platform</a> written in Java.</p>
 <p><img src="images/netbeans-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <h2 id="downloads">Downloads</h2>
@@ -26,7 +26,7 @@ function echoDownload($arr) {
   <td><a class="urlextern" href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td>
 </tr>
 <tr>
-  <td><a class="urlextern" href="http://plugins.netbeans.org/plugin/67898" style="text-decoration: line-through;">Old Plugins Portal</a></td>
+  <td><a class="urlextern" href="https://plugins.netbeans.org/plugin/67898" style="text-decoration: line-through;">Old Plugins Portal</a></td>
 </tr></table>
 
 <h2>Features</h2>

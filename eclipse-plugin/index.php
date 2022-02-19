@@ -1,6 +1,6 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
-$submenu_eclipseplugin = '<ul><li><a href="?manual"><del>Manual</del></a></li></ul>';
+$submenu_eclipseplugin = '<ul><li><a href="?manual">Manual</a></li></ul>';
 $childIndex = 'eclipse-plugin';
 include('../header.php');
 $query = getenv('QUERY_STRING');
