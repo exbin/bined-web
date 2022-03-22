@@ -115,7 +115,7 @@ ul#navmenu li div {
     border: solid rgb(208, 208, 208);
     border-width: 0px 1px 0px 0px;
 
-    font-size: 8;
+    font-size: 1em;
     font-weight: bold;
     background: rgb(235, 235, 235);
 }
@@ -165,7 +165,7 @@ div#sidebar h4 {
     border: solid rgb(208, 208, 208);
     border-width: 0px 1px 0px 0px;
 
-    font-size: 8;
+    font-size: 1em;
     font-weight: bold;
     background: rgb(235, 235, 235);
 }
@@ -202,6 +202,15 @@ div#content {
     text-align: justify;
     border: solid rgb(208, 208, 208);
     border-width: 1px 0px 0px 1px;
+}
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: rgb(246, 248, 250);
+  border-radius: 6px;
 }
 
 .urlextern {
