@@ -6,7 +6,7 @@
   <li>Free and open source (commercially friendly license)</li>
   <li>Available as component / library for other apps</li>
   <li>Stand-alone editor application</li>
-  <li>Plugins/extension for some applications (Java-based IDEs and other)</li>
+  <li>Plugins/extensions for some applications (Java-based IDEs and other)</li>
 </ul>
 <p>See additional info about <a href="?concepts">concepts</a>.</p>
 

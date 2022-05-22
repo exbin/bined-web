@@ -1,6 +1,15 @@
 <div id="content">
 <h1 id="older_news">Older News</h1>
 <ul>
+
+<li><p><strong>2021-08-29:</strong> BinEd Library 0.2.0 Released</p>
+<ul><li>Renamed to BinEd</li>
+<li>Support for half-size space</li>
+<li>Support for layout, theme and colors profiles</li>
+<li>Context aware popup menu</li>
+<li>Support for ENTER key in preview section</li>
+</ul></li>
+
 <li><p><strong>2021-04-11:</strong> BinEd IntelliJ Plugin 0.2.4 Released</p>
 <ul><li>Added string field in values panel</li>
 <li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>

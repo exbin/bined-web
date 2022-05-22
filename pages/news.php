@@ -44,6 +44,14 @@ if ($count == 0) {
 
 <h2 id="news">News</h2>
 <ul>
+<li><p><strong>2022-05-22:</strong> BinEd IntelliJ Plugin 0.2.6 Released</p>
+<ul><li>Fixed native file mode (issue #39)</li>
+<li>Added options page</li>
+<li>Added action for online help/manual</li>
+<li>Added edit selection action</li>
+<li>Added API: view binary data</li>
+</ul></li>
+
 <li><p><strong>2021-11-09:</strong> BinEd jEdit Plugin 0.2.0 Released</p>
 <ul><li>Initial release</li>
 </ul></li>
@@ -76,15 +84,6 @@ if ($count == 0) {
 <li>Support for multiple decoders in debugging view</li>
 <li>Display the number of bytes selected</li>
 <li>Added string field in values panel</li></ul></li>
-
-<li><p><strong>2021-08-29:</strong> BinEd Library 0.2.0 Released</p>
-<ul><li>Renamed to BinEd</li>
-<li>Support for half-size space</li>
-<li>Support for layout, theme and colors profiles</li>
-<li>Context aware popup menu</li>
-<li>Support for ENTER key in preview section</li>
-</ul></li>
-
 </ul>
 
 <p>See list of <a href="?older-news">older news</a>.</p>

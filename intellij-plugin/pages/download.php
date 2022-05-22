@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.5';
+$ver = '0.2.6';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.5';
+$date = '2021-11-06';
+
+$old_releases[14][0]['name'] = 'Plugin';
+$old_releases[14][0]['ver'] = $ver;
+$old_releases[14][0]['date'] = $date;
+$old_releases[14][0]['icon'] = 'zip';
+$old_releases[14][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[14][0]['name'] = 'Sources';
+$old_sources[14][0]['ver'] = $ver;
+$old_sources[14][0]['icon'] = 'zip';
+$old_sources[14][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $ver = '0.2.4';
 $date = '2020-04-11';
@@ -226,13 +240,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>New app icon</li>
-<li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-<li>Fixed issues with binary file type (issue #36)</li>
-<li>Fixed issue with transparency (issue #38)</li>
-<li>Fixed issue with opening zip files</li>
+<ul><li>Fixed native file mode (issue #39)</li>
+<li>Added options page</li>
+<li>Added action for online help/manual</li>
+<li>Added edit selection action</li>
+<li>Added API: view binary data</li>
 </ul>
 
 <h2 id="development">Development Version</h2>
@@ -247,6 +259,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[14][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[14]); ?></td>
+  <td><?php echoDownload($old_sources[14]); ?></td>
+</tr>
 <tr>
   <td>IntelliJ Platform Plugin <?php echo $old_releases[13][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[13]); ?></td>
