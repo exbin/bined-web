@@ -44,6 +44,17 @@ if ($count == 0) {
 
 <h2 id="news">News</h2>
 <ul>
+<li><p><strong>2022-06-11:</strong> BinEd Eclipse Plugin 0.2.1 Released</p>
+<ul><li>Minor GUI improvements</li>
+<li>Added view as binary action in variables view</li>
+<li>Added action for online help/manual</li>
+<li>Added edit selection action</li>
+<li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Display the number of bytes selected</li>
+</ul></li>
+
 <li><p><strong>2022-05-22:</strong> BinEd IntelliJ Plugin 0.2.6 Released</p>
 <ul><li>Fixed native file mode (issue #39)</li>
 <li>Added options page</li>
@@ -76,14 +87,6 @@ if ($count == 0) {
 <li>Display the number of bytes selected</li>
 <li>Fixed issue with creating new file</li>
 </ul></li>
-
-<li><p><strong>2021-08-29:</strong> Bined NetBeans Plugin 0.2.2 Released</p>
-<ul><li>Minor GUI improvements</li>
-<li>Switched to Gradle building</li>
-<li>Action to show debug variables as binary data in ToolTip view</li>
-<li>Support for multiple decoders in debugging view</li>
-<li>Display the number of bytes selected</li>
-<li>Added string field in values panel</li></ul></li>
 </ul>
 
 <p>See list of <a href="?older-news">older news</a>.</p>

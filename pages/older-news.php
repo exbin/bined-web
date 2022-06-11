@@ -2,6 +2,16 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+
+<li><p><strong>2021-08-29:</strong> Bined NetBeans Plugin 0.2.2 Released</p>
+<ul><li>Minor GUI improvements</li>
+<li>Switched to Gradle building</li>
+<li>Action to show debug variables as binary data in ToolTip view</li>
+<li>Support for multiple decoders in debugging view</li>
+<li>Display the number of bytes selected</li>
+<li>Added string field in values panel</li>
+</ul></li>
+
 <li><p><strong>2021-08-29:</strong> BinEd Library 0.2.0 Released</p>
 <ul><li>Renamed to BinEd</li>
 <li>Support for half-size space</li>

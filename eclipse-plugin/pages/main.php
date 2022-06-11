@@ -9,12 +9,19 @@ function echoDownload($arr) {
 <p>Binary/hexadecimal editor plugin for <a class="urlextern" href="https://www.eclipse.org/">Eclipse IDE</a> written in Java.</p>
 <p><img src="images/eclipse-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 
-<p>To install use update site or copy to eclipse/dropins and use Open with/Other - BinEd Editor.</p>
-
-<p>Note: This plugin is very experimental. Please use other similar eclipse plugin for production use.</p>
-<ul><li>Very limited / poor integration</li>
-<li>Using wrapping of Swing GUI into SWT dialogs - works only partially depending on the platform / java version</li>
+<p>This plugin has limited capabilities</p>
+<ul><li>Using Swing GUI wrapping in SWT dialogs - it doesn''t fit native look and feel and have various rendering issues depending on system / java version</li>
+<li>Poor integration</li>
 </ul>
+
+<h2 id="usage">Usage</h2>
+
+<ul><li>Use "<strong>Open With/BinEd Binary/Hexadecimal Editor</strong>" action in project explorer context menu</li>
+<li>Use "<strong>View as Binary</strong>" in Variables window</li></ul>
+
+<h2 id="usage">Installation</h2>
+
+<p>To install use update site or copy to eclipse/dropins and use Open with/Other - BinEd Editor.</p>
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
@@ -30,6 +37,7 @@ function echoDownload($arr) {
 <tr>
   <td><a class="urlextern" href="<?php echo $downloads['eclipse-plugin']['repository_url']; ?>"><?php echo $downloads['eclipse-plugin']['repository_title']; ?></a></td></tr>
 </tr></table>
+<p>Experimental plugin update site for Eclipse: <a href="update/">https://bined.exbin.org/eclipse-plugin/update</a></p>
 
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
@@ -37,8 +45,6 @@ function echoDownload($arr) {
 <tr><td><a href="https://github.com/exbin/bined-eclipse-plugin" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/bined-eclipse-plugin</a></td></tr>
 </table>
 
-<p>Experimental plugin update site for Eclipse: <a href="update/">https://bined.exbin.org/eclipse-plugin/update</a></p>
-<p>TODO</p>
 </div>
 </body>
 </html>
