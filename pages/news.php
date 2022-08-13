@@ -44,6 +44,16 @@ if ($count == 0) {
 
 <h2 id="news">News</h2>
 <ul>
+<li><p><strong>2022-08-13:</strong> BinEd NetBeans Plugin 0.2.3 Released</p>
+<ul><li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Added edit selection action</li>
+<li>Relaxed dependencies - e.g. plugin should work in VisualVM</li>
+<li>Added link to online help/manual</li>
+<li>Minor GUI improvements</li>
+</ul></li>
+
 <li><p><strong>2022-06-11:</strong> BinEd Eclipse Plugin 0.2.1 Released</p>
 <ul><li>Minor GUI improvements</li>
 <li>Added view as binary action in variables view</li>
@@ -75,17 +85,6 @@ if ($count == 0) {
 <li>Fixed issues with binary file type (issue #36)</li>
 <li>Fixed issue with transparency (issue #38)</li>
 <li>Fixed issue with opening zip files</li>
-</ul></li>
-
-<li><p><strong>2021-10-31:</strong> BinEd 0.2.1 Released</p>
-<ul><li>New app icon</li>
-<li>Support for multiple files / tabs</li>
-<li>Added string field in values panel (issue #8)</li>
-<li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-<li>Display the number of bytes selected</li>
-<li>Fixed issue with creating new file</li>
 </ul></li>
 </ul>
 

@@ -11,7 +11,7 @@ Website: <a class="urlextern" href="https://hajdam.zdechov.net">https://hajdam.z
 <p>Logo: <a href="images/logo/bined-logo.png">[PNG]</a> <a href="images/logo/bined-logo.svg">[SVG]</a><br/>
 Author: Nikash SINGH<br/>
 Location: Sydney, Australia<br/>
-Website: <a class="urlextern" href="http://nikashsingh.org">http://nikashsingh.org</a><br/>
+Website: <a class="urlextern" href="https://nikashsingh.org">https://nikashsingh.org</a><br/>
 License: Creative Commons BY-NC 4.0</p>
 
 <h2 id="icon">Icon</h2>
