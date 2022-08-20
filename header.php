@@ -33,8 +33,8 @@ if (!empty($prefix)) {
 <ul id="navmenu">
   <li><div>Information</div>
     <ul class="submenu">
-    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/news.png');" href="<?php echo $rootPrefix; ?>?news">News</a></li>
     <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/about.png');" href="<?php echo $rootPrefix; ?>?about">About</a></li>
+    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/news.png');" href="<?php echo $rootPrefix; ?>?news">News</a></li>
     <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/screenshots.png');"  href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a></li>
     <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/download.png');" href="<?php echo $rootPrefix; ?>?downloads">Downloads</a></li>
     </ul>

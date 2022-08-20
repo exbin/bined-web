@@ -1,14 +1,10 @@
 <div id="content">
-<h1 id="about">About</h1>
-<p>BinEd is a hobby project to create viewer / editor for binary data (hexadecimal editor) in Java.</p>
-<p>Goals are:</p>
-<ul>
-  <li>Free and open source (commercially friendly license)</li>
-  <li>Available as component / library for other apps</li>
-  <li>Stand-alone editor application</li>
-  <li>Plugins/extensions for some applications (Java-based IDEs and other)</li>
-</ul>
-<p>See additional info about <a href="?concepts">concepts</a>.</p>
+<?php if (time() > filectime('author-alive.dat') + (60 * 60 * 24 * 90)) {
+  echo '<p><h3 style="color: red; background-color: yellow;">This project is abandoned - author of this project is either dead or very long not updating</h3></p>';
+} ?>
+<p>Free and open source binary/hexadecimal viewer/editor and component written in Java.</p>
+<p>This is part of the <a href="http://exbin.org">ExBin Project</a>.</p>
+<p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot" class="center" width="550"/></p>
 
 <h2 id="features">Features</h2>
 <ul>
@@ -20,10 +16,46 @@
   <li>Support for undo/redo</li>
   <li>Support for files with size up to exabytes</li>
 </ul>
+
+<p>License: <a class="urlextern" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
+<p>See additional info about <a href="?concepts">concepts</a>.</p>
 <p>Detailed <a href="?features">list of features</a>.</p>
 
-<h2 id="license">License</h2>
-<p><a class="urlextern" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
+<h2 id="latest_comment">Latest User Comment</h2>
+<?php
+function getline($fl) {
+  $fp = @fgets($fl, 65536);
+  $fp = substr($fp, 0, strlen($fp) - 1);
+  return $fp;
+}
+
+$perpage = 10;
+$count_file = fopen('pages/comments/count.txt', 'r');
+$count = (int) getline($count_file);
+fclose($count_file);
+
+if ($count == 0) {
+  echo '<p>There are no comments yet.</p>';
+} else {
+  $file = fopen('pages/comments/'.$count.'.txt', 'r');
+  $time = getline($file);
+  $author = getline($file);
+  $comment = '';
+  while (!feof($file)) {
+  	  if ($comment != '') {
+  	  	  $comment .= "<br/>";
+  	  }
+   	  $comment .= getline($file);
+  }
+  fclose($file);
+      
+  echo '<ul><li>';
+  echo '<p>Comment from: <strong>'.$author.'</strong> on '.date('l jS \of F Y h:i:s A', $time).'</p>';
+  echo '<p>'.$comment.'</p>';
+  echo "</li></ul>\n";
+}
+?>
+<p>Add <a href="?add-comment">new comment</a>.</p>
 
 </div>
 </body>

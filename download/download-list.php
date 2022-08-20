@@ -143,7 +143,7 @@
       $stb_ver = '0.2.6';
       $stb_date = '2022-05-22';
       $dev_ver = '0.2.7';
-      $dev_date = '2022-07-10';
+      $dev_date = '2022-08-20';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -221,8 +221,8 @@
 
     if ($group == 'bluej-extension' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2019-08-09';
+      $stb_ver = '0.2.1';
+      $stb_date = '2022-08-20';
       $dev_ver = '0.2.1';
       $dev_date = '2019-10-26';
 

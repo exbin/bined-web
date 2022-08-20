@@ -7,7 +7,7 @@ if ($query == "download") {
 
 include('header.php');
 if (empty($query)) {
-  $include = 'pages/news.php';
+  $include = 'pages/about.php';
 } else {
   $paramPos = strpos($query, '&');
   if ($paramPos !== false) $query = substr($query, 0, $paramPos);

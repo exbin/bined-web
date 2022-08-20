@@ -2,39 +2,6 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
-<li><p><strong>2021-10-31:</strong> BinEd 0.2.1 Released</p>
-<ul><li>New app icon</li>
-<li>Support for multiple files / tabs</li>
-<li>Added string field in values panel (issue #8)</li>
-<li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-<li>Display the number of bytes selected</li>
-<li>Fixed issue with creating new file</li>
-</ul></li>
-
-<li><p><strong>2021-08-29:</strong> Bined NetBeans Plugin 0.2.2 Released</p>
-<ul><li>Minor GUI improvements</li>
-<li>Switched to Gradle building</li>
-<li>Action to show debug variables as binary data in ToolTip view</li>
-<li>Support for multiple decoders in debugging view</li>
-<li>Display the number of bytes selected</li>
-<li>Added string field in values panel</li>
-</ul></li>
-
-<li><p><strong>2021-08-29:</strong> BinEd Library 0.2.0 Released</p>
-<ul><li>Renamed to BinEd</li>
-<li>Support for half-size space</li>
-<li>Support for layout, theme and colors profiles</li>
-<li>Context aware popup menu</li>
-<li>Support for ENTER key in preview section</li>
-</ul></li>
-
-<li><p><strong>2021-04-11:</strong> BinEd IntelliJ Plugin 0.2.4 Released</p>
-<ul><li>Added string field in values panel</li>
-<li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>
-</ul></li>
-
 <li><p><strong>2020-07-30:</strong> BinEd IntelliJ Plugin 0.2.3 Released</p>
 <ul><li>Fixed debugger array support for PHP</li>
 <li>Added binary file type</li>

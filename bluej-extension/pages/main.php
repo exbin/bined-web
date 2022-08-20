@@ -18,13 +18,29 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['bluej-extension']['dev']); ?></td></tr>
 </table>
 
+<h2>Features</h2>
+<ul><li>Visualize data as numerical (hexadecimal) codes and text representation</li>
+<li>Codes can be also binary, octal or decimal</li>
+<li>Support for Unicode, UTF-8 and other charsets</li>
+<li>Insert and overwrite edit modes</li>
+<li>Searching for text / hexadecimal code with found matches highlighting</li>
+<li>Support for undo/redo</li>
+<li>Support for files with size up to exabytes</li></ul>
+
+<h2 id="installation">Installation</h2>
+<p>Put the downloaded jar file into bluej/lib/extensions2 directory/folder.</p>
+
+<h2 id="usage">Usage</h2>
+<p>
+<ul><li>Use "Open File As Binary" in "Tools" main menu to open file in file system</li>
+<li>Use "Open As Binary" in context menu for classes / files</li></ul>
+</p> 
+
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
 <tr><th>GitHub Repository&nbsp;</th></tr>
 <tr><td><a href="https://github.com/exbin/bined-bluej-extension" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/bined-bluej-extension</a></td></tr>
 </table>
-
-<p>TODO</p>
 </div>
 </body>
 </html>

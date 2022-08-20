@@ -1,6 +1,6 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
-$submenu_bluejextension = '<ul><li><a href="?manual"><del>Manual</del></a></li></ul>';
+$submenu_bluejextension = '<ul><li><a href="?manual">Manual</a></li></ul>';
 $childIndex = 'bluej-extension';
 include('../header.php');
 $query = getenv('QUERY_STRING');

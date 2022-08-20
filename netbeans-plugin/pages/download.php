@@ -191,12 +191,13 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Minor GUI improvements</li>
-<li>Switched to Gradle building</li>
-<li>Action to show debug variables as binary data in ToolTip view</li>
-<li>Support for multiple decoders in debugging view</li>
-<li>Display the number of bytes selected</li>
-<li>Added string field in values panel</li></ul>
+<ul><li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Added edit selection action</li>
+<li>Relaxed dependencies - e.g. plugin should work in VisualVM</li>
+<li>Added link to online help/manual</li>
+<li>Minor GUI improvements</li></ul>
 
 <h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>
