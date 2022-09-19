@@ -56,6 +56,7 @@ if ($count == 0) {
 }
 ?>
 <p>Add <a href="?add-comment">new comment</a>.</p>
+<p>See <a href="?comments">list of comments</a>.</p>
 
 </div>
 </body>

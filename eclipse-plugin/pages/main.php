@@ -21,7 +21,10 @@ function echoDownload($arr) {
 
 <h2 id="usage">Installation</h2>
 
-<p>To install use update site or copy to eclipse/dropins and use Open with/Other - BinEd Editor.</p>
+<p>Choose one of the following options:</p>
+<ul><li>In Help/Eclipse Marketplace search for bined and press install button</li>
+<li>In Help/Install new software add plugin update site "https://bined.exbin.org/eclipse-plugin/update" and install content</li>
+<li>Copy downloaded jar file to eclipse/dropins directory</li></ul>
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
