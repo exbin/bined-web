@@ -69,6 +69,10 @@ div#navbar a#ScreenshotsIcon {
     background-image: url('/images/image-x-generic.png');
 }
 
+div#navbar a#DiscordLogo {
+    background-image: url('/images/discord-logo.png');
+}
+
 div#divider {
     background: rgb(60, 125, 195);
     margin-left: 0em;

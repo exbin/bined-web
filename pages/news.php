@@ -2,6 +2,9 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2022-10-04:</strong> Created Discord channel for BinEd</p>
+<p>Created <a href="https://discord.gg/w8yAHPTa">Discord channel</a>.</p>
+
 <li><p><strong>2022-08-20:</strong> BinEd BlueJ Extension 0.2.1 Released</p>
 <ul><li>Updated for BlueJ version 5.0 or higher</li>
 <li>BinEd library updated</li>
@@ -82,11 +85,6 @@
 <li>Support for layout, theme and colors profiles</li>
 <li>Context aware popup menu</li>
 <li>Support for ENTER key in preview section</li>
-</ul></li>
-
-<li><p><strong>2021-04-11:</strong> BinEd IntelliJ Plugin 0.2.4 Released</p>
-<ul><li>Added string field in values panel</li>
-<li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>
 </ul></li>
 
 </ul>

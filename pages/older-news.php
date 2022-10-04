@@ -2,6 +2,11 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2021-04-11:</strong> BinEd IntelliJ Plugin 0.2.4 Released</p>
+<ul><li>Added string field in values panel</li>
+<li>Fixed 2021.1: Can't close any tabs once a binary file is opened</li>
+</ul></li>
+
 <li><p><strong>2020-07-30:</strong> BinEd IntelliJ Plugin 0.2.3 Released</p>
 <ul><li>Fixed debugger array support for PHP</li>
 <li>Added binary file type</li>
