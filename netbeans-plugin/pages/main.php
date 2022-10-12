@@ -41,7 +41,7 @@ function echoDownload($arr) {
 
 <h2 id="installation">Installation</h2>
 <p>In Tools/Plugins in Available Plugins tab search for "bined" or in Downloaded tab "Add Plugins" if you want to install .nbm file.<br/>
-Current version requires NetBeans 11 or newer.</p>
+Current version requires NetBeans 8.2 or newer.</p>
 
 <h2 id="usage">Usage</h2>
 <p>Use "Open as Binary" action in main "File" menu or in project files context menu.<br/>

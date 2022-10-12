@@ -2,6 +2,12 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2022-10-12:</strong> BinEd NetBeans Plugin 0.2.4 Released</p>
+<ul><li>Added API: view binary data</li>
+<li>Fixed invalid dependency on debugging module (issue #15)</li>
+<li>Fixed context menu "open as binary" registration (issue #15)</li>
+</ul></li>
+
 <li><p><strong>2022-10-04:</strong> Created Discord channel for BinEd</p>
 <p>Created <a href="https://discord.gg/w8yAHPTa">Discord channel</a>.</p>
 
@@ -77,14 +83,6 @@
 <li>Support for multiple decoders in debugging view</li>
 <li>Display the number of bytes selected</li>
 <li>Added string field in values panel</li>
-</ul></li>
-
-<li><p><strong>2021-08-29:</strong> BinEd Library 0.2.0 Released</p>
-<ul><li>Renamed to BinEd</li>
-<li>Support for half-size space</li>
-<li>Support for layout, theme and colors profiles</li>
-<li>Context aware popup menu</li>
-<li>Support for ENTER key in preview section</li>
 </ul></li>
 
 </ul>

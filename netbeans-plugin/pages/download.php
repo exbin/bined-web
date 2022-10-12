@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.3';
+$ver = '0.2.4';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.3';
+$date = '2022-08-13';
+
+$old_releases[11][0]['name'] = 'Plugin';
+$old_releases[11][0]['ver'] = $ver;
+$old_releases[11][0]['date'] = $date;
+$old_releases[11][0]['icon'] = 'netbeans';
+$old_releases[11][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.nbm';
+
+$old_sources[11][0]['name'] = 'Sources';
+$old_sources[11][0]['ver'] = $ver;
+$old_sources[11][0]['icon'] = 'zip';
+$old_sources[11][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 
 $ver = '0.2.2';
 $date = '2021-08-29';
@@ -191,13 +205,9 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-<li>Added edit selection action</li>
-<li>Relaxed dependencies - e.g. plugin should work in VisualVM</li>
-<li>Added link to online help/manual</li>
-<li>Minor GUI improvements</li></ul>
+<ul><li>Added API: view binary data</li>
+<li>Fixed invalid dependency on debugging module (issue #15)</li>
+<li>Fixed context menu "open as binary" registration (issue #15)</li></ul>
 
 <h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>
@@ -210,6 +220,11 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>NetBeans Platform Plugin <?php echo $old_releases[11][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[11]); ?></td>
+  <td><?php echoDownload($old_sources[11]); ?></td>
+</tr>
 <tr>
   <td>NetBeans Platform Plugin <?php echo $old_releases[10][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[10]); ?></td>
