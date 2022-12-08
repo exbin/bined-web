@@ -6,7 +6,7 @@
       $stb_ver = '0.2.1';
       $stb_date = '2021-10-31';
       $dev_ver = '0.2.2';
-      $dev_date = '2022-09-03';
+      $dev_date = '2022-10-21';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -31,7 +31,7 @@
 
       $variants['dev'][0]['name'] = 'Windows Installer';
       $variants['dev'][0]['ver'] = $dev_ver;
-      $variants['dev'][0]['date'] = '2022-01-24';
+      $variants['dev'][0]['date'] = '2022-10-21';
       $variants['dev'][0]['icon'] = 'exe';
       $variants['dev'][0]['file'] = 'bined-'.$dev_ver.'-SNAPSHOT-win32.exe';
       $variants['dev'][1]['name'] = 'ZIP';
@@ -140,10 +140,10 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.6';
-      $stb_date = '2022-05-22';
+      $stb_ver = '0.2.7';
+      $stb_date = '2022-12-08';
       $dev_ver = '0.2.7';
-      $dev_date = '2022-08-22';
+      $dev_date = '2022-12-07';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

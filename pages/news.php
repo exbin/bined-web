@@ -2,6 +2,14 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2022-12-08:</strong> BinEd IntelliJ Plugin 0.2.7 Released</p>
+<ul><li>Added byte array support for some fields for Rider/CLion/GoLand (debug tree child nodes extraction)</li>
+<li>Minor layout fix (issue #45)</li>
+<li>Fixed settings save (issue #44)</li>
+<li>Fixed event context does not match assertion (issue #43)</li>
+<li>Fixed User Data exception (issue #42)</li>
+</ul></li>
+
 <li><p><strong>2022-10-12:</strong> BinEd NetBeans Plugin 0.2.4 Released</p>
 <ul><li>Added API: view binary data</li>
 <li>Fixed invalid dependency on debugging module (issue #15)</li>
@@ -74,15 +82,6 @@
 <li>Added files compare dialog</li>
 <li>Display the number of bytes selected</li>
 <li>Fixed issue with creating new file</li>
-</ul></li>
-
-<li><p><strong>2021-08-29:</strong> Bined NetBeans Plugin 0.2.2 Released</p>
-<ul><li>Minor GUI improvements</li>
-<li>Switched to Gradle building</li>
-<li>Action to show debug variables as binary data in ToolTip view</li>
-<li>Support for multiple decoders in debugging view</li>
-<li>Display the number of bytes selected</li>
-<li>Added string field in values panel</li>
 </ul></li>
 
 </ul>

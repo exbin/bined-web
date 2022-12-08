@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.6';
+$ver = '0.2.7';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.6';
+$date = '2022-05-22';
+
+$old_releases[15][0]['name'] = 'Plugin';
+$old_releases[15][0]['ver'] = $ver;
+$old_releases[15][0]['date'] = $date;
+$old_releases[15][0]['icon'] = 'zip';
+$old_releases[15][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[15][0]['name'] = 'Sources';
+$old_sources[15][0]['ver'] = $ver;
+$old_sources[15][0]['icon'] = 'zip';
+$old_sources[15][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $ver = '0.2.5';
 $date = '2021-11-06';
@@ -240,11 +254,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Fixed native file mode (issue #39)</li>
-<li>Added options page</li>
-<li>Added action for online help/manual</li>
-<li>Added edit selection action</li>
-<li>Added API: view binary data</li>
+<ul><li>Added byte array support for some fields for Rider/CLion/GoLand (debug tree child nodes extraction)</li>
+<li>Minor layout fix (issue #45)</li>
+<li>Fixed settings save (issue #44)</li>
+<li>Fixed event context does not match assertion (issue #43)</li>
+<li>Fixed User Data exception (issue #42)</li>
 </ul>
 
 <h2 id="development">Development Version</h2>
@@ -259,6 +273,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[15][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[15]); ?></td>
+  <td><?php echoDownload($old_sources[15]); ?></td>
+</tr>
 <tr>
   <td>IntelliJ Platform Plugin <?php echo $old_releases[14][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[14]); ?></td>
