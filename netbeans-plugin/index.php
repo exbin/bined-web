@@ -1,8 +1,8 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
 $submenu_netbeansplugin = '
-<ul><li><a href="?download">Download</a></li>
-<li><a href="?manual">Manual</a></li></ul>';
+<ul><li><a class="urldecor" style="background-image: url(\''.$parentPrefix.'../images/menu/download.png\');" href="?download">Download</a></li>
+<li><a class="urldecor" style="background-image: url(\''.$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual">Manual</a></li></ul>';
 $childIndex = 'netbeans-plugin';
 include('../header.php');
 $query = getenv('QUERY_STRING');

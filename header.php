@@ -23,7 +23,7 @@ if (!empty($prefix)) {
 <body>
 <div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-logo.png" alt="[BinEd]" title="Icon" width="129" height="50" style="vertical-align: text-top; margin-top: -7px;"/>&nbsp;- Binary / Hexadecimal Editor</a></h1></div>
 <div id="navbar">
-  <a id="DiscordLogo" href="https://discord.gg/w8yAHPTa">Discord</a>
+  <a id="DiscordLogo" href="https://discord.gg/SPdAfQ3axX">Discord</a>
   <a id="ScreenshotsIcon" href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a>
   <a id="DownloadIcon" href="<?php echo $rootPrefix; ?>?downloads">Download</a>
   <a id="DocumentationIcon" href="<?php echo $rootPrefix; ?>editor/?manual">Manual</a>
@@ -59,7 +59,7 @@ if (!empty($prefix)) {
   </li>
   <li><div>Development</div>
     <ul class="submenu">
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/wrench_orange.png');" href="<?php echo $rootPrefix; ?>?participate">Participate</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/group.png');" href="<?php echo $rootPrefix; ?>?participate">Participate</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/features.png');" href="<?php echo $rootPrefix; ?>?features">Features</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/lightning.png');" href="<?php echo $rootPrefix; ?>?concepts">Concepts</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/source-code.png');" href="<?php echo $rootPrefix; ?>?source-codes">Source Codes</a></li>
@@ -69,7 +69,7 @@ if (!empty($prefix)) {
   </li>
   <li><div>Social</div>
     <ul class="submenu">
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/discord.png');" href="https://discord.gg/w8yAHPTa">Discord</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/discord.png');" href="https://discord.gg/SPdAfQ3axX">Discord</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/comment.png');" href="<?php echo $rootPrefix; ?>?comments">User Comments</a></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/plugin.png');" href="<?php echo $rootPrefix; ?>?known-uses">Known Uses</a></li>
       <li><a class="urlextern" href="https://sourceforge.net/projects/bined/">SourceForge</a></li>

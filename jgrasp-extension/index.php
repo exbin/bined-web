@@ -1,6 +1,6 @@
 <?php global $prefix;
 $prefix = '..';
-$submenu_jgraspextension = '<ul><li><a href="?manual"><del>Manual</del></a></li></ul>';
+$submenu_jgraspextension = '<ul><li><a class="urldecor" style="background-image: url(\''.$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li></ul>';
 $childIndex = 'jgrasp-extension';
 include('../header.php');
 $query = getenv('QUERY_STRING');
