@@ -39,7 +39,6 @@ function echoDownload($arr) {
 
 <h2 id="known_issues">Known Issues</h2>
 <ul>
-<li>Current version throws NullPointerException when creating new file</li>
 <li>Editor can freeze with OutOfMemoryError: Java heap space if there is too many big modifications</li>
 <li>In delta mode files can be corrupted, if they are changed with other applications at the same time</li>
 <li>Memory leaks</li></ul>

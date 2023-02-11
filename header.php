@@ -15,7 +15,7 @@ if (!empty($prefix)) {
 <meta name="description" content="BinEd Binary Editor project webpage"/>
 <meta name="keywords" content="binary, hexadecimal, hexedit, hexeditor, viewer, editor, java"/>
 <meta name="robots" content="index,follow"/>
-<link rel="SHORTCUT ICON" href="bined.ico" />
+<link rel="SHORTCUT ICON" href="<?php echo $parentPrefix; ?>bined.ico" />
 <link href="<?php echo $parentPrefix; ?>css/site.css" rel="stylesheet">
 <title>BinEd - Binary / Hexadecimal Editor</title>
 </head>
