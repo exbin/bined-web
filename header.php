@@ -21,7 +21,7 @@ if (!empty($prefix)) {
 </head>
 
 <body>
-<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-logo.png" alt="[BinEd]" title="Icon" width="129" height="50" style="vertical-align: text-top; margin-top: -7px;"/>&nbsp;- Binary / Hexadecimal Editor</a></h1></div>
+<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-icon.png" alt="[BinEd]" title="BinEd Icon" width="60" height="60" style="vertical-align: text-top; margin-top: -14px;"/>&nbsp; BinEd - Binary / Hexadecimal Editor</a></h1></div>
 <div id="navbar">
   <a id="DiscordLogo" href="https://discord.gg/SPdAfQ3axX">Discord</a>
   <a id="ScreenshotsIcon" href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a>
@@ -55,6 +55,7 @@ if (!empty($prefix)) {
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/jdeveloper.png');" href="<?php echo $parentPrefix; ?>jdeveloper-extension">JDeveloper Ext.</a><?php echo @$submenu_jdeveloperextension; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/bluej.png');" href="<?php echo $parentPrefix; ?>bluej-extension">BlueJ Extension</a><?php echo @$submenu_bluejextension; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/jedit.png');" href="<?php echo $parentPrefix; ?>jedit-plugin">jEdit Plugin</a><?php echo @$submenu_jeditplugin; ?></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/autopsy.png');" href="<?php echo $parentPrefix; ?>autopsy-plugin">Autopsy Plugin</a><?php echo @$submenu_autopsyplugin; ?></li>
     </ul>
   </li>
   <li><div>Development</div>

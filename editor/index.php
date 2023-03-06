@@ -3,6 +3,7 @@ $prefix = '..';
 $submenu_editor =
 '<ul><li><a class="urldecor" style="background-image: url(\''.$parentPrefix.'../images/menu/download.png\');" href="?download">Download</a></li>
 <li><a class="urldecor" style="background-image: url(\''.$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual">Manual</a></li>
+<li><a class="urldecor" style="background-image: url(\''.$parentPrefix.'../images/menu/plugin.png\');" href="?plugins">Plugins</a></li>
 <li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=bug">Report Bug</a></li>
 <li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=enhancement">Request Feature</a></li></ul>';
 

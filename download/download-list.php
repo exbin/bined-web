@@ -142,8 +142,8 @@
       $variants = array();
       $stb_ver = '0.2.7';
       $stb_date = '2022-12-08';
-      $dev_ver = '0.2.7';
-      $dev_date = '2022-12-07';
+      $dev_ver = '0.2.8';
+      $dev_date = '2023-01-09';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -261,6 +261,28 @@
       $variants['dev'][0]['file'] = 'bined-jedit-plugin-'.$dev_ver.'-SNAPSHOT.zip';
 
       $result['jedit-plugin'] = $variants;
+    }
+
+    if ($group == 'autopsy-plugin' || is_null($group)) {
+      $variants = array();
+      $stb_ver = '';
+      $stb_date = '';
+      $dev_ver = '0.2.0';
+      $dev_date = '2023-03-06';
+
+      $variants['stb'][0]['name'] = 'Plugin';
+      $variants['stb'][0]['ver'] = $stb_ver;
+      $variants['stb'][0]['date'] = $stb_date;
+      $variants['stb'][0]['icon'] = 'netbeans';
+      $variants['stb'][0]['file'] = 'org-exbin-bined-autopsy-'.$stb_ver.'.nbm';
+
+      $variants['dev'][0]['name'] = 'Plugin';
+      $variants['dev'][0]['ver'] = $dev_ver;
+      $variants['dev'][0]['date'] = $dev_date;
+      $variants['dev'][0]['icon'] = 'netbeans';
+      $variants['dev'][0]['file'] = 'org-exbin-bined-autopsy.nbm';
+
+      $result['autopsy-plugin'] = $variants;
     }
 
     return $result;

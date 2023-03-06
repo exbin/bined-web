@@ -43,12 +43,9 @@ function echoDownload($arr) {
 <tr><td>jEdit Plugin</td>
   <td><?php echoDownload($downloads['jedit-plugin']['stb']); ?></td>
   <td>-</td></tr>
-</table>
-<h3 id="plugins">Plugins</h3>
-<p>Following plugins work only for standard version.</p>
-<table class="plugins">
-<tr><th>Plugin&nbsp;</th><th>Download&nbsp;</th><th>Repository&nbsp;</th></tr>
-<tr><td>Czech Language</td><td><a href="download/?exbin-framework-language-cs_CZ-0.2.0-SNAPSHOT.jar" title="Download"><img src="images/filetypes/jar.png" alt="[JAR]" width="16" height="16"/> 0.2.0</a> [2017-01-08]</td><td>-</td></tr>
+<tr><td>Autopsy Plugin</td>
+  <td>-</td>
+  <td>-</td></tr>
 </table>
 
 <h3 id="known_issues">Known Issues</h3>
@@ -90,6 +87,9 @@ function echoDownload($arr) {
   <td>-</td></tr>
 <tr><td>jEdit Plugin</td>
   <td><?php echoDownload($downloads['jedit-plugin']['dev']); ?></td>
+  <td>-</td></tr>
+<tr><td>Autopsy Plugin</td>
+  <td><?php echoDownload($downloads['autopsy-plugin']['dev']); ?></td>
   <td>-</td></tr>
 </table>
 
