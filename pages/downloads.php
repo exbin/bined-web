@@ -44,7 +44,7 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['jedit-plugin']['stb']); ?></td>
   <td>-</td></tr>
 <tr><td>Autopsy Plugin</td>
-  <td>-</td>
+  <td><?php echoDownload($downloads['autopsy-plugin']['stb']); ?></td>
   <td>-</td></tr>
 </table>
 

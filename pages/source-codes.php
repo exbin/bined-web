@@ -12,6 +12,7 @@
 <tr><td>JDeveloper Extension</td><td><a href="https://github.com/exbin/bined-jdeveloper-extension" title="GitHub repository"><img src="images/ref/github.png" alt="[GitHub]"/> exbin/bined-jdeveloper-extension</a></td></tr>
 <tr><td>BlueJ Extension</td><td><a href="https://github.com/exbin/bined-bluej-extension" title="GitHub repository"><img src="images/ref/github.png" alt="[GitHub]"/> exbin/bined-bluej-extension</a></td></tr>
 <tr><td>jEdit Plugin</td><td><a href="https://github.com/exbin/bined-jedit-plugin" title="GitHub repository"><img src="images/ref/github.png" alt="[GitHub]"/> exbin/bined-jedit-plugin</a></td></tr>
+<tr><td>Autopsy Plugin</td><td><a href="https://github.com/exbin/bined-autopsy-plugin" title="GitHub repository"><img src="images/ref/github.png" alt="[GitHub]"/> exbin/bined-autopsy-plugin</a></td></tr>
 <tr><th>Others&nbsp;</th><th>Repository&nbsp;</th></tr>
 <tr><td>Web Site</td><td><a href="https://github.com/exbin/bined-web" title="GitHub repository"><img src="images/ref/github.png" alt="[GitHub]"/> exbin/bined-web</a></td></tr>
 </table>

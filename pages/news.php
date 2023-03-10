@@ -2,6 +2,10 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2023-03-08:</strong> BinEd Autopsy Plugin 0.2.0 Released</p>
+<ul><li>Initial release</li>
+</ul></li>
+
 <li><p><strong>2022-12-08:</strong> BinEd IntelliJ Plugin 0.2.7 Released</p>
 <ul><li>Added byte array support for some fields for Rider/CLion/GoLand (debug tree child nodes extraction)</li>
 <li>Minor layout fix (issue #45)</li>
@@ -71,17 +75,6 @@
 <li>Fixed issues with binary file type (issue #36)</li>
 <li>Fixed issue with transparency (issue #38)</li>
 <li>Fixed issue with opening zip files</li>
-</ul></li>
-
-<li><p><strong>2021-10-31:</strong> BinEd 0.2.1 Released</p>
-<ul><li>New app icon</li>
-<li>Support for multiple files / tabs</li>
-<li>Added string field in values panel (issue #8)</li>
-<li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-<li>Display the number of bytes selected</li>
-<li>Fixed issue with creating new file</li>
 </ul></li>
 
 </ul>

@@ -15,7 +15,7 @@ function echoDownload($arr) {
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
 <tr><td>Autopsy Plugin</td>
-  <td><?php echo "-"; /* echoDownload($downloads['autopsy-plugin']['stb']); */ ?></td>
+  <td><?php echoDownload($downloads['autopsy-plugin']['stb']); ?></td>
   <td><?php echoDownload($downloads['autopsy-plugin']['dev']); ?></td>
 </tr>
 </table>
@@ -25,7 +25,7 @@ function echoDownload($arr) {
 
 <h2 id="usage">Usage</h2>
 <p>New "BinEd" tab is available in Data Content Viewers section.<br/>
-<strike>Use "Open as Binary" action in main "Tools" menu or in project files context menu.</strike></p>
+Use "Open as Binary" action in main "Tools" menu.</p>
 
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
