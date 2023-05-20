@@ -80,7 +80,7 @@
       $stb_ver = '';
       $stb_date = '';
       $dev_ver = '0.2.0';
-      $dev_date = '2023-03-29';
+      $dev_date = '2023-05-06';
 
       $variants['dev'][0]['name'] = 'Android App';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -140,10 +140,10 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.7';
-      $stb_date = '2022-12-08';
+      $stb_ver = '0.2.8';
+      $stb_date = '2022-05-19';
       $dev_ver = '0.2.8';
-      $dev_date = '2023-04-16';
+      $dev_date = '2023-05-18';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

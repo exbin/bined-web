@@ -2,6 +2,16 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2021-11-06:</strong> BinEd IntelliJ Plugin 0.2.5 Released</p>
+<ul><li>New app icon</li>
+<li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Fixed issues with binary file type (issue #36)</li>
+<li>Fixed issue with transparency (issue #38)</li>
+<li>Fixed issue with opening zip files</li>
+</ul></li>
+
 <li><p><strong>2021-10-31:</strong> BinEd 0.2.1 Released</p>
 <ul><li>New app icon</li>
 <li>Support for multiple files / tabs</li>
