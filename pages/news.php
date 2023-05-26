@@ -2,6 +2,10 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2023-05-25:</strong> BinEd IntelliJ Plugin 0.2.8.1 Released</p>
+<ul><li>Fixed plugin breaks VCS history log reading (Issue #51)</li>
+</ul></li>
+
 <li><p><strong>2023-05-19:</strong> BinEd IntelliJ Plugin 0.2.8 Released</p>
 <ul><li>Added edit as binary action for columns in database view</li>
 <li>Added byte-to-byte compare diff option</li>
@@ -70,10 +74,6 @@
 <li>Added action for online help/manual</li>
 <li>Added edit selection action</li>
 <li>Added API: view binary data</li>
-</ul></li>
-
-<li><p><strong>2021-11-09:</strong> BinEd jEdit Plugin 0.2.0 Released</p>
-<ul><li>Initial release</li>
 </ul></li>
 
 </ul>

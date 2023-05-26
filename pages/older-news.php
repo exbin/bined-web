@@ -2,6 +2,10 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2021-11-09:</strong> BinEd jEdit Plugin 0.2.0 Released</p>
+<ul><li>Initial release</li>
+</ul></li>
+
 <li><p><strong>2021-11-06:</strong> BinEd IntelliJ Plugin 0.2.5 Released</p>
 <ul><li>New app icon</li>
 <li>Added templates for profiles</li>

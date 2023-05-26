@@ -44,9 +44,11 @@ function echoDownload($arr) {
 <p>Alternative method is to unzip file into plugins directory to make it part of the IDE installation.</p>
 
 <h2 id="usage">Usage</h2>
-<ul><li>Use "Open as Binary" action in main "File" menu or in project files context menu.</li>
+<ul><li>Use "Open as Binary" action in toolbar of "File/Open" dialog or "Open In/Binary Editor" in project files context menu.</li>
 <li>Use "View as Binary" action in context menu in variables/debug window.</li>
-<li>Associate file extension with Binary File file type in Options/Editor/File Types</li></ul>
+<li>Associate file extension with Binary File file type in Options/Editor/File Types</li>
+<li>Use "Byte-to-byte compare" in Compare files dialog</li>
+<li>Use "Edit as Binary" in column context menu in DB view</li></ul>
 
 <h2 id="known_issues">Known Issues</h2>
 <ul>
