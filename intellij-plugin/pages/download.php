@@ -282,11 +282,13 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added byte array support for some fields for Rider/CLion/GoLand (debug tree child nodes extraction)</li>
-<li>Minor layout fix (issue #45)</li>
-<li>Fixed settings save (issue #44)</li>
-<li>Fixed event context does not match assertion (issue #43)</li>
-<li>Fixed User Data exception (issue #42)</li>
+<ul><li>Added edit as binary action for columns in database view</li>
+<li>Added byte-to-byte compare diff option</li>
+<li>Added integration options page</li>
+<li>Reworked save on close</li>
+<li>Added reload file action (issue #49)</li>
+<li>Fixed illegal argument exception (issue #50)</li>
+<li>Fixed plugin breaks VCS history log reading (Issue #51)</li>
 </ul>
 
 <h2 id="development">Development Version</h2>
