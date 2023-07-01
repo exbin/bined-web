@@ -36,7 +36,6 @@ function echoDownload($arr) {
 <tr><td><a href="https://github.com/exbin/bined-jdeveloper-extension" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/bined-jdeveloper-extension</a></td></tr>
 </table>
 
-<p>TODO</p>
 </div>
 </body>
 </html>

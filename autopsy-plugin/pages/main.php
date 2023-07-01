@@ -21,7 +21,7 @@ function echoDownload($arr) {
 </table>
 
 <h2 id="installation">Installation</h2>
-<p>In Tools/Plugins <strike>in Available Plugins tab search for "bined" or</strike> in Downloaded tab "Add Plugins" if you want to install .nbm file.</p>
+<p>In Tools/Plugins in Downloaded tab "Add Plugins" if you want to install .nbm file.</p>
 
 <h2 id="usage">Usage</h2>
 <p>New "BinEd" tab is available in Data Content Viewers section.<br/>
@@ -32,8 +32,6 @@ Use "Open as Binary" action in main "Tools" menu.</p>
 <tr><th>GitHub Repository&nbsp;</th></tr>
 <tr><td><a href="https://github.com/exbin/bined-autopsy-plugin" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/bined-autopsy-plugin</a></td></tr>
 </table>
-
-<p>TODO</p>
 
 </div>
 </body>
