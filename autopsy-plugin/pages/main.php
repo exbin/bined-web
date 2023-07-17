@@ -20,6 +20,15 @@ function echoDownload($arr) {
 </tr>
 </table>
 
+<h2 id="published">Published</h2>
+<table class="table">
+<tr><th>Module Website&nbsp;</th></tr>
+<tr>
+  <td><a class="urlextern" href="https://github.com/sleuthkit/autopsy_addon_modules/tree/master/ContentViewerModules/BinEd_Binary_Viewer">Autopsy Add-on Modules</a></td>
+</tr>
+</table>
+
+
 <h2 id="installation">Installation</h2>
 <p>In Tools/Plugins in Downloaded tab "Add Plugins" if you want to install .nbm file.</p>
 

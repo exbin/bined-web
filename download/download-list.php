@@ -6,7 +6,7 @@
       $stb_ver = '0.2.1';
       $stb_date = '2021-10-31';
       $dev_ver = '0.2.2';
-      $dev_date = '2023-04-03';
+      $dev_date = '2023-07-08';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -49,6 +49,11 @@
       $variants['dev'][3]['date'] = $dev_date;
       $variants['dev'][3]['icon'] = 'rpm';
       $variants['dev'][3]['file'] = 'bined-'.$dev_ver.'-0.noarch.rpm';
+      $variants['dev'][4]['name'] = 'MacOS Installer';
+      $variants['dev'][4]['ver'] = $dev_ver;
+      $variants['dev'][4]['date'] = '2023-07-15';
+      $variants['dev'][4]['icon'] = 'dmg';
+      $variants['dev'][4]['file'] = 'bined-'.$dev_ver.'-SNAPSHOT.dmg';
 
       $result['editor'] = $variants;
     }

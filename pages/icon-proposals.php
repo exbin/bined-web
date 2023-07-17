@@ -35,6 +35,15 @@
 <img src="images/icon/saintifia/v4.png" width="64" height="64"/>
 </p>
 
+<h2 id="logo_older">Older Logo</h2>
+<p><img src="images/logo/bined-logo.png" alt="[logo icon]" height="48"/></p> 
+<p>BinEd logo was modified ExBin logo created by:</p>
+<p>Logo: <a href="images/logo/bined-logo.png">[PNG]</a> <a href="images/logo/bined-logo.svg">[SVG]</a><br/>
+Author: Nikash SINGH<br/>
+Location: Sydney, Australia<br/>
+Website: <a class="urlextern" href="https://nikashsingh.org">https://nikashsingh.org</a><br/>
+License: Creative Commons BY-NC 4.0</p>
+
 </div>
 </body>
 </html>
