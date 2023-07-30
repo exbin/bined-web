@@ -25,17 +25,13 @@ function echoDownload($arr) {
 </tr></table>
 
 <h2>Features</h2>
-<ul><li>Data as hexadecimal codes and text preview</li>
-<li>Insert and overwrite edit modes</li>
-<li>Support for selection and clipboard actions</li>
-<li>Scrollbars fixed or optional, character/line or pixel precision</li>
-<li>Support for showing unprintable/whitespace characters</li>
-<li>Support for undo/redo</li>
-<li>Support for encoding selection</li>
+<ul><li>Visualize data as numerical (hexadecimal) codes and text representation</li>
 <li>Codes can be also binary, octal or decimal</li>
+<li>Support for Unicode, UTF-8 and other charsets</li>
+<li>Insert and overwrite edit modes</li>
 <li>Searching for text / hexadecimal code with matching highlighting</li>
-<li>Support for huge files</li>
-<li>Delta mode - Only changes are stored in memory</li></ul>
+<li>Support for undo/redo</li>
+<li>Support for files with size up to exabytes</li></ul>
 
 <h2 id="known_issues">Known Issues</h2>
 <ul>

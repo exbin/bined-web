@@ -8,6 +8,30 @@ function echoDownload($arr) {
 
 $old_releases = array();
 
+$ver = '0.2.1';
+$date = '2021-10-31';
+
+$old_releases[5][0]['name'] = 'Windows Installer';
+$old_releases[5][0]['ver'] = $ver;
+$old_releases[5][0]['date'] = $date;
+$old_releases[5][0]['icon'] = 'exe';
+$old_releases[5][0]['file'] = 'bined-'.$ver.'-win32.exe';
+$old_releases[5][1]['name'] = 'ZIP';
+$old_releases[5][1]['ver'] = $ver;
+$old_releases[5][1]['date'] = $date;
+$old_releases[5][1]['icon'] = 'zip';
+$old_releases[5][1]['file'] = 'bined-'.$ver.'.zip';
+$old_releases[5][2]['name'] = 'Debian Package';
+$old_releases[5][2]['ver'] = $ver;
+$old_releases[5][2]['date'] = $date;
+$old_releases[5][2]['icon'] = 'debian';
+$old_releases[5][2]['file'] = 'bined_'.$ver.'-1_all.deb';
+$old_releases[5][3]['name'] = 'Linux RPM Package';
+$old_releases[5][3]['ver'] = $ver;
+$old_releases[5][3]['date'] = $date;
+$old_releases[5][3]['icon'] = 'rpm';
+$old_releases[5][3]['file'] = 'bined-'.$ver.'-1.noarch.rpm';
+
 $ver = '0.2.0';
 $date = '2019-08-26';
 
@@ -114,14 +138,13 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 
 <h2 id="latest_changes">Latest Changes</h2>
 <p>
-<ul><li>New app icon</li>
-<li>Support for multiple files / tabs</li>
-<li>Added string field in values panel (issue #8)</li>
-<li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-<li>Display the number of bytes selected</li>
-<li>Fixed issue with creating new file</li>
+<ul><li>Added support for bookmarks</li>
+<li>Added off-line help/manual</li>
+<li>Added edit selection dialog</li>
+<li>Added clipboard content dialog</li>
+<li>Added support for files drag&amp;drop (issue #7)</li>
+<li>Added reload file action</li>
+<li>Fixed issue with charsets switching</li>
 </ul></p>
 
 <h2 id="development">Development Version</h2>
@@ -135,6 +158,10 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>BinEd <?php echo $old_releases[5][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[5]); ?></td>
+</tr>
 <tr>
   <td>BinEd <?php echo $old_releases[4][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[4]); ?></td>

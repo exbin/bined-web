@@ -2,6 +2,14 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2022-05-22:</strong> BinEd IntelliJ Plugin 0.2.6 Released</p>
+<ul><li>Fixed native file mode (issue #39)</li>
+<li>Added options page</li>
+<li>Added action for online help/manual</li>
+<li>Added edit selection action</li>
+<li>Added API: view binary data</li>
+</ul></li>
+
 <li><p><strong>2021-11-09:</strong> BinEd jEdit Plugin 0.2.0 Released</p>
 <ul><li>Initial release</li>
 </ul></li>

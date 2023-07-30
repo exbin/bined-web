@@ -2,6 +2,16 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2023-07-29:</strong> BinEd 0.2.2 Released</p>
+<ul><li>Added support for bookmarks</li>
+<li>Added off-line help/manual</li>
+<li>Added edit selection dialog</li>
+<li>Added clipboard content dialog</li>
+<li>Added support for files drag&amp;drop (issue #7)</li>
+<li>Added reload file action</li>
+<li>Fixed issue with charsets switching</li>
+</ul></li>
+
 <li><p><strong>2023-05-25:</strong> BinEd IntelliJ Plugin 0.2.8.1 Released</p>
 <ul><li>Fixed plugin breaks VCS history log reading (Issue #51)</li>
 </ul></li>
@@ -66,14 +76,6 @@
 <li>Added insert data dialog</li>
 <li>Added files compare dialog</li>
 <li>Display the number of bytes selected</li>
-</ul></li>
-
-<li><p><strong>2022-05-22:</strong> BinEd IntelliJ Plugin 0.2.6 Released</p>
-<ul><li>Fixed native file mode (issue #39)</li>
-<li>Added options page</li>
-<li>Added action for online help/manual</li>
-<li>Added edit selection action</li>
-<li>Added API: view binary data</li>
 </ul></li>
 
 </ul>
