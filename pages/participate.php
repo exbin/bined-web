@@ -14,9 +14,8 @@
 <li>Contact: exbinproject@<span style="display:none">(at)</span>gmail.com</li></ul>
 
 <h2 id="development-plan">Current Development Plan</h2>
-<p>Plan for version 0.2.2 is to implement some of the following improvements:</p>
+<p>Plan for version 0.2.3 is to implement some of the following improvements:</p>
 <ul>
-  <li>Add bookmarking support</li>
   <li>Allow filesystem swapping for memory handling</li>
   <li>Add support for macro operations</li>
 </ul>
