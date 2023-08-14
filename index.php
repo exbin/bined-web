@@ -1,5 +1,5 @@
 <?php
-$query = getenv('QUERY_STRING');
+$query = @getenv('QUERY_STRING');
 if ($query == "download") {
 	header("Location: editor/?download");
 	die();

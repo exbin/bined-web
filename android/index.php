@@ -1,6 +1,6 @@
 <?php global $prefix, $submenu_android;
 $prefix = '..';
-$submenu_android = '<ul><li><a class="urldecor" style="background-image: url(\''.$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li></ul>';
+$submenu_android = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li></ul>';
 $childIndex = 'android';
 include('../header.php');
 $query = getenv('QUERY_STRING');
