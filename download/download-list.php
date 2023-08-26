@@ -153,7 +153,7 @@
       $stb_ver = '0.2.8.1';
       $stb_date = '2022-05-25';
       $dev_ver = '0.2.9';
-      $dev_date = '2023-05-27';
+      $dev_date = '2023-08-22';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
