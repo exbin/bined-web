@@ -1,6 +1,6 @@
 <?php
 // Store referer
-$referer = $_SERVER['HTTP_REFERER'];
+$referer = @$_SERVER['HTTP_REFERER'];
 $component = "";
 
 function startsWith($text, $match) {
