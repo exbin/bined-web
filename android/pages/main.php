@@ -6,7 +6,7 @@ function echoDownload($arr) {
   }
 } ?><div id="content">
 <h1 id="variant">Variant: Android App</h1>
-<p>Free and open source basic hexadecimal editor for Android written in Java.</p>
+<p>Free and open source basic hex editor for Android written in Java.</p>
 <p><img src="images/android_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <p>Under development.</p>
@@ -14,7 +14,7 @@ function echoDownload($arr) {
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
-<tr><td>Editor</td>
+<tr><td>Android App</td>
   <td><?php echoDownload($downloads['android']['stb']); ?></td>
   <td><?php echoDownload($downloads['android']['dev']); ?></td></tr>
 </table>

@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h1 id="extension">Extension: IntelliJ Plugin</h1>
 
-<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="https://www.jetbrains.com/idea/">IntelliJ Idea IDE</a> and other IDEs based on IntelliJ Platform from <a class="urlextern" href="https://www.jetbrains.com/">JetBrains</a> written in Java.</p>
+<p>Binary/hex editor plugin for <a class="urlextern" href="https://www.jetbrains.com/idea/">IntelliJ Idea IDE</a> and other IDEs based on IntelliJ Platform from <a class="urlextern" href="https://www.jetbrains.com/">JetBrains</a> written in Java.</p>
 <p><img src="images/intellij-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <h2 id="downloads">Downloads</h2>

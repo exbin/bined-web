@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h1 id="variant">Variant: Library / Component</h1>
 
-<p>Free and open source library for binary/hexadecimal viewer/editor component written in Java.</p>
+<p>Free and open source library for binary/hex viewer/editor component written in Java.</p>
 <p><img src="../images/example_screenshot.png" alt="Example usage screenshot" title="Example usage screenshot"/></p>
 
 <h2 id="downloads">Downloads</h2>

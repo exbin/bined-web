@@ -6,7 +6,7 @@ function echoDownload($arr) {
   }
 } ?><div id="content">
 <h1 id="variant">Variant: Desktop Application</h1>
-<p>Free and open source hexadecimal stand-alone viewer/editor written in Java.</p>
+<p>Free and open source stand-alone hex viewer/editor written in Java.</p>
 <p><img src="../images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <h2 id="downloads">Downloads</h2>

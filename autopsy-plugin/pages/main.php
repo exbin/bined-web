@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h1 id="extension">Extension: Autopsy Plugin</h1>
 
-<p>Hexadecimal viewer/editor plugin module for <a class="urlextern" href="https://sleuthkit.org/autopsy/">Autopsy digital forensics platform</a> written in Java.</p>
+<p>Hex viewer/editor plugin module for <a class="urlextern" href="https://sleuthkit.org/autopsy/">Autopsy digital forensics platform</a> written in Java.</p>
 
 <p><img src="images/autopsy-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 

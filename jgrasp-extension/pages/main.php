@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h1 id="extension">Extension: JGrasp Extension</h1>
 
-<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="https://www.jgrasp.org/">jGRASP</a> written in Java.</p>
+<p>Binary / hex editor plugin for <a class="urlextern" href="https://www.jgrasp.org/">jGRASP</a> written in Java.</p>
 <p>Use <strong>"Open as Binary"</strong> from File menu or in context menu.</p>
 
 <p><img src="images/jgrasp-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>

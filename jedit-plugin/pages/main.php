@@ -7,7 +7,7 @@ function echoDownload($arr) {
 } ?><div id="content">
 <h1 id="extension">Extension: jEdit Plugin</h1>
 
-<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="http://www.jedit.org/">jEdit</a> written in Java.</p>
+<p>Binary/hex editor plugin for <a class="urlextern" href="http://www.jedit.org/">jEdit</a> written in Java.</p>
 
 <p><img src="images/jedit-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 

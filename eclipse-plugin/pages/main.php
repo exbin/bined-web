@@ -6,7 +6,7 @@ function echoDownload($arr) {
   }
 } ?><div id="content">
 <h1 id="extension">Extension: Eclipse Plugin</h1>
-<p>Binary/hexadecimal editor plugin for <a class="urlextern" href="https://www.eclipse.org/">Eclipse IDE</a> written in Java.</p>
+<p>Binary/hex editor plugin for <a class="urlextern" href="https://www.eclipse.org/">Eclipse IDE</a> written in Java.</p>
 <p><img src="images/eclipse-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 
 <p>This plugin has limited capabilities</p>
@@ -16,7 +16,7 @@ function echoDownload($arr) {
 
 <h2 id="usage">Usage</h2>
 
-<ul><li>Use "<strong>Open With/BinEd Binary/Hexadecimal Editor</strong>" action in project explorer context menu</li>
+<ul><li>Use "<strong>Open With/BinEd Binary/Hex Editor</strong>" action in project explorer context menu</li>
 <li>Use "<strong>View as Binary</strong>" in Variables window</li></ul>
 
 <h2 id="usage">Installation</h2>

@@ -2,7 +2,7 @@
 <?php if (time() > filectime('author-alive.dat') + (60 * 60 * 24 * 90)) {
   echo '<p><h3 style="color: red; background-color: yellow;">This project is abandoned - author of this project is either dead or very long not updating</h3></p>';
 } ?>
-<p>Free and open source binary/hexadecimal viewer/editor and component written in Java.</p>
+<p>Free and open source binary/hex viewer/editor and component written in Java.</p>
 <p>This is part of the <a href="http://exbin.org">ExBin Project</a>.</p>
 <p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot" class="center" width="550"/></p>
 
