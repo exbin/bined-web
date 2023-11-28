@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.8.1';
+$ver = '0.2.9';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.8.1';
+$date = '2023-05-25';
+
+$old_releases[18][0]['name'] = 'Plugin';
+$old_releases[18][0]['ver'] = $ver;
+$old_releases[18][0]['date'] = $date;
+$old_releases[18][0]['icon'] = 'zip';
+$old_releases[18][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[18][0]['name'] = 'Sources';
+$old_sources[18][0]['ver'] = $ver;
+$old_sources[18][0]['icon'] = 'zip';
+$old_sources[18][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $ver = '0.2.8';
 $date = '2023-05-19';
@@ -282,13 +296,12 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added edit as binary action for columns in database view</li>
-<li>Added byte-to-byte compare diff option</li>
-<li>Added integration options page</li>
-<li>Reworked save on close</li>
-<li>Added reload file action (issue #49)</li>
-<li>Fixed illegal argument exception (issue #50)</li>
-<li>Fixed plugin breaks VCS history log reading (Issue #51)</li>
+<ul><li>Added convert data action</li>
+<li>Added support for bookmarks</li>
+<li>Added clipboard content tool</li>
+<li>Added drag&drop content tool</li>
+<li>Fixed issue with BOM headers with native file wrapper (issue #52)</li>
+<li>Partial mitigation to file locking issue (issue #34)</li>
 </ul>
 
 <h2 id="development">Development Version</h2>
@@ -303,6 +316,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[18][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[18]); ?></td>
+  <td><?php echoDownload($old_sources[18]); ?></td>
+</tr>
 <tr>
   <td>IntelliJ Platform Plugin <?php echo $old_releases[17][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[17]); ?></td>

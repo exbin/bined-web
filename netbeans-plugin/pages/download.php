@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.4';
+$ver = '0.2.5';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.4';
+$date = '2022-10-12';
+
+$old_releases[12][0]['name'] = 'Plugin';
+$old_releases[12][0]['ver'] = $ver;
+$old_releases[12][0]['date'] = $date;
+$old_releases[12][0]['icon'] = 'netbeans';
+$old_releases[12][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.nbm';
+
+$old_sources[12][0]['name'] = 'Sources';
+$old_sources[12][0]['ver'] = $ver;
+$old_sources[12][0]['icon'] = 'zip';
+$old_sources[12][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 
 $ver = '0.2.3';
 $date = '2022-08-13';
@@ -205,9 +219,13 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added API: view binary data</li>
-<li>Fixed invalid dependency on debugging module (issue #15)</li>
-<li>Fixed context menu "open as binary" registration (issue #15)</li></ul>
+<ul><li>Added convert data action</li>
+<li>Added support for bookmarks</li>
+<li>Added clipboard content tool</li>
+<li>Added drag&amp;drop content tool</li>
+<li>Added integration options page</li>
+<li>Added native file mode</li>
+<li>Partial mitigation to file locking issue</li></ul>
 
 <h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>
@@ -220,6 +238,11 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>NetBeans Platform Plugin <?php echo $old_releases[12][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[12]); ?></td>
+  <td><?php echoDownload($old_sources[12]); ?></td>
+</tr>
 <tr>
   <td>NetBeans Platform Plugin <?php echo $old_releases[11][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[11]); ?></td>

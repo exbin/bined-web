@@ -2,6 +2,25 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2023-11-28:</strong> BinEd NetBeans Plugin 0.2.5 Released</p>
+<ul><li>Added convert data action</li>
+<li>Added support for bookmarks</li>
+<li>Added clipboard content tool</li>
+<li>Added drag&amp;drop content tool</li>
+<li>Added integration options page</li>
+<li>Added native file mode</li>
+<li>Partial mitigation to file locking issue</li>
+</ul></li>
+
+<li><p><strong>2023-11-24:</strong> BinEd IntelliJ Plugin 0.2.9 Released</p>
+<ul><li>Added convert data action</li>
+<li>Added support for bookmarks</li>
+<li>Added clipboard content tool</li>
+<li>Added drag&amp;drop content tool</li>
+<li>Fixed issue with BOM headers with native file wrapper (issue #52)</li>
+<li>Partial mitigation to file locking issue (issue #34)</li>
+</ul></li>
+
 <li><p><strong>2023-07-29:</strong> BinEd 0.2.2 Released</p>
 <ul><li>Added support for bookmarks</li>
 <li>Added off-line help/manual</li>
@@ -55,27 +74,6 @@
 <li>Added templates for profiles</li>
 <li>Added insert data dialog</li>
 <li>Added files compare dialog</li>
-</ul></li>
-
-<li><p><strong>2022-08-13:</strong> BinEd NetBeans Plugin 0.2.3 Released</p>
-<ul><li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-<li>Added edit selection action</li>
-<li>Relaxed dependencies - e.g. plugin should work in VisualVM</li>
-<li>Added link to online help/manual</li>
-<li>Minor GUI improvements</li>
-</ul></li>
-
-<li><p><strong>2022-06-11:</strong> BinEd Eclipse Plugin 0.2.1 Released</p>
-<ul><li>Minor GUI improvements</li>
-<li>Added view as binary action in variables view</li>
-<li>Added action for online help/manual</li>
-<li>Added edit selection action</li>
-<li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-<li>Display the number of bytes selected</li>
 </ul></li>
 
 </ul>

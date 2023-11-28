@@ -54,7 +54,7 @@ function echoDownload($arr) {
 <ul>
 <li>Editor can freeze with OutOfMemoryError: Java heap space if there is too many big modifications</li>
 <li>In delta mode files can be corrupted, if they are changed by other applications at the same time</li>
-<li>Memory leaks</li></ul>
+</ul>
 
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">

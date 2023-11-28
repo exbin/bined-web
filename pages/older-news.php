@@ -2,6 +2,27 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2022-08-13:</strong> BinEd NetBeans Plugin 0.2.3 Released</p>
+<ul><li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Added edit selection action</li>
+<li>Relaxed dependencies - e.g. plugin should work in VisualVM</li>
+<li>Added link to online help/manual</li>
+<li>Minor GUI improvements</li>
+</ul></li>
+
+<li><p><strong>2022-06-11:</strong> BinEd Eclipse Plugin 0.2.1 Released</p>
+<ul><li>Minor GUI improvements</li>
+<li>Added view as binary action in variables view</li>
+<li>Added action for online help/manual</li>
+<li>Added edit selection action</li>
+<li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+<li>Display the number of bytes selected</li>
+</ul></li>
+
 <li><p><strong>2022-05-22:</strong> BinEd IntelliJ Plugin 0.2.6 Released</p>
 <ul><li>Fixed native file mode (issue #39)</li>
 <li>Added options page</li>

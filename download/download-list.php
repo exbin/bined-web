@@ -105,8 +105,8 @@
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2021-08-29';
-      $dev_ver = '0.2.0';
-      $dev_date = '2021-08-01';
+      $dev_ver = '0.2.1';
+      $dev_date = '2023-11-25';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -125,10 +125,10 @@
 
     if ($group == 'netbeans-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.4';
-      $stb_date = '2022-10-12';
-      $dev_ver = '0.2.4';
-      $dev_date = '2022-10-11';
+      $stb_ver = '0.2.5';
+      $stb_date = '2023-11-28';
+      $dev_ver = '0.2.5';
+      $dev_date = '2023-11-25';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -150,10 +150,10 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.8.1';
-      $stb_date = '2023-05-25';
+      $stb_ver = '0.2.9';
+      $stb_date = '2023-11-24';
       $dev_ver = '0.2.9';
-      $dev_date = '2023-08-22';
+      $dev_date = '2023-11-23';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

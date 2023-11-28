@@ -44,7 +44,7 @@ function echoDownload($arr) {
 Current version requires NetBeans 9 or newer.</p>
 
 <h2 id="usage">Usage</h2>
-<p>Use "Open as Binary" action in main "File" menu or in project files context menu.<br/>
+<p>Use "Open as Binary" action in main "File" menu or in project files Tools context menu.<br/>
 Use "View as Binary" action in context menu in variables/debug window.</p>
 
 <h2 id="known_issues">Known Issues</h2>
