@@ -9,11 +9,19 @@ $query = getenv('QUERY_STRING');
 if (empty($query)) {
   $include = 'pages/main.php';
 } else {
-  $length = strlen($query);
-  if ($length > 0 && ("=" == $query[$length - 1])) {
-  	  $query = substr($query, 0, $length - 1);
+  $paramPos = strpos($query, '&');
+  if ($paramPos !== false) {
+    if ($paramPos > 0 && ("=" == $query[$paramPos - 1])) {
+  	   $query = substr($query, 0, $paramPos - 1);
+    } else {
+  	   $query = substr($query, 0, $paramPos);
+  	}
+  } else {
+  	$length = strlen($query);
+  	if ($length > 0 && ("=" == $query[$length - 1])) {
+  		$query = substr($query, 0, $length - 1);
+  	}
   }
-
   $target = 'pages/'.$query.'.php';
   if (!(preg_match("/^[a-z\_\-]+$/", $query) === false) && file_exists($target)) {
     $include = $target;

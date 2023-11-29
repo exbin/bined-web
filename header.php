@@ -16,12 +16,12 @@ if (!empty($prefix)) {
 <meta name="keywords" content="binary, hexadecimal, hexedit, hexeditor, viewer, editor, java"/>
 <meta name="robots" content="index,follow"/>
 <link rel="SHORTCUT ICON" href="<?php echo $parentPrefix; ?>bined.ico" />
-<link href="<?php echo $parentPrefix; ?>css/site.css" rel="stylesheet">
+<link href="<?php echo $parentPrefix; ?>css/<?php if (@$_GET['op'] == 'print') { echo 'print'; } else { echo 'site'; } ?>.css" rel="stylesheet">
 <title>BinEd - Binary / Hex Editor</title>
 </head>
 
 <body>
-<div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-icon.png" alt="[BinEd]" title="BinEd Icon" width="60" height="60" style="vertical-align: text-top; margin-top: -14px;"/>&nbsp; BinEd - Binary / Hex Editor</a></h1></div>
+<?php if (@$_GET['op'] != 'print') { ?><div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-icon.png" alt="[BinEd]" title="BinEd Icon" width="60" height="60" style="vertical-align: text-top; margin-top: -14px;"/>&nbsp; BinEd - Binary / Hex Editor</a></h1></div>
 <div id="navbar">
   <a id="DiscordLogo" href="https://discord.gg/SPdAfQ3axX">Discord</a>
   <a id="ScreenshotsIcon" href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a>
@@ -79,3 +79,4 @@ if (!empty($prefix)) {
     </ul>
   </li>
 </ul>
+<?php } ?>
