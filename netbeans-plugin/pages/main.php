@@ -2,13 +2,13 @@
 function echoDownload($arr) {
   foreach ($arr as $key => $value) {
     if ($key > 0) echo "<br/>\n";
-    echo '<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
+    echo @$value['prefix'].'<a href="../download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="../images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
 <h1 id="extension">Extension: NetBeans Plugin</h1>
 
 <p>Binary/hex editor plugin for <a class="urlextern" href="https://netbeans.apache.org/">NetBeans IDE and NetBeans Platform</a> written in Java.</p>
-<p><img src="images/netbeans-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
+<p><img src="images/bined-netbeans-screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
@@ -18,6 +18,7 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td>
 </tr>
 </table>
+<p>IDE variant is tested with NetBeans IDE (supports debugging), platform variant can work with other applications created using NetBeans platform.</p>
 
 <h2 id="published">Published</h2>
 <table class="table">
@@ -41,11 +42,13 @@ function echoDownload($arr) {
 
 <h2 id="installation">Installation</h2>
 <p>In Tools/Plugins in Available Plugins tab search for "bined" or in Downloaded tab "Add Plugins" if you want to install .nbm file.<br/>
-Current version requires NetBeans 9 or newer.</p>
+Current version requires NetBeans 8.2 or newer.</p>
 
 <h2 id="usage">Usage</h2>
-<p>Use "Open as Binary" action in main "File" menu or in project files Tools context menu.<br/>
-Use "View as Binary" action in context menu in variables/debug window.</p>
+<p><ul><li>Use "Open as Binary" action in main "File" menu or in project files Tools context menu</li>
+<li>Use "View as Binary" action in context menu in variables/debug window</li>
+<li>Open file with extension "bin" or use Open As/Binary File (BinEd plugin)</li></ul>
+</p>
 
 <h2 id="known_issues">Known Issues</h2>
 <ul>

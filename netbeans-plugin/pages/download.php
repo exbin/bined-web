@@ -234,6 +234,7 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 <tr><td>NetBeans Platform Plugin</td>
   <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td></tr>
 </table>
+<p>IDE variant is tested with NetBeans IDE (supports debugging), platform variant can work with other applications created using NetBeans platform.</p>
 
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">

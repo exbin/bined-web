@@ -23,7 +23,7 @@ function echoDownload($arr) {
 
 <p>Choose one of the following options:</p>
 <ul><li>In Help/Eclipse Marketplace search for bined and press install button</li>
-<li>In Help/Install new software add plugin update site "https://bined.exbin.org/eclipse-plugin/update" and install content</li>
+<li>In Help/Install new software add plugin update site "<a href="update/">https://bined.exbin.org/eclipse-plugin/update</a>" and install content</li>
 <li>Copy downloaded jar file to eclipse/dropins directory</li></ul>
 
 <h2 id="downloads">Downloads</h2>
@@ -40,7 +40,6 @@ function echoDownload($arr) {
 <tr>
   <td><a class="urlextern" href="<?php echo $downloads['eclipse-plugin']['repository_url']; ?>"><?php echo $downloads['eclipse-plugin']['repository_title']; ?></a></td></tr>
 </tr></table>
-<p>Experimental plugin update site for Eclipse: <a href="update/">https://bined.exbin.org/eclipse-plugin/update</a></p>
 
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">

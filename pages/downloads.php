@@ -46,7 +46,7 @@ function echoDownload($arr) {
   <td>-</td></tr>
 <tr><td>Autopsy Plugin</td>
   <td><?php echoDownload($downloads['autopsy-plugin']['stb']); ?></td>
-  <td>-</td></tr>
+  <td><a class="urlextern" href="<?php echo $downloads['autopsy-plugin']['repository_url']; ?>"><?php echo $downloads['autopsy-plugin']['repository_title']; ?></a></td></tr>
 </table>
 
 <h3 id="known_issues">Known Issues</h3>
@@ -70,28 +70,23 @@ function echoDownload($arr) {
 </table>
 <h3 id="development_integration">IDE and Applications Integration</h3>
 <table class="downloads-dev">
-<tr><th>Application&nbsp;</th><th>Development&nbsp;</th><th>Module Website&nbsp;</th></tr>
+<tr><th>Application&nbsp;</th><th>Development&nbsp;</th></tr>
 <tr><td>NetBeans Platform Plugin</td>
-  <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td>
-  <td><a href="<?php echo $downloads['netbeans-plugin']['repository_url']; ?>"><?php echo $downloads['netbeans-plugin']['repository_title']; ?></a></td></tr>
+  <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td></tr>
 <tr><td>IntelliJ Platform Plugin</td>
-  <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
-  <td><a href="<?php echo $downloads['intellij-plugin']['repository_url']; ?>"><?php echo $downloads['intellij-plugin']['repository_title']; ?></a></td></tr>
+  <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td></tr>
 <tr><td>Eclipse Platform</td>
-  <td><?php echoDownload($downloads['eclipse-plugin']['dev']); ?></td>
-  <td><a href="<?php echo $downloads['eclipse-plugin']['repository_url']; ?>"><?php echo $downloads['eclipse-plugin']['repository_title']; ?></a></td></tr>
+  <td><?php echoDownload($downloads['eclipse-plugin']['dev']); ?></td></tr>
 <tr><td>JDeveloper Extension</td>
-  <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td>
-  <td>-</td></tr>
+  <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td></tr>
 <tr><td>BlueJ Extension</td>
-  <td><?php echoDownload($downloads['bluej-extension']['dev']); ?></td>
-  <td>-</td></tr>
+  <td><?php echoDownload($downloads['bluej-extension']['dev']); ?></td></tr>
 <tr><td>jEdit Plugin</td>
-  <td><?php echoDownload($downloads['jedit-plugin']['dev']); ?></td>
-  <td>-</td></tr>
+  <td><?php echoDownload($downloads['jedit-plugin']['dev']); ?></td></tr>
 <tr><td>Autopsy Plugin</td>
-  <td><?php echoDownload($downloads['autopsy-plugin']['dev']); ?></td>
-  <td>-</td></tr>
+  <td><?php echoDownload($downloads['autopsy-plugin']['dev']); ?></td></tr>
+<tr><td>Ghidra Extension</td>
+  <td><?php echoDownload($downloads['ghidra-extension']['dev']); ?></td></tr>
 </table>
 
 </div>

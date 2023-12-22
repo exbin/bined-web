@@ -131,12 +131,21 @@
       $dev_date = '2023-11-25';
 
       $variants['stb'][0]['name'] = 'Plugin';
+      $variants['stb'][0]['prefix'] = 'ide ';
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'netbeans';
       $variants['stb'][0]['file'] = 'org-exbin-bined-netbeans-'.$stb_ver.'.nbm';
 
+      $variants['stb'][1]['name'] = 'Plugin';
+      $variants['stb'][1]['prefix'] = 'platform ';
+      $variants['stb'][1]['ver'] = $stb_ver;
+      $variants['stb'][1]['date'] = '2023-12-12';
+      $variants['stb'][1]['icon'] = 'netbeans';
+      $variants['stb'][1]['file'] = 'org-exbin-bined-netbeans-platform-'.$stb_ver.'.nbm';
+
       $variants['dev'][0]['name'] = 'Plugin';
+      $variants['dev'][0]['prefix'] = 'ide ';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'netbeans';
@@ -292,7 +301,32 @@
       $variants['dev'][0]['icon'] = 'netbeans';
       $variants['dev'][0]['file'] = 'org-exbin-bined-autopsy.nbm';
 
+      $variants['repository_title'] = 'Autopsy Add-on Modules';
+      $variants['repository_url'] = 'https://github.com/sleuthkit/autopsy_addon_modules/tree/master/ContentViewerModules/BinEd_Binary_Viewer';
+
       $result['autopsy-plugin'] = $variants;
+    }
+
+    if ($group == 'ghidra-extension' || is_null($group)) {
+      $variants = array();
+//      $stb_ver = '0.2.0';
+//      $stb_date = '2022-08-20';
+      $dev_ver = '0.2.0';
+      $dev_date = '2023-12-20';
+/*
+      $variants['stb'][0]['name'] = 'Extension';
+      $variants['stb'][0]['ver'] = $stb_ver;
+      $variants['stb'][0]['date'] = $stb_date;
+      $variants['stb'][0]['icon'] = 'zip';
+      $variants['stb'][0]['file'] = 'bined-ghidra-extension-'.$stb_ver.'.zip';
+*/
+      $variants['dev'][0]['name'] = 'Extension';
+      $variants['dev'][0]['ver'] = $dev_ver;
+      $variants['dev'][0]['date'] = $dev_date;
+      $variants['dev'][0]['icon'] = 'zip';
+      $variants['dev'][0]['file'] = 'bined-ghidra-extension-'.$dev_ver.'-SNAPSHOT.zip';
+
+      $result['ghidra-extension'] = $variants;
     }
 
     return $result;

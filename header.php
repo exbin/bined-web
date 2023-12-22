@@ -56,6 +56,7 @@ if (!empty($prefix)) {
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/bluej.png');" href="<?php echo $parentPrefix; ?>bluej-extension">BlueJ Extension</a><?php echo @$submenu_bluejextension; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/jedit.png');" href="<?php echo $parentPrefix; ?>jedit-plugin">jEdit Plugin</a><?php echo @$submenu_jeditplugin; ?></li>
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/autopsy.png');" href="<?php echo $parentPrefix; ?>autopsy-plugin">Autopsy Plugin</a><?php echo @$submenu_autopsyplugin; ?></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/ghidra-sre.png');" href="<?php echo $parentPrefix; ?>ghidra-extension">Ghidra Extension</a><?php echo @$submenu_ghidraextension; ?></li>
     </ul>
   </li>
   <li><div>Development</div>

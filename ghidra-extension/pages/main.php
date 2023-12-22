@@ -9,7 +9,9 @@ function echoDownload($arr) {
 
 <p>Binary/hex editor extension for <a class="urlextern" href="https://ghidra-sre.org/">Ghidra SRE</a> written in Java.</p>
 
-<p><img src="images/ghidra-screenshot.png" alt="Extension screenshot" title="Extension screenshot" width="800"/></p>
+<p><strong>Under development</strong></p>
+
+<p><img src="images/bined-ghidra-screenshot.png" alt="Extension screenshot" title="Extension screenshot" width="800"/></p>
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
@@ -28,7 +30,7 @@ function echoDownload($arr) {
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
 <tr><th>GitHub Repository&nbsp;</th></tr>
-<tr><td><a href="https://github.com/exbin/ghidra-extension" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/ghidra-extension</a></td></tr>
+<tr><td><a href="https://github.com/exbin/bined-ghidra-extension" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/bined-ghidra-extension</a></td></tr>
 </table>
 
 </div>

@@ -37,9 +37,9 @@
 
 <h2 id="logo_older">Older Logo</h2>
 <p><img src="images/logo/bined-logo.png" alt="[logo icon]" height="48"/></p> 
-<p>BinEd logo was modified ExBin logo created by:</p>
+<p>BinEd logo was modified <a href="https://www.exbin.org/about.php">ExBin logo</a>:</p>
 <p>Logo: <a href="images/logo/bined-logo.png">[PNG]</a> <a href="images/logo/bined-logo.svg">[SVG]</a><br/>
-Author: Nikash SINGH<br/>
+Author of ExBin logo: Nikash SINGH<br/>
 Location: Sydney, Australia<br/>
 Website: <a class="urlextern" href="https://nikashsingh.org">https://nikashsingh.org</a><br/>
 License: Creative Commons BY-NC 4.0</p>
