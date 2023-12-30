@@ -17,7 +17,7 @@ function echoDownload($arr) {
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
 <tr><td>Ghidra Extension</td>
-  <td><?php echoDownload($downloads['ghidra-extension']['stb']); ?></td>
+  <td>-<?php echoDownload($downloads['ghidra-extension']['stb']); ?></td>
   <td><?php echoDownload($downloads['ghidra-extension']['dev']); ?></td>
 </tr>
 </table>

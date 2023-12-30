@@ -6,7 +6,7 @@
       $stb_ver = '0.2.2';
       $stb_date = '2023-07-29';
       $dev_ver = '0.2.3';
-      $dev_date = '2023-11-15';
+      $dev_date = '2023-12-26';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -65,8 +65,8 @@
 
     if ($group == 'basic-editor' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2021-08-29';
+      $stb_ver = '0.2.1';
+      $stb_date = '2023-12-30';
       $dev_ver = '0.2.0';
       $dev_date = '2019-09-26';
 
@@ -103,8 +103,8 @@
 
     if ($group == 'library' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2021-08-29';
+      $stb_ver = '0.2.1';
+      $stb_date = '2023-12-30';
       $dev_ver = '0.2.1';
       $dev_date = '2023-11-25';
 

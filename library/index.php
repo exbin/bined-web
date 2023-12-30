@@ -1,7 +1,8 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
 $submenu_library = '
-<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/download.png\');" href="?download">Download</a></li>
+<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/demo.png\');" href="web/">Web Demo</a></li>
+<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/download.png\');" href="?download">Download</a></li>
 <li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li>
 <li><a href="?javadoc">JavaDoc</a></li></ul>';
 $childIndex = 'library';

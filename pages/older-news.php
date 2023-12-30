@@ -2,6 +2,17 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2022-08-20:</strong> BinEd BlueJ Extension 0.2.1 Released</p>
+<ul><li>Updated for BlueJ version 5.0 or higher</li>
+<li>BinEd library updated</li>
+<li>Added view as binary action in variables view</li>
+<li>Added action for online help/manual</li>
+<li>Added edit selection action</li>
+<li>Added templates for profiles</li>
+<li>Added insert data dialog</li>
+<li>Added files compare dialog</li>
+</ul></li>
+
 <li><p><strong>2022-08-13:</strong> BinEd NetBeans Plugin 0.2.3 Released</p>
 <ul><li>Added templates for profiles</li>
 <li>Added insert data dialog</li>

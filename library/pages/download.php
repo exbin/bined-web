@@ -8,6 +8,15 @@ function echoDownload($arr) {
 
 $old_releases = array();
 
+$ver = '0.2.0';
+$date = '2021-08-29';
+
+$old_releases[4][0]['name'] = 'Library';
+$old_releases[4][0]['ver'] = $ver;
+$old_releases[4][0]['date'] = $date;
+$old_releases[4][0]['icon'] = 'zip';
+$old_releases[4][0]['file'] = 'bined-lib-java-'.$ver.'.zip';
+
 $ver = '0.1.3';
 $date = '2017-10-22';
 
@@ -55,11 +64,10 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 
 <h2 id="latest_changes">Latest Changes</h2>
 <p>
-<ul><li>Renamed to BinEd</li>
-<li>Support for half-size space</li>
-<li>Support for layout, theme and colors profiles</li>
-<li>Context aware popup menu</li>
-<li>Support for ENTER key in preview section</li>
+<ul><li>Fixed issue with clipboard flavor</li>
+<li>Renamed back to binary_data + split as regular and paged variant</li>
+<li>Added data not present support</li>
+<li>Added empty data class</li>
 </ul></p>
 
 <h2 id="development">Development Version</h2>
@@ -73,6 +81,10 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>Library <?php echo $old_releases[4][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[4]); ?></td>
+</tr>
 <tr>
   <td>Library <?php echo $old_releases[3][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[3]); ?></td>

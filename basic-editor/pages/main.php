@@ -20,6 +20,9 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['basic-editor']['dev']); ?></td></tr>
 </table>
 
+<h2 id="web_demo">Web Demo</h2>
+<p>You can try <a href="web/">BinEd basic editor running in browser</a>.</p>
+
 </div>
 </body>
 </html>

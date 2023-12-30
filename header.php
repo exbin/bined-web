@@ -23,9 +23,9 @@ if (!empty($prefix)) {
 <body>
 <?php if (@$_GET['op'] != 'print') { ?><div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-icon.png" alt="[BinEd]" title="BinEd Icon" width="60" height="60" style="vertical-align: text-top; margin-top: -14px;"/>&nbsp; BinEd - Binary / Hex Editor</a></h1></div>
 <div id="navbar">
-  <a id="DiscordLogo" href="https://discord.gg/SPdAfQ3axX">Discord</a>
-  <a id="ScreenshotsIcon" href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a>
   <a id="DownloadIcon" href="<?php echo $rootPrefix; ?>?downloads">Download</a>
+  <a id="DemoIcon" href="<?php echo $rootPrefix; ?>editor/web/">Web Demo</a>
+  <a id="DiscordLogo" href="https://discord.gg/SPdAfQ3axX">Discord</a>
   <a id="DocumentationIcon" href="<?php echo $rootPrefix; ?>editor/?manual">Manual</a>
 </div>
 <div id="divider"></div>

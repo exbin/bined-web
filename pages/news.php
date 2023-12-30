@@ -2,6 +2,13 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2023-12-30:</strong> BinEd Library 0.2.1 Released</p>
+<ul><li>Fixed issue with clipboard flavor</li>
+<li>Renamed back to binary_data + split as regular and paged variant</li>
+<li>Added data not present support</li>
+<li>Added empty data class</li>
+</ul></li>
+
 <li><p><strong>2023-11-28:</strong> BinEd NetBeans Plugin 0.2.5 Released</p>
 <ul><li>Added convert data action</li>
 <li>Added support for bookmarks</li>
@@ -64,17 +71,6 @@
 
 <li><p><strong>2022-10-04:</strong> Created Discord channel for BinEd</p>
 <p>Created <a href="https://discord.gg/w8yAHPTa">Discord channel</a>.</p>
-
-<li><p><strong>2022-08-20:</strong> BinEd BlueJ Extension 0.2.1 Released</p>
-<ul><li>Updated for BlueJ version 5.0 or higher</li>
-<li>BinEd library updated</li>
-<li>Added view as binary action in variables view</li>
-<li>Added action for online help/manual</li>
-<li>Added edit selection action</li>
-<li>Added templates for profiles</li>
-<li>Added insert data dialog</li>
-<li>Added files compare dialog</li>
-</ul></li>
 
 </ul>
 

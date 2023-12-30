@@ -47,8 +47,8 @@ function echoDownload($arr) {
 <ul><li>Download library and include it with your project</li>
 <li>Download sources and modify it for your needs</li>
 <li>Import library using Maven (groupId:artifactId:version):<br/>
-  <strong>org.exbin.bined:bined-swing:0.2.0</strong><br/>
-  <strong>org.exbin.auxiliary:paged_data:0.2.0</strong>
+  <strong>org.exbin.bined:bined-swing:0.2.1</strong><br/>
+  <strong>org.exbin.auxiliary:binary_data:0.2.1</strong>
 </li></ul>
 
 <p>To use the component, create new instance and fill it with some data.</p>

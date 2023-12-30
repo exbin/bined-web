@@ -1,6 +1,8 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
-$submenu_basiceditor = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li></ul>';
+$submenu_basiceditor = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/demo.png\');" href="web/">Web Demo</a></li>
+<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/download.png\');" href="?download">Download</a></li>
+<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li></ul>';
 $childIndex = 'basic-editor';
 include('../header.php');
 $query = getenv('QUERY_STRING');

@@ -2,6 +2,18 @@
 <h1 id="javadoc">JavaDoc</h1>
 <p>Documentation of library generated from source codes.</p>
 
+<p>Version 0.2.1</p>
+<a href="javadoc/bined-core-0.2.1/">bined-core</a><br/>
+<a href="javadoc/bined-extended-0.2.1/">bined-delta</a><br/>
+<a href="javadoc/bined-operation-0.2.1/">bined-operation</a><br/>
+<a href="javadoc/bined-operation-swing-0.2.1/">bined-operation-swing</a><br/>
+<a href="javadoc/bined-swing-0.2.1/">bined-swing</a><br/>
+<a href="javadoc/bined-swing-extended-0.2.1/">bined-swing-extended</a><br/>
+<a href="javadoc/bined-highlight-swing-0.2.1/">bined-highlight-swing</a><br/>
+<a href="javadoc/binary_data-0.2.1/">binary_data</a><br/>
+<a href="javadoc/binary_data-paged-0.2.1/">binary_data-paged</a><br/>
+<a href="javadoc/binary_data-delta-0.2.1/">binary_data-delta</a><br/>
+
 <p>Version 0.2.0</p>
 <a href="javadoc/bined-core-0.2.0/">bined-core</a><br/>
 <a href="javadoc/bined-extended-0.2.0/">bined-delta</a><br/>
