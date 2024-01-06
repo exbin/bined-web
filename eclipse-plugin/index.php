@@ -2,7 +2,6 @@
 $prefix = '..';
 $submenu_eclipseplugin = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual">Manual</a></li></ul>';
 $childIndex = 'eclipse-plugin';
-include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {
   $include = 'pages/main.php';
@@ -29,6 +28,7 @@ if (empty($query)) {
   }
 }
 
+include('../header.php');
 include $include;
 
 include '../refer.php';

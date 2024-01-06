@@ -2,6 +2,9 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2022-10-04:</strong> Created Discord channel for BinEd</p>
+<p>Created <a href="https://discord.gg/w8yAHPTa">Discord channel</a>.</p>
+
 <li><p><strong>2022-08-20:</strong> BinEd BlueJ Extension 0.2.1 Released</p>
 <ul><li>Updated for BlueJ version 5.0 or higher</li>
 <li>BinEd library updated</li>

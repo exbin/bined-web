@@ -2,6 +2,15 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2024-01-06:</strong> BinEd 0.2.3 Released</p>
+<ul><li>Added convert data action</li>
+<li>Added drag&amp;drop content tool</li>
+<li>Added GUI rendering options</li>
+<li>Added support for basic macro</li>
+<li>Fixed issue with language switching</li>
+<li>Fixed some issues with searching</li>
+</ul></li>
+
 <li><p><strong>2023-12-30:</strong> BinEd Library 0.2.1 Released</p>
 <ul><li>Fixed issue with clipboard flavor</li>
 <li>Renamed back to binary_data + split as regular and paged variant</li>
@@ -68,9 +77,6 @@
 <li>Fixed invalid dependency on debugging module (issue #15)</li>
 <li>Fixed context menu "open as binary" registration (issue #15)</li>
 </ul></li>
-
-<li><p><strong>2022-10-04:</strong> Created Discord channel for BinEd</p>
-<p>Created <a href="https://discord.gg/w8yAHPTa">Discord channel</a>.</p>
 
 </ul>
 

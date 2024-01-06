@@ -6,7 +6,6 @@ $submenu_library = '
 <li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li>
 <li><a href="?javadoc">JavaDoc</a></li></ul>';
 $childIndex = 'library';
-include('../header.php');
 $query = getenv('QUERY_STRING');
 if (empty($query)) {
   $include = 'pages/main.php';
@@ -33,6 +32,7 @@ if (empty($query)) {
   }
 }
 
+include('../header.php');
 include $include;
 
 include '../refer.php';

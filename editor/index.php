@@ -9,7 +9,6 @@ $submenu_editor =
 <li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=enhancement">Request Feature</a></li></ul>';
 
 $childIndex = 'editor';
-include('../header.php');
 $query = @getenv('QUERY_STRING');
 if (empty($query)) {
   $include = 'pages/main.php';
@@ -36,6 +35,7 @@ if (empty($query)) {
   }
 }
 
+include('../header.php');
 include $include;
 
 include '../refer.php';

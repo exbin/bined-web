@@ -3,10 +3,12 @@
     $result = array();
     if ($group == 'editor' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.2';
-      $stb_date = '2023-07-29';
+      $stb_ver = '0.2.3';
+      $stb_date = '2024-01-06';
       $dev_ver = '0.2.3';
       $dev_date = '2023-12-26';
+      $dev_ver_inst = $dev_ver;
+      $dev_date_inst = '2023-09-11';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -35,15 +37,15 @@
       $variants['stb'][4]['file'] = 'bined-'.$stb_ver.'-1.noarch.rpm';
 
       $variants['dev'][0]['name'] = 'Windows Installer';
-      $variants['dev'][0]['ver'] = '0.2.3';
-      $variants['dev'][0]['date'] = '2023-09-11';
+      $variants['dev'][0]['ver'] = $dev_ver_inst;
+      $variants['dev'][0]['date'] = $dev_date_inst;
       $variants['dev'][0]['icon'] = 'exe';
-      $variants['dev'][0]['file'] = 'bined-'.'0.2.3'.'-SNAPSHOT-win32.exe';
+      $variants['dev'][0]['file'] = 'bined-'.$dev_ver_inst.'-SNAPSHOT-win32.exe';
       $variants['dev'][1]['name'] = 'MacOS Installer';
-      $variants['dev'][1]['ver'] = '0.2.3';
-      $variants['dev'][1]['date'] = '2023-09-11';
+      $variants['dev'][1]['ver'] = $dev_ver_inst;
+      $variants['dev'][1]['date'] = $dev_date_inst;
       $variants['dev'][1]['icon'] = 'dmg';
-      $variants['dev'][1]['file'] = 'bined-'.'0.2.3'.'-SNAPSHOT.dmg';
+      $variants['dev'][1]['file'] = 'bined-'.$dev_ver_inst.'-SNAPSHOT.dmg';
       $variants['dev'][2]['name'] = 'ZIP';
       $variants['dev'][2]['ver'] = $dev_ver;
       $variants['dev'][2]['date'] = $dev_date;

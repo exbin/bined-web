@@ -1,5 +1,7 @@
 <div id="content">
 <h1 id="participate">Participate</h1>
+<p>BinEd is typical open source side project developed by single author out of need to provide alternative app / component similar to commonly available hex editors. As the basic goal was more or less reached, the project is now in a low priority maintenance mode and can die out in not-so-distant future.</p>
+
 <p>There are various ways how you can contribute to this project:</p>
 
 <p>Programmers: Primary programming language is Java. There are many tasks to work on. See for example <a href="?features">features list</a>.</p>
@@ -14,10 +16,9 @@
 <li>Contact: exbinproject@<span style="display:none">(at)</span>gmail.com</li></ul>
 
 <h2 id="development-plan">Current Development Plan</h2>
-<p>Plan for version 0.2.3 is to implement some of the following improvements:</p>
+<p>Plan for version 0.3.0 is to implement some of the following improvements:</p>
 <ul>
-  <li>Allow filesystem swapping for memory handling</li>
-  <li>Add support for macro operations</li>
+  <li>Plugin manager</li>
 </ul>
 
 <p>See <a href="?source-codes">list of source code repositories</a>.</p>

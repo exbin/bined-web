@@ -5,7 +5,6 @@ if ($query == "download") {
 	die();
 }
 
-include('header.php');
 if (empty($query)) {
   $include = 'pages/about.php';
 } else {
@@ -31,6 +30,7 @@ if (empty($query)) {
   }
 }
 
+include('header.php');
 include $include;
 
 include 'refer.php'; ?>

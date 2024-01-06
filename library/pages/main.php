@@ -33,9 +33,18 @@ function echoDownload($arr) {
 <li>Delta mode - Only changes are stored in memory</li>
 </ul>
 
+<h2 id="web_demo">Web Demo</h2>
+<p>You can try <a href="web/">BinEd library example running in browser</a>.<br><em>Using <a href="https://labs.leaningtech.com/cheerpj">CheerpJ</a> by Leaning Technologies.</em></p>
+
 <h2>Limitations</h2>
 <ul>
 <li>Only Swing components are currently usable</li>
+</ul>
+
+<h2>Known Issues</h2>
+<ul>
+<li>In current version tab key works only if CodeArea has set:
+<span>setFocusTraversalKeysEnabled(false);</span></li>
 </ul>
 
 <h2 id="usage">Usage</h2>
