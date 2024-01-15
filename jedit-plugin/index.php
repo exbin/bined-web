@@ -1,6 +1,6 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
-$submenu_jeditplugin = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li></ul>';
+$submenu_jeditplugin = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual">Manual</a></li></ul>';
 $childIndex = 'jedit-plugin';
 $query = getenv('QUERY_STRING');
 if (empty($query)) {

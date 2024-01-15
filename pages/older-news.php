@@ -2,6 +2,12 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2022-10-12:</strong> BinEd NetBeans Plugin 0.2.4 Released</p>
+<ul><li>Added API: view binary data</li>
+<li>Fixed invalid dependency on debugging module (issue #15)</li>
+<li>Fixed context menu "open as binary" registration (issue #15)</li>
+</ul></li>
+
 <li><p><strong>2022-10-04:</strong> Created Discord channel for BinEd</p>
 <p>Created <a href="https://discord.gg/w8yAHPTa">Discord channel</a>.</p>
 

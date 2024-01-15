@@ -264,10 +264,10 @@
 
     if ($group == 'jedit-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2021-11-09';
-      $dev_ver = '0.2.0';
-      $dev_date = '2021-11-08';
+      $stb_ver = '0.2.1';
+      $stb_date = '2024-01-15';
+      $dev_ver = '0.2.1';
+      $dev_date = '2024-01-14';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
