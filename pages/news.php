@@ -2,6 +2,10 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2024-01-19:</strong> BinEd Ghidra Extension 0.2.0 Released</p>
+<ul><li>Initial release</li>
+</ul></li>
+
 <li><p><strong>2024-01-15:</strong> BinEd jEdit Plugin 0.2.1 Released</p>
 <ul><li>Added convert data action</li>
 <li>Added clipboard content dialog</li>
@@ -71,14 +75,6 @@
 
 <li><p><strong>2023-03-08:</strong> BinEd Autopsy Plugin 0.2.0 Released</p>
 <ul><li>Initial release</li>
-</ul></li>
-
-<li><p><strong>2022-12-08:</strong> BinEd IntelliJ Plugin 0.2.7 Released</p>
-<ul><li>Added byte array support for some fields for Rider/CLion/GoLand (debug tree child nodes extraction)</li>
-<li>Minor layout fix (issue #45)</li>
-<li>Fixed settings save (issue #44)</li>
-<li>Fixed event context does not match assertion (issue #43)</li>
-<li>Fixed User Data exception (issue #42)</li>
 </ul></li>
 
 </ul>

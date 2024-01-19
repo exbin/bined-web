@@ -9,7 +9,7 @@ function echoDownload($arr) {
 
 <p>Binary/hex editor extension for <a class="urlextern" href="https://ghidra-sre.org/">Ghidra SRE</a> written in Java.</p>
 
-<p><strong>Under development</strong></p>
+<p>Extension has very limited integration.</p>
 
 <p><img src="images/bined-ghidra-screenshot.png" alt="Extension screenshot" title="Extension screenshot" width="800"/></p>
 
@@ -17,15 +17,15 @@ function echoDownload($arr) {
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
 <tr><td>Ghidra Extension</td>
-  <td>-<?php echoDownload($downloads['ghidra-extension']['stb']); ?></td>
+  <td><?php echoDownload($downloads['ghidra-extension']['stb']); ?></td>
   <td><?php echoDownload($downloads['ghidra-extension']['dev']); ?></td>
 </tr>
 </table>
 
 <h2 id="installation">Installation</h2>
-<p>Unzip jar file from downloaded zip file into Ghidra/Extensions directory of your Ghidra installation.</p>
-
-<p>Show Bined Window.</p>
+<p>Use "File/Install Extensions" in project window or unzip jar file from downloaded zip file into Ghidra/Extensions directory of your Ghidra installation.</p>
+<p>Create new tool and select Bined Extension for it.</p>
+<p>Show BinEd window using BinEd toolbar action.</p>
 
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">

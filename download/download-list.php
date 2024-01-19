@@ -311,17 +311,17 @@
 
     if ($group == 'ghidra-extension' || is_null($group)) {
       $variants = array();
-//      $stb_ver = '0.2.0';
-//      $stb_date = '2022-08-20';
+      $stb_ver = '0.2.0';
+      $stb_date = '2024-01-19';
       $dev_ver = '0.2.0';
-      $dev_date = '2023-12-20';
-/*
+      $dev_date = '2024-01-18';
+
       $variants['stb'][0]['name'] = 'Extension';
       $variants['stb'][0]['ver'] = $stb_ver;
       $variants['stb'][0]['date'] = $stb_date;
       $variants['stb'][0]['icon'] = 'zip';
       $variants['stb'][0]['file'] = 'bined-ghidra-extension-'.$stb_ver.'.zip';
-*/
+
       $variants['dev'][0]['name'] = 'Extension';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;

@@ -47,6 +47,9 @@ function echoDownload($arr) {
 <tr><td>Autopsy Plugin</td>
   <td><?php echoDownload($downloads['autopsy-plugin']['stb']); ?></td>
   <td><a class="urlextern" href="<?php echo $downloads['autopsy-plugin']['repository_url']; ?>"><?php echo $downloads['autopsy-plugin']['repository_title']; ?></a></td></tr>
+<tr><td>Ghidra Extension</td>
+  <td><?php echoDownload($downloads['ghidra-extension']['stb']); ?></td>
+  <td>-</td></tr>
 </table>
 
 <h3 id="known_issues">Known Issues</h3>

@@ -2,6 +2,14 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2022-12-08:</strong> BinEd IntelliJ Plugin 0.2.7 Released</p>
+<ul><li>Added byte array support for some fields for Rider/CLion/GoLand (debug tree child nodes extraction)</li>
+<li>Minor layout fix (issue #45)</li>
+<li>Fixed settings save (issue #44)</li>
+<li>Fixed event context does not match assertion (issue #43)</li>
+<li>Fixed User Data exception (issue #42)</li>
+</ul></li>
+
 <li><p><strong>2022-10-12:</strong> BinEd NetBeans Plugin 0.2.4 Released</p>
 <ul><li>Added API: view binary data</li>
 <li>Fixed invalid dependency on debugging module (issue #15)</li>
