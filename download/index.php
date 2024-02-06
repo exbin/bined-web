@@ -7,12 +7,17 @@ function startsWith($text, $match) {
     return substr($text, 0, strlen($match)) === $match;
 }
 
-$query = str_replace('..','',$_SERVER['QUERY_STRING']);
+$query = @$_GET['f'];
+if (empty($query)) {
+  $query = $_SERVER['QUERY_STRING'];
+}
+
+$query = str_replace('..','',$query);
 $query = str_replace('/','',$query);
 $component = ':' . $query;
 
 if (empty($query)) {
-  $query = '../?downloads';
+  $query = '../?p=downloads';
 } else {
   file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").$component.": ".$_SERVER['REMOTE_ADDR']." ".$referer."<br/>\n", FILE_APPEND);
 }

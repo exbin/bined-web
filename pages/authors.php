@@ -14,7 +14,7 @@ Author: Reza Almanda<br/>
 Website: <a class="urlextern" href="https://rezaalmanda.github.io/">https://rezaalmanda.github.io/</a><br/>
 License: Apache License v2</p>
 
-<p><a href="?icon-proposals">List of other icon proposals</a>.</p>
+<p><a href="?p=icon-proposals">List of other icon proposals</a>.</p>
 
 </div>
 </body>

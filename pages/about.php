@@ -18,8 +18,8 @@
 </ul>
 
 <p>License: <a class="urlextern" href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></p>
-<p>See additional info about <a href="?concepts">concepts</a>.</p>
-<p>Detailed <a href="?features">list of features</a>.</p>
+<p>See additional info about <a href="?p=concepts">concepts</a>.</p>
+<p>Detailed <a href="?p=features">list of features</a>.</p>
 
 <h2 id="latest_comment">Latest User Comment</h2>
 <?php
@@ -55,8 +55,8 @@ if ($count == 0) {
   echo "</li></ul>\n";
 }
 ?>
-<p>Add <a href="?add-comment">new comment</a>.</p>
-<p>See <a href="?comments">list of comments</a>.</p>
+<p>Add <a href="?p=add-comment">new comment</a>.</p>
+<p>See <a href="?p=comments">list of comments</a>.</p>
 
 </div>
 </body>

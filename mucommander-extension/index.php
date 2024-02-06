@@ -1,24 +1,19 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
-$submenu_mucommanderextension = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual"><del>Manual</del></a></li></ul>';
+$submenu_mucommanderextension = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?p=manual"><del>Manual</del></a></li></ul>';
 $childIndex = 'mucommander-extension';
-$query = getenv('QUERY_STRING');
+$query = @$_GET['p'];
 if (empty($query)) {
-  $include = 'pages/main.php';
-} else {
-  $paramPos = strpos($query, '&');
-  if ($paramPos !== false) {
-    if ($paramPos > 0 && ("=" == $query[$paramPos - 1])) {
-  	   $query = substr($query, 0, $paramPos - 1);
-    } else {
-  	   $query = substr($query, 0, $paramPos);
-  	}
+  $query = @getenv('QUERY_STRING');
+  $paramEndPos = strpos($query, '&');
+  $valuePos = strpos($query, '=');
+  if (!empty($query) && ($paramEndPos == null || ($paramEndPos > 0 && ($valuePos == null || $valuePos > $paramEndPos)))) {
+    header('Location: ?p='.$query);
+    exit();
   } else {
-  	$length = strlen($query);
-  	if ($length > 0 && ("=" == $query[$length - 1])) {
-  		$query = substr($query, 0, $length - 1);
-  	}
+    $include = 'pages/main.php';
   }
+} else {
   $target = 'pages/'.$query.'.php';
   if (!(preg_match("/^[a-z\_\-]+$/", $query) === false) && file_exists($target)) {
     $include = $target;

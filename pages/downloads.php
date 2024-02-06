@@ -2,15 +2,15 @@
 function echoDownload($arr) {
   foreach ($arr as $key => $value) {
     if ($key > 0) echo "<br/>\n";
-    echo @$value['prefix'].'<a href="download/?'.$value['file'].'" title="Download '.$value['name'].'"><img src="images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
+    echo @$value['prefix'].'<a href="download/?f='.$value['file'].'" title="Download '.$value['name'].'"><img src="images/filetypes/'.$value['icon'].'.png" alt="['. strtoupper($value['icon']).']" width="16" height="16"/> '.$value['ver'].'</a> ['.$value['date'].']';
   }
 } ?><div id="content">
 <h1 id="downloads">Downloads</h1>
 <p>Primary editor downloads:</p>
 <p>
-<a href="download/?<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green"><img src="images/filetypes/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download Installer (Windows)</a>&nbsp;
-<a href="download/?<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green"><img src="images/filetypes/macos-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[DMG]"/>&nbsp;Download Installer (macOS)</a>&nbsp;
-<a href="download/?<?php echo $downloads['editor']['stb'][2]['file']; ?>" class="button button-green"><img src="images/filetypes/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;Download ZIP (Other platforms)</a></p>
+<a href="download/?f=<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green"><img src="images/filetypes/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download Installer (Windows)</a>&nbsp;
+<a href="download/?f=<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green"><img src="images/filetypes/macos-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[DMG]"/>&nbsp;Download Installer (macOS)</a>&nbsp;
+<a href="download/?f=<?php echo $downloads['editor']['stb'][2]['file']; ?>" class="button button-green"><img src="images/filetypes/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;Download ZIP (Other platforms)</a></p>
 <h2 id="stable_downloads">Stable downloads</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>

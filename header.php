@@ -23,20 +23,20 @@ if (!empty($prefix)) {
 <body>
 <?php if (@$_GET['op'] != 'print') { ?><div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-icon.png" alt="[BinEd]" title="BinEd Icon" width="60" height="60" style="vertical-align: text-top; margin-top: -14px;"/>&nbsp; BinEd - Binary / Hex Editor</a></h1></div>
 <div id="navbar">
-  <a id="DownloadIcon" href="<?php echo $rootPrefix; ?>?downloads">Download</a>
+  <a id="DownloadIcon" href="<?php echo $rootPrefix; ?>?p=downloads">Download</a>
   <a id="DemoIcon" href="<?php echo $rootPrefix; ?>editor/web/">Web Demo</a>
   <a id="DiscordLogo" href="https://discord.gg/SPdAfQ3axX">Discord</a>
-  <a id="DocumentationIcon" href="<?php echo $rootPrefix; ?>editor/?manual">Manual</a>
+  <a id="DocumentationIcon" href="<?php echo $rootPrefix; ?>editor/?p=manual">Manual</a>
 </div>
 <div id="divider"></div>
 
 <ul id="navmenu">
   <li><div>Information</div>
     <ul class="submenu">
-    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/about.png');" href="<?php echo $rootPrefix; ?>?about">About</a></li>
-    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/news.png');" href="<?php echo $rootPrefix; ?>?news">News</a></li>
-    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/screenshots.png');"  href="<?php echo $rootPrefix; ?>?screenshots">Screenshots</a></li>
-    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/download.png');" href="<?php echo $rootPrefix; ?>?downloads">Downloads</a></li>
+    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/about.png');" href="<?php echo $rootPrefix; ?>?p=about">About</a></li>
+    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/news.png');" href="<?php echo $rootPrefix; ?>?p=news">News</a></li>
+    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/screenshots.png');"  href="<?php echo $rootPrefix; ?>?p=screenshots">Screenshots</a></li>
+    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/download.png');" href="<?php echo $rootPrefix; ?>?p=downloads">Downloads</a></li>
     </ul>
   </li>
   <li><div>Variants</div>
@@ -61,22 +61,22 @@ if (!empty($prefix)) {
   </li>
   <li><div>Development</div>
     <ul class="submenu">
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/group.png');" href="<?php echo $rootPrefix; ?>?participate">Participate</a></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/features.png');" href="<?php echo $rootPrefix; ?>?features">Features</a></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/lightning.png');" href="<?php echo $rootPrefix; ?>?concepts">Concepts</a></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/source-code.png');" href="<?php echo $rootPrefix; ?>?source-codes">Source Codes</a></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/user_red.png');" href="<?php echo $rootPrefix; ?>?authors">Authors</a></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/money.png');" href="<?php echo $rootPrefix; ?>?donate">Donate</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/group.png');" href="<?php echo $rootPrefix; ?>?p=participate">Participate</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/features.png');" href="<?php echo $rootPrefix; ?>?p=features">Features</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/lightning.png');" href="<?php echo $rootPrefix; ?>?p=concepts">Concepts</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/source-code.png');" href="<?php echo $rootPrefix; ?>?p=source-codes">Source Codes</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/user_red.png');" href="<?php echo $rootPrefix; ?>?p=authors">Authors</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/money.png');" href="<?php echo $rootPrefix; ?>?p=donate">Donate</a></li>
     </ul>
   </li>
   <li><div>Social</div>
     <ul class="submenu">
       <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/discord.png');" href="https://discord.gg/SPdAfQ3axX">Discord</a></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/comment.png');" href="<?php echo $rootPrefix; ?>?comments">User Comments</a></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/plugin.png');" href="<?php echo $rootPrefix; ?>?known-uses">Known Uses</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/comment.png');" href="<?php echo $rootPrefix; ?>?p=comments">User Comments</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/plugin.png');" href="<?php echo $rootPrefix; ?>?p=known-uses">Known Uses</a></li>
       <li><a class="urlextern" href="https://sourceforge.net/projects/bined/">SourceForge</a></li>
       <li><a class="urlextern" href="https://www.openhub.net/p/bined/">OpenHub</a></li>
-      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/world_go.png');" href="<?php echo $rootPrefix; ?>?similar-projects">Similar Projects</a></li>
+      <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/world_go.png');" href="<?php echo $rootPrefix; ?>?p=similar-projects">Similar Projects</a></li>
     </ul>
   </li>
 </ul>

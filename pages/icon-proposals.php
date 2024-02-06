@@ -1,10 +1,10 @@
 <div id="content">
 <h1 id="icon_proposals">Icon Proposals</h1>
 <p>Icon from Reza Almanda was adapted as a app icon. Accepting proposals is closed.</p>
-<p>Icon for android and desktop app was asked for at <a href="https://opensourcedesign.net/jobs/jobs/2021-02-19-android-and-desktop-icon-for-hexadecimal-editor">Open Source Design</a>.</p>
+<p>Icon for android and desktop app was asked for at <a class="urlextern" href="https://opensourcedesign.net/jobs/jobs/2021-02-19-android-and-desktop-icon-for-hexadecimal-editor">Open Source Design</a>.</p>
 <p>List of proposals for the android and desktop app icon.</p>
 
-<p><strong>Khyati Gupta</strong> (<a href="https://github.com/Chronomyst">GitHub</a>)<br/><br/>
+<p><strong>Khyati Gupta</strong> (<a class="urlextern" href="https://github.com/Chronomyst">GitHub</a>)<br/><br/>
 <img src="images/icon/chronomyst/logo1.png" width="64" height="64"/>
 <img src="images/icon/chronomyst/logo2.png" width="64" height="64"/>
 <img src="images/icon/chronomyst/logo3.png" width="64" height="64"/>
@@ -22,7 +22,7 @@
 <img src="images/icon/tuxgoo/preview2.png" width="64" height="64"/>
 </p>
 
-<p><strong>Reza Almanda</strong> (<a href="https://rezaalmanda.github.io/">GitHub</a>)<br/><br/>
+<p><strong>Reza Almanda</strong> (<a class="urlextern" href="https://rezaalmanda.github.io/">GitHub</a>)<br/><br/>
 <img src="images/icon/saintifia/alternatif_1.png" width="64" height="64"/>
 <img src="images/icon/saintifia/alternatif_2.png" width="64" height="64"/>
 <img src="images/icon/saintifia/alternatif_3.png" width="64" height="64"/>
@@ -37,7 +37,7 @@
 
 <h2 id="logo_older">Older Logo</h2>
 <p><img src="images/logo/bined-logo.png" alt="[logo icon]" height="48"/></p> 
-<p>BinEd logo was modified <a href="https://www.exbin.org/about.php">ExBin logo</a>:</p>
+<p>BinEd logo was modified <a class="urlextern" href="https://www.exbin.org/about.php">ExBin logo</a>:</p>
 <p>Logo: <a href="images/logo/bined-logo.png">[PNG]</a> <a href="images/logo/bined-logo.svg">[SVG]</a><br/>
 Author of ExBin logo: Nikash SINGH<br/>
 Location: Sydney, Australia<br/>

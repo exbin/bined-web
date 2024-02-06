@@ -4,10 +4,10 @@
 
 <p>There are various ways how you can contribute to this project:</p>
 
-<p>Programmers: Primary programming language is Java. There are many tasks to work on. See for example <a href="?features">features list</a>.</p>
+<p>Programmers: Primary programming language is Java. There are many tasks to work on. See for example <a href="?p=features">features list</a>.</p>
 <p>Help wanted post: <a class="urlextern" href="https://sourceforge.net/p/forge/helpwanted/programmers/thread/3067e2c4a0/">Sourceforge Programmers Wanted</a></p>
 <p>Documenters: Help write <a class="urlextern" href="https://github.com/exbin/bined/wiki">manual / documentation</a></p>
-<p>Testers: Test project and report issue on <a href="?source-codes">GitHub pages</a>.</p>
+<p>Testers: Test project and report issue on <a href="?p=source-codes">GitHub pages</a>.</p>
 
 <h2 id="contact">Contact</h2>
 
@@ -21,7 +21,7 @@
   <li>Plugin manager</li>
 </ul>
 
-<p>See <a href="?source-codes">list of source code repositories</a>.</p>
+<p>See <a href="?p=source-codes">list of source code repositories</a>.</p>
 
 <h2 id="videos">Videos</h2>
 <p>Videos from development</p>

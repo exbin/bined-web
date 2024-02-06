@@ -2,30 +2,25 @@
 $prefix = '..';
 $submenu_editor =
 '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/demo.png\');" href="web/">Web Demo</a></li>
-<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/download.png\');" href="?download">Download</a></li>
-<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?manual">Manual</a></li>
-<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/plugin.png\');" href="?plugins">Plugins</a></li>
+<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/download.png\');" href="?p=download">Download</a></li>
+<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?p=manual">Manual</a></li>
+<li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/plugin.png\');" href="?p=plugins">Plugins</a></li>
 <li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=bug">Report Bug</a></li>
 <li><a class="urlextern" href="https://github.com/exbin/bined/issues/new?labels=enhancement">Request Feature</a></li></ul>';
 
 $childIndex = 'editor';
-$query = @getenv('QUERY_STRING');
+$query = @$_GET['p'];
 if (empty($query)) {
-  $include = 'pages/main.php';
-} else {
-  $paramPos = strpos($query, '&');
-  if ($paramPos !== false) {
-    if ($paramPos > 0 && ("=" == $query[$paramPos - 1])) {
-  	   $query = substr($query, 0, $paramPos - 1);
-    } else {
-  	   $query = substr($query, 0, $paramPos);
-  	}
+  $query = @getenv('QUERY_STRING');
+  $paramEndPos = strpos($query, '&');
+  $valuePos = strpos($query, '=');
+  if (!empty($query) && ($paramEndPos == null || ($paramEndPos > 0 && ($valuePos == null || $valuePos > $paramEndPos)))) {
+    header('Location: ?p='.$query);
+    exit();
   } else {
-  	$length = strlen($query);
-  	if ($length > 0 && ("=" == $query[$length - 1])) {
-  		$query = substr($query, 0, $length - 1);
-  	}
+    $include = 'pages/main.php';
   }
+} else {
   $target = 'pages/'.$query.'.php';
   if (!(preg_match("/^[a-z\_\-]+$/", $query) === false) && file_exists($target)) {
     $include = $target;

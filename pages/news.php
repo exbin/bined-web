@@ -79,7 +79,7 @@
 
 </ul>
 
-<p>See list of <a href="?older-news">older news</a>.</p>
+<p>See list of <a href="?p=older-news">older news</a>.</p>
 </div>
 </body>
 </html>

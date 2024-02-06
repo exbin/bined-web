@@ -1,25 +1,19 @@
 <?php
-$query = @getenv('QUERY_STRING');
-if ($query == "download") {
+$query = @$_GET['p'];
+if (empty($query)) {
+  $query = @getenv('QUERY_STRING');
+  $paramEndPos = strpos($query, '&');
+  $valuePos = strpos($query, '=');
+  if (!empty($query) && ($paramEndPos == null || ($paramEndPos > 0 && ($valuePos == null || $valuePos > $paramEndPos)))) {
+    header('Location: ?p='.$query);
+    exit();
+  } else {
+    $include = 'pages/about.php';
+  }
+} else {
+  if ($query == "download") {
 	header("Location: editor/?download");
 	die();
-}
-
-if (empty($query)) {
-  $include = 'pages/about.php';
-} else {
-  $paramPos = strpos($query, '&');
-  if ($paramPos !== false) {
-    if ($paramPos > 0 && ("=" == $query[$paramPos - 1])) {
-  	   $query = substr($query, 0, $paramPos - 1);
-    } else {
-  	   $query = substr($query, 0, $paramPos);
-  	}
-  } else {
-  	$length = strlen($query);
-  	if ($length > 0 && ("=" == $query[$length - 1])) {
-  		$query = substr($query, 0, $length - 1);
-  	}
   }
   $target = 'pages/'.$query.'.php';
   if (!(preg_match("/^[a-z\_\-]+$/", $query) === false) && file_exists($target)) {
