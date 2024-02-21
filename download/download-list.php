@@ -163,8 +163,8 @@
       $variants = array();
       $stb_ver = '0.2.9';
       $stb_date = '2023-11-24';
-      $dev_ver = '0.2.9';
-      $dev_date = '2023-11-23';
+      $dev_ver = '0.2.10';
+      $dev_date = '2024-02-14';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -178,7 +178,7 @@
       $variants['dev'][0]['icon'] = 'zip';
       $variants['dev'][0]['file'] = 'bined-intellij-plugin.zip';
 
-      $variants['repository_title'] = 'IntelliJ IDEA Plugins';
+      $variants['repository_title'] = 'JetBrains Marketplace';
       $variants['repository_url'] = 'https://plugins.jetbrains.com/plugin/9339';
 
       $result['intellij-plugin'] = $variants;
@@ -264,8 +264,8 @@
 
     if ($group == 'jedit-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.1';
-      $stb_date = '2024-01-15';
+      $stb_ver = '0.2.1.1';
+      $stb_date = '2024-02-18';
       $dev_ver = '0.2.1';
       $dev_date = '2024-01-14';
 
@@ -280,6 +280,9 @@
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'zip';
       $variants['dev'][0]['file'] = 'bined-jedit-plugin-'.$dev_ver.'-SNAPSHOT.zip';
+
+      $variants['repository_title'] = 'jEdit Plugins';
+      $variants['repository_url'] = 'http://plugins.jedit.org/plugins/?BinEd';
 
       $result['jedit-plugin'] = $variants;
     }

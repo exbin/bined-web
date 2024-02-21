@@ -11,8 +11,8 @@ if (empty($query)) {
     $include = 'pages/about.php';
   }
 } else {
-  if ($query == "download") {
-	header("Location: editor/?download");
+  if ($query == "download" || $query == "downloads") {
+	header("Location: download/");
 	die();
   }
   $target = 'pages/'.$query.'.php';

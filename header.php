@@ -23,7 +23,7 @@ if (!empty($prefix)) {
 <body>
 <?php if (@$_GET['op'] != 'print') { ?><div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-icon.png" alt="[BinEd]" title="BinEd Icon" width="60" height="60" style="vertical-align: text-top; margin-top: -14px;"/>&nbsp; BinEd - Binary / Hex Editor</a></h1></div>
 <div id="navbar">
-  <a id="DownloadIcon" href="<?php echo $rootPrefix; ?>?p=downloads">Download</a>
+  <a id="DownloadIcon" href="<?php echo $rootPrefix; ?>download/">Download</a>
   <a id="DemoIcon" href="<?php echo $rootPrefix; ?>editor/web/">Web Demo</a>
   <a id="DiscordLogo" href="https://discord.gg/SPdAfQ3axX">Discord</a>
   <a id="DocumentationIcon" href="<?php echo $rootPrefix; ?>editor/?p=manual">Manual</a>
@@ -36,7 +36,7 @@ if (!empty($prefix)) {
     <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/about.png');" href="<?php echo $rootPrefix; ?>?p=about">About</a></li>
     <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/news.png');" href="<?php echo $rootPrefix; ?>?p=news">News</a></li>
     <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/screenshots.png');"  href="<?php echo $rootPrefix; ?>?p=screenshots">Screenshots</a></li>
-    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/download.png');" href="<?php echo $rootPrefix; ?>?p=downloads">Downloads</a></li>
+    <li><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/menu/download.png');" href="<?php echo $rootPrefix; ?>download/">Downloads</a></li>
     </ul>
   </li>
   <li><div>Variants</div>

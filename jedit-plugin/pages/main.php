@@ -20,6 +20,14 @@ function echoDownload($arr) {
 </tr>
 </table>
 
+<h2 id="published">Published</h2>
+<table class="table">
+<tr><th>Plugin Website&nbsp;</th></tr>
+<tr>
+  <td><a class="urlextern" href="<?php echo $downloads['jedit-plugin']['repository_url']; ?>"><?php echo $downloads['jedit-plugin']['repository_title']; ?></a></td>
+</tr>
+</table>
+
 <h2 id="installation">Installation</h2>
 <p>Unzip jar file from downloaded zip file into jars directory of your jEdit installation.</p>
 
