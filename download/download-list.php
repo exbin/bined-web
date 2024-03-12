@@ -164,7 +164,7 @@
       $stb_ver = '0.2.9';
       $stb_date = '2023-11-24';
       $dev_ver = '0.2.10';
-      $dev_date = '2024-02-14';
+      $dev_date = '2024-03-10';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -264,8 +264,8 @@
 
     if ($group == 'jedit-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.1.1';
-      $stb_date = '2024-02-18';
+      $stb_ver = '0.2.1.2';
+      $stb_date = '2024-02-24';
       $dev_ver = '0.2.1';
       $dev_date = '2024-01-14';
 
