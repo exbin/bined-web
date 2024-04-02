@@ -3,7 +3,7 @@
 
 <p>If you want to show your support, preferred way is to help with development, documentation or translations.</p>
 
-<p>But if you wish, you can donate some money, which shall be used for example for bounties for feature implementations.</p>
+<p>But if you wish, you can donate some money, which shall be used for example for bounties for feature implementations. You can ask for use on a specific feature or note if you want to have your donation kept anonymous.</p>
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations" />
@@ -17,7 +17,9 @@
 <h2>Donations</h2>
 <p>List of donations:</p>
 
-<p>-</p>
+<table class="features"><tbody>
+<tr><td>2024-03</td><td>Warren Marshall</td><td>10$</td></tr>
+</tbody></table>
 
 </div>
 </body>

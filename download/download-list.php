@@ -164,7 +164,7 @@
       $stb_ver = '0.2.9';
       $stb_date = '2023-11-24';
       $dev_ver = '0.2.10';
-      $dev_date = '2024-03-10';
+      $dev_date = '2024-03-19';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
