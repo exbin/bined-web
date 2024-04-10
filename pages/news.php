@@ -2,6 +2,13 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2024-04-08:</strong> BinEd IntelliJ Plugin 0.2.10 Released</p>
+<ul><li>Added support for language switching (zh, jp, ko)</li>
+<li>Added support for basic macro</li>
+<li>Reworked search toolbar UI</li>
+<li>Updates for IntelliJ API changes (issue #55 #56)</li>
+</ul></li>
+
 <li><p><strong>2024-02-18:</strong> BinEd jEdit Plugin 0.2.1.1 Released</p>
 <ul><li>Fixes for jEdit Plugin Central</li>
 </ul></li>
@@ -66,15 +73,6 @@
 
 <li><p><strong>2023-05-25:</strong> BinEd IntelliJ Plugin 0.2.8.1 Released</p>
 <ul><li>Fixed plugin breaks VCS history log reading (Issue #51)</li>
-</ul></li>
-
-<li><p><strong>2023-05-19:</strong> BinEd IntelliJ Plugin 0.2.8 Released</p>
-<ul><li>Added edit as binary action for columns in database view</li>
-<li>Added byte-to-byte compare diff option</li>
-<li>Added integration options page</li>
-<li>Reworked save on close</li>
-<li>Added reload file action (issue #49)</li>
-<li>Fixed illegal argument exception (issue #50)</li>
 </ul></li>
 
 </ul>

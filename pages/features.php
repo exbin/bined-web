@@ -139,13 +139,13 @@
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Binary diff support</td><td></td></tr>
 <tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;DB blob field editing</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;JEdit plugin</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Binary diff support</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">PARTIAL</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-done">DONE</td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Binary diff support</td><td class="features-done">DONE</td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Ghidra plugin</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Binary diff support</td><td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Integration into menus</td><td class="features-todo">PARTIAL</td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-done">DONE</td></td></tr>
+<tr><td>&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;Binary diff support</td><td class="features-done">DONE</td></td></tr>
 <tr><th>Help pages and documentation</th><th></th></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Main manual page</td><td class="features-done">DONE</td></tr>
 </table>
