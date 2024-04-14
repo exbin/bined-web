@@ -2,6 +2,10 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2024-04-13:</strong> BinEd IntelliJ Plugin 0.2.10.1 Released</p>
+<ul><li>Fixed issue with null default font (issue #58)</li>
+</ul></li>
+
 <li><p><strong>2024-04-08:</strong> BinEd IntelliJ Plugin 0.2.10 Released</p>
 <ul><li>Added support for language switching (zh, jp, ko)</li>
 <li>Added support for basic macro</li>
@@ -69,10 +73,6 @@
 <li>Added support for files drag&amp;drop (issue #7)</li>
 <li>Added reload file action</li>
 <li>Fixed issue with charsets switching</li>
-</ul></li>
-
-<li><p><strong>2023-05-25:</strong> BinEd IntelliJ Plugin 0.2.8.1 Released</p>
-<ul><li>Fixed plugin breaks VCS history log reading (Issue #51)</li>
 </ul></li>
 
 </ul>

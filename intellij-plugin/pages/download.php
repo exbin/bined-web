@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.10';
+$ver = '0.2.10.1';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.10';
+$date = '2024-04-08';
+
+$old_releases[20][0]['name'] = 'Plugin';
+$old_releases[20][0]['ver'] = $ver;
+$old_releases[20][0]['date'] = $date;
+$old_releases[20][0]['icon'] = 'zip';
+$old_releases[20][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[20][0]['name'] = 'Sources';
+$old_sources[20][0]['ver'] = $ver;
+$old_sources[20][0]['icon'] = 'zip';
+$old_sources[20][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $ver = '0.2.9';
 $date = '2023-11-24';
@@ -310,12 +324,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added convert data action</li>
-<li>Added support for bookmarks</li>
-<li>Added clipboard content tool</li>
-<li>Added drag&drop content tool</li>
-<li>Fixed issue with BOM headers with native file wrapper (issue #52)</li>
-<li>Partial mitigation to file locking issue (issue #34)</li>
+<ul><li>Fixed issue with null default font (issue #58)</li>
+<li>Added support for language switching (zh, jp, ko)</li>
+<li>Added support for basic macro</li>
+<li>Reworked search toolbar UI</li>
+<li>Updates for IntelliJ API changes (issue #55 #56)</li>
 </ul>
 
 <h2 id="development">Development Version</h2>
@@ -330,6 +343,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[20][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[20]); ?></td>
+  <td><?php echoDownload($old_sources[20]); ?></td>
+</tr>
 <tr>
   <td>IntelliJ Platform Plugin <?php echo $old_releases[19][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[19]); ?></td>
