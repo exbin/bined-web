@@ -92,7 +92,7 @@
       $stb_ver = '';
       $stb_date = '';
       $dev_ver = '0.2.0';
-      $dev_date = '2023-05-06';
+      $dev_date = '2024-05-10';
 
       $variants['dev'][0]['name'] = 'Android App';
       $variants['dev'][0]['ver'] = $dev_ver;
@@ -127,10 +127,10 @@
 
     if ($group == 'netbeans-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.5';
-      $stb_date = '2023-11-28';
-      $dev_ver = '0.2.5';
-      $dev_date = '2023-11-25';
+      $stb_ver = '0.2.6';
+      $stb_date = '2024-05-12';
+      $dev_ver = '0.2.6';
+      $dev_date = '2024-05-08';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['prefix'] = 'ide ';
@@ -142,7 +142,7 @@
       $variants['stb'][1]['name'] = 'Plugin';
       $variants['stb'][1]['prefix'] = 'platform ';
       $variants['stb'][1]['ver'] = $stb_ver;
-      $variants['stb'][1]['date'] = '2023-12-12';
+      $variants['stb'][1]['date'] = $stb_date;
       $variants['stb'][1]['icon'] = 'netbeans';
       $variants['stb'][1]['file'] = 'org-exbin-bined-netbeans-platform-'.$stb_ver.'.nbm';
 

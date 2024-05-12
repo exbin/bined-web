@@ -18,6 +18,7 @@
 <tr><td><a class="urlextern" href="http://hexeditswt.sourceforge.net/">HexEditSWT</a></td><td>Hex editor component</td><td>OSS-CPL</td><td>SWT</td><td>Robert Köpferl</td></tr>
 <tr><td><a class="urlextern" href="https://github.com/sporst/JHexView">JHexView</a></td><td>Hex editor component</td><td>OSS-GPLv2</td><td>Swing</td><td>Sebastian Porst</td></tr>
 <tr><td><a class="urlextern" href="https://github.com/Velocity-/Hexstar">HexStar</a></td><td>Table based hex editor</td><td>OSS-?</td><td>JavaFX</td><td>Velocity- / Bart Pelle</td></tr>
+<tr><td><a class="urlextern" href="https://github.com/kreativekorp/hexcellent">Hexcellent</a></td><td>Hex editor</td><td>OSS-?</td><td>Swing</td><td>KreativeKorp</td></tr>
 </table>
 
 </div>
