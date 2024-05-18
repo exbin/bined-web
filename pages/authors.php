@@ -8,8 +8,8 @@ Website: <a class="urlextern" href="https://hajdam.zdechov.net">https://hajdam.z
 
 <h2 id="logo">Logo</h2>
 <p><img src="images/icon/bined-icon.png" alt="[logo icon]" height="64"/></p> 
-<p>BinEd icon/logo was created by:</p>
 <p>Logo: <a href="images/icon/bined-icon.png">[PNG]</a> <a href="images/icon/bined-icon.svg">[SVG]</a><br/>
+<p>BinEd icon/logo was created by:</p>
 Author: Reza Almanda<br/>
 Website: <a class="urlextern" href="https://rezaalmanda.github.io/">https://rezaalmanda.github.io/</a><br/>
 License: Apache License v2</p>
