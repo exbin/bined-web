@@ -5,10 +5,10 @@
       $variants = array();
       $stb_ver = '0.2.3';
       $stb_date = '2024-01-06';
-      $dev_ver = '0.2.3';
-      $dev_date = '2023-12-26';
+      $dev_ver = '0.3.0';
+      $dev_date = '2024-07-09';
       $dev_ver_inst = $dev_ver;
-      $dev_date_inst = '2023-09-11';
+      $dev_date_inst = '2024-07-09';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -186,10 +186,10 @@
 
     if ($group == 'eclipse-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.1';
-      $stb_date = '2022-06-11';
-      $dev_ver = '0.2.1';
-      $dev_date = '2020-06-18';
+      $stb_ver = '0.2.2';
+      $stb_date = '2024-06-24';
+      $dev_ver = '0.2.2';
+      $dev_date = '2024-06-22';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -204,7 +204,7 @@
       $variants['dev'][0]['file'] = 'org.exbin.bined.eclipse_'.$dev_ver.'.snapshot.jar';
 
       $variants['repository_title'] = 'Eclipse Marketplace';
-      $variants['repository_url'] = 'https://marketplace.eclipse.org/content/bined-binaryhexadecimal-editor';
+      $variants['repository_url'] = 'https://marketplace.eclipse.org/content/bined-binaryhex-editor';
 
       $result['eclipse-plugin'] = $variants;
     }

@@ -2,6 +2,15 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2023-11-24:</strong> BinEd IntelliJ Plugin 0.2.9 Released</p>
+<ul><li>Added convert data action</li>
+<li>Added support for bookmarks</li>
+<li>Added clipboard content tool</li>
+<li>Added drag&amp;drop content tool</li>
+<li>Fixed issue with BOM headers with native file wrapper (issue #52)</li>
+<li>Partial mitigation to file locking issue (issue #34)</li>
+</ul></li>
+
 <li><p><strong>2023-07-29:</strong> BinEd 0.2.2 Released</p>
 <ul><li>Added support for bookmarks</li>
 <li>Added off-line help/manual</li>
