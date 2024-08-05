@@ -29,7 +29,7 @@ if (!empty($prefix)) {
   <a id="DocumentationIcon" href="<?php echo $rootPrefix; ?>editor/?p=manual">Manual</a>
 </div>
 <div id="divider"></div>
-
+<?php if (!isset($nomenu)) { ?>
 <ul id="navmenu">
   <li><div>Information</div>
     <ul class="submenu">
@@ -80,4 +80,4 @@ if (!empty($prefix)) {
     </ul>
   </li>
 </ul>
-<?php } ?>
+<?php } } ?>
