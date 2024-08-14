@@ -1,7 +1,7 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
 
-$nomenu = true;
+$childIndex = 'editor';
 $query = @$_GET['p'];
 if (empty($query)) {
   $query = @getenv('QUERY_STRING');
@@ -23,6 +23,7 @@ if (empty($query)) {
   }
 }
 
+$nomenu = true;
 include('../header.php');
 include $include;
 
