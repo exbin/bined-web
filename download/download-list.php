@@ -58,7 +58,7 @@
       $variants['dev'][3]['file'] = 'bined_'.$dev_ver.'-0_all.deb';
       $variants['dev'][4]['name'] = 'Linux RPM Package';
       $variants['dev'][4]['ver'] = $dev_ver;
-      $variants['dev'][4]['date'] = $dev_date;
+      $variants['dev'][4]['date'] ='2024-08-16'; //$dev_date;
       $variants['dev'][4]['icon'] = 'rpm';
       $variants['dev'][4]['file'] = 'bined-'.$dev_ver.'-0.noarch.rpm';
 
