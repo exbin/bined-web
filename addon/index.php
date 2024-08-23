@@ -1,7 +1,6 @@
 <?php global $prefix, $submenu_editor;
 $prefix = '..';
 
-$childIndex = 'editor';
 $query = @$_GET['p'];
 if (empty($query)) {
   $query = @getenv('QUERY_STRING');
@@ -10,22 +9,23 @@ if (empty($query)) {
   if (!empty($query) && ($paramEndPos == null || ($paramEndPos > 0 && ($valuePos == null || $valuePos > $paramEndPos)))) {
     header('Location: ?p='.$query);
     exit();
-  } else {
-    $include = 'pages/main.php';
-  }
-} else {
-  $target = 'pages/'.$query.'.php';
-  if (!(preg_match("/^[a-z\_\-]+$/", $query) === false) && file_exists($target)) {
-    $include = $target;
-  } else {
-  	http_response_code(404);
-    $include = 'pages/not-found.php';
   }
 }
 
 $nomenu = true;
 include('../header.php');
-include $include;
-
-include '../refer.php';
+include('db.php');
 ?>
+<a href="..">&lt;&lt;&nbsp;Back</a>
+<div>
+<h1 id="addons">Addons: Browse</h1>
+<?php
+$rows = DB_Query('SELECT id, name, created, owner FROM addons');
+while ($row = DB_Row()) {
+	echo $row['name']."<br/>\n";
+}
+
+DB_Close();
+?>
+</div>
+<?php include '../refer.php'; ?>
