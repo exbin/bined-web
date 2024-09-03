@@ -89,10 +89,16 @@
 
     if ($group == 'android' || is_null($group)) {
       $variants = array();
-      $stb_ver = '';
-      $stb_date = '';
-      $dev_ver = '0.2.0';
-      $dev_date = '2024-05-10';
+      $stb_ver = '0.2.0';
+      $stb_date = '2024-09-01';
+      $dev_ver = '0.2.1';
+      $dev_date = '2024-09-02';
+
+      $variants['stb'][0]['name'] = 'Android App';
+      $variants['stb'][0]['ver'] = $stb_ver;
+      $variants['stb'][0]['date'] = $stb_date;
+      $variants['stb'][0]['icon'] = 'android';
+      $variants['stb'][0]['file'] = 'bined-android-'.$stb_ver.'.apk';
 
       $variants['dev'][0]['name'] = 'Android App';
       $variants['dev'][0]['ver'] = $dev_ver;

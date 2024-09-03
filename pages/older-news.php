@@ -2,6 +2,16 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2023-11-28:</strong> BinEd NetBeans Plugin 0.2.5 Released</p>
+<ul><li>Added convert data action</li>
+<li>Added support for bookmarks</li>
+<li>Added clipboard content tool</li>
+<li>Added drag&amp;drop content tool</li>
+<li>Added integration options page</li>
+<li>Added native file mode</li>
+<li>Partial mitigation to file locking issue</li>
+</ul></li>
+
 <li><p><strong>2023-11-24:</strong> BinEd IntelliJ Plugin 0.2.9 Released</p>
 <ul><li>Added convert data action</li>
 <li>Added support for bookmarks</li>

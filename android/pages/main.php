@@ -6,10 +6,10 @@ function echoDownload($arr) {
   }
 } ?><div id="content">
 <h1 id="variant">Variant: Android App</h1>
-<p>Free and open source basic hex editor for Android written in Java.</p>
+<p>Free and open source hex editor for Android written in Java.</p>
 <p><img src="images/android_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
-<p>Under development.</p>
+<p>Under development, limited functionality.</p>
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">

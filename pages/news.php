@@ -2,6 +2,11 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2024-09-01:</strong> BinEd Android App 0.2.0 Released</p>
+<ul><li>Initial release</li>
+<li>Limited functionality</li>
+</ul></li>
+
 <li><p><strong>2024-06-24:</strong> BinEd Eclipse Plugin 0.2.2 Released</p>
 <ul><li>Added support for language switching (zh, jp, ko)</li>
 <li>Added support for basic macro</li>
@@ -60,16 +65,6 @@
 <li>Renamed back to binary_data + split as regular and paged variant</li>
 <li>Added data not present support</li>
 <li>Added empty data class</li>
-</ul></li>
-
-<li><p><strong>2023-11-28:</strong> BinEd NetBeans Plugin 0.2.5 Released</p>
-<ul><li>Added convert data action</li>
-<li>Added support for bookmarks</li>
-<li>Added clipboard content tool</li>
-<li>Added drag&amp;drop content tool</li>
-<li>Added integration options page</li>
-<li>Added native file mode</li>
-<li>Partial mitigation to file locking issue</li>
 </ul></li>
 
 </ul>

@@ -42,7 +42,19 @@ if (isset($_POST['comment']) && $_POST['comment'] != '') {
     putline($count_file, $count);
     fclose($count_file);
     echo '<p>Your comment was added.</p>';
-  }
+  } else {
+    $file = fopen('pages/comments/fail.txt', 'a+');
+    $author = htmlspecialchars(strip_tags(substr(preg_replace("/\r|\n/", '', $author), 0, 128)));
+    $comment = htmlspecialchars(strip_tags(substr(preg_replace("/\r\n/", "\n", $comment), 0, 512)));
+    $antispam = htmlspecialchars(strip_tags(substr(preg_replace("/\r\n/", "\n", $antispam), 0, 512)));
+    putline($file, time());
+    putline($file, $antispam);
+    putline($file, $author);
+    putline($file, $comment);
+    fwrite($file, $message);
+    fclose($file);
+    echo '<p>Incorrect antispam key.</p>';
+  }	  
 }
 
 if ($count == 0) {
