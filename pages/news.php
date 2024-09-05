@@ -2,6 +2,10 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2024-09-05:</strong> BinEd Android App 0.2.0.1 Released</p>
+<ul><li>Minor fix of keyboard support in preview</li>
+</ul></li>
+
 <li><p><strong>2024-09-01:</strong> BinEd Android App 0.2.0 Released</p>
 <ul><li>Initial release</li>
 <li>Limited functionality</li>
@@ -58,13 +62,6 @@
 <li>Added support for basic macro</li>
 <li>Fixed issue with language switching</li>
 <li>Fixed some issues with searching</li>
-</ul></li>
-
-<li><p><strong>2023-12-30:</strong> BinEd Library 0.2.1 Released</p>
-<ul><li>Fixed issue with clipboard flavor</li>
-<li>Renamed back to binary_data + split as regular and paged variant</li>
-<li>Added data not present support</li>
-<li>Added empty data class</li>
 </ul></li>
 
 </ul>

@@ -2,6 +2,13 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2023-12-30:</strong> BinEd Library 0.2.1 Released</p>
+<ul><li>Fixed issue with clipboard flavor</li>
+<li>Renamed back to binary_data + split as regular and paged variant</li>
+<li>Added data not present support</li>
+<li>Added empty data class</li>
+</ul></li>
+
 <li><p><strong>2023-11-28:</strong> BinEd NetBeans Plugin 0.2.5 Released</p>
 <ul><li>Added convert data action</li>
 <li>Added support for bookmarks</li>
