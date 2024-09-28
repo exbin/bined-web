@@ -2,6 +2,14 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2024-09-27:</strong> BinEd Android App 0.2.1 Released</p>
+<ul><li>Basic support for selection / clipboard</li>
+<li>Changed file dialog</li>
+<li>Added settings and preferences</li>
+<li>Added dark theme and language switching</li>
+<li>Added menu icons</li>
+</ul></li>
+
 <li><p><strong>2024-09-05:</strong> BinEd Android App 0.2.0.1 Released</p>
 <ul><li>Minor fix of keyboard support in preview</li>
 </ul></li>
@@ -53,15 +61,6 @@
 <li>Added support for bookmarks</li>
 <li>Added support for basic macro</li>
 <li>Added edit selection dialog</li>
-</ul></li>
-
-<li><p><strong>2024-01-06:</strong> BinEd 0.2.3 Released</p>
-<ul><li>Added convert data action</li>
-<li>Added drag&amp;drop content tool</li>
-<li>Added GUI rendering options</li>
-<li>Added support for basic macro</li>
-<li>Fixed issue with language switching</li>
-<li>Fixed some issues with searching</li>
 </ul></li>
 
 </ul>
