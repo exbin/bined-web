@@ -91,8 +91,8 @@
       $variants = array();
       $stb_ver = '0.2.1';
       $stb_date = '2024-09-27';
-      $dev_ver = '0.2.1';
-      $dev_date = '2024-09-26';
+      $dev_ver = '0.2.2';
+      $dev_date = '2024-09-29';
 
       $variants['stb'][0]['name'] = 'Android App';
       $variants['stb'][0]['ver'] = $stb_ver;

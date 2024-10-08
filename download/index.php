@@ -17,7 +17,7 @@ $query = str_replace('/','',$query);
 $component = ':' . $query;
 
 if (!empty($query)) {
-  file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").$component.": ".$_SERVER['REMOTE_ADDR']." ".$referer."<br/>\n", FILE_APPEND);
+  file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").htmlentities($component).": ".$_SERVER['REMOTE_ADDR']." ".htmlentities($referer)."<br/>\n", FILE_APPEND);
   header('Location: ' . $query);
   exit();
 }
@@ -36,16 +36,17 @@ function echoDownload($arr) {
 <h1 id="downloads">Downloads</h1>
 <p>Primary editor downloads:</p>
 <p>
-<a href="?f=<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green"><img src="../images/filetypes/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Download Installer (Windows)</a>&nbsp;
-<a href="?f=<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green"><img src="../images/filetypes/macos-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[DMG]"/>&nbsp;Download Installer (macOS)</a>&nbsp;
-<a href="?f=<?php echo $downloads['editor']['stb'][2]['file']; ?>" class="button button-green"><img src="../images/filetypes/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;Download ZIP (Other platforms)</a></p>
+<a href="?f=<?php echo $downloads['editor']['stb'][0]['file']; ?>" class="button button-green"><img src="../images/filetypes/windows-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[WIN]"/>&nbsp;Installer (Windows)</a>&nbsp;
+<a href="?f=<?php echo $downloads['editor']['stb'][1]['file']; ?>" class="button button-green"><img src="../images/filetypes/macos-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[DMG]"/>&nbsp;Installer (macOS)</a>&nbsp;
+<a href="?f=<?php echo $downloads['editor']['stb'][2]['file']; ?>" class="button button-green"><img src="../images/filetypes/zip-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;ZIP (Other platforms)</a>&nbsp;
+<a href="?f=<?php echo $downloads['android']['stb'][0]['file']; ?>" class="button button-green"><img src="../images/filetypes/android-32x32.png" style="vertical-align: middle;" width="28" height="28" alt="[ZIP]"/>&nbsp;APK (Android)</a></p>
 <h2 id="stable_downloads">Stable downloads</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Editor</td>
   <td><?php echoDownload($downloads['editor']['stb']); ?></td>
 <tr><td>Android App</td>
-  <td><?php echoDownload($downloads['android']['stb']); ?>-</td>
+  <td><?php echoDownload($downloads['android']['stb']); ?></td>
 <tr><td>Library/Example</td>
   <td><?php echoDownload($downloads['library']['stb']); ?></td>
 <tr><td>Single JAR Basic Editor</td>
