@@ -9,9 +9,9 @@ function echoDownload($arr) {
 <p>Free and open source hex editor for Android written in Java.</p>
 <p><img src="images/android_screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="360"/></p>
 
-<p>Under development, limited functionality.</p>
-
 <h2 id="downloads">Downloads</h2>
+<a href="https://f-droid.org/packages/org.exbin.bined.editor.android/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80"></a> <a href="https://play.google.com/store/apps/details?id=org.exbin.bined.editor.android"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="80"></a>
+
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
 <tr><td>Android App</td>

@@ -3,7 +3,8 @@ $prefix = '..';
 $submenu_android = '<ul><li><a class="urldecor" style="background-image: url(\''.@$parentPrefix.'../images/menu/help-contents-2.png\');" href="?p=manual"><del>Manual</del></a></li>
 <li><a class="urlextern" href="https://github.com/exbin/bined-android/issues/new?labels=bug">Report Bug</a></li>
 <li><a class="urlextern" href="https://github.com/exbin/bined-android/issues/new?labels=enhancement">Request Feature</a></li>
-<li><a class="urldecor" href="?p=privacy_policy">Privacy Policy</a></li></ul>';
+<li><a class="urldecor" href="?p=privacy_policy">Privacy Policy</a></li>
+<li><a class="urldecor" href="?p=terms_conditions">Terms &amp; Cond.</a></li></ul>';
 $childIndex = 'android';
 $query = @$_GET['p'];
 if (empty($query)) {

@@ -2,6 +2,19 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2024-01-19:</strong> BinEd Ghidra Extension 0.2.0 Released</p>
+<ul><li>Initial release</li>
+</ul></li>
+
+<li><p><strong>2024-01-15:</strong> BinEd jEdit Plugin 0.2.1 Released</p>
+<ul><li>Added convert data action</li>
+<li>Added clipboard content dialog</li>
+<li>Added drag&amp;drop content tool</li>
+<li>Added support for bookmarks</li>
+<li>Added support for basic macro</li>
+<li>Added edit selection dialog</li>
+</ul></li>
+
 <li><p><strong>2024-01-06:</strong> BinEd 0.2.3 Released</p>
 <ul><li>Added convert data action</li>
 <li>Added drag&amp;drop content tool</li>

@@ -89,10 +89,10 @@
 
     if ($group == 'android' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.1';
-      $stb_date = '2024-09-27';
+      $stb_ver = '0.2.2';
+      $stb_date = '2024-10-13';
       $dev_ver = '0.2.2';
-      $dev_date = '2024-09-29';
+      $dev_date = '2024-10-11';
 
       $variants['stb'][0]['name'] = 'Android App';
       $variants['stb'][0]['ver'] = $stb_ver;
