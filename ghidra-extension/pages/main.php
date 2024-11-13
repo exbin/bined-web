@@ -9,7 +9,7 @@ function echoDownload($arr) {
 
 <p>Binary/hex editor extension for <a class="urlextern" href="https://ghidra-sre.org/">Ghidra SRE</a> written in Java.</p>
 
-<p>Extension has very limited integration.</p>
+<p>Extension has very limited integration. Tested with Ghidra 11.2.</p>
 
 <p><img src="images/bined-ghidra-screenshot.png" alt="Extension screenshot" title="Extension screenshot" width="800"/></p>
 

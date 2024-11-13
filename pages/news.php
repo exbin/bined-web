@@ -2,6 +2,19 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2024-11-13:</strong> BinEd Android App 0.2.3 Released</p>
+<ul><li>Added basic data inspector</li>
+<li>Support for partial file opening</li>
+<li>Support for D-Pad / Android TV</li>
+<li>Options for button size in keys panel</li>
+<li>Fix for button 9 (issue #13)</li>
+</ul></li>
+
+<li><p><strong>2024-11-06:</strong> BinEd Ghidra Extension 0.2.1 Released</p>
+<ul><li>Library update</li>
+<li>Update for newest Ghidra</li>
+</ul></li>
+
 <li><p><strong>2024-10-16:</strong> BinEd Android App Published</p>
 <p>Bined for Android published on <a href="https://f-droid.org/packages/org.exbin.bined.editor.android/">F-Droid</a> and <a href="https://play.google.com/store/apps/details?id=org.exbin.bined.editor.android">Play Store</a>.</p>
 
@@ -48,17 +61,6 @@
 
 <li><p><strong>2024-04-13:</strong> BinEd IntelliJ Plugin 0.2.10.1 Released</p>
 <ul><li>Fixed issue with null default font (issue #58)</li>
-</ul></li>
-
-<li><p><strong>2024-04-08:</strong> BinEd IntelliJ Plugin 0.2.10 Released</p>
-<ul><li>Added support for language switching (zh, jp, ko)</li>
-<li>Added support for basic macro</li>
-<li>Reworked search toolbar UI</li>
-<li>Updates for IntelliJ API changes (issue #55 #56)</li>
-</ul></li>
-
-<li><p><strong>2024-02-18:</strong> BinEd jEdit Plugin 0.2.1.1 Released</p>
-<ul><li>Fixes for jEdit Plugin Central</li>
 </ul></li>
 
 </ul>

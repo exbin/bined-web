@@ -2,6 +2,17 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2024-04-08:</strong> BinEd IntelliJ Plugin 0.2.10 Released</p>
+<ul><li>Added support for language switching (zh, jp, ko)</li>
+<li>Added support for basic macro</li>
+<li>Reworked search toolbar UI</li>
+<li>Updates for IntelliJ API changes (issue #55 #56)</li>
+</ul></li>
+
+<li><p><strong>2024-02-18:</strong> BinEd jEdit Plugin 0.2.1.1 Released</p>
+<ul><li>Fixes for jEdit Plugin Central</li>
+</ul></li>
+
 <li><p><strong>2024-01-19:</strong> BinEd Ghidra Extension 0.2.0 Released</p>
 <ul><li>Initial release</li>
 </ul></li>

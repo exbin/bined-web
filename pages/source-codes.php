@@ -16,6 +16,7 @@
 <tr><td>Ghidra Extension</td><td><a href="https://github.com/exbin/bined-ghidra-extension" title="GitHub repository"><img src="images/ref/github.png" alt="[GitHub]"/> exbin/bined-ghidra-extension</a></td></tr>
 <tr><th>Others&nbsp;</th><th>Repository&nbsp;</th></tr>
 <tr><td>Web Site</td><td><a href="https://github.com/exbin/bined-web" title="GitHub repository"><img src="images/ref/github.png" alt="[GitHub]"/> exbin/bined-web</a></td></tr>
+<tr><td>Editor Plugins</td><td><a href="https://github.com/exbin/bined-plugins-java" title="GitHub repository"><img src="images/ref/github.png" alt="[GitHub]"/> exbin/bined-plugins-java</a></td></tr>
 </table>
 
 </div>

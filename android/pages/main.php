@@ -26,7 +26,7 @@ function echoDownload($arr) {
 <li>Insert and overwrite edit modes</li>
 <li>TODO: Searching for text / hexadecimal code with matching highlighting</li>
 <li>Support for undo/redo</li>
-<li>TODO: Support for files with size up to exabytes</li></ul>
+<li>Support for files with size up to exabytes</li></ul>
 
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
