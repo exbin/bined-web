@@ -21,7 +21,8 @@ if (!empty($prefix)) {
 </head>
 
 <body>
-<?php if (@$_GET['op'] != 'print') { ?><div id="name"><h1><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-icon.png" alt="[BinEd]" title="BinEd Icon" width="60" height="60" style="vertical-align: text-top; margin-top: -14px;"/>&nbsp; BinEd - Binary / Hex Editor</a></h1></div>
+<?php if (@$_GET['op'] != 'print') { ?>
+<div id="title"><a href="<?php echo $parentPrefix; ?>"><img src="<?php echo $parentPrefix; ?>images/bined-icon.png" alt="[BinEd]" title="BinEd Icon" width="60" height="60" style="vertical-align: text-top; margin-top: -14px;"/>&nbsp; BinEd - Binary / Hex Editor</a></div>
 <div id="navbar">
   <a id="DownloadIcon" href="<?php echo $rootPrefix; ?>download/">Download</a>
   <a id="DemoIcon" href="<?php echo $rootPrefix; ?>editor/web/">Web Demo</a>

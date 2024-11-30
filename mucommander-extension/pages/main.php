@@ -8,11 +8,10 @@ function echoDownload($arr) {
 <h1 id="extension">Extension: MuCommander Extension</h1>
 
 <p>Binary/hex editor extension for <a class="urlextern" href="https://www.mucommander.com">muCommander</a> written in Java.</p>
-<p>Use view on binary files in muCommander 0.9.4 or later.</p>
+<p>Extension was included into muCommander: Use view on binary files in muCommander 0.9.4 or later.</p>
 
 <p><img src="images/mucommander-screenshot.png" alt="Editor screenshot" title="Editor screenshot" width="800"/></p>
 
-<p>TODO</p>
 </div>
 </body>
 </html>
