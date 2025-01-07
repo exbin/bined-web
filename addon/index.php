@@ -15,17 +15,60 @@ if (empty($query)) {
 $nomenu = true;
 include('../header.php');
 include('db.php');
+
+if ($query) {
+  global $db_link;
+  $module_id = $db_link -> real_escape_string($query);
+  $rows = DB_Query('SELECT addon.id, addon.module_id, addon.name, addon.description, addon.homepage, addon.icon, addon.created, addon.owner_id, addon.created, addon_dep.id AS dep_id, addon_dep.type AS dep_type, addon_dep.value AS dep_value, user.name AS owner_name FROM addon INNER JOIN user ON user.id = addon.owner_id LEFT JOIN addon_dep ON addon_dep.addon_id = addon.id WHERE addon.module_id = \''.$module_id.'\' ORDER BY addon.id, addon_dep.id');
+  $row = DB_Row();
+?>
+<a href="/addon/">&lt;&lt;&nbsp;Back</a>
+<div>
+<?php
+  if ($row) {
+  	echo "<h1 id=\"addons\"><img src=\"icon/default.png\" alt=\"[ICON]\" style=\"float:left;margin-right:10px\" />Addon: ".$row['name']."</h1>\n";
+  	echo "<p>Module ID: ".$row['module_id']."<br/>\n";
+  	echo "Description: ".$row['description']."<br/>\n";
+  	echo "Homepage: <a href=\"".$row['homepage']."\">".$row['homepage']."</a><br/>\n";
+  	echo "Owner: ".$row['owner_name']."<br/>\n";
+  	echo "Created: ".$row['created']."<br/>\n";
+  	echo "</p>\n";
+  	
+  	// Long description
+  	
+  	// Releases
+  	echo "<p>Releases:<br/>\n";
+  	$rels = DB_Query('SELECT version, revision, created, file FROM addon_rev WHERE addon_id = '.$row['id'].' ORDER BY revision DESC');
+    while ($rel = DB_Row()) {
+    	echo "* <a href=\"download/".$rel['file']."\">Version ".$rel['version']."</a> (revision ".$rel['revision']." from ".$rel['created'].")<br/> \n";
+    }
+  	echo "</p>\n";
+  	
+  	// Dependencies
+  	echo "<p>Dependencies:<br/>\n";
+    $deps = DB_Query('SELECT addon_dep.id, addon_dep.type, addon_dep.value, user.name AS owner_name FROM addon_dep INNER JOIN user ON user.id = addon.owner_id WHERE addon_dep.addon_id = '.$row['id'].' ORDER BY addon_dep.id');
+    while ($dep = DB_Row()) {
+    	echo "* Module ".$dep['value']."<br/> \n";
+    }
+  	echo "</p>\n";
+  } else {
+  	echo '<p>Error: No addon exist for ID</p>';
+  }
+
+  DB_Close();
+} else {
 ?>
 <a href="..">&lt;&lt;&nbsp;Back</a>
 <div>
 <h1 id="addons">Addons: Browse</h1>
 <?php
-$rows = DB_Query('SELECT id, name, created, owner FROM addons');
-while ($row = DB_Row()) {
-	echo $row['name']."<br/>\n";
-}
+  $rows = DB_Query('SELECT id, module_id, name, description, created FROM addon ORDER BY created DESC');
+  while ($row = DB_Row()) {
+	echo "<div><img src=\"icon/default.png\" alt=\"[ICON]\" style=\"float:left;margin-right:10px\" /><a href=\"?p=".$row['module_id']."\"><strong>".$row['name']."</strong></a><br/>".$row['description']."</div><br/>\n";
+  }
 
-DB_Close();
+  DB_Close();
+}
 ?>
 </div>
 <?php include '../refer.php'; ?>

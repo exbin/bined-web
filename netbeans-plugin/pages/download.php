@@ -235,6 +235,7 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 <h2 id="latest_chages">Latest Changes</h2>
 <ul><li>Added support for basic macro</li>
 <li>Added support for language switching (zh, jp, ko)</li></ul>
+<p><a class="urlextern" href="https://github.com/exbin/bined-netbeans-plugin/blob/master/changes.txt">Full list of changes</a></p>
 
 <h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>

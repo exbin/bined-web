@@ -330,6 +330,7 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <li>Reworked search toolbar UI</li>
 <li>Updates for IntelliJ API changes (issue #55 #56)</li>
 </ul>
+<p><a class="urlextern" href="https://github.com/exbin/bined-intellij-plugin/blob/master/changes.txt">Full list of changes</a></p>
 
 <h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>

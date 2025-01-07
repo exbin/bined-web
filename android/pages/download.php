@@ -61,6 +61,7 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 <li>Options for button size in keys panel</li>
 <li>Fix for button 9 (issue #13)</li>
 </ul>
+<p><a class="urlextern" href="https://github.com/exbin/bined-android/blob/master/changes.txt">Full list of changes</a></p>
 
 <h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>

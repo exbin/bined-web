@@ -69,6 +69,7 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 <li>Added data not present support</li>
 <li>Added empty data class</li>
 </ul></p>
+<p><a class="urlextern" href="https://github.com/exbin/bined-lib-java/blob/master/changes.txt">Full list of changes</a></p>
 
 <h2 id="development">Development Version</h2>
 <p>Development versions are likely untested/broken and at your own risk.</p>

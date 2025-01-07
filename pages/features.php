@@ -98,8 +98,8 @@
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Support for multiple tabs</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Insert space action</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Copy from/to hexadecimal string</td><td></td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td></td></tr>
-<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Panel with integer, float, string values at cursor position</td><td></td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Search/replace</td><td class="features-todo">PARTIAL</td></tr>
+<tr><td>&nbsp;&#8226;&nbsp;&nbsp;Panel with integer, float, string values at cursor position</td><td class="features-done">DONE</td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Bookmarks support</td><td></td></tr>
 <tr><td>&nbsp;&#8226;&nbsp;&nbsp;Makro support</td><td></td></tr>
 <tr><th>Plugins for IDEs / integration into applications</th><th></th></tr>

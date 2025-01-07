@@ -5,10 +5,10 @@
       $variants = array();
       $stb_ver = '0.2.3';
       $stb_date = '2024-01-06';
-      $dev_ver = '0.3.0';
-      $dev_date = '2024-07-09';
+      $dev_ver = '0.2.4';
+      $dev_date = '2025-01-04';
       $dev_ver_inst = $dev_ver;
-      $dev_date_inst = '2024-07-09';
+      $dev_date_inst = '2025-01-04';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -58,7 +58,7 @@
       $variants['dev'][3]['file'] = 'bined_'.$dev_ver.'-0_all.deb';
       $variants['dev'][4]['name'] = 'Linux RPM Package';
       $variants['dev'][4]['ver'] = $dev_ver;
-      $variants['dev'][4]['date'] ='2024-08-16'; //$dev_date;
+      $variants['dev'][4]['date'] = $dev_date;
       $variants['dev'][4]['icon'] = 'rpm';
       $variants['dev'][4]['file'] = 'bined-'.$dev_ver.'-0.noarch.rpm';
 
@@ -91,8 +91,8 @@
       $variants = array();
       $stb_ver = '0.2.3';
       $stb_date = '2024-11-13';
-      $dev_ver = '0.2.3';
-      $dev_date = '2024-11-07';
+      $dev_ver = '0.2.4';
+      $dev_date = '2024-12-12';
 
       $variants['stb'][0]['name'] = 'Android App';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -169,8 +169,8 @@
       $variants = array();
       $stb_ver = '0.2.10.1';
       $stb_date = '2024-04-13';
-      $dev_ver = '0.2.10.1';
-      $dev_date = '2024-04-12';
+      $dev_ver = '0.3.0';
+      $dev_date = '2024-12-07';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
