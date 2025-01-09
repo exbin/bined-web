@@ -19,7 +19,7 @@ include('db.php');
 if ($query) {
   global $db_link;
   $module_id = $db_link -> real_escape_string($query);
-  $rows = DB_Query('SELECT addon.id, addon.module_id, addon.name, addon.description, addon.homepage, addon.icon, addon.created, addon.owner_id, addon.created, addon_dep.id AS dep_id, addon_dep.type AS dep_type, addon_dep.value AS dep_value, user.name AS owner_name FROM addon INNER JOIN user ON user.id = addon.owner_id LEFT JOIN addon_dep ON addon_dep.addon_id = addon.id WHERE addon.module_id = \''.$module_id.'\' ORDER BY addon.id, addon_dep.id');
+  $rows = DB_Query('SELECT addon.id, addon.module_id, addon.name, addon.description, addon.homepage, addon.icon, addon.created, addon.owner_id, addon.created, user.name AS owner_name FROM addon INNER JOIN user ON user.id = addon.owner_id WHERE addon.module_id = \''.$module_id.'\' ORDER BY addon.id');
   $row = DB_Row();
 ?>
 <a href="/addon/">&lt;&lt;&nbsp;Back</a>
@@ -38,7 +38,7 @@ if ($query) {
   	
   	// Releases
   	echo "<p>Releases:<br/>\n";
-  	$rels = DB_Query('SELECT version, revision, created, file FROM addon_rev WHERE addon_id = '.$row['id'].' ORDER BY revision DESC');
+  	$rels = DB_Query('SELECT version, revision, created, file FROM addon_rel WHERE addon_id = '.$row['id'].' ORDER BY revision DESC');
     while ($rel = DB_Row()) {
     	echo "* <a href=\"download/".$rel['file']."\">Version ".$rel['version']."</a> (revision ".$rel['revision']." from ".$rel['created'].")<br/> \n";
     }
@@ -46,7 +46,7 @@ if ($query) {
   	
   	// Dependencies
   	echo "<p>Dependencies:<br/>\n";
-    $deps = DB_Query('SELECT addon_dep.id, addon_dep.type, addon_dep.value, user.name AS owner_name FROM addon_dep INNER JOIN user ON user.id = addon.owner_id WHERE addon_dep.addon_id = '.$row['id'].' ORDER BY addon_dep.id');
+    $deps = DB_Query('SELECT addon_dep.id, addon_dep.type, addon_dep.value FROM addon_dep WHERE addon_dep.addon_id = '.$row['id'].' ORDER BY id');
     while ($dep = DB_Row()) {
     	echo "* Module ".$dep['value']."<br/> \n";
     }

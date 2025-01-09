@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jan 07, 2025 at 10:04 PM
+-- Generation Time: Jan 09, 2025 at 09:43 PM
 -- Server version: 10.11.8-MariaDB-0ubuntu0.24.04.1
 -- PHP Version: 8.3.6
 
@@ -33,7 +33,7 @@ CREATE TABLE `addon` (
   `name` varchar(80) NOT NULL,
   `description` varchar(120) DEFAULT NULL,
   `homepage` varchar(80) DEFAULT NULL,
-  `created` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `created` timestamp NOT NULL DEFAULT current_timestamp(),
   `owner_id` int(11) NOT NULL,
   `icon` varchar(60) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -59,27 +59,36 @@ CREATE TABLE `addon_dep` (
   `value` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `addon_dep`
+--
+
+INSERT INTO `addon_dep` (`id`, `addon_id`, `type`, `value`) VALUES
+(1, 2, 0, 'org.exbin.framework.ui.api.UiModuleApi'),
+(2, 2, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
+(3, 2, 0, 'org.exbin.framework.preferences.api.PreferencesModuleApi');
+
 -- --------------------------------------------------------
 
 --
--- Table structure for table `addon_rev`
+-- Table structure for table `addon_rel`
 --
 
-CREATE TABLE `addon_rev` (
+CREATE TABLE `addon_rel` (
   `id` int(11) NOT NULL,
   `addon_id` int(11) NOT NULL,
-  `revision` int(11) NOT NULL,
   `created` datetime NOT NULL DEFAULT current_timestamp(),
   `version` varchar(40) NOT NULL,
+  `revision` int(11) NOT NULL,
   `file` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `addon_rev`
+-- Dumping data for table `addon_rel`
 --
 
-INSERT INTO `addon_rev` (`id`, `addon_id`, `revision`, `created`, `version`, `file`) VALUES
-(1, 2, 1, '2025-01-07 22:45:37', '0.2.4-SNAPSHOT', 'exbin-framework-flatlaf-laf-fat-0.2.4-SNAPSHOT.jar');
+INSERT INTO `addon_rel` (`id`, `addon_id`, `created`, `version`, `revision`, `file`) VALUES
+(1, 2, '2025-01-07 22:45:37', '0.2.4-SNAPSHOT', 0, 'exbin-framework-flatlaf-laf-fat-0.2.4-SNAPSHOT.jar');
 
 -- --------------------------------------------------------
 
@@ -118,11 +127,11 @@ ALTER TABLE `addon_dep`
   ADD KEY `fk_addon_dep_addon` (`addon_id`);
 
 --
--- Indexes for table `addon_rev`
+-- Indexes for table `addon_rel`
 --
-ALTER TABLE `addon_rev`
+ALTER TABLE `addon_rel`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `fk_addon_rev_addon` (`addon_id`);
+  ADD KEY `fk_addon_rel_addon` (`addon_id`);
 
 --
 -- Indexes for table `user`
@@ -144,12 +153,12 @@ ALTER TABLE `addon`
 -- AUTO_INCREMENT for table `addon_dep`
 --
 ALTER TABLE `addon_dep`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `addon_rev`
+-- AUTO_INCREMENT for table `addon_rel`
 --
-ALTER TABLE `addon_rev`
+ALTER TABLE `addon_rel`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
@@ -175,10 +184,10 @@ ALTER TABLE `addon_dep`
   ADD CONSTRAINT `fk_addon_dep_addon` FOREIGN KEY (`addon_id`) REFERENCES `addon` (`id`);
 
 --
--- Constraints for table `addon_rev`
+-- Constraints for table `addon_rel`
 --
-ALTER TABLE `addon_rev`
-  ADD CONSTRAINT `fk_addon_rev_addon` FOREIGN KEY (`addon_id`) REFERENCES `addon` (`id`);
+ALTER TABLE `addon_rel`
+  ADD CONSTRAINT `fk_addon_rel_addon` FOREIGN KEY (`addon_id`) REFERENCES `addon` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
