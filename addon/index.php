@@ -27,20 +27,28 @@ if ($query) {
 <?php
   if ($row) {
   	echo "<h1 id=\"addons\"><img src=\"icon/default.png\" alt=\"[ICON]\" style=\"float:left;margin-right:10px\" />Addon: ".$row['name']."</h1>\n";
-  	echo "<p>Module ID: ".$row['module_id']."<br/>\n";
-  	echo "Description: ".$row['description']."<br/>\n";
+  	echo "<p>Description: ".$row['description']."<br/>\n";
+  	echo "Module ID: ".$row['module_id']."<br/>\n";
   	echo "Homepage: <a href=\"".$row['homepage']."\">".$row['homepage']."</a><br/>\n";
   	echo "Owner: ".$row['owner_name']."<br/>\n";
   	echo "Created: ".$row['created']."<br/>\n";
   	echo "</p>\n";
   	
   	// Long description
+  	$textfile = 'text/'.$row['module_id'].'.dat';
+  	if (file_exists($textfile)) {
+  		include $textfile;
+  	}
   	
   	// Releases
   	echo "<p>Releases:<br/>\n";
-  	$rels = DB_Query('SELECT version, revision, created, file FROM addon_rel WHERE addon_id = '.$row['id'].' ORDER BY revision DESC');
+  	$rels = DB_Query('SELECT version, sequence, created, addon_rel.file AS file, license.id AS license, license.name AS license_name FROM addon_rel LEFT JOIN license ON license.id = addon_rel.license_id WHERE addon_id = '.$row['id'].' ORDER BY sequence DESC');
     while ($rel = DB_Row()) {
-    	echo "* <a href=\"download/".$rel['file']."\">Version ".$rel['version']."</a> (revision ".$rel['revision']." from ".$rel['created'].")<br/> \n";
+    	$license = "";
+    	if ($rel['license']) {
+    		$license = " / ".$rel['license_name'];
+    	}
+    	echo "* <a href=\"download/".$rel['file']."\">Version ".$rel['version']."</a> (".$rel['created'].$license.")<br/> \n";
     }
   	echo "</p>\n";
   	
@@ -48,7 +56,17 @@ if ($query) {
   	echo "<p>Dependencies:<br/>\n";
     $deps = DB_Query('SELECT addon_dep.id, addon_dep.type, addon_dep.value FROM addon_dep WHERE addon_dep.addon_id = '.$row['id'].' ORDER BY id');
     while ($dep = DB_Row()) {
-    	echo "* Module ".$dep['value']."<br/> \n";
+    	switch ($dep['type']) {
+    	  case 0:
+    	  	echo "* Module ".$dep['value']."<br/> \n";
+    	  	break;
+    	  case 1:
+    	  	echo "* Library ".$dep['value']."<br/> \n";
+    	  	break;
+    	  case 2:
+    	  	echo "* Maven Library ".$dep['value']."<br/> \n";
+    	  	break;
+    	}
     }
   	echo "</p>\n";
   } else {

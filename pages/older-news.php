@@ -2,6 +2,10 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2024-04-13:</strong> BinEd IntelliJ Plugin 0.2.10.1 Released</p>
+<ul><li>Fixed issue with null default font (issue #58)</li>
+</ul></li>
+
 <li><p><strong>2024-04-08:</strong> BinEd IntelliJ Plugin 0.2.10 Released</p>
 <ul><li>Added support for language switching (zh, jp, ko)</li>
 <li>Added support for basic macro</li>

@@ -3,8 +3,8 @@
     $result = array();
     if ($group == 'editor' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.3';
-      $stb_date = '2024-01-06';
+      $stb_ver = '0.2.4';
+      $stb_date = '2025-01-22';
       $dev_ver = '0.2.4';
       $dev_date = '2025-01-04';
       $dev_ver_inst = $dev_ver;

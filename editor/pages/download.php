@@ -8,6 +8,30 @@ function echoDownload($arr) {
 
 $old_releases = array();
 
+$ver = '0.2.3';
+$date = '2024-01-06';
+
+$old_releases[7][0]['name'] = 'Windows Installer';
+$old_releases[7][0]['ver'] = $ver;
+$old_releases[7][0]['date'] = $date;
+$old_releases[7][0]['icon'] = 'exe';
+$old_releases[7][0]['file'] = 'bined-'.$ver.'-win32.exe';
+$old_releases[7][1]['name'] = 'ZIP';
+$old_releases[7][1]['ver'] = $ver;
+$old_releases[7][1]['date'] = $date;
+$old_releases[7][1]['icon'] = 'zip';
+$old_releases[7][1]['file'] = 'bined-'.$ver.'.zip';
+$old_releases[7][2]['name'] = 'Debian Package';
+$old_releases[7][2]['ver'] = $ver;
+$old_releases[7][2]['date'] = $date;
+$old_releases[7][2]['icon'] = 'debian';
+$old_releases[7][2]['file'] = 'bined_'.$ver.'-1_all.deb';
+$old_releases[7][3]['name'] = 'Linux RPM Package';
+$old_releases[7][3]['ver'] = $ver;
+$old_releases[7][3]['date'] = $date;
+$old_releases[7][3]['icon'] = 'rpm';
+$old_releases[7][3]['file'] = 'bined-'.$ver.'-1.noarch.rpm';
+
 $ver = '0.2.2';
 $date = '2023-07-29';
 
@@ -162,12 +186,13 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 
 <h2 id="latest_changes">Latest Changes</h2>
 <p>
-<ul><li>Added convert data action</li>
-<li>Added drag&amp;drop content tool</li>
-<li>Added GUI rendering options</li>
-<li>Added support for basic macro</li>
-<li>Fixed issue with language switching</li>
-<li>Fixed some issues with searching</li>
+<ul><li>Added addon manager</li>
+<li>Added keymap overview</li>
+<li>Added Base 64 conversion</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added option for legacy SWT file dialogs</li>
+<li>Fixed another issue with searching</li> 
 </ul></p>
 <p><a class="urlextern" href="https://github.com/exbin/bined/blob/master/changes.txt">Full list of changes</a></p>
 
@@ -182,6 +207,11 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>BinEd <?php echo $old_releases[7][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[7]); ?>
+      <br/><a href="?p=plugins">Legacy plugins</a></td>
+</tr>
 <tr>
   <td>BinEd <?php echo $old_releases[6][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[6]); ?></td>

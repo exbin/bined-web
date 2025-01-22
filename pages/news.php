@@ -2,6 +2,16 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2025-01-22:</strong> BinEd 0.2.4 Released</p>
+<ul><li>Added addon manager</li>
+<li>Added keymap overview</li>
+<li>Added Base 64 conversion</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added option for legacy SWT file dialogs</li>
+<li>Fixed another issue with searching</li>
+</ul></li>
+
 <li><p><strong>2024-11-13:</strong> BinEd Android App 0.2.3 Released</p>
 <ul><li>Added basic data inspector</li>
 <li>Support for partial file opening</li>
@@ -57,10 +67,6 @@
 <li><p><strong>2024-05-12:</strong> BinEd NetBeans Plugin 0.2.6 Released</p>
 <ul><li>Added support for basic macro</li>
 <li>Added support for language switching (zh, jp, ko)</li>
-</ul></li>
-
-<li><p><strong>2024-04-13:</strong> BinEd IntelliJ Plugin 0.2.10.1 Released</p>
-<ul><li>Fixed issue with null default font (issue #58)</li>
 </ul></li>
 
 </ul>
