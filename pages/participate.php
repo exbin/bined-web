@@ -18,7 +18,7 @@
 <h2 id="development-plan">Current Development Plan</h2>
 <p>Plan for version 0.3.0 is to implement some of the following improvements:</p>
 <ul>
-  <li>Plugin manager</li>
+  <li>Some support for content analysis / decompilation</li>
 </ul>
 
 <p>See <a href="?p=source-codes">list of source code repositories</a>.</p>

@@ -21,7 +21,7 @@ if ($op == 'check-0.2.4') {
   echo "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?>\n";
   echo "<result>\n";
 
-  $rows = DB_Query('SELECT addon.id, addon.module_id, addon.name, addon_dep.id AS dep_id, addon_dep.type AS dep_type, addon_dep.value AS dep_value, license.id AS license, license.spdx, license.name AS license_name, license.file AS license_file FROM addon INNER JOIN addon_rel ON addon_rel.addon_id = addon.id AND NOT EXISTS(SELECT 1 FROM addon_rel rl WHERE rl.addon_id = addon_rel.addon_id AND rl.sequence > addon_rel.sequence) LEFT JOIN license ON license.id = addon_rel.license_id LEFT JOIN addon_dep ON addon_dep.addon_id = addon.id WHERE addon.module_id = \''.$module_id.'\' ORDER BY addon_dep.id');
+  $rows = DB_Query('SELECT addon.id, addon.module_id, addon.name, addon_dep.id AS dep_id, addon_dep.type AS dep_type, addon_dep.value AS dep_value, license.id AS license, license.spdx, license.name AS license_name, license.file AS license_file FROM addon INNER JOIN addon_rel ON addon_rel.addon_id = addon.id AND NOT EXISTS(SELECT 1 FROM addon_rel rl WHERE rl.addon_id = addon_rel.addon_id AND rl.sequence > addon_rel.sequence) LEFT JOIN license ON license.id = addon_rel.license_id LEFT JOIN addon_dep ON addon_dep.addon_rel_id = addon_rel.id WHERE addon.module_id = \''.$module_id.'\' ORDER BY addon_dep.id');
   $addon_id = 0;
   $dep_id = 0;
   while ($row = DB_Row()) {
@@ -76,7 +76,7 @@ if ($op == 'check-0.2.4') {
   echo "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?>\n";
   echo "<result>\n";
 
-  $rows = DB_Query('SELECT addon.id, addon.module_id, addon.name, addon.description, addon.homepage, addon.icon, addon.created, addon.owner_id, addon.created, addon_dep.id AS dep_id, addon_dep.type AS dep_type, addon_dep.value AS dep_value, addon_rel.version, user.name AS provider, license.id AS license, license.spdx, license.name AS license_name, license.file AS license_file FROM addon INNER JOIN user ON user.id = addon.owner_id INNER JOIN addon_rel ON addon_rel.addon_id = addon.id AND NOT EXISTS(SELECT 1 FROM addon_rel rl WHERE rl.addon_id = addon_rel.addon_id AND rl.sequence > addon_rel.sequence) LEFT JOIN license ON license.id = addon_rel.license_id LEFT JOIN addon_dep ON addon_dep.addon_id = addon.id ORDER BY addon.id, addon_dep.id');
+  $rows = DB_Query('SELECT addon.id, addon.module_id, addon.name, addon.description, addon.homepage, addon.icon, addon.created, addon.owner_id, addon.created, addon_dep.id AS dep_id, addon_dep.type AS dep_type, addon_dep.value AS dep_value, addon_rel.version, user.name AS provider, license.id AS license, license.spdx, license.name AS license_name, license.file AS license_file FROM addon INNER JOIN user ON user.id = addon.owner_id INNER JOIN addon_rel ON addon_rel.addon_id = addon.id AND NOT EXISTS(SELECT 1 FROM addon_rel rl WHERE rl.addon_id = addon_rel.addon_id AND rl.sequence > addon_rel.sequence) LEFT JOIN license ON license.id = addon_rel.license_id LEFT JOIN addon_dep ON addon_dep.addon_rel_id = addon_rel.id ORDER BY addon.id, addon_dep.id');
   $addon_id = 0;
   $dep_id = 0;
   while ($row = DB_Row()) {
@@ -142,9 +142,15 @@ if ($op == 'check-0.2.4') {
 
   echo "</result>\n";
 } else if ($op == 'updates') {
-  $rows = DB_Query('SELECT addon.module_id, addon_rel.version FROM addon INNER JOIN addon_rel ON addon_rel.addon_id = addon.id AND NOT EXISTS(SELECT 1 FROM addon_rel rl WHERE rl.addon_id = addon_rel.addon_id AND rl.sequence > addon_rel.sequence) ORDER BY addon.id');
+  // Addon manager bug reads only first line, thus return addon manager module update first 
+  $rows = DB_Query('SELECT addon.module_id, addon_rel.version FROM addon INNER JOIN addon_rel ON addon_rel.addon_id = addon.id AND NOT EXISTS(SELECT 1 FROM addon_rel rl WHERE rl.addon_id = addon_rel.addon_id AND rl.sequence > addon_rel.sequence) AND addon.id = 15 ORDER BY addon.id');
   $row = DB_Row();
-  if ($row) {
+  if ($row['module_id']) {
+    echo $row['module_id'].':'.$row['version']."\n";
+  }
+
+  $rows = DB_Query('SELECT addon.module_id, addon_rel.version FROM addon INNER JOIN addon_rel ON addon_rel.addon_id = addon.id AND NOT EXISTS(SELECT 1 FROM addon_rel rl WHERE rl.addon_id = addon_rel.addon_id AND rl.sequence > addon_rel.sequence) AND NOT (addon.id = 15) ORDER BY addon.id');
+  while ($row = DB_Row()) {
   	echo $row['module_id'].':'.$row['version']."\n";
   }
   DB_Close();

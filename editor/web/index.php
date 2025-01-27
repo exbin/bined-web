@@ -13,7 +13,7 @@
         var width = Math.max( body.scrollWidth, body.offsetWidth, html.clientWidth, html.scrollWidth, html.offsetWidth );
         var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
         cheerpjCreateDisplay(width, height);
-        await cheerpjRunJar("/app/editor/web/bined-0.2.3/bined.jar");
+        await cheerpjRunJar("/app/editor/web/bined-0.3.0-SNAPSHOT/bined.jar", ["-demo"]);
       })();
     </script>
   </body>

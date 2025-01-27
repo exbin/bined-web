@@ -26,7 +26,14 @@ if ($query) {
 <div>
 <?php
   if ($row) {
-  	echo "<h1 id=\"addons\"><img src=\"icon/default.png\" alt=\"[ICON]\" style=\"float:left;margin-right:10px\" />Addon: ".$row['name']."</h1>\n";
+    $icon = $row['icon'];
+    if (!$icon) {
+    	$icon = "icon/default.png";
+    } else {
+    	$icon = "icon/".$icon;
+    }
+    	
+  	echo "<h1 id=\"addons\"><img src=\"".$icon."\" alt=\"[ICON]\" style=\"float:left;margin-right:10px\" />Addon: ".$row['name']."</h1>\n";
   	echo "<p>Description: ".$row['description']."<br/>\n";
   	echo "Module ID: ".$row['module_id']."<br/>\n";
   	echo "Homepage: <a href=\"".$row['homepage']."\">".$row['homepage']."</a><br/>\n";
@@ -48,13 +55,13 @@ if ($query) {
     	if ($rel['license']) {
     		$license = " / ".$rel['license_name'];
     	}
-    	echo "* <a href=\"download/".$rel['file']."\">Version ".$rel['version']."</a> (".$rel['created'].$license.")<br/> \n";
+    	echo "* <a href=\"download/?f=".$rel['file']."\">Version ".$rel['version']."</a> (".$rel['created'].$license.")<br/> \n";
     }
   	echo "</p>\n";
   	
   	// Dependencies
   	echo "<p>Dependencies:<br/>\n";
-    $deps = DB_Query('SELECT addon_dep.id, addon_dep.type, addon_dep.value FROM addon_dep WHERE addon_dep.addon_id = '.$row['id'].' ORDER BY id');
+    $deps = DB_Query('SELECT addon_dep.id, addon_dep.type, addon_dep.value FROM addon_dep, addon_rel WHERE addon_dep.addon_rel_id = addon_rel.id AND addon_rel.addon_id = '.$row['id'].' AND NOT EXISTS(SELECT 1 FROM addon_rel rl WHERE rl.addon_id = addon_rel.addon_id AND rl.sequence > addon_rel.sequence) ORDER BY addon_dep.id');
     while ($dep = DB_Row()) {
     	switch ($dep['type']) {
     	  case 0:
@@ -80,9 +87,16 @@ if ($query) {
 <div>
 <h1 id="addons">Addons: Browse</h1>
 <?php
-  $rows = DB_Query('SELECT id, module_id, name, description, created FROM addon ORDER BY created DESC');
+  $rows = DB_Query('SELECT id, module_id, name, description, icon, created FROM addon ORDER BY created DESC');
   while ($row = DB_Row()) {
-	echo "<div><img src=\"icon/default.png\" alt=\"[ICON]\" style=\"float:left;margin-right:10px\" /><a href=\"?p=".$row['module_id']."\"><strong>".$row['name']."</strong></a><br/>".$row['description']."</div><br/>\n";
+    $icon = $row['icon'];
+    if (!$icon) {
+    	$icon = "icon/default.png";
+    } else {
+    	$icon = "icon/".$icon;
+    }
+
+	echo "<div><img src=\"".$icon."\" alt=\"[ICON]\" style=\"float:left;margin-right:10px\" /><a href=\"?p=".$row['module_id']."\"><strong>".$row['name']."</strong></a><br/>".$row['description']."</div><br/>\n";
   }
 
   DB_Close();

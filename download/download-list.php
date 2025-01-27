@@ -322,8 +322,8 @@
       $variants = array();
       $stb_ver = '0.2.1';
       $stb_date = '2024-11-06';
-      $dev_ver = '0.2.1';
-      $dev_date = '2024-11-04';
+      $dev_ver = '0.2.2';
+      $dev_date = '2025-01-23';
 
       $variants['stb'][0]['name'] = 'Extension';
       $variants['stb'][0]['ver'] = $stb_ver;
