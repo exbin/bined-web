@@ -69,8 +69,8 @@
       $variants = array();
       $stb_ver = '0.2.1';
       $stb_date = '2023-12-30';
-      $dev_ver = '0.2.0';
-      $dev_date = '2019-09-26';
+      $dev_ver = '0.3.0';
+      $dev_date = '2025-02-18';
 
       $variants['stb'][0]['name'] = 'Basic Editor';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -105,6 +105,13 @@
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'android';
       $variants['dev'][0]['file'] = 'bined-android-'.$dev_ver.'-SNAPSHOT.apk';
+
+      $variants['dev'][1]['name'] = 'Android App';
+      $variants['dev'][1]['prefix'] = '(legacy) ';
+      $variants['dev'][1]['ver'] = $dev_ver.'-sdk14';
+      $variants['dev'][1]['date'] = '2025-02-25';
+      $variants['dev'][1]['icon'] = 'android';
+      $variants['dev'][1]['file'] = 'bined-android-'.$dev_ver.'-sdk14-SNAPSHOT.apk';
 
       $result['android'] = $variants;
     }
@@ -167,10 +174,10 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.10.1';
-      $stb_date = '2024-04-13';
-      $dev_ver = '0.3.0';
-      $dev_date = '2024-12-07';
+      $stb_ver = '0.2.11.1';
+      $stb_date = '2025-02-14';
+      $dev_ver = '0.2.12';
+      $dev_date = '2025-02-10';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

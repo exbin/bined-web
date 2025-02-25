@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jan 27, 2025 at 08:32 PM
+-- Generation Time: Feb 12, 2025 at 10:50 AM
 -- Server version: 10.11.8-MariaDB-0ubuntu0.24.04.1
 -- PHP Version: 8.3.6
 
@@ -58,7 +58,12 @@ INSERT INTO `addon` (`id`, `module_id`, `name`, `description`, `homepage`, `crea
 (13, 'org.exbin.framework.plugin.tinylaf_laf.TinyLafLafModule', 'TinyLaf look and feel', 'Module to provide TinyLaf look and feel', 'https://exbin.org', '2025-01-25 21:57:55', 1, ''),
 (14, 'org.exbin.framework.plugin.vaqua_laf.VAquaLafModule', 'VAqua look and feel', 'Module to provide VAqua look and feel', 'https://exbin.org', '2025-01-26 22:21:13', 1, ''),
 (15, 'org.exbin.framework.addon.manager.AddonManagerModule', 'Addon Manager', 'Module to manage addons', 'https://exbin.org', '2025-01-27 18:54:55', 1, ''),
-(16, 'org.exbin.framework.utils.UtilsModule', 'Utilities Module', 'Module to provide various utilities', 'https://exbin.org', '2025-01-27 19:58:17', 1, '');
+(16, 'org.exbin.framework.utils.UtilsModule', 'Utilities Module', 'Module to provide various utilities', 'https://exbin.org', '2025-01-27 19:58:17', 1, ''),
+(17, 'org.exbin.framework.ui.UiModule', 'User interface', 'Module for user interface handling', 'https://exbin.org', '2025-01-27 22:21:51', 1, ''),
+(18, 'org.exbin.framework.plugin.flatlaf_laf.FlatLafLafModule', 'FlatLaf look and feel', 'Module to provide FlatLaf look and feel', 'https://exbin.org', '2025-01-28 15:25:19', 1, ''),
+(19, 'org.exbin.framework.language.LanguageModule', 'Language support', 'Module to support language', 'https://exbin.org', '2025-01-28 21:56:07', 1, ''),
+(20, 'org.exbin.framework.plugins.iconset.material.IconSetMaterialModule', 'Material icon set', 'Material icon set', 'https://exbin.org', '2025-01-30 20:54:13', 1, ''),
+(21, 'org.exbin.framework.options.OptionsModule', 'Options Support Module', 'Module to provide support for application options', 'https://exbin.org', '2025-01-31 16:01:54', 1, '');
 
 -- --------------------------------------------------------
 
@@ -115,7 +120,32 @@ INSERT INTO `addon_dep` (`id`, `addon_rel_id`, `type`, `value`) VALUES
 (35, 16, 0, 'org.exbin.framework.options.api.OptionsModuleApi'),
 (36, 16, 0, 'org.exbin.framework.preferences.api.PreferencesModuleApi'),
 (37, 16, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
-(38, 16, 0, 'org.exbin.framework.utils.UtilsModule');
+(38, 16, 0, 'org.exbin.framework.utils.UtilsModule'),
+(39, 18, 0, 'org.exbin.framework.ui.api.UiModuleApi'),
+(40, 18, 0, 'org.exbin.framework.action.api.ActionModuleApi'),
+(41, 18, 0, 'org.exbin.framework.options.api.OptionsModuleApi'),
+(42, 18, 0, 'org.exbin.framework.preferences.api.PreferencesModuleApi'),
+(43, 18, 0, 'org.exbin.framework.frame.api.FrameModuleApi'),
+(44, 18, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
+(45, 18, 0, 'org.exbin.framework.utils.UtilsModule'),
+(46, 19, 0, 'org.exbin.framework.ui.api.UiModuleApi'),
+(47, 19, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
+(48, 19, 0, 'org.exbin.framework.preferences.api.PreferencesModuleApi'),
+(49, 19, 2, 'net.sf.tinylaf:tinylaf:1.4.0'),
+(50, 20, 0, 'org.exbin.framework.ui.api.UiModuleApi'),
+(51, 20, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
+(52, 20, 0, 'org.exbin.framework.preferences.api.PreferencesModuleApi'),
+(53, 20, 2, 'com.formdev:flatlaf:3.5.4'),
+(54, 21, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
+(55, 22, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
+(56, 23, 0, 'org.exbin.framework.utils.UtilsModule'),
+(57, 23, 0, 'org.exbin.framework.action.api.ActionModuleApi'),
+(58, 23, 0, 'org.exbin.framework.preferences.api.PreferencesModuleApi'),
+(59, 23, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
+(60, 23, 0, 'org.exbin.framework.preferences.PreferencesModule'),
+(61, 23, 0, 'org.exbin.framework.ui.api.UiModuleApi'),
+(62, 23, 0, 'org.exbin.framework.frame.api.FrameModuleApi'),
+(63, 23, 0, 'org.exbin.framework.window.api.WindowModuleApi');
 
 -- --------------------------------------------------------
 
@@ -153,7 +183,13 @@ INSERT INTO `addon_rel` (`id`, `addon_id`, `sequence`, `created`, `file`, `licen
 (14, 13, 0, '2025-01-25 22:59:35', 'exbin-framework-tinylaf-laf-0.2.4.jar', 1, '0.2.4'),
 (15, 14, 0, '2025-01-26 23:22:56', 'exbin-framework-vaqua-laf-0.2.4.1.jar', 1, '0.2.4.1'),
 (16, 15, 0, '2025-01-27 20:00:20', 'exbin-framework-addon-manager-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1'),
-(17, 16, 0, '2025-01-27 20:58:49', 'exbin-framework-utils-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1');
+(17, 16, 0, '2025-01-27 20:58:49', 'exbin-framework-utils-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1'),
+(18, 17, 0, '2025-01-27 23:22:38', 'exbin-framework-ui-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1'),
+(19, 13, 1, '2025-01-27 23:26:45', 'exbin-framework-tinylaf-laf-0.2.4.1.jar', 1, '0.2.4.1'),
+(20, 18, 0, '2025-01-28 16:26:41', 'exbin-framework-flatlaf-laf-0.2.4.1.jar', 1, '0.2.4.1'),
+(21, 19, 0, '2025-01-28 22:56:44', 'exbin-framework-language-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1'),
+(22, 20, 0, '2025-01-30 21:54:52', 'exbin-framework-material-iconset-0.2.4.jar', 1, '0.2.4'),
+(23, 21, 0, '2025-01-31 17:02:42', 'exbin-framework-options-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1');
 
 -- --------------------------------------------------------
 
@@ -246,19 +282,19 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `addon`
 --
 ALTER TABLE `addon`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `addon_dep`
 --
 ALTER TABLE `addon_dep`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
 
 --
 -- AUTO_INCREMENT for table `addon_rel`
 --
 ALTER TABLE `addon_rel`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `license`

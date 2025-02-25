@@ -2,6 +2,19 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2025-02-14:</strong> BinEd IntelliJ Plugin 0.2.11.1 Released</p>
+<ul><li>Plugin breaks access to the settings screen  (issue #63)</li>
+<li>Database module dependency issue (issue #62)</li>
+</ul></li>
+
+<li><p><strong>2025-02-08:</strong> BinEd IntelliJ Plugin 0.2.11 Released</p>
+<ul><li>Added Base 64 conversion</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added more languages (de, cs, fr, it, pt, pl, ru)</li>
+<li>Fixed write-unsafe context (issue #60)</li>
+</ul></li>
+
 <li><p><strong>2025-01-22:</strong> BinEd 0.2.4 Released</p>
 <ul><li>Added addon manager</li>
 <li>Added keymap overview</li>
@@ -51,22 +64,6 @@
 <li><p><strong>2024-09-01:</strong> BinEd Android App 0.2.0 Released</p>
 <ul><li>Initial release</li>
 <li>Limited functionality</li>
-</ul></li>
-
-<li><p><strong>2024-06-24:</strong> BinEd Eclipse Plugin 0.2.2 Released</p>
-<ul><li>Added support for language switching (zh, jp, ko)</li>
-<li>Added support for basic macro</li>
-<li>Added support for bookmarks</li>
-<li>Added integration options page</li>
-<li>Added convert data action</li>
-<li>Added clipboard content tool</li>
-<li>Added drag&amp;drop content tool</li>
-<li>New app icon</li>
-</ul></li>
-
-<li><p><strong>2024-05-12:</strong> BinEd NetBeans Plugin 0.2.6 Released</p>
-<ul><li>Added support for basic macro</li>
-<li>Added support for language switching (zh, jp, ko)</li>
 </ul></li>
 
 </ul>

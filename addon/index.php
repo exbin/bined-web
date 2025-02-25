@@ -85,6 +85,8 @@ if ($query) {
 ?>
 <a href="..">&lt;&lt;&nbsp;Back</a>
 <div>
+<p>Addons can be installed in <a href="https://bined.exbin.org/editor/">editor application</a> via <a href="https://bined.exbin.org/editor/?p=manual#addon-manager">Tools / Addon Manager</a>.</p>
+
 <h1 id="addons">Addons: Browse</h1>
 <?php
   $rows = DB_Query('SELECT id, module_id, name, description, icon, created FROM addon ORDER BY created DESC');
