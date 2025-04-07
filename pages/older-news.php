@@ -2,6 +2,11 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2024-09-01:</strong> BinEd Android App 0.2.0 Released</p>
+<ul><li>Initial release</li>
+<li>Limited functionality</li>
+</ul></li>
+
 <li><p><strong>2024-06-24:</strong> BinEd Eclipse Plugin 0.2.2 Released</p>
 <ul><li>Added support for language switching (zh, jp, ko)</li>
 <li>Added support for basic macro</li>

@@ -89,10 +89,10 @@
 
     if ($group == 'android' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.3';
-      $stb_date = '2024-11-13';
+      $stb_ver = '0.2.4';
+      $stb_date = '2025-04-06';
       $dev_ver = '0.2.4';
-      $dev_date = '2024-12-12';
+      $dev_date = '2025-04-05';
 
       $variants['stb'][0]['name'] = 'Android App';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -101,17 +101,18 @@
       $variants['stb'][0]['file'] = 'bined-android-'.$stb_ver.'.apk';
 
       $variants['dev'][0]['name'] = 'Android App';
+//      $variants['dev'][0]['prefix'] = 'Android 7+ ';
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'android';
       $variants['dev'][0]['file'] = 'bined-android-'.$dev_ver.'-SNAPSHOT.apk';
 
-      $variants['dev'][1]['name'] = 'Android App';
-      $variants['dev'][1]['prefix'] = '(legacy) ';
-      $variants['dev'][1]['ver'] = $dev_ver.'-sdk14';
-      $variants['dev'][1]['date'] = '2025-02-25';
-      $variants['dev'][1]['icon'] = 'android';
-      $variants['dev'][1]['file'] = 'bined-android-'.$dev_ver.'-sdk14-SNAPSHOT.apk';
+//      $variants['dev'][1]['name'] = 'Android App';
+//      $variants['dev'][1]['prefix'] = 'Android 4+ (legacy) ';
+//      $variants['dev'][1]['ver'] = $dev_ver.'-sdk14';
+//      $variants['dev'][1]['date'] = '2025-02-25';
+//      $variants['dev'][1]['icon'] = 'android';
+//      $variants['dev'][1]['file'] = 'bined-android-'.$dev_ver.'-sdk14-SNAPSHOT.apk';
 
       $result['android'] = $variants;
     }

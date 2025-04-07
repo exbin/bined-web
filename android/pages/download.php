@@ -9,6 +9,15 @@ function echoDownload($arr) {
 $old_releases = array();
 $old_sources = array();
 
+$ver = '0.2.3';
+$date = '2024-11-13';
+
+$old_releases[4][0]['name'] = 'Android App';
+$old_releases[4][0]['ver'] = $ver;
+$old_releases[4][0]['date'] = $date;
+$old_releases[4][0]['icon'] = 'android';
+$old_releases[4][0]['file'] = 'bined-android-'.$ver.'.apk';
+
 $ver = '0.2.2';
 $date = '2024-10-13';
 
@@ -55,11 +64,8 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added basic data inspector</li>
-<li>Support for partial file opening</li>
-<li>Support for D-Pad / Android TV</li>
-<li>Options for button size in keys panel</li>
-<li>Fix for button 9 (issue #13)</li>
+<ul><li>Direct buffer allocation</li>
+<li>Compatibility up to sdk14</li>
 </ul>
 <p><a class="urlextern" href="https://github.com/exbin/bined-android/blob/master/changes.txt">Full list of changes</a></p>
 
@@ -75,6 +81,10 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>Android App <?php echo $old_releases[4][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[4]); ?></td>
+</tr>
 <tr>
   <td>Android App <?php echo $old_releases[3][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[3]); ?></td>

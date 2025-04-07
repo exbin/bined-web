@@ -2,6 +2,11 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2025-04-06:</strong> BinEd Android App 0.2.4 Released</p>
+<ul><li>Direct buffer allocation</li>
+<li>Compatibility up to sdk14</li>
+</ul></li>
+
 <li><p><strong>2025-02-14:</strong> BinEd IntelliJ Plugin 0.2.11.1 Released</p>
 <ul><li>Plugin breaks access to the settings screen  (issue #63)</li>
 <li>Database module dependency issue (issue #62)</li>
@@ -59,11 +64,6 @@
 
 <li><p><strong>2024-09-05:</strong> BinEd Android App 0.2.0.1 Released</p>
 <ul><li>Minor fix of keyboard support in preview</li>
-</ul></li>
-
-<li><p><strong>2024-09-01:</strong> BinEd Android App 0.2.0 Released</p>
-<ul><li>Initial release</li>
-<li>Limited functionality</li>
 </ul></li>
 
 </ul>

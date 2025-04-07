@@ -1,6 +1,6 @@
 <div id="content">
 <h1 id="participate">Participate</h1>
-<p>BinEd is typical open source side project developed by single author out of need to provide alternative app / component similar to commonly available hex editors. As the basic goal was more or less reached, the project is now in a low priority maintenance mode and can die out in not-so-distant future. Join the project if you want to change its fate.</p>
+<p>BinEd is typical open source project developed on the side by a single author out of the need to provide alternative app / component similar to commonly available hex editors. As the basic goal was more or less reached, the project is now in a low priority maintenance mode and can die out in not-so-distant future. Join the project if you want to change its fate.</p>
 
 <p>There are various ways how you can contribute to this project:</p>
 
@@ -16,7 +16,7 @@
 <li>Contact: exbinproject@<span style="display:none">(at)</span>gmail.com</li></ul>
 
 <h2 id="development-plan">Current Development Plan</h2>
-<p>Plan for version 0.3.0 is to implement some of the following improvements:</p>
+<p>Plan for version next version is to implement some of the following improvements:</p>
 <ul>
   <li>Some support for content analysis / decompilation</li>
 </ul>
