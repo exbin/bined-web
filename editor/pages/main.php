@@ -17,6 +17,9 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['editor']['dev']); ?></td></tr>
 </table>
 
+<h2 id="requirements">Requirements</h2>
+<p>Any system supporting / with installed Java JDK 8 or newer.</p>
+
 <h2 id="web_demo">Web Demo</h2>
 <p>You can try <a href="web/">BinEd editor running in browser</a>.<br><em>Using <a href="https://labs.leaningtech.com/cheerpj">CheerpJ</a> by Leaning Technologies.</em></p>
 

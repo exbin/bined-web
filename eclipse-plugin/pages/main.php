@@ -14,18 +14,6 @@ function echoDownload($arr) {
 <li>Poor integration</li>
 </ul>
 
-<h2 id="usage">Usage</h2>
-
-<ul><li>Use "<strong>Open With/BinEd Binary/Hex Editor</strong>" action in project explorer context menu</li>
-<li>Use "<strong>View as Binary</strong>" in Variables window</li></ul>
-
-<h2 id="usage">Installation</h2>
-
-<p>Choose one of the following options:</p>
-<ul><li>In Help/Eclipse Marketplace search for bined and press install button</li>
-<li>In Help/Install new software add plugin update site "<a href="update/">https://bined.exbin.org/eclipse-plugin/update</a>" and install content</li>
-<li>Copy downloaded jar file to eclipse/dropins directory</li></ul>
-
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
@@ -34,12 +22,27 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['eclipse-plugin']['dev']); ?></td></tr>
 </table>
 
+<h2 id="requirements">Requirements</h2>
+<p>Eclipse IDE or product based on Eclipse Platform 4.7 (Oxygen) or newer.</p>
+
 <h2 id="published">Published</h2>
 <table class="table">
 <tr><th>Module Website&nbsp;</th></tr>
 <tr>
   <td><a class="urlextern" href="<?php echo $downloads['eclipse-plugin']['repository_url']; ?>"><?php echo $downloads['eclipse-plugin']['repository_title']; ?></a></td></tr>
 </tr></table>
+
+<h2 id="usage">Usage</h2>
+
+<ul><li>Use "<strong>Open With/BinEd Binary/Hex Editor</strong>" action in project explorer context menu</li>
+<li>Use "<strong>View as Binary</strong>" in Variables window</li></ul>
+
+<h2 id="installation">Installation</h2>
+
+<p>Choose one of the following options:</p>
+<ul><li>In Help/Eclipse Marketplace search for bined and press install button</li>
+<li>In Help/Install new software add plugin update site "<a href="update/">https://bined.exbin.org/eclipse-plugin/update</a>" and install content</li>
+<li>Copy downloaded jar file to eclipse/dropins directory</li></ul>
 
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">

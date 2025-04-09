@@ -30,6 +30,10 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td></tr>
 </table>
 
+<h2 id="requirements">Requirements</h2>
+<p>JDeveloper 11g or JDeveloper 12c or newer running on Java 8 or newer.</p>
+
+
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
 <tr><th>GitHub Repository&nbsp;</th></tr>

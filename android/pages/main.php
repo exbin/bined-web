@@ -19,7 +19,10 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['android']['dev']); ?></td></tr>
 </table>
 
-<h2>Features</h2>
+<h2 id="requirements">Requirements</h2>
+<p>Android 4.0 or newer (API 14+) Phone, Tablet or Android TV.</p>
+
+<h2 id="features">Features</h2>
 <ul><li>Visualize data as numerical (hexadecimal) codes and text representation</li>
 <li>Codes can be also binary, octal or decimal</li>
 <li>Support for Unicode, UTF-8 and other charsets</li>

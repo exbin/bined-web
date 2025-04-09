@@ -18,6 +18,9 @@ function echoDownload($arr) {
   <td><?php echoDownload($downloads['netbeans-plugin']['dev']); ?></td>
 </tr>
 </table>
+
+<h2 id="requirements">Requirements</h2>
+<p>Any system supporting / with installed Java JDK 8 or newer.</p>
 <p>IDE variant is tested with NetBeans IDE (supports debugging), platform variant can work with other applications created using NetBeans platform.</p>
 
 <h2 id="published">Published</h2>
@@ -30,7 +33,7 @@ function echoDownload($arr) {
   <td><a class="urlextern" href="https://plugins.netbeans.org/plugin/67898" style="text-decoration: line-through;">Old Plugins Portal</a></td>
 </tr></table>
 
-<h2>Features</h2>
+<h2 id="features">Features</h2>
 <ul><li>Visualize data as numerical (hexadecimal) codes and text representation</li>
 <li>Codes can be also binary, octal or decimal</li>
 <li>Support for Unicode, UTF-8 and other charsets</li>

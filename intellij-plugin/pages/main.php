@@ -21,6 +21,9 @@ function echoDownload($arr) {
 
 <p><iframe style="border: none;" frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/9339" target="_blank"></iframe></p>
 
+<h2 id="requirements">Requirements</h2>
+<p>Any JetBrains IDE (based on IntelliJ platform) 2023.2.1 or newer or Android Studio Iguana (Feb 2024) or newer.</p>
+
 <h2 id="published">Published</h2>
 <table class="table">
 <tr><th>Module Website&nbsp;</th></tr>
@@ -29,7 +32,7 @@ function echoDownload($arr) {
 </tr></table>
 <p><img src="images/jetbrains-ref.png" alt="JetBrains" title="JetBrains"/>&nbsp;&nbsp; <a class="urlextern" href="https://jetbrains.com">JetBrains</a> kindly provided license for their products via their <a class="urlextern" href="https://www.jetbrains.com/community/opensource/">Free License Programs</a>.</p>
 
-<h2>Features</h2>
+<h2 id="features">Features</h2>
 <ul><li>Visualize data as numerical (hexadecimal) codes and text representation</li>
 <li>Codes can be also binary, octal or decimal</li>
 <li>Support for Unicode, UTF-8 and other charsets</li>
