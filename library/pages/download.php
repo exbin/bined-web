@@ -8,6 +8,15 @@ function echoDownload($arr) {
 
 $old_releases = array();
 
+$ver = '0.2.1';
+$date = '2023-12-30';
+
+$old_releases[5][0]['name'] = 'Library';
+$old_releases[5][0]['ver'] = $ver;
+$old_releases[5][0]['date'] = $date;
+$old_releases[5][0]['icon'] = 'zip';
+$old_releases[5][0]['file'] = 'bined-lib-java-'.$ver.'.zip';
+
 $ver = '0.2.0';
 $date = '2021-08-29';
 
@@ -64,15 +73,12 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 
 <h2 id="latest_changes">Latest Changes</h2>
 <p>
-<ul><li>Fixed issue with clipboard flavor</li>
-<li>Renamed back to binary_data + split as regular and paged variant</li>
-<li>Added data not present support</li>
-<li>Added empty data class</li>
+<ul><li>Some fixes and refactoring</li>
 </ul></p>
 <p><a class="urlextern" href="https://github.com/exbin/bined-lib-java/blob/master/changes.txt">Full list of changes</a></p>
 
 <h2 id="development">Development Version</h2>
-<p>Development versions are likely untested/broken and at your own risk.</p>
+<p>Development versions are likely untested/broken - use at your own risk.</p>
 <table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
 <tr><td>Library</td>
@@ -82,6 +88,10 @@ $old_releases[0][0]['file'] = 'deltahex-java-'.$ver.'.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>Library <?php echo $old_releases[5][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[5]); ?></td>
+</tr>
 <tr>
   <td>Library <?php echo $old_releases[4][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[4]); ?></td>

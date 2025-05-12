@@ -67,8 +67,8 @@
 
     if ($group == 'basic-editor' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.1';
-      $stb_date = '2023-12-30';
+      $stb_ver = '0.2.2';
+      $stb_date = '2025-05-12';
       $dev_ver = '0.3.0';
       $dev_date = '2025-02-18';
 
@@ -89,10 +89,10 @@
 
     if ($group == 'android' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.4';
-      $stb_date = '2025-04-06';
-      $dev_ver = '0.2.4';
-      $dev_date = '2025-04-05';
+      $stb_ver = '0.2.5';
+      $stb_date = '2025-05-07';
+      $dev_ver = '0.2.6';
+      $dev_date = '2025-05-08';
 
       $variants['stb'][0]['name'] = 'Android App';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -119,10 +119,10 @@
 
     if ($group == 'library' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.1';
-      $stb_date = '2023-12-30';
-      $dev_ver = '0.2.1';
-      $dev_date = '2023-11-25';
+      $stb_ver = '0.2.2';
+      $stb_date = '2025-05-12';
+      $dev_ver = '0.2.2';
+      $dev_date = '2025-05-11';
 
       $variants['stb'][0]['name'] = 'Library';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -135,6 +135,9 @@
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'zip';
       $variants['dev'][0]['file'] = 'bined-lib-java-'.$dev_ver.'-SNAPSHOT.zip';
+
+      $variants['repository_title'] = 'Maven Central';
+      $variants['repository_url'] = 'https://mvnrepository.com/artifact/org.exbin.bined';
 
       $result['library'] = $variants;
     }

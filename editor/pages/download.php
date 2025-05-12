@@ -197,7 +197,7 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 <p><a class="urlextern" href="https://github.com/exbin/bined/blob/master/changes.txt">Full list of changes</a></p>
 
 <h2 id="development">Development Version</h2>
-<p>Development versions are likely untested/broken and at your own risk.</p>
+<p>Development versions are likely untested/broken - use at your own risk.</p>
 <table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
 <tr><td>Editor</td>

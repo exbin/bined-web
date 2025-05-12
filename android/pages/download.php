@@ -9,6 +9,15 @@ function echoDownload($arr) {
 $old_releases = array();
 $old_sources = array();
 
+$ver = '0.2.4';
+$date = '2025-04-06';
+
+$old_releases[5][0]['name'] = 'Android App';
+$old_releases[5][0]['ver'] = $ver;
+$old_releases[5][0]['date'] = $date;
+$old_releases[5][0]['icon'] = 'android';
+$old_releases[5][0]['file'] = 'bined-android-'.$ver.'.apk';
+
 $ver = '0.2.3';
 $date = '2024-11-13';
 
@@ -64,13 +73,14 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Direct buffer allocation</li>
-<li>Compatibility up to sdk14</li>
+<ul><li>Double back key press exists app</li>
+<li>Threaded search</li>
+<li>Bug fixes</li>
 </ul>
 <p><a class="urlextern" href="https://github.com/exbin/bined-android/blob/master/changes.txt">Full list of changes</a></p>
 
 <h2 id="development">Development Version</h2>
-<p>Development versions are likely untested/broken and at your own risk.</p>
+<p>Development versions are likely untested/broken - use at your own risk.</p>
 <table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
 <tr><td>Android App</td>
@@ -81,6 +91,10 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>Android App <?php echo $old_releases[5][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[5]); ?></td>
+</tr>
 <tr>
   <td>Android App <?php echo $old_releases[4][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[4]); ?></td>

@@ -2,6 +2,16 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2025-05-12:</strong> BinEd Library 0.2.2 Released</p>
+<ul><li>Some fixes and refactoring</li>
+</ul></li>
+
+<li><p><strong>2025-05-07:</strong> BinEd Android App 0.2.5 Released</p>
+<ul><li>Double back key press exists app</li>
+<li>Threaded search</li>
+<li>Bug fixes</li>
+</ul></li>
+
 <li><p><strong>2025-04-06:</strong> BinEd Android App 0.2.4 Released</p>
 <ul><li>Direct buffer allocation</li>
 <li>Compatibility up to sdk14</li>
@@ -52,18 +62,6 @@
 <li>Added open with support</li>
 <li>Show nonprintable characters</li>
 <li>Show mirror cursor</li>
-</ul></li>
-
-<li><p><strong>2024-09-27:</strong> BinEd Android App 0.2.1 Released</p>
-<ul><li>Basic support for selection / clipboard</li>
-<li>Changed file dialog</li>
-<li>Added settings and preferences</li>
-<li>Added dark theme and language switching</li>
-<li>Added menu icons</li>
-</ul></li>
-
-<li><p><strong>2024-09-05:</strong> BinEd Android App 0.2.0.1 Released</p>
-<ul><li>Minor fix of keyboard support in preview</li>
 </ul></li>
 
 </ul>
