@@ -2,6 +2,12 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.6 Released</p>
+<ul><li>Added Chinese translation</li>
+<li>Added crude charset table support</li>
+<li>Bug fixes</li>
+</ul></li>
+
 <li><p><strong>2025-05-12:</strong> BinEd Library 0.2.2 Released</p>
 <ul><li>Some fixes and refactoring</li>
 </ul></li>
@@ -51,17 +57,6 @@
 <li><p><strong>2024-11-06:</strong> BinEd Ghidra Extension 0.2.1 Released</p>
 <ul><li>Library update</li>
 <li>Update for newest Ghidra</li>
-</ul></li>
-
-<li><p><strong>2024-10-16:</strong> BinEd Android App Published</p>
-<p>Bined for Android published on <a href="https://f-droid.org/packages/org.exbin.bined.editor.android/">F-Droid</a> and <a href="https://play.google.com/store/apps/details?id=org.exbin.bined.editor.android">Play Store</a>.</p>
-
-<li><p><strong>2024-10-13:</strong> BinEd Android App 0.2.2 Released</p>
-<ul><li>Various bugfixes</li>
-<li>Added Hindi translation</li>
-<li>Added open with support</li>
-<li>Show nonprintable characters</li>
-<li>Show mirror cursor</li>
 </ul></li>
 
 </ul>

@@ -2,6 +2,17 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2024-10-16:</strong> BinEd Android App Published</p>
+<p>Bined for Android published on <a href="https://f-droid.org/packages/org.exbin.bined.editor.android/">F-Droid</a> and <a href="https://play.google.com/store/apps/details?id=org.exbin.bined.editor.android">Play Store</a>.</p>
+
+<li><p><strong>2024-10-13:</strong> BinEd Android App 0.2.2 Released</p>
+<ul><li>Various bugfixes</li>
+<li>Added Hindi translation</li>
+<li>Added open with support</li>
+<li>Show nonprintable characters</li>
+<li>Show mirror cursor</li>
+</ul></li>
+
 <li><p><strong>2024-09-27:</strong> BinEd Android App 0.2.1 Released</p>
 <ul><li>Basic support for selection / clipboard</li>
 <li>Changed file dialog</li>

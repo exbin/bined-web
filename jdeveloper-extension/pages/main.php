@@ -20,7 +20,7 @@ function echoDownload($arr) {
   <li>No integration with save/undo operations</li>
 </ul>
 
-<p>JDeveloper <a href="https://community.oracle.com/thread/4285760">community thread</a> about this extension.</p>
+<p>JDeveloper <a href="https://forums.oracle.com/ords/apexds/post/new-3rd-party-extension-hexadecimal-editor-8121">forum thread</a> about this extension.</p>
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
