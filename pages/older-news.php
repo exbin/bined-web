@@ -2,6 +2,11 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2024-11-06:</strong> BinEd Ghidra Extension 0.2.1 Released</p>
+<ul><li>Library update</li>
+<li>Update for newest Ghidra</li>
+</ul></li>
+
 <li><p><strong>2024-10-16:</strong> BinEd Android App Published</p>
 <p>Bined for Android published on <a href="https://f-droid.org/packages/org.exbin.bined.editor.android/">F-Droid</a> and <a href="https://play.google.com/store/apps/details?id=org.exbin.bined.editor.android">Play Store</a>.</p>
 

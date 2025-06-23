@@ -70,7 +70,7 @@
       $stb_ver = '0.2.2';
       $stb_date = '2025-05-12';
       $dev_ver = '0.3.0';
-      $dev_date = '2025-02-18';
+      $dev_date = '2025-06-18';
 
       $variants['stb'][0]['name'] = 'Basic Editor';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -89,10 +89,10 @@
 
     if ($group == 'android' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.6';
-      $stb_date = '2025-05-29';
-      $dev_ver = '0.2.6';
-      $dev_date = '2025-05-26';
+      $stb_ver = '0.2.7';
+      $stb_date = '2025-06-19';
+      $dev_ver = '0.2.7';
+      $dev_date = '2025-06-18';
 
       $variants['stb'][0]['name'] = 'Android App';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -146,8 +146,8 @@
       $variants = array();
       $stb_ver = '0.2.6';
       $stb_date = '2024-05-12';
-      $dev_ver = '0.2.6';
-      $dev_date = '2024-05-08';
+      $dev_ver = '0.2.7';
+      $dev_date = '2024-06-13';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['prefix'] = 'ide ';

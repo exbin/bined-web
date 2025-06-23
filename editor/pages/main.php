@@ -35,7 +35,7 @@ function echoDownload($arr) {
 <li>Codes can be also binary, octal or decimal</li>
 <li>Support for Unicode, UTF-8 and other charsets</li>
 <li>Insert and overwrite edit modes</li>
-<li>Searching for text / hexadecimal code with matching highlighting</li>
+<li>Searching for text / hexadecimal code with matches highlighting</li>
 <li>Support for undo/redo</li>
 <li>Support for files with size up to exabytes</li></ul>
 

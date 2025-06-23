@@ -2,6 +2,12 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.7 Released</p>
+<ul><li>Added basic binary search</li>
+<li>Added Portuguese, Turkish, Russian and Spanish translations</li>
+<li>Bug fixes</li>
+</ul></li>
+
 <li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.6 Released</p>
 <ul><li>Added Chinese translation</li>
 <li>Added crude charset table support</li>
@@ -52,11 +58,6 @@
 <li>Support for D-Pad / Android TV</li>
 <li>Options for button size in keys panel</li>
 <li>Fix for button 9 (issue #13)</li>
-</ul></li>
-
-<li><p><strong>2024-11-06:</strong> BinEd Ghidra Extension 0.2.1 Released</p>
-<ul><li>Library update</li>
-<li>Update for newest Ghidra</li>
 </ul></li>
 
 </ul>
