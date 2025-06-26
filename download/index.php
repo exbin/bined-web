@@ -7,6 +7,24 @@ function startsWith($text, $match) {
     return substr($text, 0, strlen($match)) === $match;
 }
 
+if (!empty(@$_GET['group'])) {
+  include 'download-list.php'; $downloads = getDownloadList($_GET['group']);
+  $variant = @$_GET['variant'] + 0;
+  if (empty($variant)) {
+  	$variant = 0;
+  }
+  $file = $downloads[$_GET['group']]['stb'][$variant]['file'];
+  if (!empty($file)) {
+    if (($_SERVER['REQUEST_METHOD'] !== 'HEAD') && "" != @$_SERVER['REMOTE_ADDR']) {
+      file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").htmlentities($group).": ".$_SERVER['REMOTE_ADDR']." ".htmlentities($referer)."<br/>\n", FILE_APPEND);
+    }
+    header('Location: ' . $file);
+    exit();
+  }
+  http_response_code(404);
+  exit();
+}
+
 $query = @$_GET['f'];
 if (empty($query)) {
   $query = $_SERVER['QUERY_STRING'];
@@ -17,7 +35,9 @@ $query = str_replace('/','',$query);
 $component = ':' . $query;
 
 if (!empty($query)) {
-  file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").htmlentities($component).": ".$_SERVER['REMOTE_ADDR']." ".htmlentities($referer)."<br/>\n", FILE_APPEND);
+  if (($_SERVER['REQUEST_METHOD'] !== 'HEAD') && "" != @$_SERVER['REMOTE_ADDR']) {
+    file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").htmlentities($component).": ".$_SERVER['REMOTE_ADDR']." ".htmlentities($referer)."<br/>\n", FILE_APPEND);
+  }
   header('Location: ' . $query);
   exit();
 }
@@ -89,6 +109,8 @@ function echoDownload($arr) {
 
 <h2 id="development">Development Versions Download</h2>
 <p>Development versions are likely untested/broken and at your own risk!</p>
+<button id="development-downloads-button" onclick="document.getElementById('development-downloads').style.display = 'block';document.getElementById('development-downloads-button').style.display = 'none';">Show development downloads</button>
+<div id="development-downloads" style="display: none">
 <table class="downloads-dev">
 <tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
 <tr><td>Editor</td>
@@ -120,6 +142,7 @@ function echoDownload($arr) {
 <tr><td>Ghidra Extension</td>
   <td><?php echoDownload($downloads['ghidra-extension']['dev']); ?></td></tr>
 </table>
+</div>
 
 </div>
 </body>
