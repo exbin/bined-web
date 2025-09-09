@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.6';
+$ver = '0.2.7';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -18,14 +18,44 @@ $sources[0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
 $old_releases = array();
 $old_sources = array();
 
+$ver = '0.2.6';
+$date = '2024-05-12';
+
+$old_releases[14][0]['name'] = 'Plugin';
+$old_releases[14][0]['prefix'] = 'ide ';
+$old_releases[14][0]['ver'] = $ver;
+$old_releases[14][0]['date'] = $date;
+$old_releases[14][0]['icon'] = 'netbeans';
+$old_releases[14][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.nbm';
+
+$old_releases[14][1]['name'] = 'Platform';
+$old_releases[14][1]['prefix'] = 'platform ';
+$old_releases[14][1]['ver'] = $ver;
+$old_releases[14][1]['date'] = $date;
+$old_releases[14][1]['icon'] = 'netbeans';
+$old_releases[14][1]['file'] = 'org-exbin-bined-netbeans-platform-'.$ver.'.nbm';
+
+$old_sources[14][0]['name'] = 'Sources';
+$old_sources[14][0]['ver'] = $ver;
+$old_sources[14][0]['icon'] = 'zip';
+$old_sources[14][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.src.zip';
+
 $ver = '0.2.5';
 $date = '2023-11-28';
 
 $old_releases[13][0]['name'] = 'Plugin';
+$old_releases[13][0]['prefix'] = 'ide ';
 $old_releases[13][0]['ver'] = $ver;
 $old_releases[13][0]['date'] = $date;
 $old_releases[13][0]['icon'] = 'netbeans';
 $old_releases[13][0]['file'] = 'org-exbin-bined-netbeans-'.$ver.'.nbm';
+
+$old_releases[13][1]['name'] = 'Plugin';
+$old_releases[13][1]['prefix'] = 'platform ';
+$old_releases[13][1]['ver'] = $ver;
+$old_releases[13][1]['date'] = $date;
+$old_releases[13][1]['icon'] = 'netbeans';
+$old_releases[13][1]['file'] = 'org-exbin-bined-netbeans-platform-'.$ver.'.nbm';
 
 $old_sources[13][0]['name'] = 'Sources';
 $old_sources[13][0]['ver'] = $ver;
@@ -233,8 +263,12 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added support for basic macro</li>
-<li>Added support for language switching (zh, jp, ko)</li></ul>
+<ul><li>Added diff / compare files action</li>
+<li>Added Base 64 conversion</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added more languages (de, cs, fi, fr, hi, in, it, pt, pl, ru, sv)</li>
+<li>Fix for native file mode</li></ul>
 <p><a class="urlextern" href="https://github.com/exbin/bined-netbeans-plugin/blob/master/changes.txt">Full list of changes</a></p>
 
 <h2 id="development">Development Version</h2>
@@ -249,6 +283,11 @@ $old_sources[0][0]['file'] = 'org-exbin-deltahex-netbeans-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>NetBeans Platform Plugin <?php echo $old_releases[14][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[14]); ?></td>
+  <td><?php echoDownload($old_sources[14]); ?></td>
+</tr>
 <tr>
   <td>NetBeans Platform Plugin <?php echo $old_releases[13][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[13]); ?></td>

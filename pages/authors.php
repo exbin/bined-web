@@ -6,6 +6,12 @@
 <p>Miroslav Hajda<br/>
 Website: <a class="urlextern" href="https://hajdam.zdechov.net">https://hajdam.zdechov.net</a></p>
 
+<h2 id="other_contributions">Other Contributions</h2>
+<p>Govind S Nair (Android variant Hindi translation)<br/>
+WeiguangTWK (Android variant Chinese translation)<br/>
+Thomas Reis (Android variant Portuguese-Brasil translation)<br/>
+Baturax (Android variant Turkish translation)</p>
+
 <h2 id="logo">Logo</h2>
 <p><img src="images/icon/bined-icon.png" alt="[logo icon]" height="64"/></p> 
 <p>Logo: <a href="images/icon/bined-icon.png">[PNG]</a> <a href="images/icon/bined-icon.svg">[SVG]</a><br/>

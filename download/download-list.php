@@ -144,10 +144,10 @@
 
     if ($group == 'netbeans-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.6';
-      $stb_date = '2024-05-12';
+      $stb_ver = '0.2.7';
+      $stb_date = '2025-09-09';
       $dev_ver = '0.2.7';
-      $dev_date = '2024-06-13';
+      $dev_date = '2025-08-21';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['prefix'] = 'ide ';
@@ -181,7 +181,7 @@
       $stb_ver = '0.2.11.1';
       $stb_date = '2025-02-14';
       $dev_ver = '0.2.12';
-      $dev_date = '2025-04-30';
+      $dev_date = '2025-08-28';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

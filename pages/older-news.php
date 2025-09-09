@@ -2,6 +2,14 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2024-11-13:</strong> BinEd Android App 0.2.3 Released</p>
+<ul><li>Added basic data inspector</li>
+<li>Support for partial file opening</li>
+<li>Support for D-Pad / Android TV</li>
+<li>Options for button size in keys panel</li>
+<li>Fix for button 9 (issue #13)</li>
+</ul></li>
+
 <li><p><strong>2024-11-06:</strong> BinEd Ghidra Extension 0.2.1 Released</p>
 <ul><li>Library update</li>
 <li>Update for newest Ghidra</li>

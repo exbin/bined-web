@@ -30,7 +30,6 @@ function echoDownload($arr) {
 <tr>
   <td><a class="urlextern" href="<?php echo $downloads['intellij-plugin']['repository_url']; ?>"><?php echo $downloads['intellij-plugin']['repository_title']; ?></a></td>
 </tr></table>
-<p><img src="images/jetbrains-ref.png" alt="JetBrains" title="JetBrains"/>&nbsp;&nbsp; <a class="urlextern" href="https://jetbrains.com">JetBrains</a> kindly provided license for their products via their <a class="urlextern" href="https://www.jetbrains.com/community/opensource/">Free License Programs</a>.</p>
 
 <h2 id="features">Features</h2>
 <ul><li>Visualize data as numerical (hexadecimal) codes and text representation</li>

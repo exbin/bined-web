@@ -9,7 +9,7 @@ function echoDownload($arr) {
 <p>Free and open source basic hex editor written in Java/Swing stripped to small size.</p>
 <p><img src="images/editor_screenshot.png" alt="Editor screenshot" title="Editor screenshot"/></p>
 
-<p>Basic minimalist version provided as single jar.</p>
+<p>Basic minimalist version provided as single jar (~145kB).</p>
 <p>Java version 8 or later must be installed. To run use "java -jar filename.jar" or in some operation systems jar files can be executed directly.</p>
 
 <h2 id="downloads">Downloads</h2>

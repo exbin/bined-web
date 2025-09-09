@@ -2,6 +2,15 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2025-09-09:</strong> BinEd NetBeans Plugin 0.2.7 Released</p>
+<ul><li>Added diff / compare files action</li>
+<li>Added Base 64 conversion</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added more languages (de, cs, fi, fr, hi, in, it, pt, pl, ru, sv)</li>
+<li>Fix for native file mode</li>
+</ul></li>
+
 <li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.7 Released</p>
 <ul><li>Added basic binary search</li>
 <li>Added Portuguese, Turkish, Russian and Spanish translations</li>
@@ -50,14 +59,6 @@
 <li>Added icon set support</li>
 <li>Added option for legacy SWT file dialogs</li>
 <li>Fixed another issue with searching</li>
-</ul></li>
-
-<li><p><strong>2024-11-13:</strong> BinEd Android App 0.2.3 Released</p>
-<ul><li>Added basic data inspector</li>
-<li>Support for partial file opening</li>
-<li>Support for D-Pad / Android TV</li>
-<li>Options for button size in keys panel</li>
-<li>Fix for button 9 (issue #13)</li>
 </ul></li>
 
 </ul>
