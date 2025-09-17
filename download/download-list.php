@@ -178,8 +178,8 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.11.1';
-      $stb_date = '2025-02-14';
+      $stb_ver = '0.2.12';
+      $stb_date = '2025-09-17';
       $dev_ver = '0.2.12';
       $dev_date = '2025-08-28';
 

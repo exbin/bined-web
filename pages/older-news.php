@@ -2,6 +2,16 @@
 <h1 id="older_news">Older News</h1>
 <ul>
 
+<li><p><strong>2025-01-22:</strong> BinEd 0.2.4 Released</p>
+<ul><li>Added addon manager</li>
+<li>Added keymap overview</li>
+<li>Added Base 64 conversion</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added option for legacy SWT file dialogs</li>
+<li>Fixed another issue with searching</li>
+</ul></li>
+
 <li><p><strong>2024-11-13:</strong> BinEd Android App 0.2.3 Released</p>
 <ul><li>Added basic data inspector</li>
 <li>Support for partial file opening</li>

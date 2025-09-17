@@ -2,6 +2,14 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2025-09-17:</strong> BinEd IntelliJ Plugin 0.2.12 Released</p>
+<ul><li>Minor fixes</li>
+<li>Added status bars to binary diff</li>
+<li>Fixed NPE when moving hex viewer to its own window (issue #66)</li>
+<li>Fixed issue with pasting over selection (issue #64)</li>
+<li>Fixed height for one-diff view (issue #65)</li>
+</ul></li>
+
 <li><p><strong>2025-09-09:</strong> BinEd NetBeans Plugin 0.2.7 Released</p>
 <ul><li>Added diff / compare files action</li>
 <li>Added Base 64 conversion</li>
@@ -49,16 +57,6 @@
 <li>Added icon set support</li>
 <li>Added more languages (de, cs, fr, it, pt, pl, ru)</li>
 <li>Fixed write-unsafe context (issue #60)</li>
-</ul></li>
-
-<li><p><strong>2025-01-22:</strong> BinEd 0.2.4 Released</p>
-<ul><li>Added addon manager</li>
-<li>Added keymap overview</li>
-<li>Added Base 64 conversion</li>
-<li>Added option for inspector input fields font</li>
-<li>Added icon set support</li>
-<li>Added option for legacy SWT file dialogs</li>
-<li>Fixed another issue with searching</li>
 </ul></li>
 
 </ul>

@@ -18,6 +18,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 $old_releases = array();
 $old_sources = array();
 
+$ver = '0.2.11.1';
+$date = '2025-02-14';
+
+$old_releases[23][0]['name'] = 'Plugin';
+$old_releases[23][0]['ver'] = $ver;
+$old_releases[23][0]['date'] = $date;
+$old_releases[23][0]['icon'] = 'zip';
+$old_releases[23][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[23][0]['name'] = 'Sources';
+$old_sources[23][0]['ver'] = $ver;
+$old_sources[23][0]['icon'] = 'zip';
+$old_sources[23][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
+
 $ver = '0.2.11';
 $date = '2025-02-08';
 
@@ -352,13 +366,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Plugin breaks access to the settings screen  (issue #63)</li>
-<li>Database module dependency issue (issue #62)</li>
-<li>Added Base 64 conversion</li>
-<li>Added option for inspector input fields font</li>
-<li>Added icon set support</li>
-<li>Added more languages (de, cs, fr, it, pt, pl, ru)</li>
-<li>Fixed write-unsafe context (issue #60)</li>
+<ul><li>Minor fixes</li>
+<li>Added status bars to binary diff</li>
+<li>Fixed NPE when moving hex viewer to its own window (issue #66)</li>
+<li>Fixed issue with pasting over selection (issue #64)</li>
+<li>Fixed height for one-diff view (issue #65)</li>
 </ul>
 <p><a class="urlextern" href="https://github.com/exbin/bined-intellij-plugin/blob/master/changes.txt">Full list of changes</a></p>
 
@@ -374,6 +386,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[23][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[23]); ?></td>
+  <td><?php echoDownload($old_sources[23]); ?></td>
+</tr>
 <tr>
   <td>IntelliJ Platform Plugin <?php echo $old_releases[22][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[22]); ?></td>
