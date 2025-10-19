@@ -5,6 +5,7 @@
 <h2 id="code">Code</h2>
 <p>Miroslav Hajda<br/>
 Website: <a class="urlextern" href="https://hajdam.zdechov.net">https://hajdam.zdechov.net</a></p>
+<p>zhou yong kang (during Hacktoberfest 2025)</p>
 
 <h2 id="other_contributions">Other Contributions</h2>
 <p>Govind S Nair (Android variant Hindi translation)<br/>

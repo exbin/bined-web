@@ -1,6 +1,17 @@
 <div id="content">
 <h1 id="older_news">Older News</h1>
+
+<p>See list of <a href="?p=news">recent news</a>.</p>
+
 <ul>
+
+<li><p><strong>2025-02-08:</strong> BinEd IntelliJ Plugin 0.2.11 Released</p>
+<ul><li>Added Base 64 conversion</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added more languages (de, cs, fr, it, pt, pl, ru)</li>
+<li>Fixed write-unsafe context (issue #60)</li>
+</ul></li>
 
 <li><p><strong>2025-01-22:</strong> BinEd 0.2.4 Released</p>
 <ul><li>Added addon manager</li>
