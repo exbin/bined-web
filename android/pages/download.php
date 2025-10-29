@@ -9,8 +9,17 @@ function echoDownload($arr) {
 $old_releases = array();
 $old_sources = array();
 
+$ver = '0.2.8';
+$date = '2025-10-18';
+
+$old_releases[9][0]['name'] = 'Android App';
+$old_releases[9][0]['ver'] = $ver;
+$old_releases[9][0]['date'] = $date;
+$old_releases[9][0]['icon'] = 'android';
+$old_releases[9][0]['file'] = 'bined-android-'.$ver.'.apk';
+
 $ver = '0.2.7';
-$date = '2025-06-19'
+$date = '2025-06-19';
 
 $old_releases[8][0]['name'] = 'Android App';
 $old_releases[8][0]['ver'] = $ver;
@@ -100,7 +109,7 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added go-to dialog / go-to relative position</li>
+<ul><li>Added edit selection dialog</li>
 <li>Bug fixes</li>
 </ul>
 <p><a class="urlextern" href="https://github.com/exbin/bined-android/blob/master/changes.txt">Full list of changes</a></p>
@@ -117,6 +126,10 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>Android App <?php echo $old_releases[9][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[9]); ?></td>
+</tr>
 <tr>
   <td>Android App <?php echo $old_releases[8][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[8]); ?></td>

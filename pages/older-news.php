@@ -5,6 +5,11 @@
 
 <ul>
 
+<li><p><strong>2025-02-14:</strong> BinEd IntelliJ Plugin 0.2.11.1 Released</p>
+<ul><li>Plugin breaks access to the settings screen  (issue #63)</li>
+<li>Database module dependency issue (issue #62)</li>
+</ul></li>
+
 <li><p><strong>2025-02-08:</strong> BinEd IntelliJ Plugin 0.2.11 Released</p>
 <ul><li>Added Base 64 conversion</li>
 <li>Added option for inspector input fields font</li>
