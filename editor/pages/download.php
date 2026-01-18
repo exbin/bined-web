@@ -16,21 +16,26 @@ $old_releases[7][0]['ver'] = $ver;
 $old_releases[7][0]['date'] = $date;
 $old_releases[7][0]['icon'] = 'exe';
 $old_releases[7][0]['file'] = 'bined-'.$ver.'-win32.exe';
-$old_releases[7][1]['name'] = 'ZIP';
+$old_releases[7][1]['name'] = 'MacOS Installer';
 $old_releases[7][1]['ver'] = $ver;
 $old_releases[7][1]['date'] = $date;
-$old_releases[7][1]['icon'] = 'zip';
-$old_releases[7][1]['file'] = 'bined-'.$ver.'.zip';
-$old_releases[7][2]['name'] = 'Debian Package';
+$old_releases[7][1]['icon'] = 'dmg';
+$old_releases[7][1]['file'] = 'bined-'.$ver.'.dmg';
+$old_releases[7][2]['name'] = 'ZIP';
 $old_releases[7][2]['ver'] = $ver;
 $old_releases[7][2]['date'] = $date;
-$old_releases[7][2]['icon'] = 'debian';
-$old_releases[7][2]['file'] = 'bined_'.$ver.'-1_all.deb';
-$old_releases[7][3]['name'] = 'Linux RPM Package';
+$old_releases[7][2]['icon'] = 'zip';
+$old_releases[7][2]['file'] = 'bined-'.$ver.'.zip';
+$old_releases[7][3]['name'] = 'Debian Package';
 $old_releases[7][3]['ver'] = $ver;
 $old_releases[7][3]['date'] = $date;
-$old_releases[7][3]['icon'] = 'rpm';
-$old_releases[7][3]['file'] = 'bined-'.$ver.'-1.noarch.rpm';
+$old_releases[7][3]['icon'] = 'debian';
+$old_releases[7][3]['file'] = 'bined_'.$ver.'-1_all.deb';
+$old_releases[7][4]['name'] = 'Linux RPM Package';
+$old_releases[7][4]['ver'] = $ver;
+$old_releases[7][4]['date'] = $date;
+$old_releases[7][4]['icon'] = 'rpm';
+$old_releases[7][4]['file'] = 'bined-'.$ver.'-1.noarch.rpm';
 
 $ver = '0.2.2';
 $date = '2023-07-29';
@@ -40,21 +45,26 @@ $old_releases[6][0]['ver'] = $ver;
 $old_releases[6][0]['date'] = $date;
 $old_releases[6][0]['icon'] = 'exe';
 $old_releases[6][0]['file'] = 'bined-'.$ver.'-win32.exe';
-$old_releases[6][1]['name'] = 'ZIP';
+$old_releases[6][1]['name'] = 'MacOS Installer';
 $old_releases[6][1]['ver'] = $ver;
 $old_releases[6][1]['date'] = $date;
-$old_releases[6][1]['icon'] = 'zip';
-$old_releases[6][1]['file'] = 'bined-'.$ver.'.zip';
-$old_releases[6][2]['name'] = 'Debian Package';
+$old_releases[6][1]['icon'] = 'dmg';
+$old_releases[6][1]['file'] = 'bined-'.$ver.'.dmg';
+$old_releases[6][2]['name'] = 'ZIP';
 $old_releases[6][2]['ver'] = $ver;
 $old_releases[6][2]['date'] = $date;
-$old_releases[6][2]['icon'] = 'debian';
-$old_releases[6][2]['file'] = 'bined_'.$ver.'-1_all.deb';
-$old_releases[6][3]['name'] = 'Linux RPM Package';
+$old_releases[6][2]['icon'] = 'zip';
+$old_releases[6][2]['file'] = 'bined-'.$ver.'.zip';
+$old_releases[6][3]['name'] = 'Debian Package';
 $old_releases[6][3]['ver'] = $ver;
 $old_releases[6][3]['date'] = $date;
-$old_releases[6][3]['icon'] = 'rpm';
-$old_releases[6][3]['file'] = 'bined-'.$ver.'-1.noarch.rpm';
+$old_releases[6][3]['icon'] = 'debian';
+$old_releases[6][3]['file'] = 'bined_'.$ver.'-1_all.deb';
+$old_releases[6][4]['name'] = 'Linux RPM Package';
+$old_releases[6][4]['ver'] = $ver;
+$old_releases[6][4]['date'] = $date;
+$old_releases[6][4]['icon'] = 'rpm';
+$old_releases[6][4]['file'] = 'bined-'.$ver.'-1.noarch.rpm';
 
 $ver = '0.2.1';
 $date = '2021-10-31';
@@ -210,11 +220,12 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 <tr>
   <td>BinEd <?php echo $old_releases[7][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[7]); ?>
-      <br/><a href="?p=plugins">Legacy plugins</a></td>
+      <br/><a href="../download?f=bined-plugins-0.2.3.zip">Legacy plugins</a></td>
 </tr>
 <tr>
   <td>BinEd <?php echo $old_releases[6][0]['ver']; ?></td>
-  <td><?php echoDownload($old_releases[6]); ?></td>
+  <td><?php echoDownload($old_releases[6]); ?>
+      <br/><a href="../download?f=bined-plugins-0.2.2.zip">Legacy plugins</a></td>
 </tr>
 <tr>
   <td>BinEd <?php echo $old_releases[5][0]['ver']; ?></td>

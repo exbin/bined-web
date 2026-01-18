@@ -1,6 +1,7 @@
 <div id="content">
 <h1 id="plugins">Plugins for Editor</h1>
-<p>This page is for legacy plugins. Since version 0.2.4 <a href="../addon/">addon catalog</a> is used instead.</p> 
+<p>This page is for legacy plugins. Since version 0.2.4 <a href="../addon/">addon catalog</a> is used instead.</p>
+<h3>BinEd Editor 0.2.3</h3>
 <p>Additional plugins available for Swing variant of the BinEd editor.</p>
 <p>Most language plugins are translated by Google Translator or similar tools. You can ask for more languages if you are ok with that.</p>
 <p>Currently only manual installation is possible - copy jar file or extract zip file to "plugins" child directory in BinEd installation directory.</p> 
@@ -26,6 +27,7 @@
 <h2 id="source_codes">Source Codes</h2>
 <table class="downloads">
 <tr><th>GitHub Repository&nbsp;</th></tr>
+<tr><td><a href="https://github.com/exbin/bined-plugins-java" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/bined-plugins-java</a></td></tr>
 <tr><td><a href="https://github.com/exbin/exbin-plugins-java" title="GitHub repository"><img src="../images/ref/github.png" alt="[GitHub]"/> exbin/exbin-plugins-java</a></td></tr>
 </table>
 
