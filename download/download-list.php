@@ -5,10 +5,10 @@
       $variants = array();
       $stb_ver = '0.2.4';
       $stb_date = '2025-01-22';
-      $dev_ver = '0.2.4';
-      $dev_date = '2025-01-04';
+      $dev_ver = '0.2.5';
+      $dev_date = '2026-03-06';
       $dev_ver_inst = $dev_ver;
-      $dev_date_inst = '2025-01-04';
+      $dev_date_inst = '2026-03-06';
 
       $variants['stb'][0]['name'] = 'Windows Installer';
       $variants['stb'][0]['ver'] = $stb_ver;

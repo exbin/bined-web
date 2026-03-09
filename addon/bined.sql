@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Feb 12, 2025 at 10:50 AM
--- Server version: 10.11.8-MariaDB-0ubuntu0.24.04.1
+-- Generation Time: Mar 09, 2026 at 10:16 PM
+-- Server version: 10.11.13-MariaDB-0ubuntu0.24.04.1
 -- PHP Version: 8.3.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -44,9 +44,9 @@ CREATE TABLE `addon` (
 
 INSERT INTO `addon` (`id`, `module_id`, `name`, `description`, `homepage`, `created`, `owner_id`, `icon`) VALUES
 (1, 'org.exbin.framework.bined.operation.bouncycastle.BinedOperationBouncycastleModule', 'BinEd Bouncycastle Support', 'Support for data conversions using Bouncycastle cryptographic library', 'https://exbin.org', '2025-01-22 12:00:00', 1, ''),
-(2, 'org.exbin.framework.plugin.darcula_laf.DarculaLafModule', 'Darcula look and feel', 'Module to provide Darcula look and feel', 'https://exbin.org', '2025-01-22 12:00:00', 1, ''),
-(3, 'org.exbin.framework.plugin.napkin_laf.NapkinLafModule', 'Napkin look and feel', 'Module to provide Napkin look and feel', 'https://exbin.org', '2025-01-22 12:00:00', 1, ''),
-(4, 'org.exbin.framework.plugin.substance_laf.SubstanceLafModule', 'Substance look and feel', 'Module to provide Substance look and feel', 'https://exbin.org', '2025-01-22 12:00:00', 1, ''),
+(2, 'org.exbin.framework.plugin.darcula_laf.DarculaLafModule', 'Darcula look and feel', 'Module to provide Darcula look and feel', 'https://exbin.org', '2025-01-22 12:00:00', 1, 'theme.png'),
+(3, 'org.exbin.framework.plugin.napkin_laf.NapkinLafModule', 'Napkin look and feel', 'Module to provide Napkin look and feel', 'https://exbin.org', '2025-01-22 12:00:00', 1, 'theme.png'),
+(4, 'org.exbin.framework.plugin.substance_laf.SubstanceLafModule', 'Substance look and feel', 'Module to provide Substance look and feel', 'https://exbin.org', '2025-01-22 12:00:00', 1, 'theme.png'),
 (5, 'org.exbin.framework.plugin.language.it_IT.LanguageItItModule', 'Italian language', 'Italian language plugin', 'https://exbin.org', '2025-01-24 18:21:13', 1, 'language-it.png'),
 (6, 'org.exbin.framework.plugin.language.fi_FI.LanguageFiFiModule', 'Finnish language', 'Finnish language plugin', 'https://exbin.org', '2025-01-24 18:21:13', 1, 'language-fi.png'),
 (7, 'org.exbin.framework.plugin.language.sv_SE.LanguageSvSeModule', 'Swedish language', 'Swedish language plugin', 'https://exbin.org', '2025-01-24 18:23:00', 1, 'language-se.png'),
@@ -55,15 +55,16 @@ INSERT INTO `addon` (`id`, `module_id`, `name`, `description`, `homepage`, `crea
 (10, 'org.exbin.framework.plugin.language.pl_PL.LanguagePlPlModule', 'Polish language', 'Polish language plugin', 'https://exbin.org', '2025-01-25 17:05:44', 1, 'language-pl.png'),
 (11, 'org.exbin.framework.plugin.language.pt_PT.LanguagePtPtModule', 'Portuguese language', 'Portuguese language plugin', 'https://exbin.org', '2025-01-25 17:07:06', 1, 'language-pt.png'),
 (12, 'org.exbin.framework.plugin.language.vi_VN.LanguageViVnModule', 'Vietnamese language', 'Vietnamese language plugin', 'https://exbin.org', '2025-01-25 17:07:06', 1, 'language-vn.png'),
-(13, 'org.exbin.framework.plugin.tinylaf_laf.TinyLafLafModule', 'TinyLaf look and feel', 'Module to provide TinyLaf look and feel', 'https://exbin.org', '2025-01-25 21:57:55', 1, ''),
-(14, 'org.exbin.framework.plugin.vaqua_laf.VAquaLafModule', 'VAqua look and feel', 'Module to provide VAqua look and feel', 'https://exbin.org', '2025-01-26 22:21:13', 1, ''),
+(13, 'org.exbin.framework.plugin.tinylaf_laf.TinyLafLafModule', 'TinyLaf look and feel', 'Module to provide TinyLaf look and feel', 'https://exbin.org', '2025-01-25 21:57:55', 1, 'theme.png'),
+(14, 'org.exbin.framework.plugin.vaqua_laf.VAquaLafModule', 'VAqua look and feel', 'Module to provide VAqua look and feel', 'https://exbin.org', '2025-01-26 22:21:13', 1, 'theme.png'),
 (15, 'org.exbin.framework.addon.manager.AddonManagerModule', 'Addon Manager', 'Module to manage addons', 'https://exbin.org', '2025-01-27 18:54:55', 1, ''),
 (16, 'org.exbin.framework.utils.UtilsModule', 'Utilities Module', 'Module to provide various utilities', 'https://exbin.org', '2025-01-27 19:58:17', 1, ''),
 (17, 'org.exbin.framework.ui.UiModule', 'User interface', 'Module for user interface handling', 'https://exbin.org', '2025-01-27 22:21:51', 1, ''),
-(18, 'org.exbin.framework.plugin.flatlaf_laf.FlatLafLafModule', 'FlatLaf look and feel', 'Module to provide FlatLaf look and feel', 'https://exbin.org', '2025-01-28 15:25:19', 1, ''),
+(18, 'org.exbin.framework.plugin.flatlaf_laf.FlatLafLafModule', 'FlatLaf look and feel', 'Module to provide FlatLaf look and feel', 'https://exbin.org', '2025-01-28 15:25:19', 1, 'theme.png'),
 (19, 'org.exbin.framework.language.LanguageModule', 'Language support', 'Module to support language', 'https://exbin.org', '2025-01-28 21:56:07', 1, ''),
 (20, 'org.exbin.framework.plugins.iconset.material.IconSetMaterialModule', 'Material icon set', 'Material icon set', 'https://exbin.org', '2025-01-30 20:54:13', 1, ''),
-(21, 'org.exbin.framework.options.OptionsModule', 'Options Support Module', 'Module to provide support for application options', 'https://exbin.org', '2025-01-31 16:01:54', 1, '');
+(21, 'org.exbin.framework.options.OptionsModule', 'Options Support Module', 'Module to provide support for application options', 'https://exbin.org', '2025-01-31 16:01:54', 1, ''),
+(22, 'org.exbin.framework.bined.BinedModule', 'BinEd Main Module', 'Module supporting editation of binary document in hexadecimal form', 'https://bined.exbin.org', '2025-04-30 12:07:32', 1, '');
 
 -- --------------------------------------------------------
 
@@ -145,7 +146,24 @@ INSERT INTO `addon_dep` (`id`, `addon_rel_id`, `type`, `value`) VALUES
 (60, 23, 0, 'org.exbin.framework.preferences.PreferencesModule'),
 (61, 23, 0, 'org.exbin.framework.ui.api.UiModuleApi'),
 (62, 23, 0, 'org.exbin.framework.frame.api.FrameModuleApi'),
-(63, 23, 0, 'org.exbin.framework.window.api.WindowModuleApi');
+(63, 23, 0, 'org.exbin.framework.window.api.WindowModuleApi'),
+(64, 24, 0, 'org.exbin.framework.ui.api.UiModuleApi'),
+(65, 24, 0, 'org.exbin.framework.frame.api.FrameModuleApi'),
+(66, 24, 0, 'org.exbin.framework.window.api.WindowModuleApi'),
+(67, 24, 0, 'org.exbin.framework.editor.api.EditorModuleApi'),
+(68, 24, 0, 'org.exbin.framework.editor.EditorModule'),
+(69, 24, 0, 'org.exbin.framework.file.api.FileModuleApi'),
+(70, 24, 0, 'org.exbin.framework.action.api.ActionModuleApi'),
+(71, 24, 0, 'org.exbin.framework.action.popup.api.ActionPopupModuleApi'),
+(72, 24, 0, 'org.exbin.framework.operation.api.OperationModuleApi'),
+(73, 24, 0, 'org.exbin.framework.operation.undo.api.OperationUndoModuleApi'),
+(74, 24, 0, 'org.exbin.framework.options.api.OptionsModuleApi'),
+(75, 24, 0, 'org.exbin.framework.preferences.api.PreferencesModuleApi'),
+(76, 24, 0, 'org.exbin.framework.preferences.PreferencesModule'),
+(77, 24, 0, 'org.exbin.framework.language.api.LanguageModuleApi'),
+(78, 24, 0, 'org.exbin.framework.utils.UtilsModule'),
+(79, 24, 0, 'org.exbin.framework.editor.text.EditorTextModule'),
+(80, 24, 1, 'bined-operation-swing-0.3.0-SNAPSHOT.1.jar');
 
 -- --------------------------------------------------------
 
@@ -189,7 +207,8 @@ INSERT INTO `addon_rel` (`id`, `addon_id`, `sequence`, `created`, `file`, `licen
 (20, 18, 0, '2025-01-28 16:26:41', 'exbin-framework-flatlaf-laf-0.2.4.1.jar', 1, '0.2.4.1'),
 (21, 19, 0, '2025-01-28 22:56:44', 'exbin-framework-language-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1'),
 (22, 20, 0, '2025-01-30 21:54:52', 'exbin-framework-material-iconset-0.2.4.jar', 1, '0.2.4'),
-(23, 21, 0, '2025-01-31 17:02:42', 'exbin-framework-options-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1');
+(23, 21, 0, '2025-01-31 17:02:42', 'exbin-framework-options-0.3.0-SNAPSHOT.1.jar', 1, '0.3.0-SNAPSHOT.1'),
+(24, 22, 1, '2025-04-30 14:08:56', 'exbin-framework-bined-0.2.4.1.jar', 1, '0.2.4.1');
 
 -- --------------------------------------------------------
 
@@ -215,7 +234,8 @@ INSERT INTO `license` (`id`, `name`, `spdx`, `file`) VALUES
 (4, 'GNU General Public License v2.0 only', 'GPL-2.0-only', 'GPL-2.0-only.html'),
 (5, 'GNU General Public License v2.0 or later', 'GPL-2.0-or-later', 'GPL-2.0-or-later.html'),
 (6, 'GNU General Public License v3.0 only', 'GPL-3.0-only', 'GPL-3.0-only.html'),
-(7, 'GNU General Public License v3.0 or later', 'GPL-3.0-or-later', 'GPL-3.0-or-later.html');
+(7, 'GNU General Public License v3.0 or later', 'GPL-3.0-or-later', 'GPL-3.0-or-later.html'),
+(8, 'GNU Lesser General Public License v2.1 only', 'LGPL-2.1-only', 'LGPL-2.1-only.html');
 
 -- --------------------------------------------------------
 
@@ -282,25 +302,25 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `addon`
 --
 ALTER TABLE `addon`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `addon_dep`
 --
 ALTER TABLE `addon_dep`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- AUTO_INCREMENT for table `addon_rel`
 --
 ALTER TABLE `addon_rel`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `license`
 --
 ALTER TABLE `license`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `user`
