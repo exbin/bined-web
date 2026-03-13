@@ -2,6 +2,19 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-03-12:</strong> BinEd 0.2.5 Released</p>
+<ul><li>Added sidebar support</li>
+<li>Added tabs support for inspector panel</li>
+<li>Added copy as / paste from dialogs</li>
+<li>Added copy/paste formats for C, Java and Python (by mengnankkkk)</li>
+<li>Added convert data: date time and compression (by mengnankkkk)</li>
+<li>Added font zoom actions (by mengnankkkk)</li>
+<li>Added startup behavior option - reopen lastly opened files (by mengnankkkk)</li> 
+<li>Added search progress bar + cancel button (assisted by Tanyajain2006)</li>
+<li>Added basic regex search support (assisted by Tanyajain2006)</li>
+<li>Modified addon manager to use cart / basket</li>
+</ul></li>
+
 <li><p><strong>2025-10-29:</strong> BinEd Android App 0.2.9 Released</p>
 <ul><li>Added edit selection dialog</li>
 <li>Bug fixes</li>
@@ -49,11 +62,6 @@
 <ul><li>Double back key press exists app</li>
 <li>Threaded search</li>
 <li>Bug fixes</li>
-</ul></li>
-
-<li><p><strong>2025-04-06:</strong> BinEd Android App 0.2.4 Released</p>
-<ul><li>Direct buffer allocation</li>
-<li>Compatibility up to sdk14</li>
 </ul></li>
 
 </ul>

@@ -8,6 +8,35 @@ function echoDownload($arr) {
 
 $old_releases = array();
 
+$ver = '0.2.4';
+$date = '2025-01-22';
+
+$old_releases[8][0]['name'] = 'Windows Installer';
+$old_releases[8][0]['ver'] = $ver;
+$old_releases[8][0]['date'] = $date;
+$old_releases[8][0]['icon'] = 'exe';
+$old_releases[8][0]['file'] = 'bined-'.$ver.'-win32.exe';
+$old_releases[8][1]['name'] = 'MacOS Installer';
+$old_releases[8][1]['ver'] = $ver;
+$old_releases[8][1]['date'] = $date;
+$old_releases[8][1]['icon'] = 'dmg';
+$old_releases[8][1]['file'] = 'bined-'.$ver.'.dmg';
+$old_releases[8][2]['name'] = 'ZIP';
+$old_releases[8][2]['ver'] = $ver;
+$old_releases[8][2]['date'] = $date;
+$old_releases[8][2]['icon'] = 'zip';
+$old_releases[8][2]['file'] = 'bined-'.$ver.'.zip';
+$old_releases[8][3]['name'] = 'Debian Package';
+$old_releases[8][3]['ver'] = $ver;
+$old_releases[8][3]['date'] = $date;
+$old_releases[8][3]['icon'] = 'debian';
+$old_releases[8][3]['file'] = 'bined_'.$ver.'-1_all.deb';
+$old_releases[8][4]['name'] = 'Linux RPM Package';
+$old_releases[8][4]['ver'] = $ver;
+$old_releases[8][4]['date'] = $date;
+$old_releases[8][4]['icon'] = 'rpm';
+$old_releases[8][4]['file'] = 'bined-'.$ver.'-1.noarch.rpm';
+
 $ver = '0.2.3';
 $date = '2024-01-06';
 
@@ -196,13 +225,16 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 
 <h2 id="latest_changes">Latest Changes</h2>
 <p>
-<ul><li>Added addon manager</li>
-<li>Added keymap overview</li>
-<li>Added Base 64 conversion</li>
-<li>Added option for inspector input fields font</li>
-<li>Added icon set support</li>
-<li>Added option for legacy SWT file dialogs</li>
-<li>Fixed another issue with searching</li> 
+<ul><li>Added sidebar support</li>
+<li>Added tabs support for inspector panel</li>
+<li>Added copy as / paste from dialogs</li>
+<li>Added copy/paste formats for C, Java and Python (by mengnankkkk)</li>
+<li>Added convert data: date time and compression (by mengnankkkk)</li>
+<li>Added font zoom actions (by mengnankkkk)</li>
+<li>Added startup behavior option - reopen lastly opened files (by mengnankkkk)</li> 
+<li>Added search progress bar + cancel button (assisted by Tanyajain2006)</li>
+<li>Added basic regex search support (assisted by Tanyajain2006)</li>
+<li>Modified addon manager to use cart / basket</li>
 </ul></p>
 <p><a class="urlextern" href="https://github.com/exbin/bined/blob/master/changes.txt">Full list of changes</a></p>
 
@@ -218,14 +250,19 @@ $old_releases[0][0]['file'] = 'deltahex-editor-'.$ver.'.zip';
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
 <tr>
+  <td>BinEd <?php echo $old_releases[8][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[8]); ?>
+      <br/><a href="../download/?f=bined-addons-0.2.4.zip">Legacy addons</a></td>
+</tr>
+<tr>
   <td>BinEd <?php echo $old_releases[7][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[7]); ?>
-      <br/><a href="../download?f=bined-plugins-0.2.3.zip">Legacy plugins</a></td>
+      <br/><a href="../download/?f=bined-plugins-0.2.3.zip">Legacy plugins</a></td>
 </tr>
 <tr>
   <td>BinEd <?php echo $old_releases[6][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[6]); ?>
-      <br/><a href="../download?f=bined-plugins-0.2.2.zip">Legacy plugins</a></td>
+      <br/><a href="../download/?f=bined-plugins-0.2.2.zip">Legacy plugins</a></td>
 </tr>
 <tr>
   <td>BinEd <?php echo $old_releases[5][0]['ver']; ?></td>
