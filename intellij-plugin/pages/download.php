@@ -8,7 +8,7 @@ function echoDownload($arr) {
 
 $sources = array();
 
-$ver = '0.2.11.1';
+$ver = '0.2.13';
 
 $sources[0]['name'] = 'Sources';
 $sources[0]['ver'] = $ver;
@@ -17,6 +17,20 @@ $sources[0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $old_releases = array();
 $old_sources = array();
+
+$ver = '0.2.12';
+$date = '2025-09-17';
+
+$old_releases[24][0]['name'] = 'Plugin';
+$old_releases[24][0]['ver'] = $ver;
+$old_releases[24][0]['date'] = $date;
+$old_releases[24][0]['icon'] = 'zip';
+$old_releases[24][0]['file'] = 'bined-intellij-plugin-'.$ver.'.zip';
+
+$old_sources[24][0]['name'] = 'Sources';
+$old_sources[24][0]['ver'] = $ver;
+$old_sources[24][0]['icon'] = 'zip';
+$old_sources[24][0]['file'] = 'bined-intellij-plugin-'.$ver.'.src.zip';
 
 $ver = '0.2.11.1';
 $date = '2025-02-14';
@@ -366,11 +380,12 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Minor fixes</li>
-<li>Added status bars to binary diff</li>
-<li>Fixed NPE when moving hex viewer to its own window (issue #66)</li>
-<li>Fixed issue with pasting over selection (issue #64)</li>
-<li>Fixed height for one-diff view (issue #65)</li>
+<ul><li>Added copy as / paste from dialogs</li>
+<li>Added copy/paste formats for C, Java and Python (by mengnankkkk)</li>
+<li>Added convert data: date time and compression (by mengnankkkk)</li>
+<li>Added search progress bar + cancel button (assisted by Tanyajain2006)</li>
+<li>Added basic regex search support (assisted by Tanyajain2006)</li>
+<li>Fixed overflow in the binary checkboxes in data inspector (issue #67)</li>
 </ul>
 <p><a class="urlextern" href="https://github.com/exbin/bined-intellij-plugin/blob/master/changes.txt">Full list of changes</a></p>
 
@@ -386,6 +401,11 @@ $old_sources[0][0]['file'] = 'deltahex-intellij-plugin-'.$ver.'.src.zip';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th><th>Sources&nbsp;</th></tr>
+<tr>
+  <td>IntelliJ Platform Plugin <?php echo $old_releases[24][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[24]); ?></td>
+  <td><?php echoDownload($old_sources[24]); ?></td>
+</tr>
 <tr>
   <td>IntelliJ Platform Plugin <?php echo $old_releases[23][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[23]); ?></td>

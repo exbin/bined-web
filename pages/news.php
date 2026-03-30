@@ -2,6 +2,15 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-03-30:</strong> BinEd IntelliJ Plugin 0.2.13 Released</p>
+<ul><li>Added copy as / paste from dialogs</li>
+<li>Added copy/paste formats for C, Java and Python (by mengnankkkk)</li>
+<li>Added convert data: date time and compression (by mengnankkkk)</li>
+<li>Added search progress bar + cancel button (assisted by Tanyajain2006)</li>
+<li>Added basic regex search support (assisted by Tanyajain2006)</li>
+<li>Fixed overflow in the binary checkboxes in data inspector (issue #67)</li>
+</ul></li>
+
 <li><p><strong>2026-03-12:</strong> BinEd 0.2.5 Released</p>
 <ul><li>Added sidebar support</li>
 <li>Added tabs support for inspector panel</li>
@@ -56,12 +65,6 @@
 
 <li><p><strong>2025-05-12:</strong> BinEd Library 0.2.2 Released</p>
 <ul><li>Some fixes and refactoring</li>
-</ul></li>
-
-<li><p><strong>2025-05-07:</strong> BinEd Android App 0.2.5 Released</p>
-<ul><li>Double back key press exists app</li>
-<li>Threaded search</li>
-<li>Bug fixes</li>
 </ul></li>
 
 </ul>

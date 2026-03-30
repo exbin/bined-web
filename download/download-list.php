@@ -4,7 +4,7 @@
     if ($group == 'editor' || is_null($group)) {
       $variants = array();
       $stb_ver = '0.2.5';
-      $stb_date = '2025-03-12';
+      $stb_date = '2026-03-12';
       $dev_ver = '0.2.5';
       $dev_date = '2026-03-06';
       $dev_ver_inst = $dev_ver;
@@ -178,10 +178,10 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.12';
-      $stb_date = '2025-09-17';
+      $stb_ver = '0.2.13';
+      $stb_date = '2026-03-30';
       $dev_ver = '0.2.13';
-      $dev_date = '2025-11-07';
+      $dev_date = '2026-03-26';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

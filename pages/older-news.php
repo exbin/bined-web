@@ -5,6 +5,12 @@
 
 <ul>
 
+<li><p><strong>2025-05-07:</strong> BinEd Android App 0.2.5 Released</p>
+<ul><li>Double back key press exists app</li>
+<li>Threaded search</li>
+<li>Bug fixes</li>
+</ul></li>
+
 <li><p><strong>2025-04-06:</strong> BinEd Android App 0.2.4 Released</p>
 <ul><li>Direct buffer allocation</li>
 <li>Compatibility up to sdk14</li>

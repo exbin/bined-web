@@ -53,7 +53,7 @@ function echoDownload($arr) {
 <tr>
   <td><a href="https://github.com/exbin/bined-lib-java/tree/0.2/apps/bined-swing-example/src/main/java/org/exbin/bined/swing/example/BinEdExample.java"><img src="../images/ref/github.png" alt="[GitHub]"/> BinEdExample</a></td>
   <td><a href="https://github.com/exbin/bined-lib-java/tree/0.2/apps/bined-swing-demo/src/main/java/org/exbin/bined/swing/demo/BinEdDemo.java"><img src="../images/ref/github.png" alt="[GitHub]"/> BinEdDemo</a></td>
-  <td><a href="https://github.com/exbin/bined-lib-java/tree/0.2/apps/bined-editor-basic/src/main/java/org/exbin/bined/editor/basic/BinEdEditorBasic.java"><img src="../images/ref/github.png" alt="[GitHub]"/> BinEdDemo</a></td>
+  <td><a href="https://github.com/exbin/bined-lib-java/tree/0.2/apps/bined-editor-basic/src/main/java/org/exbin/bined/editor/basic/BinEdEditorBasic.java"><img src="../images/ref/github.png" alt="[GitHub]"/> BinEdEditorBasic</a></td>
 </tr>
 </table>
 
@@ -64,7 +64,7 @@ function echoDownload($arr) {
 <tr>
   <td><a href="https://github.com/exbin/bined-lib-java/blob/master/apps/bined-swing-example/src/main/java/org/exbin/bined/swing/example/BinEdExample.java"><img src="../images/ref/github.png" alt="[GitHub]"/> BinEdExample</a></td>
   <td><a href="https://github.com/exbin/bined-lib-java/blob/master/apps/bined-swing-demo/src/main/java/org/exbin/bined/swing/demo/BinEdDemo.java"><img src="../images/ref/github.png" alt="[GitHub]"/> BinEdDemo</a></td>
-  <td><a href="https://github.com/exbin/bined-lib-java/blob/master/apps/bined-editor-basic/src/main/java/org/exbin/bined/editor/basic/BinEdEditorBasic.java"><img src="../images/ref/github.png" alt="[GitHub]"/> BinEdDemo</a></td>
+  <td><a href="https://github.com/exbin/bined-lib-java/blob/master/apps/bined-editor-basic/src/main/java/org/exbin/bined/editor/basic/BinEdEditorBasic.java"><img src="../images/ref/github.png" alt="[GitHub]"/> BinEdEditorBasic</a></td>
 </tr>
 </table>
 
