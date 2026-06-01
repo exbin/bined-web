@@ -5,6 +5,10 @@
 
 <ul>
 
+<li><p><strong>2025-05-12:</strong> BinEd Library 0.2.2 Released</p>
+<ul><li>Some fixes and refactoring</li>
+</ul></li>
+
 <li><p><strong>2025-05-07:</strong> BinEd Android App 0.2.5 Released</p>
 <ul><li>Double back key press exists app</li>
 <li>Threaded search</li>
