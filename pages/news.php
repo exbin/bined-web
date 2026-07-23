@@ -2,6 +2,13 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-07-23:</strong> BinEd IntelliJ Plugin 0.2.14 Released</p>
+<ul><li>Minor fixes</li>
+<li>Fixed opening read-only file (issue #68)</li>
+<li>Fixed show as binary on debugger not working (issue #69)</li>
+<li>Fixed some file locking regressions</li>
+</ul></li>
+
 <li><p><strong>2026-06-01:</strong> BinEd Android App 0.2.10 Released</p>
 <ul><li>Added Greek translation</li>
 <li>Bug fixes</li>
