@@ -61,11 +61,10 @@ if ($count == 0) {
 	echo '<p>There are no comments yet.</p>';
 } else {
 	echo '<ul>';
-	$pagepos = $pos * $perpage;
+	$first = $count - ($pos * $perpage);
+	$last = $first > $perpage ? $first - $perpage + 1 : 1;
 	
-	$fst = $pagepos + $perpage;
-	if ($fst > $count) $fst = $count;
-	for ($i = $fst; $i > $pagepos; $i--) {
+	for ($i = $first; $i >= $last; $i--) {
       $file = fopen('pages/comments/'.$i.'.txt', 'r');
       $time = getline($file);
       $author = getline($file);
@@ -86,7 +85,7 @@ if ($count == 0) {
 	}
     echo '</ul>';
     echo "\n";
-    echo "<p>Showing ".($pagepos + 1)." to ".$fst." of ".$count." comments</p>\n";
+    echo "<p>Showing ".$last." to ".$first." of ".$count." comments</p>\n";
 	if ($count > $perpage) {
 	  echo '<p>';
 	  if ($pos > 0) {
