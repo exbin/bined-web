@@ -5,6 +5,12 @@
 
 <ul>
 
+<li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.6 Released</p>
+<ul><li>Added Chinese translation</li>
+<li>Added crude charset table support</li>
+<li>Bug fixes</li>
+</ul></li>
+
 <li><p><strong>2025-05-12:</strong> BinEd Library 0.2.2 Released</p>
 <ul><li>Some fixes and refactoring</li>
 </ul></li>

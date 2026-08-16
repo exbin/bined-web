@@ -2,6 +2,11 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-08-16:</strong> BinEd Android App 0.2.11 Released</p>
+<ul><li>Fix for some clipboard handling</li>
+<li>Bug fixes</li>
+</ul></li>
+
 <li><p><strong>2026-07-23:</strong> BinEd IntelliJ Plugin 0.2.14 Released</p>
 <ul><li>Minor fixes</li>
 <li>Fixed opening read-only file (issue #68)</li>
@@ -66,12 +71,6 @@
 <li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.7 Released</p>
 <ul><li>Added basic binary search</li>
 <li>Added Portuguese, Turkish, Russian and Spanish translations</li>
-<li>Bug fixes</li>
-</ul></li>
-
-<li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.6 Released</p>
-<ul><li>Added Chinese translation</li>
-<li>Added crude charset table support</li>
 <li>Bug fixes</li>
 </ul></li>
 

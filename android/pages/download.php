@@ -9,6 +9,15 @@ function echoDownload($arr) {
 $old_releases = array();
 $old_sources = array();
 
+$ver = '0.2.10';
+$date = '2026-06-01';
+
+$old_releases[11][0]['name'] = 'Android App';
+$old_releases[11][0]['ver'] = $ver;
+$old_releases[11][0]['date'] = $date;
+$old_releases[11][0]['icon'] = 'android';
+$old_releases[11][0]['file'] = 'bined-android-'.$ver.'.apk';
+
 $ver = '0.2.9';
 $date = '2025-10-29';
 
@@ -135,6 +144,10 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 <h2 id="older_releases">Older Releases</h2>
 <table class="downloads">
 <tr><th>Release&nbsp;</th><th>Files&nbsp;</th></tr>
+<tr>
+  <td>Android App <?php echo $old_releases[11][0]['ver']; ?></td>
+  <td><?php echoDownload($old_releases[11]); ?></td>
+</tr>
 <tr>
   <td>Android App <?php echo $old_releases[10][0]['ver']; ?></td>
   <td><?php echoDownload($old_releases[10]); ?></td>
