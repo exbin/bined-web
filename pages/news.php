@@ -2,6 +2,19 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-09-14:</strong> BinEd Eclipse Plugin 0.2.3 Released</p>
+<ul><li>Added copy as / paste from dialogs</li>
+<li>Added copy/paste formats for C, Java and Python (by mengnankkkk)</li>
+<li>Added convert data: date time and compression (by mengnankkkk)</li>
+<li>Added Base 64 conversion</li>
+<li>Added search progress bar + cancel button (assisted by Tanyajain2006)</li>
+<li>Added basic regex search support (assisted by Tanyajain2006)</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added option for legacy AWT file dialogs</li>
+<li>Minor fixes</li>
+</ul></li>
+
 <li><p><strong>2026-08-16:</strong> BinEd Android App 0.2.11 Released</p>
 <ul><li>Fix for some clipboard handling</li>
 <li>Bug fixes</li>
@@ -66,12 +79,6 @@
 <li>Added icon set support</li>
 <li>Added more languages (de, cs, fi, fr, hi, in, it, pt, pl, ru, sv)</li>
 <li>Fix for native file mode</li>
-</ul></li>
-
-<li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.7 Released</p>
-<ul><li>Added basic binary search</li>
-<li>Added Portuguese, Turkish, Russian and Spanish translations</li>
-<li>Bug fixes</li>
 </ul></li>
 
 </ul>

@@ -203,10 +203,10 @@
 
     if ($group == 'eclipse-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.2';
-      $stb_date = '2024-06-24';
-      $dev_ver = '0.2.2';
-      $dev_date = '2024-06-22';
+      $stb_ver = '0.2.3';
+      $stb_date = '2026-09-14';
+      $dev_ver = '0.2.3';
+      $dev_date = '2026-09-11';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

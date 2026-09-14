@@ -11,7 +11,6 @@ function echoDownload($arr) {
 
 <p>This plugin has limited capabilities</p>
 <ul><li>Using Swing GUI wrapping in SWT dialogs - it doesn''t fit native look and feel and have various rendering issues depending on system / java version</li>
-<li>Poor integration</li>
 </ul>
 
 <h2 id="downloads">Downloads</h2>
