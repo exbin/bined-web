@@ -12,14 +12,25 @@ function echoDownload($arr) {
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
-<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>IntelliJ Platform Plugin</td>
   <td><?php echoDownload($downloads['intellij-plugin']['stb']); ?></td>
-  <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
 </tr>
 </table>
 
 <p><iframe style="border: none;" frameborder="none" width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/9339" target="_blank"></iframe></p>
+
+<p>You can also try development versions which are likely untested/broken and at your own risk!</p>
+<button id="development-downloads-button" onclick="document.getElementById('development-downloads').style.display = 'block';document.getElementById('development-downloads-button').style.display = 'none';">Show development downloads</button>
+
+<div id="development-downloads" style="display: none">
+<table class="downloads-dev">
+<tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><td>IntelliJ Platform Plugin</td>
+  <td><?php echoDownload($downloads['intellij-plugin']['dev']); ?></td>
+</tr>
+</table>
+</div>
 
 <h2 id="requirements">Requirements</h2>
 <p>Any JetBrains IDE (based on IntelliJ platform) 2023.2.1 or newer or Android Studio Iguana (Feb 2024) or newer.</p>

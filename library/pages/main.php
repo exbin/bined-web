@@ -12,11 +12,23 @@ function echoDownload($arr) {
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
-<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Library</td>
   <td><?php echoDownload($downloads['library']['stb']); ?></td>
-  <td><?php echoDownload($downloads['library']['dev']); ?></td></tr>
+</tr>
 </table>
+
+<p>You can also try development versions which are likely untested/broken and at your own risk!</p>
+<button id="development-downloads-button" onclick="document.getElementById('development-downloads').style.display = 'block';document.getElementById('development-downloads-button').style.display = 'none';">Show development downloads</button>
+
+<div id="development-downloads" style="display: none">
+<table class="downloads-dev">
+<tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><td>Library</td>
+  <td><?php echoDownload($downloads['library']['dev']); ?></td>
+</tr>
+</table>
+</div>
 
 <h2>Features</h2>
 <ul>

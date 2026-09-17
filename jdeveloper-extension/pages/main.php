@@ -24,11 +24,23 @@ function echoDownload($arr) {
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
-<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>JDeveloper Extension</td>
   <td><?php echoDownload($downloads['jdeveloper-extension']['stb']); ?></td>
-  <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td></tr>
+</tr>
 </table>
+
+<p>You can also try development versions which are likely untested/broken and at your own risk!</p>
+<button id="development-downloads-button" onclick="document.getElementById('development-downloads').style.display = 'block';document.getElementById('development-downloads-button').style.display = 'none';">Show development downloads</button>
+
+<div id="development-downloads" style="display: none">
+<table class="downloads-dev">
+<tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><td>JDeveloper Extension</td>
+  <td><?php echoDownload($downloads['jdeveloper-extension']['dev']); ?></td>
+</tr>
+</table>
+</div>
 
 <h2 id="requirements">Requirements</h2>
 <p>JDeveloper 11g or JDeveloper 12c or newer running on Java 8 or newer.</p>

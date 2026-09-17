@@ -15,12 +15,23 @@ function echoDownload($arr) {
 
 <h2 id="downloads">Downloads</h2>
 <table class="downloads">
-<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th><th class="dev">Development&nbsp;</th></tr>
+<tr><th>Release&nbsp;</th><th>Stable&nbsp;</th></tr>
 <tr><td>Ghidra Extension</td>
   <td><?php echoDownload($downloads['ghidra-extension']['stb']); ?></td>
+</tr>
+</table>
+
+<p>You can also try development versions which are likely untested/broken and at your own risk!</p>
+<button id="development-downloads-button" onclick="document.getElementById('development-downloads').style.display = 'block';document.getElementById('development-downloads-button').style.display = 'none';">Show development downloads</button>
+
+<div id="development-downloads" style="display: none">
+<table class="downloads-dev">
+<tr><th>Release&nbsp;</th><th>Development&nbsp;</th></tr>
+<tr><td>Ghidra Extension</td>
   <td><?php echoDownload($downloads['ghidra-extension']['dev']); ?></td>
 </tr>
 </table>
+</div>
 
 <h2 id="installation">Installation</h2>
 <p>Use "File/Install Extensions" in project window or unzip jar file from downloaded zip file into Ghidra/Extensions directory of your Ghidra installation.</p>
