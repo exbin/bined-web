@@ -10,6 +10,7 @@
 <tr><td><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/github.png');" href="https://github.com/nccgroup/Decoder-Improved">Decoder Improved</a></td><td>Text and data decoder toolkit plugin for <a class="urlextern" href="https://portswigger.net/burp">BurpSuite</a> security tool</td></tr>
 <tr><td><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/github.png');" href="https://github.com/skylot/jadx">JADX</a></td><td>Dex to Java decompiler</td></tr>
 <tr><td><a class="urlextern" href="https://www.antcommander.com/">Ant Commander</a></td><td>File manager</td></tr>
+<tr><td><a class="urldecor" style="background-image: url('<?php echo $parentPrefix; ?>images/ref/nuclr.png');" href="https://nuclr.dev/">Nuclr Commander</a></td><td>The keyboard-first, dual-pane file manager for developers</td></tr>
 </table>
 
 </div>

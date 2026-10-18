@@ -127,7 +127,7 @@ $old_releases[0][0]['file'] = 'bined-android-'.$ver.'.apk';
 </table>
 
 <h2 id="latest_chages">Latest Changes</h2>
-<ul><li>Added Greek translation</li>
+<ul><li>Fix for some clipboard handling</li>
 <li>Bug fixes</li>
 </ul>
 <p><a class="urlextern" href="https://github.com/exbin/bined-android/blob/master/changes.txt">Full list of changes</a></p>
