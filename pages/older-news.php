@@ -5,6 +5,15 @@
 
 <ul>
 
+<li><p><strong>2025-09-09:</strong> BinEd NetBeans Plugin 0.2.7 Released</p>
+<ul><li>Added diff / compare files action</li>
+<li>Added Base 64 conversion</li>
+<li>Added option for inspector input fields font</li>
+<li>Added icon set support</li>
+<li>Added more languages (de, cs, fi, fr, hi, in, it, pt, pl, ru, sv)</li>
+<li>Fix for native file mode</li>
+</ul></li>
+
 <li><p><strong>2025-05-29:</strong> BinEd Android App 0.2.7 Released</p>
 <ul><li>Added basic binary search</li>
 <li>Added Portuguese, Turkish, Russian and Spanish translations</li>

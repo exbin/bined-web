@@ -331,10 +331,10 @@
 
     if ($group == 'ghidra-extension' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.1';
-      $stb_date = '2024-11-06';
+      $stb_ver = '0.2.2';
+      $stb_date = '2026-10-23';
       $dev_ver = '0.2.2';
-      $dev_date = '2025-01-23';
+      $dev_date = '2026-10-21';
 
       $variants['stb'][0]['name'] = 'Extension';
       $variants['stb'][0]['ver'] = $stb_ver;

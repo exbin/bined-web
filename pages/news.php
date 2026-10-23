@@ -2,6 +2,15 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-10-23:</strong> BinEd Ghidra Extension 0.2.2 Released</p>
+<ul><li>Library update</li>
+<li>Added copy as / paste from dialogs</li>
+<li>Added convert data: date time and compression</li>
+<li>Added basic regex search support and search progress bar</li>
+<li>Added support for language switching</li>
+<li>Added icon set support</li>
+</ul></li>
+
 <li><p><strong>2026-09-14:</strong> BinEd Eclipse Plugin 0.2.3 Released</p>
 <ul><li>Added copy as / paste from dialogs</li>
 <li>Added copy/paste formats for C, Java and Python (by mengnankkkk)</li>
@@ -70,15 +79,6 @@
 <li>Fixed NPE when moving hex viewer to its own window (issue #66)</li>
 <li>Fixed issue with pasting over selection (issue #64)</li>
 <li>Fixed height for one-diff view (issue #65)</li>
-</ul></li>
-
-<li><p><strong>2025-09-09:</strong> BinEd NetBeans Plugin 0.2.7 Released</p>
-<ul><li>Added diff / compare files action</li>
-<li>Added Base 64 conversion</li>
-<li>Added option for inspector input fields font</li>
-<li>Added icon set support</li>
-<li>Added more languages (de, cs, fi, fr, hi, in, it, pt, pl, ru, sv)</li>
-<li>Fix for native file mode</li>
 </ul></li>
 
 </ul>
