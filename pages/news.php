@@ -2,6 +2,10 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-10-28:</strong> BinEd IntelliJ Plugin 0.2.14.1 Released</p>
+<ul><li>Some mitigation for possible freeze during start</li>
+</ul></li>
+
 <li><p><strong>2026-10-23:</strong> BinEd Ghidra Extension 0.2.2 Released</p>
 <ul><li>Library update</li>
 <li>Added copy as / paste from dialogs</li>
@@ -71,14 +75,6 @@
 <li><p><strong>2025-10-18:</strong> BinEd Android App 0.2.8 Released</p>
 <ul><li>Added go-to dialog / go-to relative position</li>
 <li>Bug fixes</li>
-</ul></li>
-
-<li><p><strong>2025-09-17:</strong> BinEd IntelliJ Plugin 0.2.12 Released</p>
-<ul><li>Minor fixes</li>
-<li>Added status bars to binary diff</li>
-<li>Fixed NPE when moving hex viewer to its own window (issue #66)</li>
-<li>Fixed issue with pasting over selection (issue #64)</li>
-<li>Fixed height for one-diff view (issue #65)</li>
 </ul></li>
 
 </ul>

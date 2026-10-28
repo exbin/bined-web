@@ -5,6 +5,14 @@
 
 <ul>
 
+<li><p><strong>2025-09-17:</strong> BinEd IntelliJ Plugin 0.2.12 Released</p>
+<ul><li>Minor fixes</li>
+<li>Added status bars to binary diff</li>
+<li>Fixed NPE when moving hex viewer to its own window (issue #66)</li>
+<li>Fixed issue with pasting over selection (issue #64)</li>
+<li>Fixed height for one-diff view (issue #65)</li>
+</ul></li>
+
 <li><p><strong>2025-09-09:</strong> BinEd NetBeans Plugin 0.2.7 Released</p>
 <ul><li>Added diff / compare files action</li>
 <li>Added Base 64 conversion</li>

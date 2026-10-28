@@ -146,8 +146,8 @@
       $variants = array();
       $stb_ver = '0.2.7';
       $stb_date = '2025-09-09';
-      $dev_ver = '0.2.7';
-      $dev_date = '2025-08-21';
+      $dev_ver = '0.2.8';
+      $dev_date = '2026-10-28';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['prefix'] = 'ide ';
@@ -178,8 +178,8 @@
 
     if ($group == 'intellij-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.14';
-      $stb_date = '2026-07-23';
+      $stb_ver = '0.2.14.1';
+      $stb_date = '2026-10-28';
       $dev_ver = '0.2.14';
       $dev_date = '2026-07-22';
 
