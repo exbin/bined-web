@@ -2,6 +2,13 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-11-02:</strong> BinEd NetBeans Plugin 0.2.8 Released</p>
+<ul><li>Added copy as / paste from dialogs</li>
+<li>Added convert data: date time and compression</li>
+<li>Added basic regex search support and search progress bar</li>
+<li>Some minor fixes</li>
+</ul></li>
+
 <li><p><strong>2026-10-28:</strong> BinEd IntelliJ Plugin 0.2.14.1 Released</p>
 <ul><li>Some mitigation for possible freeze during start</li>
 </ul></li>
@@ -69,11 +76,6 @@
 
 <li><p><strong>2025-10-29:</strong> BinEd Android App 0.2.9 Released</p>
 <ul><li>Added edit selection dialog</li>
-<li>Bug fixes</li>
-</ul></li>
-
-<li><p><strong>2025-10-18:</strong> BinEd Android App 0.2.8 Released</p>
-<ul><li>Added go-to dialog / go-to relative position</li>
 <li>Bug fixes</li>
 </ul></li>
 
