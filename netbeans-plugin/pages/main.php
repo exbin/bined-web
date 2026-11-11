@@ -33,6 +33,7 @@ function echoDownload($arr) {
 <h2 id="requirements">Requirements</h2>
 <p>Any system supporting / with installed Java JDK 8 or newer.</p>
 <p>IDE variant is tested with NetBeans IDE (supports debugging), platform variant can work with other applications created using NetBeans platform.</p>
+<p><strong>Version currently uploaded to maven / on the NB portal is currently broken (breaks debug variables). Use version from this website.</strong></p>
 
 <h2 id="published">Published</h2>
 <table class="table">

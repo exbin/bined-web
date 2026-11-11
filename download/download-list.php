@@ -92,7 +92,7 @@
       $stb_ver = '0.2.11';
       $stb_date = '2026-08-16';
       $dev_ver = '0.2.12';
-      $dev_date = '2026-10-08';
+      $dev_date = '2026-11-06';
 
       $variants['stb'][0]['name'] = 'Android App';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -308,8 +308,8 @@
       $variants = array();
       $stb_ver = '0.2.0';
       $stb_date = '2023-03-08';
-      $dev_ver = '0.2.0';
-      $dev_date = '2023-03-07';
+      $dev_ver = '0.2.1';
+      $dev_date = '2026-11-11';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;
@@ -321,7 +321,7 @@
       $variants['dev'][0]['ver'] = $dev_ver;
       $variants['dev'][0]['date'] = $dev_date;
       $variants['dev'][0]['icon'] = 'netbeans';
-      $variants['dev'][0]['file'] = 'org-exbin-bined-autopsy.nbm';
+      $variants['dev'][0]['file'] = 'org-exbin-bined-autopsy-'.$dev_ver.'-SNAPSHOT.nbm';
 
       $variants['repository_title'] = 'Autopsy Add-on Modules';
       $variants['repository_url'] = 'https://github.com/sleuthkit/autopsy_addon_modules/tree/master/ContentViewerModules/BinEd_Binary_Viewer';

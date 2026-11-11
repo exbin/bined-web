@@ -8,12 +8,13 @@ function startsWith($text, $match) {
 }
 
 if (!empty(@$_GET['group'])) {
-  include 'download-list.php'; $downloads = getDownloadList($_GET['group']);
+  $group = $_GET['group'];
+  include 'download-list.php'; $downloads = getDownloadList($group);
   $variant = @$_GET['variant'] + 0;
   if (empty($variant)) {
   	$variant = 0;
   }
-  $file = $downloads[$_GET['group']]['stb'][$variant]['file'];
+  $file = $downloads[$group]['stb'][$variant]['file'];
   if (!empty($file)) {
     if (($_SERVER['REQUEST_METHOD'] !== 'HEAD') && "" != @$_SERVER['REMOTE_ADDR']) {
       file_put_contents("/var/www/html/bined/download/referer.html", date("Y-m-d H:i:s").htmlentities($group).": ".$_SERVER['REMOTE_ADDR']." ".htmlentities($referer)."<br/>\n", FILE_APPEND);

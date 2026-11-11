@@ -16,7 +16,12 @@ $nomenu = true;
 include('../header.php');
 include('db.php');
 
-if ($query) {
+if ("changes" == $query) { ?>
+<a href="/addon/">&lt;&lt;&nbsp;Back</a>
+<div>
+<?php
+	include "changes.php";
+} else if ($query) {
   global $db_link;
   $module_id = $db_link -> real_escape_string($query);
   $rows = DB_Query('SELECT addon.id, addon.module_id, addon.name, addon.description, addon.homepage, addon.icon, addon.created, addon.owner_id, addon.created, user.name AS owner_name FROM addon INNER JOIN user ON user.id = addon.owner_id WHERE addon.module_id = \''.$module_id.'\' ORDER BY addon.id');
@@ -86,6 +91,7 @@ if ($query) {
 <a href="..">&lt;&lt;&nbsp;Back</a>
 <div>
 <p>Addons can be installed in <a href="https://bined.exbin.org/editor/">editor application</a> via <a href="https://bined.exbin.org/editor/?p=manual#addon-manager">Tools / Addon Manager</a>.</p>
+<p>List of addons <a href="?p=changes">related changes</a>.</p> 
 
 <h1 id="addons">Addons: Browse</h1>
 <?php
