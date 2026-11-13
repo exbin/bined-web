@@ -5,6 +5,11 @@
 
 <ul>
 
+<li><p><strong>2025-10-29:</strong> BinEd Android App 0.2.9 Released</p>
+<ul><li>Added edit selection dialog</li>
+<li>Bug fixes</li>
+</ul></li>
+
 <li><p><strong>2025-10-18:</strong> BinEd Android App 0.2.8 Released</p>
 <ul><li>Added go-to dialog / go-to relative position</li>
 <li>Bug fixes</li>

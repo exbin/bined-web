@@ -306,10 +306,10 @@
 
     if ($group == 'autopsy-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.0';
-      $stb_date = '2023-03-08';
+      $stb_ver = '0.2.1';
+      $stb_date = '2026-11-13';
       $dev_ver = '0.2.1';
-      $dev_date = '2026-11-11';
+      $dev_date = '2026-11-12';
 
       $variants['stb'][0]['name'] = 'Plugin';
       $variants['stb'][0]['ver'] = $stb_ver;

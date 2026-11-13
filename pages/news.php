@@ -2,6 +2,17 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-11-13:</strong> BinEd Autopsy Plugin 0.2.1 Released</p>
+<ul><li>Added convert data action</li>
+<li>Added support for bookmarks</li>
+<li>Added clipboard content tool</li>
+<li>Added drag&amp;drop content tool</li>
+<li>Added support for basic macro</li>
+<li>Added icon set support</li>
+<li>Added copy as / paste from dialogs</li>
+<li>Added basic regex search support and search progress bar</li>
+</ul></li>
+
 <li><p><strong>2026-11-02:</strong> BinEd NetBeans Plugin 0.2.8 Released</p>
 <ul><li>Added copy as / paste from dialogs</li>
 <li>Added convert data: date time and compression</li>
@@ -72,11 +83,6 @@
 <li>Added search progress bar + cancel button (assisted by Tanyajain2006)</li>
 <li>Added basic regex search support (assisted by Tanyajain2006)</li>
 <li>Modified addon manager to use cart / basket</li>
-</ul></li>
-
-<li><p><strong>2025-10-29:</strong> BinEd Android App 0.2.9 Released</p>
-<ul><li>Added edit selection dialog</li>
-<li>Bug fixes</li>
 </ul></li>
 
 </ul>
