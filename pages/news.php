@@ -2,6 +2,10 @@
 <h1 id="news">News</h1>
 <ul>
 
+<li><p><strong>2026-11-17:</strong> BinEd NetBeans Plugin 0.2.8 Released</p>
+<ul><li>Deployment fix</li>
+</ul></li>
+
 <li><p><strong>2026-11-13:</strong> BinEd Autopsy Plugin 0.2.1 Released</p>
 <ul><li>Added convert data action</li>
 <li>Added support for bookmarks</li>
@@ -70,19 +74,6 @@
 <li>Added search progress bar + cancel button (assisted by Tanyajain2006)</li>
 <li>Added basic regex search support (assisted by Tanyajain2006)</li>
 <li>Fixed overflow in the binary checkboxes in data inspector (issue #67)</li>
-</ul></li>
-
-<li><p><strong>2026-03-12:</strong> BinEd 0.2.5 Released</p>
-<ul><li>Added sidebar support</li>
-<li>Added tabs support for inspector panel</li>
-<li>Added copy as / paste from dialogs</li>
-<li>Added copy/paste formats for C, Java and Python (by mengnankkkk)</li>
-<li>Added convert data: date time and compression (by mengnankkkk)</li>
-<li>Added font zoom actions (by mengnankkkk)</li>
-<li>Added startup behavior option - reopen lastly opened files (by mengnankkkk)</li> 
-<li>Added search progress bar + cancel button (assisted by Tanyajain2006)</li>
-<li>Added basic regex search support (assisted by Tanyajain2006)</li>
-<li>Modified addon manager to use cart / basket</li>
 </ul></li>
 
 </ul>

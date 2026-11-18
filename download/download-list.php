@@ -144,8 +144,8 @@
 
     if ($group == 'netbeans-plugin' || is_null($group)) {
       $variants = array();
-      $stb_ver = '0.2.8';
-      $stb_date = '2026-11-02';
+      $stb_ver = '0.2.8.1';
+      $stb_date = '2026-11-17';
       $dev_ver = '0.2.8';
       $dev_date = '2026-10-28';
 
